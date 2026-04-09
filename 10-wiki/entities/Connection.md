@@ -1,0 +1,79 @@
+---
+type: entity
+title: Connection
+definition: "深层关系性存在——通过脆弱性、中立性、同理心、好奇（VIEW）建立真正的连接"
+created: 2026-04-09
+updated: 2026-04-09
+tags:
+  - Knowledge-Work
+  - relationships
+  - leadership
+related_entities:
+  - "[[Wisdom-Work]]"
+  - "[[Emotional-Clarity]]"
+  - "[[Discernment]]"
+source_raw:
+  - "[[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]"
+---
+
+# Connection
+
+> [!definition] 定义
+> Connection（连接）是深层关系性存在——调适他人、看见与被看见、在高压下创造安全感的能力。通过 VIEW 框架实现：Vulnerability、Impartiality、Empathy、Wonder。
+
+## 核心要点
+
+### 连接的本质误区
+
+大多数人被教导：连接通过成就赢得。相信一旦变得成功、聪明或足够慷慨，就值得被连接。
+
+**真实洞察**: 人们不想要你完美，他们想要与你连接。
+
+### VIEW 框架
+
+| 元素 | 含义 |
+|------|------|
+| **Vulnerability** | 脆弱性——敞开而非表演 |
+| **Impartiality** | 中立性——不带评判地观察 |
+| **Empathy** | 同理心——感受他人 |
+| **Wonder** | 奇迹/好奇——对未知保持开放 |
+
+**核心原则**: 通过 VIEW，我们不是努力尝试来获得连接，而是移除阻碍本就在此的连接的东西。
+
+### 为什么 AI 无法替代连接
+
+AI 连接的局限：
+- 人们确实会对聊天机器人产生依恋
+- 但这些连接本质上是准社会性和交易性的
+- 关怀流动是单向的——AI 没有切身利益
+
+**深层连接要求**:
+- 互惠的、具身的关系性存在
+- 神经系统通过微表情、语气变化、甚至呼吸细微变化共调节
+- AI 可以模拟支持性语言，但无法在你走进房间时感到惊喜，听到坏消息时心跳加速
+
+### 关键数据
+
+| 研究 | 发现 |
+|------|------|
+| **Google Project Aristotle** | 心理安全是高绩效团队的第一预测因素 |
+| **哈佛成人发展研究** | 50 岁时的连接质量预测 80 岁健康，比胆固醇水平更准确（自 1938 年追踪） |
+
+**核心洞察**: 无论 AI 多强大，若想感到充实、改变世界、成为高绩效团队一部分，仍需与人类深层连接。
+
+## 应用场景
+
+VIEW 框架已在：
+- Fortune 500 董事室讨论
+- 离婚边缘的婚姻
+- 创造最可靠的转型——不通过力量，通过存在
+
+## 关联概念
+
+- [[Wisdom-Work]] - 连接是智慧工作的三大核心技能之一
+- [[Emotional-Clarity]] - 情感清晰度是深层连接的基础
+- [[Discernment]] - 判断力帮助识别真正值得连接的对象
+
+## 来源
+
+- Raw Source: [[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]

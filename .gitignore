@@ -1,0 +1,33 @@
+# Clips LLM Wiki .gitignore
+
+# Obsidian 配置目录
+.obsidian/
+
+# Obsidian 回收站
+.trash/
+
+# macOS 系统文件
+.DS_Store
+._*
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 编辑器备份文件
+*.bak
+*.backup
+
+# 日志文件（保留 log.md，忽略其他）
+*.log
+!log.md
+
+# 环境变量文件
+.env
+.env.local
