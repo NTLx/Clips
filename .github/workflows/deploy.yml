@@ -1,0 +1,78 @@
+name: Deploy Clips Wiki to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Clips content
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: clips
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Quartz Dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Setup Quartz Configuration
+        run: |
+          # 复制 Quartz 配置文件
+          cp clips/quartz.config.ts quartz/
+          cp clips/quartz.layout.ts quartz/
+
+      - name: Setup Content Directory
+        run: |
+          # 创建 content 目录
+          mkdir -p quartz/content
+
+          # 复制首页
+          cp clips/index.md quartz/content/index.md
+
+          # 复制内容目录（符号链接在跨目录时可能有问题）
+          cp -r clips/00-raw quartz/content/00-raw
+          cp -r clips/10-wiki quartz/content/10-wiki
+
+      - name: Build Quartz
+        working-directory: quartz
+        run: npx quartz build -d content
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

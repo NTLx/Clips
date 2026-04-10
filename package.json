@@ -1,0 +1,14 @@
+{
+  "name": "clips-wiki",
+  "description": "Clips LLM Wiki - 数字花园式知识库",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Use GitHub Actions to build'",
+    "serve": "npx quartz build --serve -d content"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
