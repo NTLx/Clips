@@ -53,8 +53,11 @@ jobs:
           # 复制首页
           cp clips/index.md quartz/content/index.md
 
-          # 只复制 Wiki 内容（不包含原始剪藏 00-raw）
-          cp -r clips/10-wiki quartz/content/10-wiki
+          # 直接复制 Wiki 子目录到 content 根目录（跳过 10-wiki 层级）
+          cp -r clips/10-wiki/entities quartz/content/entities
+          cp -r clips/10-wiki/topics quartz/content/topics
+          cp -r clips/10-wiki/comparisons quartz/content/comparisons
+          cp -r clips/10-wiki/outputs quartz/content/outputs 2>/dev/null || true
 
       - name: Build Quartz
         working-directory: quartz
