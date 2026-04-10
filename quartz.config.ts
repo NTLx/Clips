@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
-        markdownLinkResolution: "relative",
+        markdownLinkResolution: "shortest",  // 使用最短唯一文件名匹配，支持短链接跨目录
         linkProcessing: true,
       }),
       Plugin.Description(),
