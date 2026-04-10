@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-04-09
+updated: 2026-04-10
 tags:
   - index
   - MOC
@@ -17,11 +17,11 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Raw Sources | 15 篇（已迁移） |
-| Entity 页面 | 30 个 |
-| Topic 页面 | 8 个 |
+| Raw Sources | 30 篇 |
+| Entity 页面 | 67 个 |
+| Topic 页面 | 11 个 |
 | Comparison 页面 | 5 个 |
-| 分类目录 | 6 个 |
+| 分类目录 | 7 个 |
 
 ---
 
@@ -62,6 +62,44 @@ tags:
 | [[10-wiki/entities/Agent-Orchestration\|Agent Orchestration]] | Agent 编排 | AI-Agent 文章 |
 | [[10-wiki/entities/Ownership\|Ownership]] | 承担后果的意愿与能力 | Good Taste the Only Real Moat Left |
 | [[10-wiki/entities/Competent-Output\|Competent Output]] | AI 默认产出的合格但平庸的内容 | Good Taste the Only Real Moat Left |
+| [[10-wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
+| [[10-wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
+| [[10-wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |
+| [[10-wiki/entities/Vibe-Coding\|Vibe Coding]] | 未经审查、原型质量的 LLM 生成代码（Karpathy 2025） | What is agentic engineering |
+| [[10-wiki/entities/Compound-Engineering\|Compound Engineering]] | 持续改进 Agent 指令，每个项目后记录有效做法 | AI should help produce better code |
+| [[10-wiki/entities/Jevons-Paradox-for-Knowledge-Work\|Jevons Paradox for Knowledge Work]] | AI 效率提升导致知识工作需求大幅增长 | Jevons Paradox for Knowledge Work |
+| [[10-wiki/entities/Always-On-Economy\|Always-On Economy]] | AI 驱动的 24/7 运营模式，消除传统商业时间限制 | The Always-On Economy |
+| [[10-wiki/entities/ACI-Agent-Computer-Interface\|ACI]] | Agent-Computer Interface，类比 HCI 但针对 AI Agent 优化 | Building Effective Agents |
+| [[10-wiki/entities/Agent-Workflow-Patterns\|Agent Workflow Patterns]] | 构建 Agentic 系统的模式集合：从简单组合到自主 Agent | Building Effective Agents |
+| [[10-wiki/entities/Vibe-Design\|Vibe Design]] | AI 时代设计范式：描述感受而非操作软件 | Google Stitch DESIGN.md |
+| [[10-wiki/entities/Coding-Agents\|Coding Agents]] | 能够编写并执行代码的 AI Agent | What is agentic engineering |
+| [[10-wiki/entities/Refusal\|Refusal]] | 判断力的核心动作：拒绝通用的选项 | Good Taste the Only Real Moat Left |
+
+#### 作者 Entities
+
+| Entity | 定义 | 领域 |
+|--------|------|------|
+| [[10-wiki/entities/Simon-Willison\|Simon Willison]] | AI/LLM 领域知名博主，Agentic Engineering Patterns 指南作者 | AI-Agent |
+| [[10-wiki/entities/Dan-Shipper\|Dan Shipper]] | Every newsletter 创始人兼 CEO，AI 商业观察者 | AI-Agent, Newsletter |
+| [[10-wiki/entities/Ethan-Mollick\|Ethan Mollick]] | 沃顿商学院教授，AI 教育与创新研究者 | AI, Education |
+| [[10-wiki/entities/Paul-Graham\|Paul Graham]] | Y Combinator 创始人，创业思想家 | Entrepreneurship |
+| [[10-wiki/entities/Erik-Schluntz\|Erik Schluntz]] | Anthropic 技术团队成员，AI 代理与机器人专家 | AI-Agent, Anthropic |
+| [[10-wiki/entities/Joe-Hudson\|Joe Hudson]] | 高管教练，OpenAI 等科技公司领导力顾问 | Career-Skills, Coaching |
+| [[10-wiki/entities/Konstantine-Buhler\|Konstantine Buhler]] | Sequoia Capital 合伙人，AI 投资专家 | Venture Capital |
+| [[10-wiki/entities/Raj-Nandan-Sharma\|Raj Nandan Sharma]] | 软件工程师，fintech/AI 开发者工具作者 | AI-Agent, Developer |
+| [[10-wiki/entities/Wes-Botman\|Wes Botman]] | Eli5.io 作者，AI 编程代理专家 | Claude-Code, DevOps |
+| [[10-wiki/entities/Elvis-Sun\|Elvis Sun]] | 前 Google 工程师，AI 创业者 | AI-Agent, Entrepreneurship |
+| [[10-wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 研究工程师，Claude Skills 系统开发者 | AI-Agent, Anthropic |
+| [[10-wiki/entities/Aaron-Levie\|Aaron Levie]] | Box CEO，企业软件与 AI Agent 思想家 | Enterprise Software |
+| [[10-wiki/entities/Ben-Thompson\|Ben Thompson]] | Stratechery 创始人，科技分析师 | Tech Analysis |
+| [[10-wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
+| [[10-wiki/entities/逛逛\|逛逛]] | 中文技术博主，Claude Code 最佳实践开源作者 | Claude-Code |
+| [[10-wiki/entities/Ai大刘\|Ai大刘]] | 中文技术博主，AI 职场技能分析 | Career-Skills |
+| [[10-wiki/entities/盛兰雅-岚遥\|盛兰雅(岚遥)]] | 中文技术博主，OpenClaw Agent 实战分享者 | Claude-Code, OpenClaw |
+| [[10-wiki/entities/从筠\|从筠]] | 中文技术博主，OpenClaw seekdb 实践者 | OpenClaw |
+| [[10-wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具分享 | Claude-Code |
+| [[10-wiki/entities/饼干哥哥\|饼干哥哥]] | 中文技术博主，AI Agent 项目实战分享者 | Claude-Code |
+| [[10-wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -76,6 +114,9 @@ tags:
 | [[10-wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent 系统]] | OpenClaw 平台的 Agent 系统设计 | OpenClaw, Agent-Swarm, Three-State-Protocol |
 | [[10-wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment |
 | [[10-wiki/topics/Wisdom-Work-Evolution\|智慧工作演化]] | 从知识工作到智慧工作的演进 | Wisdom-Work, Connection, Agent-Orchestration |
+| [[10-wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 | Agentic-Engineering, Code-Execution, Vibe-Coding |
+| [[10-wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
+| [[10-wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -94,16 +135,25 @@ tags:
 ### 待处理 (inbox/)
 *当前为空*
 
-### AI-Agent/ (3 篇)
+### AI-Agent/ (13 篇)
 - Enabling agent-first process redesign.md
 - The Conscious 1% Leading a new renaissance in the era of AI.md
 - Using Git with coding agents - Agentic Engineering Patterns.md
+- 20260410-what-is-agentic-engineering.md
+- 20260410-code-is-cheap.md
+- 20260410-hoard-things-you-know.md
+- 20260410-better-code.md
+- 20260410-anti-patterns.md
+- building-effective-agents.md
+- (14) Jevons Paradox for Knowledge Work.md
+- AI and the Human Condition.md
 
-### Claude-Code/ (4 篇)
+### Claude-Code/ (5 篇)
 - Claude code最小闭环核心文档 openclaw agent skill.md
 - OpenClaw + 6 个 Agent 运转半个月...md
 - OpenClaw + CodexClaudeCode Agent Swarm...md
 - Openclaw自己操作Claude code完整开发了...md
+- GitHub 上一路飙到 3.2 万 Star 的 Claude Code 最佳实践，开源了。.md
 
 ### OpenClaw/ (1 篇)
 - OpenClaw + seekdb skills：打造个人 seekdb 助手.md
@@ -112,22 +162,20 @@ tags:
 - 6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行.md
 - 6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）.md
 
-### Knowledge-Work/ (1 篇)
+### Knowledge-Work/ (4 篇)
 - Knowledge Work Is Dying—Here's What Comes Next.md
+- The Knowledge Economy Is Over. Welcome to the Allocation Economy..md
+- Management as AI superpower.md
+- The Always-On Economy AI and the Next 5-7 Years.md
+
+### Design/ (1 篇)
+- 100% 免费开源！Google Stitch 发布了 DESIGN.md...
 
 ### General/ (4 篇)
 - Good Taste the Only Real Moat Left.md
 - Taste for Makers.md
 - The Brand Age.md
 - 一段提示词，测出你的成长阶段...md
-
----
-
-## 🔗 相关知识库
-
-- [[../DingTalkDevDoc/_Index|DingTalkDevDoc]] - 钉钉开发者文档
-- [[../企业AI转型顾问知识库/00-MOC/MOC-课程总览|企业AI转型顾问]] - AI转型课程
-- [[../OpenClaw官方文档/README|OpenClaw官方文档]] - OpenClaw 产品文档
 
 ---
 
