@@ -53,8 +53,7 @@ jobs:
           # 复制首页
           cp clips/index.md quartz/content/index.md
 
-          # 复制内容目录（符号链接在跨目录时可能有问题）
-          cp -r clips/00-raw quartz/content/00-raw
+          # 只复制 Wiki 内容（不包含原始剪藏 00-raw）
           cp -r clips/10-wiki quartz/content/10-wiki
 
       - name: Build Quartz

@@ -17,11 +17,9 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Raw Sources | 30 篇 |
 | Entity 页面 | 67 个 |
 | Topic 页面 | 11 个 |
 | Comparison 页面 | 5 个 |
-| 分类目录 | 7 个 |
 
 ---
 
@@ -131,51 +129,6 @@ tags:
 
 ### Outputs (outputs/)
 *输出作品*
-
-### 待处理 (inbox/)
-*当前为空*
-
-### AI-Agent/ (13 篇)
-- Enabling agent-first process redesign.md
-- The Conscious 1% Leading a new renaissance in the era of AI.md
-- Using Git with coding agents - Agentic Engineering Patterns.md
-- 20260410-what-is-agentic-engineering.md
-- 20260410-code-is-cheap.md
-- 20260410-hoard-things-you-know.md
-- 20260410-better-code.md
-- 20260410-anti-patterns.md
-- building-effective-agents.md
-- (14) Jevons Paradox for Knowledge Work.md
-- AI and the Human Condition.md
-
-### Claude-Code/ (5 篇)
-- Claude code最小闭环核心文档 openclaw agent skill.md
-- OpenClaw + 6 个 Agent 运转半个月...md
-- OpenClaw + CodexClaudeCode Agent Swarm...md
-- Openclaw自己操作Claude code完整开发了...md
-- GitHub 上一路飙到 3.2 万 Star 的 Claude Code 最佳实践，开源了。.md
-
-### OpenClaw/ (1 篇)
-- OpenClaw + seekdb skills：打造个人 seekdb 助手.md
-
-### Career-Skills/ (2 篇)
-- 6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行.md
-- 6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）.md
-
-### Knowledge-Work/ (4 篇)
-- Knowledge Work Is Dying—Here's What Comes Next.md
-- The Knowledge Economy Is Over. Welcome to the Allocation Economy..md
-- Management as AI superpower.md
-- The Always-On Economy AI and the Next 5-7 Years.md
-
-### Design/ (1 篇)
-- 100% 免费开源！Google Stitch 发布了 DESIGN.md...
-
-### General/ (4 篇)
-- Good Taste the Only Real Moat Left.md
-- Taste for Makers.md
-- The Brand Age.md
-- 一段提示词，测出你的成长阶段...md
 
 ---
 
