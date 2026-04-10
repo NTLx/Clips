@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       "CLAUDE.md",
       "log.md",
       "**/log.md",
-      "lint-report.md",
+      "**/lint-report.md",
       "package.json",
       "package-lock.json",
       "tsconfig.json",
