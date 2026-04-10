@@ -64,6 +64,10 @@ export const defaultContentPageLayout: PageLayout = {
         if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
           return false
         }
+        // 隐藏 10-wiki 符号链接目录（避免循环嵌套）
+        if (node.displayName === "10-wiki" && node.isFolder) {
+          return false
+        }
         // 保留默认的 tags 过滤
         if (node.slugSegment === "tags") {
           return false
@@ -119,6 +123,10 @@ export const defaultListPageLayout: PageLayout = {
       useSavedState: true,
       filterFn: (node) => {
         if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+          return false
+        }
+        // 隐藏 10-wiki 符号链接目录（避免循环嵌套）
+        if (node.displayName === "10-wiki" && node.isFolder) {
           return false
         }
         if (node.slugSegment === "tags") {

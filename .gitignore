@@ -31,3 +31,6 @@ Desktop.ini
 # 环境变量文件
 .env
 .env.local
+
+# Playwright MCP 缓存
+.playwright-mcp/
