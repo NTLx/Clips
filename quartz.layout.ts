@@ -46,20 +46,31 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      title: "Explorer",
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "collapse",
+      useSavedState: true,
       sortFn: (a, b) => {
         // 文件夹优先，然后按名称排序
-        if (a.file && !b.file) return 1
-        if (!a.file && b.file) return -1
-        return a.name.localeCompare(b.name)
+        if (!a.isFolder && b.isFolder) return 1
+        if (a.isFolder && !b.isFolder) return -1
+        return a.displayName.localeCompare(b.displayName, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
       },
       filterFn: (node) => {
         // 隐藏 log.md 和 lint-report.md
-        if (node.name === "log.md" || node.name === "lint-report.md") {
+        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+          return false
+        }
+        // 保留默认的 tags 过滤
+        if (node.slugSegment === "tags") {
           return false
         }
         return true
       },
-      showSubfolders: true,
+      order: ["filter", "map", "sort"],
     }),
   ],
   right: [
@@ -101,7 +112,22 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Explorer",
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "collapse",
+      useSavedState: true,
+      filterFn: (node) => {
+        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+          return false
+        }
+        if (node.slugSegment === "tags") {
+          return false
+        }
+        return true
+      },
+      order: ["filter", "map", "sort"],
+    }),
   ],
   right: [],
 }
