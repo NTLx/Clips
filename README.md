@@ -427,8 +427,13 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 
 - **ignorePatterns**: 使用 `**/pattern` 匹配子目录文件（如 `**/log.md`）
 - **链接解析**: `markdownLinkResolution: "shortest"` 支持短链接跨目录
-- **符号链接**: 构建时 `ln -s . 10-wiki` 让 Obsidian 链接格式在网站正常工作
+- **符号链接**: 创建 `10-wiki/` 子目录，内部链接到 `../entities` 等，避免 `ln -s .` 循环引用
 - **Explorer 过滤**: 符号链接目录需在 `filterFn` 中过滤 `displayName === "10-wiki"`，避免导航栏无限嵌套
+
+### index.md 维护
+
+- **统计验证**: 定期检查 Entity/Topic 数量与实际文件数量是否一致
+- **链接完整性**: 使用脚本验证所有 Wikilinks 指向存在的文件
 
 ### Git 提交规范
 
