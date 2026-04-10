@@ -2,7 +2,7 @@
 title: The Brand Age
 source: https://www.paulgraham.com/brandage.html
 author:
-  - Paul Graham
+  - "[[Paul Graham]]"
 published:
 created: 2026-04-09
 description:

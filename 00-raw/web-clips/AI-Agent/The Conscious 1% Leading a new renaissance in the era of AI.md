@@ -2,7 +2,7 @@
 title: "The Conscious 1%: Leading a new renaissance in the era of AI"
 source: https://www.eli5.io/blog/the-conscious-1-leading-a-new-renaissance-in-the-era-of-ai
 author:
-  - Wes Botman
+  - "[[Wes Botman]]"
 published:
 created: 2026-04-09
 description: AI and robotics are making the world’s productivity trend towards infinity. The cost of goods, services, and labor is expected to collapse to near zero over the next few decades.

@@ -4,7 +4,7 @@ source: "https://simonwillison.net/guides/agentic-engineering-patterns/using-git
 author:
   - "[[Simon Willison]]"
 published:
-created: 2026-03-23
+created: 2026-04-10
 description: "Using Git with coding agents - Agentic Engineering Patterns"
 tags:
   - "clippings"

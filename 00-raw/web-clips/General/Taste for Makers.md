@@ -2,7 +2,7 @@
 title: Taste for Makers
 source: https://paulgraham.com/taste.html
 author:
-  - Paul Graham
+  - "[[Paul Graham]]"
 published:
 created: 2026-04-09
 description:

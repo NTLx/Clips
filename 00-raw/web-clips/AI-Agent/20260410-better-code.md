@@ -1,0 +1,141 @@
+---
+type: raw
+source: "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/"
+author:
+  - "[[Simon Willison]]"
+published: "2026-03-10"
+updated: "2026-03-11"
+created: "2026-04-10"
+tags:
+  - clippings
+  - AI-Agent
+  - coding-agents
+  - agentic-engineering
+  - technical-debt
+description: "Simon Willison 探讨如何利用 AI 编码助手产生更高质量的代码，而非降低代码质量。文章涵盖技术债务预防、重构自动化、原型探索和复合工程循环等主题。"
+changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/changes/"
+---
+
+# AI should help us produce better code
+
+> [!info] 来源信息
+> - **作者**: [[Simon Willison]]
+> - **发布日期**: 2026-03-10
+> - **最后修改**: 2026-03-11
+> - **所属系列**: Agentic Engineering Patterns
+> - **原文链接**: [AI should help us produce better code](https://simonwillison.net/guides/agentic-engineering-patterns/better-code/)
+
+---
+
+## 核心观点
+
+许多开发者担心将编码工作外包给 AI 工具会导致代码质量下降，产生快速 churned 出来的糟糕代码，而决策者可能愿意忽略其缺陷。
+
+**如果采用编码助手明显降低了代码和功能的质量，你应该直接解决这个问题**：找出流程中哪些方面损害了输出质量并修复它们。
+
+用助手交付更差的代码是一种选择。我们可以选择交付更好的代码。
+
+---
+
+## 避免承担技术债务
+
+作者喜欢从技术债务的角度思考交付更好的代码。我们承担技术债务是权衡的结果：用"正确的方式"做事耗时太长，所以我们在时间约束下工作，祈祷项目能存活到足够偿还债务。
+
+**最好的技术债务缓解措施是一开始就不承担它**。
+
+在作者的经验中，常见的技术债务修复类别是**简单但耗时**的变更：
+
+- 原始 API 设计没有覆盖后来出现的重要场景。修复 API 需要在数十个不同位置修改代码，添加一个略有不同的新 API 并忍受重复更快。
+- 早期对概念的命名选择不佳（如 teams vs groups），但在代码中清理命名太费时，只在 UI 中修复。
+- 系统随时间增长出重复但略有不同的功能，需要合并和重构。
+- 单个文件增长到数千行代码，理想情况下应拆分为独立模块。
+
+所有这些变更概念上简单，但仍需要投入时间，考虑到更紧迫的问题很难证明其合理性。
+
+---
+
+## 编码助手可以处理这些任务
+
+像这样的重构任务是编码助手的理想应用：
+
+1. 启动一个助手
+2. 告诉它要改什么
+3. 让它在分支或 worktree 中后台运行
+
+作者通常使用异步编码助手（如 Gemini Jules、OpenAI Codex web 或 Claude Code on the web），这样可以在笔记本上不中断工作流的情况下运行重构任务。
+
+在 Pull Request 中评估结果。如果好就合并；如果接近完成就提示需要改进的地方；如果不好就丢弃。
+
+**这些代码改进的成本已降至我们可以对轻微代码异味和不便采取零容忍态度**。
+
+---
+
+## AI 工具让我们考虑更多选项
+
+任何软件开发任务都有大量解决问题的选项。一些最重要的技术债务来自规划阶段做出糟糕选择——错过了显而易见的简单解决方案，或选择了后来发现不完全合适的技术。
+
+LLM 可以帮助确保我们不会错过任何可能没出现在视野中的显而易见解决方案。它们只会建议训练数据中常见的解决方案，但这些往往是最可能有效的"Boring Technology"。
+
+更重要的是，编码助手可以帮助**探索性原型设计**。
+
+做出自信技术选择的最佳方式是用原型证明其适用性：
+
+> Redis 对预期数千并发用户站点的活动流是好选择吗？
+> 
+> 确定的最佳方式是搭建系统模拟并运行负载测试看什么会崩溃。
+
+编码助手可以从一个精心设计的提示构建这种模拟，将这种实验的成本降至几乎为零。而且因为它们如此便宜，我们可以同时运行多个实验，测试多个解决方案挑选最适合问题的那个。
+
+---
+
+## 拥抱复合工程循环
+
+助手遵循指令。我们可以随时间演进这些指令，基于之前学到的内容从未来运行中获得更好结果。
+
+Dan Shipper 和 Kieran Klaassen 在 Every 将他们公司与编码助手工作的方法描述为**Compound Engineering**。他们完成的每个编码项目都以回顾结束，他们称之为**compound step**——将有效的内容记录下来用于未来的助手运行。
+
+> [!tip] 复合工程核心
+> 如果我们想从助手获得最佳结果，应该旨在随时间持续提高代码库质量。小改进会复合。曾经耗时的质量增强现在成本已降至没有借口不在交付新功能的同时投资质量。编码助手意味着我们终于可以两者兼得。
+
+---
+
+## 系列导航
+
+- **上一篇**: [[Hoard things you know how to do]]
+- **下一篇**: [[Anti-patterns: things to avoid]]
+- **系列主页**: [[Agentic Engineering Patterns]]
+
+---
+
+## AI 提取元数据
+
+### 核心概念
+
+1. **Technical Debt Avoidance** - 通过编码助手预防而非事后修复技术债务
+2. **Refactoring Automation** - 将重构任务委托给异步编码助手
+3. **Exploratory Prototyping** - 用低成本原型验证技术选择
+4. **Compound Engineering** - 持续改进指令和质量的模式
+
+### 关键洞察
+
+- 编码助手降低了代码改进成本，使我们可以对代码异味采取零容忍态度
+- 异步助手适合后台重构任务，不中断主工作流
+- LLM 帮助避免错过显而易见的"Boring Technology"解决方案
+- 复合工程循环：每个项目后记录有效做法供未来助手运行使用
+
+### 实践建议
+
+| 场景 | 建议工具/方法 |
+|-----|-------------|
+| 重构任务 | Gemini Jules / OpenAI Codex web / Claude Code on the web |
+| 技术选择验证 | 多原型并发测试 |
+| 质量改进 | PR 评估 → 合并/改进/丢弃 |
+| 持续提升 | Compound step 回顾记录 |
+
+### 关联主题
+
+- [[Coding Agents]]
+- [[Technical Debt]]
+- [[Agentic Engineering]]
+- [[Compound Engineering]]
+- [[Refactoring Patterns]]
