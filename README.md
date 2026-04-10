@@ -101,6 +101,8 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 
 8. 移动 raw source 到对应分类目录
    └─ 从 inbox/ 移到 web-clips/{分类}/
+9. 同步更新 Wiki 页面的 source_raw 路径
+   └─ 所有引用该 raw source 的 entity/topic 页面
 ```
 
 ### 示例
@@ -174,6 +176,14 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 | 过期 entity | 每月 | 超过 30 天未更新的 entity | 检查是否需要更新 |
 | 失效链接 | 每月 | wikilinks 指向不存在的页面 | 修复或删除链接 |
 
+### 失效链接类型
+
+| 类型 | 示例 | 修复方式 |
+|-----|------|---------|
+| Entity 缺失 | `[[Coding-Agents]]` 不存在 | 创建 entity 页面 |
+| 路径错误 | `inbox/` → `web-clips/` | 更新 source_raw 路径 |
+| 类型错误 | Topic 作为 Entity 引用 | 修正链接或创建正确类型 |
+
 ### Lint 报告格式
 
 ```markdown
@@ -209,6 +219,13 @@ date: {YYYY-MM-DD}
 ```
 用户请求 "lint" 或 "lint check"
 ```
+
+### Lint 修复流程
+
+1. **创建缺失 Entity**：`related_entities` 引用但不存在的 entity
+2. **修复路径错误**：`inbox/` → `web-clips/` 的路径漂移
+3. **更新 index.md**：新增 entity 条目和统计数字
+4. **更新 lint-report.md**：记录修复结果和健康度
 
 ---
 
@@ -257,7 +274,8 @@ date: {YYYY-MM-DD}
 type: raw
 source: "https://example.com/article"
 author:
-  - "作者名"
+  - "[[Author Name]]"  # 当 entity 页面存在时使用 wikilink
+  - "作者名"           # 当 entity 页面不存在时使用纯文本
 published: "2026-04-08"
 created: "2026-04-08"
 tags:
@@ -265,7 +283,36 @@ tags:
   - {主题标签}
 description: "文章简介"
 ---
+
+# Author 字段规范
+# - 只包含作者姓名或 wikilink，不添加注释/描述
+# - 作者详细信息应通过 entity 页面维护
 ```
+
+### Author Entity Pages
+
+```yaml
+---
+type: entity
+title: {Author Name}
+definition: "{一句话定义作者身份}"
+created: {YYYY-MM-DD}
+updated: {YYYY-MM-DD}
+tags:
+  - {领域}
+related_entities:
+  - "[[相关作者]]"
+source_raw:
+  - "[[../00-raw/web-clips/xxx/文章名]]"
+---
+```
+
+**Author Entity 工作流**：
+1. 联网搜索作者信息（Tavily）
+2. 创建 entity 页面（`10-wiki/entities/{Author-Name}.md`）
+3. 更新文章 author 字段为 `[[Author Name]]`
+
+**中文作者文件名**：特殊字符转义（如 `盛兰雅(岚遥)` → `盛兰雅-岚遥`）
 
 ### Entity Pages
 
@@ -369,3 +416,54 @@ stats                      # 显示统计数据
 | `index.md` | 知识库索引，列出所有 entity/topic/comparison |
 | `log.md` | 操作日志，记录所有编译和审计操作 |
 | `10-wiki/lint-report.md` | 最新 lint 报告 |
+
+---
+
+## Quartz 网站部署
+
+Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
+
+### 关键配置
+
+- **ignorePatterns**: 使用 `**/pattern` 匹配子目录文件（如 `**/log.md`）
+- **链接解析**: `markdownLinkResolution: "shortest"` 支持短链接跨目录
+- **符号链接**: 构建时 `ln -s . 10-wiki` 让 Obsidian 链接格式在网站正常工作
+
+### Git 提交规范
+
+- **Wiki 文件必须提交**: 新建 Entity/Topic 后立即 commit，否则网站链接失效
+- **检查 git status**: 推送前确认无未提交的 Wiki 文件（`??` 状态）
+
+---
+
+## 实践技巧
+
+### 批量编译效率
+
+- 读取多篇文章时**并行调用 Read 工具**（一次调用多个）
+- 创建 entity/topic 时批量写入（一次 Write 多个文件）
+- 识别文章间的**共同主题**，创建连接它们的 entity/topic
+
+### Entity 设计模式
+
+- **一句话定义**：frontmatter 的 `definition` 字段应简洁，正文展开细节
+- **概念网络**：通过 `related_entities` 建立关联，而非在 entity 内重复定义
+- **溯源链**：`source_raw` 使用 wikilink 指向原始文章，支持反向追溯
+
+### 文件操作
+
+```bash
+# 创建多个分类目录
+mkdir -p 00-raw/web-clips/{AI-Agent,Claude-Code,Knowledge-Work,Design}
+
+# 移动文件（路径含空格时用引号）
+mv "00-raw/inbox/文章名.md" "00-raw/web-clips/AI-Agent/"
+```
+
+### Index 更新清单
+
+编译完成后更新 index.md：
+1. 修改概览统计数字
+2. 添加新 entity 到 entity 表格
+3. 添加新 topic 到 topic 表格
+4. 更新分类目录的文章列表和计数
