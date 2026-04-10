@@ -1,51 +1,88 @@
 ---
 type: entity
 title: Agentic Engineering
-definition: "一种工程范式，利用 AI 编码 Agent 转变软件开发、测试、版本控制和代码理解的方式。"
+definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-10
 tags:
   - AI-Agent
   - Software-Engineering
   - Development-Paradigm
 related_entities:
+  - "[[Code-Execution]]"
+  - "[[Coding-Agents]]"
+  - "[[Vibe-Coding]]"
+  - "[[Compound-Engineering]]"
   - "[[Git-Fluent-Agents]]"
-  - "[[History-Rewriting]]"
-  - "[[Agent-First-Enterprise]]"
 source_raw:
   - "[[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]"
+  - "[[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]"
 ---
 
 # Agentic Engineering
 
 > [!definition] 定义
-> Agentic Engineering 是一种工程范式，利用 AI 编码 Agent 转变软件开发、测试、版本控制和代码理解的方式。
+> **Agentic Engineering** 是使用 Coding Agents 辅助开发软件的实践。
 
-## 核心要点
+## 核心定义
 
-### 核心原则（来自 Simon Willison）
+> **Agents run tools in a loop to achieve a goal**
+
+Agent 软件：
+1. 调用 LLM，传入用户提示和工具定义
+2. 执行 LLM 请求的工具
+3. 将结果反馈给 LLM
+4. 循环直到目标达成
+
+### Code Execution：决定性能力
+
+> [!important] 核心洞察
+> **Code Execution is the defining capability that makes agentic engineering possible.**
+> 
+> 没有直接运行代码的能力，LLM 输出价值有限。
+> 有了 Code Execution，Agent 可以迭代出**可验证工作的软件**。
+
+## 核心原则（Simon Willison）
 
 | 原则 | 说明 | 实践意义 |
 |-----|------|---------|
-| **Writing code is cheap now** | 代码成本已趋近于零 | 可以更雄心勃勃地尝试 |
-| **Hoard things you know how to do** | 囤积你知道如何做的事情 | 记录可复用的解决方案 |
-| **AI should help us produce better code** | AI 应帮助产出更好的代码 | 不是更快，而是更好 |
+| **Writing code is cheap now** | 代码成本趋近于零 | 可以更雄心勃勃地尝试 |
+| **Hoard things you know how to do** | 囤积可运行代码示例 | 记录可复用的解决方案 |
+| **AI should help produce better code** | AI 应帮助产出更好的代码 | 不是更快，而是更好 |
+| **Anti-patterns** | 不要提交未审查的代码 | 你的工作是交付能工作的代码 |
 
-### Agentic Engineering 的实践
+## 与 Vibe Coding 的区别
 
-| 实践领域 | Agent 的角色 | 人类的角色 |
-|---------|-------------|-----------|
+| 维度 | Vibe Coding | Agentic Engineering |
+|------|-------------|---------------------|
+| **代码质量** | 原型级、未审查 | 生产级、已验证 |
+| **验证方式** | 无/凭感觉 | 自动测试 + 运行验证 |
+| **人类角色** | "忘记代码存在" | 验证者、迭代者 |
+| **目标** | 快速原型 | 可工作软件 |
+
+> [!warning] 保持区分
+> Vibe Coding 应保持原意：**未经审查、原型质量的 LLM 生成代码**，与已提升到生产标准的代码区分开来。
+
+## 核心实践
+
+| 领域 | Agent 角色 | 人类角色 |
+|------|-----------|---------|
 | **Git 操作** | 执行复杂命令、解决冲突 | 设定目标、审核结果 |
 | **测试** | Red/Green TDD、运行测试 | 定义测试策略 |
 | **代码理解** | Linear walkthroughs、解释代码 | 提出问题 |
+| **重构** | 后台异步重构 | PR 评估 |
 | **历史管理** | History Rewriting | 编辑决策 |
 
 ## 关联概念
 
-- [[Git-Fluent-Agents]] - Agentic Engineering 的核心工具
-- [[History-Rewriting]] - Agentic Engineering 的 Git 实践
-- [[Agent-First-Enterprise]] - Agentic Engineering 的企业应用层面
+- [[Code-Execution]] - 决定性能力
+- [[Coding-Agents]] - Claude Code, Codex, Gemini CLI
+- [[Vibe-Coding]] - 对比概念
+- [[Compound-Engineering]] - 持续改进模式
+- [[Git-Fluent-Agents]] - Git 实践
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]
+- [[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]
+- [[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]
+- Simon Willison, [Agentic Engineering Patterns Guide](https://simonwillison.net/guides/agentic-engineering-patterns/)
