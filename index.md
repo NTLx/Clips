@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 67 个 |
+| Entity 页面 | 63 个 |
 | Topic 页面 | 11 个 |
 | Comparison 页面 | 5 个 |
 
@@ -95,9 +95,9 @@ tags:
 | [[10-wiki/entities/Ai大刘\|Ai大刘]] | 中文技术博主，AI 职场技能分析 | Career-Skills |
 | [[10-wiki/entities/盛兰雅-岚遥\|盛兰雅(岚遥)]] | 中文技术博主，OpenClaw Agent 实战分享者 | Claude-Code, OpenClaw |
 | [[10-wiki/entities/从筠\|从筠]] | 中文技术博主，OpenClaw seekdb 实践者 | OpenClaw |
-| [[10-wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具分享 | Claude-Code |
 | [[10-wiki/entities/饼干哥哥\|饼干哥哥]] | 中文技术博主，AI Agent 项目实战分享者 | Claude-Code |
 | [[10-wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
+| [[10-wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具与开发者技能提升 | Claude-Code, AI-Agent |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -155,4 +155,4 @@ status             # 查看知识库状态
 ---
 
 *索引版本: v1.0*
-*最后更新: 2026-04-09*
+*最后更新: 2026-04-10*
