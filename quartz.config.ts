@@ -43,13 +43,12 @@ const config: QuartzConfig = {
       // MCP 缓存
       ".playwright-mcp",
 
-      // Schema 和日志文件
+      // Schema 和日志文件（index.md 是首页，不应排除）
       "README.md",
       "CLAUDE.md",
       "log.md",
       "**/log.md",
       "**/lint-report.md",
-      "index.md",
 
       // 非发布内容
       "docs",
