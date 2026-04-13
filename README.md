@@ -450,6 +450,28 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 - **Wiki 文件必须提交**: 新建 Entity/Topic 后立即 commit，否则网站链接失效
 - **检查 git status**: 推送前确认无未提交的 Wiki 文件（`??` 状态）
 
+### Mermaid 图表规范
+
+Wiki 文档中的 Mermaid 图表必须使用有效语法：
+
+| 规范项 | 说明 |
+|-------|------|
+| **图表类型** | `flowchart TD/LR/BT/RL` 或 `graph TD`（流程图） |
+| **节点语法** | 必须包含 ID，如 `NodeID[显示文本]`，不能只写 `[文本]` |
+| **无效关键字** | `querydown` 等非标准关键字会导致解析失败 |
+| **调试工具** | 使用 Context7 查询 Mermaid 官方文档验证语法 |
+
+示例对比：
+```mermaid
+# ❌ 错误语法
+querydown
+    A --> [B]  # 缺少节点ID
+
+# ✅ 正确语法
+flowchart TD
+    A --> B[B]  # 包含节点ID
+```
+
 ---
 
 ## 实践技巧

@@ -43,12 +43,12 @@ RAG 采用"即时检索"范式：
 - 查询结束后，检索结果不保留
 
 ```mermaid
-querydown
+flowchart TD
     Query --> Retrieval
     Retrieval --> Context
     Context --> LLM
     LLM --> Response
-    Response --> [Discard]
+    Response --> Discard[Discard]
 ```
 
 **LLM Wiki (Knowledge Compilation)**
@@ -60,7 +60,7 @@ LLM Wiki 采用"预先编译"范式：
 - 新知识持续编译并入 Wiki，形成知识累积
 
 ```mermaid
-querydown
+flowchart TD
     RawKnowledge --> LLMCompile
     LLMCompile --> WikiLayer
     WikiLayer --> Query
