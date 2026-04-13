@@ -171,3 +171,43 @@ created: 2026-04-09
 ---
 
 *日志更新: 2026-04-13*
+
+---
+
+### [2026-04-13] Output 创建 - 部署教程
+
+**创建文件**：
+- `wiki/outputs/deploy-obsidian-wiki-with-quartz.md`
+
+**Output 类型**：Tutorial
+
+**内容概述**：
+- 从 Memex 到 LLM Wiki 的理念介绍
+- 本知识库三层架构设计
+- Quartz 核心配置详解（quartz.config.ts + quartz.layout.ts）
+- GitHub Actions 自动部署 workflow
+- Markdown 文档格式规范
+- 效果展示：Clips 知识库网站 (https://ntlx.github.io/Clips/)
+
+**章节结构**（线性叙事）：
+1. 第1章：缘起 —— 从 Memex 到 LLM Wiki
+2. 第2章：架构 —— 本知识库的设计
+3. 第3章：配置 —— Quartz 核心文件详解
+4. 第4章：部署 —— GitHub Actions 自动化
+5. 第5章：写作 —— Markdown 文档格式
+6. 第6章：成果 —— 最终效果与进阶
+
+**代码示例**：
+- quartz.config.ts（完整配置 + 注释）
+- quartz.layout.ts（完整布局 + 注释）
+- deploy.yml（完整 GitHub Actions workflow）
+- Markdown 格式示例（frontmatter、wikilinks、callouts）
+
+**Wiki 统计更新**：
+- Output 页面：1 个（新增）
+- Entity 页面：69 个
+- Topic 页面：12 个
+
+---
+
+*日志更新: 2026-04-13*

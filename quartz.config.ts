@@ -46,6 +46,7 @@ const config: QuartzConfig = {
       // Schema 和日志文件（index.md 是首页，不应排除）
       "README.md",
       "CLAUDE.md",
+      "AGENTS.md", // 兼容其他 AI Coding 工具的软链接
       "log.md",
       "**/log.md",
       "**/lint-report.md",

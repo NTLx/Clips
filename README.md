@@ -226,7 +226,8 @@ Clips 通过 Quartz 自动部署为 GitHub Pages 网站。
 
 - 系统文件：`.obsidian`, `.git`, `.DS_Store`
 - 配置文件：`package.json`, `quartz.config.ts`, `tsconfig.json`
-- 日志文档：`README.md`, `CLAUDE.md`, `log.md`, `lint-report.md`
+- Schema 文件：`README.md`, `CLAUDE.md`, `AGENTS.md`（兼容其他 AI 工具）
+- 日志文档：`log.md`, `lint-report.md`
 - 其他目录：`docs`, `node_modules`
 
 ---
@@ -248,6 +249,7 @@ Clips 通过 Quartz 自动部署为 GitHub Pages 网站。
 | 文件 | 用途 |
 |-----|------|
 | `README.md` | Schema 文件，定义工作流和规范 |
+| `AGENTS.md` | README.md 软链接，兼容其他 AI Coding 工具 |
 | `index.md` | 知识库索引 |
 | `log.md` | 操作日志 |
 | `wiki/lint-report.md` | 最新 lint 报告 |

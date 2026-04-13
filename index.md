@@ -21,6 +21,7 @@ tags:
 | Topic 页面 | 12 个 |
 | Comparison 页面 | 5 个 |
 | Raw 文章 | 30 个 |
+| Output 作品 | 1 个 |
 
 ---
 
@@ -139,6 +140,10 @@ tags:
 
 ### Outputs (outputs/)
 *输出作品*
+
+| Output | 描述 | 类型 |
+|--------|------|------|
+| [[wiki/outputs/deploy-obsidian-wiki-with-quartz\|将 Obsidian 知识库部署为 LLM Wiki 网站]] | Quartz + GitHub Actions 自动部署教程 | Tutorial |
 
 ---
 
