@@ -76,7 +76,7 @@ tags:
 | [[wiki/entities/Refusal\|Refusal]] | 判断力的核心动作：拒绝通用的选项 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Knowledge-Work\|Knowledge Work]] | 以知识和专业技能为核心价值的工作形态，正在被 AI 取代 | Knowledge Work Is Dying |
 | [[wiki/entities/Technical-Debt-Avoidance\|Technical Debt Avoidance]] | 通过持续改进避免技术债务累积的策略 | Compound Engineering |
-| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | AI 领域传奇人物，OpenAI 创始成员，Tesla AI 前总监，Software 2.0 提出者 | LLM Wiki |
+| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | AI 领域传奇人物，提出 Software 2.0（2017）、Vibe Coding（2025）、LLM Wiki（2026）三大概念 | LLM Wiki |
 | [[wiki/entities/Software-2.0\|Software 2.0]] | 编程范式转变：程序员写目标，神经网络编程 | LLM Wiki |
 | [[wiki/entities/Memex\|Memex]] | Vannevar Bush 1945 年个人知识存储概念，LLM Wiki 思想先驱 | LLM Wiki |
 | [[wiki/entities/Knowledge-Compilation\|Knowledge Compilation]] | Raw → Wiki 的知识转化操作，LLM Wiki 核心流程 | LLM Wiki |
@@ -107,7 +107,7 @@ tags:
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
 | [[wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具与开发者技能提升 | Claude-Code, AI-Agent |
 | [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
-| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | OpenAI 创始成员、Tesla AI 前总监、CS231n 创建者、Software 2.0 提出者 | AI-Pioneer |
+| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | OpenAI 创始成员、Tesla AI 前总监、CS231n 创建者、Software 2.0/Vibe Coding/LLM Wiki 提出者 | AI-Pioneer |
 
 ### Topics (topics/)
 *整合多篇文章的主题*

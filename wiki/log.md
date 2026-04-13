@@ -211,3 +211,65 @@ created: 2026-04-09
 ---
 
 *日志更新: 2026-04-13*
+
+---
+
+### [2026-04-13] Entity 修正 - Andrej-Karpathy 时间与排序
+
+**修正文件**：
+- `wiki/entities/Andrej-Karpathy.md`
+- `wiki/outputs/deploy-obsidian-wiki-with-quartz.md`
+- `index.md`
+
+**修正内容**：
+
+| 问题 | 原内容 | 修正后 |
+|-----|--------|--------|
+| 教程 LLM Wiki 提出时间 | "2024 年提出 LLM Wiki" | "2026 年提出 LLM Wiki" |
+| Entity definition 缺少 LLM Wiki | "提出 Software 2.0 和 Vibe Coding 概念" | "提出 Software 2.0（2017）、Vibe Coding（2025）、LLM Wiki（2026）三大概念" |
+| 职业履历排序错误 | Tesla → OpenAI → Eureka Labs → Stanford | Stanford → OpenAI → Tesla → Eureka Labs（按时间顺序） |
+| OpenAI 时间段表述不清 | "2015-2017, 2023" | "2015-2017（创始），2023（返回）" |
+| Software 2.0 缺少时间标注 | 无标注 | "(2017)" |
+| index.md 两处定义不一致 | 分别写不同描述 | 统一包含三大概念 |
+
+**职业履历正确排序（按时间）**：
+1. Stanford (2011-2015) - PhD/CS231n
+2. OpenAI (2015-2017, 2023) - 创始成员
+3. Tesla (2017-2022) - Director of AI
+4. Eureka Labs (2024) - Founder
+
+**概念创新正确排序（按提出时间）**：
+1. Software 2.0 (2017)
+2. Vibe Coding (2025)
+3. LLM Wiki (2026)
+
+---
+
+*日志更新: 2026-04-13*
+
+---
+
+### [2026-04-13] Schema 更新 - 时间与事实规范
+
+**更新文件**：
+- `CLAUDE.md`
+
+**新增章节**："时间与事实规范"
+
+**新增内容**：
+
+### 时间标注
+- 概念/事件必标注年份
+- 时间线表格按时间排序
+- 跨文件一致性要求
+
+### 事实核查
+- 年份验证必须联网确认
+- 人物贡献对齐职业履历
+- 时间信息优先级高于描述性信息
+
+**新增原因**：本次会话中发现 LLM Wiki 提出年份错误（2024→2026）、职业履历排序混乱、时间标注缺失等问题，需要在 Schema 层明确规范以防止类似错误。
+
+---
+
+*日志更新: 2026-04-13*
