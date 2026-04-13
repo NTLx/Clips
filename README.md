@@ -438,6 +438,7 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 - **链接解析**: `markdownLinkResolution: "shortest"` 支持短链接跨目录
 - **符号链接**: 创建 `10-wiki/` 子目录，内部链接到 `../entities` 等，避免 `ln -s .` 循环引用
 - **Explorer 过滤**: 符号链接目录需在 `filterFn` 中过滤 `displayName === "10-wiki"`，避免导航栏无限嵌套
+- **Graph 配置**: `depth` 参数含义：`N>0` = N层邻居（BFS），`-1` = 全站图谱。默认值：localGraph.depth=1, globalGraph.depth=-1
 
 ### index.md 维护
 
@@ -458,6 +459,11 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 - 读取多篇文章时**并行调用 Read 工具**（一次调用多个）
 - 创建 entity/topic 时批量写入（一次 Write 多个文件）
 - 识别文章间的**共同主题**，创建连接它们的 entity/topic
+
+### Quartz 调试
+
+- **本地无 node_modules 是正常现象**：构建在 GitHub Actions 中进行，本地 TypeScript 类型警告可忽略
+- **读取 Quartz 源码**：使用 `mcp__zread__read_file` 工具读取 `jackyzha0/quartz` 仓库文件进行调试
 
 ### Entity 设计模式
 
