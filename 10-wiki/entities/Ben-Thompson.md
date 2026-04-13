@@ -13,7 +13,7 @@ related_entities:
   - "[[Dan Shipper]]"
   - "[[Ethan Mollick]]"
 source_raw:
-  - "[[../00-raw/inbox/AI and the Human Condition.md]]"
+  - "[[../00-raw/web-clips/AI-Agent/AI and the Human Condition.md]]"
 ---
 
 # Ben Thompson
@@ -61,7 +61,7 @@ Ben Thompson 提出的聚合理论解释了互联网如何改变商业格局：
 
 ## 知识库关联文章
 
-- [[../00-raw/inbox/AI and the Human Condition.md|AI and the Human Condition]] - Stratechery 文章
+- [[../00-raw/web-clips/AI-Agent/AI and the Human Condition.md|AI and the Human Condition]] - Stratechery 文章
 
 ## 外部链接
 

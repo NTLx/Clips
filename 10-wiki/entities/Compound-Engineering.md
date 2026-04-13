@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
 source_raw:
-  - "[[../00-raw/inbox/20260410-better-code.md]]"
+  - "[[../00-raw/web-clips/AI-Agent/20260410-better-code.md]]"
 ---
 
 # Compound Engineering（复合工程）

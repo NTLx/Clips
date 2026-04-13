@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 63 个 |
+| Entity 页面 | 65 个 |
 | Topic 页面 | 11 个 |
 | Comparison 页面 | 5 个 |
 
@@ -72,6 +72,8 @@ tags:
 | [[10-wiki/entities/Vibe-Design\|Vibe Design]] | AI 时代设计范式：描述感受而非操作软件 | Google Stitch DESIGN.md |
 | [[10-wiki/entities/Coding-Agents\|Coding Agents]] | 能够编写并执行代码的 AI Agent | What is agentic engineering |
 | [[10-wiki/entities/Refusal\|Refusal]] | 判断力的核心动作：拒绝通用的选项 | Good Taste the Only Real Moat Left |
+| [[10-wiki/entities/Knowledge-Work\|Knowledge Work]] | 以知识和专业技能为核心价值的工作形态，正在被 AI 取代 | Knowledge Work Is Dying |
+| [[10-wiki/entities/Technical-Debt-Avoidance\|Technical Debt Avoidance]] | 通过持续改进避免技术债务累积的策略 | Compound Engineering |
 
 #### 作者 Entities
 

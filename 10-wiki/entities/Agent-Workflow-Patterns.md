@@ -12,7 +12,7 @@ related_entities:
   - "[[Coding-Agents]]"
   - "[[ACI-Agent-Computer-Interface]]"
 source_raw:
-  - "[[../00-raw/inbox/building-effective-agents.md]]"
+  - "[[../00-raw/web-clips/AI-Agent/building-effective-agents.md]]"
 ---
 
 # Agent Workflow Patterns（Agent 工作流模式）

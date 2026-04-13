@@ -89,9 +89,10 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 
 4. 为每个概念创建/更新 entity 页面
    └─ 写入 10-wiki/entities/
+   └─ ⚠️ source_raw 必须使用 web-clips/{分类}/路径，禁止使用 inbox/
 
 5. 创建/更新 topic 页面
-   └─ 整合文章要点，写入 10-wiki/topics/
+   └─ 写入 10-wiki/topics/
 
 6. 更新 index.md
    └─ 添加新的 entity 和 topic 条目
@@ -99,10 +100,10 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 7. 记录到 log.md
    └─ 记录编译操作详情
 
-8. 移动 raw source 到对应分类目录
-   └─ 从 inbox/ 移到 web-clips/{分类}/
-9. 同步更新 Wiki 页面的 source_raw 路径
-   └─ 所有引用该 raw source 的 entity/topic 页面
+8. ⚠️ 移动 raw source 并同步路径（关键步骤）
+   ├─ 从 inbox/ 移到 web-clips/{分类}/
+   └─ 立即更新所有 entity/topic 的 source_raw 为新路径
+   └─ 验证：grep "inbox/" 确认无残留引用
 ```
 
 ### 示例
@@ -172,9 +173,11 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 | 检查项 | 频率 | 条件 | 处理方式 |
 |-------|------|------|---------|
 | Raw backlog | 每次 | inbox/ 中超过 7 天的文件 | 提醒 compile |
+| **路径漂移** | 每次 | source_raw 包含 "inbox/" | 立即修复为 web-clips 路径 |
 | 孤儿 entity | 每周 | 无 topic 页面引用的 entity | 关联到相关 topic |
 | 过期 entity | 每月 | 超过 30 天未更新的 entity | 检查是否需要更新 |
 | 失效链接 | 每月 | wikilinks 指向不存在的页面 | 修复或删除链接 |
+| **Wikilink 格式** | 每月 | related_entities 使用空格而非连字符 | 标记为建议改进 |
 
 ### 失效链接类型
 
@@ -326,12 +329,18 @@ updated: {YYYY-MM-DD}
 tags:
   - {领域}
 related_entities:
-  - "[[相关概念A]]"
-  - "[[相关概念B]]"
+  - "[[相关概念A]]"  # 必须使用文件名格式（kebab-case）
+  - "[[相关概念B]]"  # 禁止使用空格格式如 [[Dan Shipper]]
 source_raw:
-  - "[[../00-raw/web-clips/xxx/文章名]]"
+  - "[[../00-raw/web-clips/{分类}/文章名.md]]"  # ⚠️ 必须使用 web-clips 路径
+  # 禁止使用: "[[../00-raw/inbox/...]]"
 ---
 ```
+
+**路径格式规则**：
+- `source_raw` 必须指向 `web-clips/{分类}/`，永不使用 `inbox/`
+- 文件移动后立即更新所有引用的 wiki 页面
+- 编译结束前执行 `grep "inbox/"` 验证无残留
 
 ### Topic Pages
 
@@ -473,3 +482,19 @@ mv "00-raw/inbox/文章名.md" "00-raw/web-clips/AI-Agent/"
 2. 添加新 entity 到 entity 表格
 3. 添加新 topic 到 topic 表格
 4. 更新分类目录的文章列表和计数
+
+### 路径漂移预防清单
+
+编译完成后必须验证：
+```bash
+# 检查是否残留 inbox 引用
+grep -r "inbox/" 10-wiki/
+# 应返回 0 结果，如有则立即修复
+
+# 检查 source_raw 指向的文件是否存在
+find 00-raw/web-clips/ -name "*.md" | wc -l
+```
+
+- [ ] entity 的 source_raw 使用 `web-clips/{分类}/` 路径
+- [ ] 执行 grep 验证无 inbox/ 引用
+- [ ] 检查所有 source_raw 指向的文件物理存在

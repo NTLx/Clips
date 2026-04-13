@@ -14,7 +14,7 @@ related_entities:
   - "[[Taste]]"
 source_raw:
   - "[[../00-raw/web-clips/Knowledge-Work/The Knowledge Economy Is Over. Welcome to the Allocation Economy..md]]"
-  - "[[../00-raw/inbox/Management as AI superpower.md]]"
+  - "[[../00-raw/web-clips/Knowledge-Work/Management as AI superpower.md]]"
 ---
 
 # Model Manager（模型管理者）
