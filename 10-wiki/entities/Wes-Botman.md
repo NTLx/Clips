@@ -8,11 +8,12 @@ tags:
   - entrepreneurship
   - podcast
   - digital-products
+  - AI-Agent
 related_entities:
   - "[[Simon-Willison]]"
   - "[[Dan-Shipper]]"
 source_raw:
-  - "暂无剪藏文章"
+  - "[[The Conscious 1% Leading a new renaissance in the era of AI]]"
 ---
 
 # Wes Botman
@@ -46,4 +47,4 @@ Wes Botman 是 Eli5.io 的作者，与 Ian Piepenbrock 共同主持 WORK IN PROG
 ---
 
 > [!note] 说明
-> 该 entity 待补充剪藏文章。如有相关内容，请添加到 `00-raw/web-clips/` 目录。
+> Wes Botman 是 Eli5.io 博客的作者，知识库中收录了他关于 AI 时代"Conscious 1%"的文章。
