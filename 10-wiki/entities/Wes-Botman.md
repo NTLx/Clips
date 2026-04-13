@@ -1,57 +1,49 @@
 ---
 type: entity
 title: Wes Botman
-definition: "Eli5.io 作者，专注于 AI 编程代理和 DevOps 方法论，倡导 TDD 在 AI 时代的应用"
+definition: "Eli5.io 作者和 WORK IN PROGRESS Podcast 主持人，专注于技术创业和数字产品"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
 tags:
-  - AI-Agent
-  - Claude-Code
-  - DevOps
-  - TDD
+  - entrepreneurship
+  - podcast
+  - digital-products
 related_entities:
-  - "[[Simon Willison]]"
-  - "[[Dan Shipper]]"
+  - "[[Simon-Willison]]"
+  - "[[Dan-Shipper]]"
 source_raw:
-  - "源文件未收录 - Eli5.io: 10 Must-Have Skills for Claude in 2026"
+  - "暂无剪藏文章"
 ---
 
 # Wes Botman
 
+> [!definition] 定义
+> Wes Botman 是 Eli5.io 的作者和 WORK IN PROGRESS Podcast 主持人，专注于技术创业、数字产品和从零到一的创业经验分享。
+
 ## 简介
 
-Wes Botman 是 Eli5.io 的作者，专注于解释复杂的技术概念，特别是 AI 编程代理和 DevOps 方法论。他撰写了关于 Claude Code 技能的权威指南，并倡导在 AI 时代继续坚持 TDD（测试驱动开发）。
+Wes Botman 是 Eli5.io 的作者，与 Ian Piepenbrock 共同主持 WORK IN PROGRESS Podcast，分享技术创业的真实经历和数字产品构建方法论。
 
 ## 主要项目
 
-- **Eli5.io** - 技术博客，解释复杂概念的简明指南
+- **Eli5.io** - 技术博客，分享数字产品和创业经验
 - **WORK IN PROGRESS Podcast** - 与 Ian Piepenbrock 共同主持的创业和技术播客
 
 ## 核心观点
 
-### AI Coding Agent Skills
+### 数字产品方法论
 
-撰写了"10 Must-Have Skills for Claude (and Any Coding Agent) in 2026"，定义了编程代理的关键能力：
-
-- 测试优先开发
-- 代码审查能力
-- Git 操作技能
-- 项目理解能力
-
-### DevOps 方法论
-
-- TDD 在 AI 时代依然重要
-- 先写测试，再写代码的思维方式
-- DevOps 作为方法论优势
-
-## 知识库关联文章
-
-> [!warning] 源文件未收录
-> "10 Must-Have Skills for Claude (and Any Coding Agent) in 2026" - Eli5.io 核心文章
-> 需要手动剪藏: https://www.eli5.io/blog/10-must-have-skills-for-claude
+- 现代数字产品构建的实践经验
+- 从零到一的产品开发策略
+- 技术创业的真实挑战和解决方案
 
 ## 外部链接
 
 - [Eli5.io 博客](https://www.eli5.io/blog)
 - [Medium](https://medium.com/eli5)
-- [WORK IN PROGRESS Podcast](https://open.spotify.com/show/2cOqBRMjjgcXKSDDIboKrt)
+- [WORK IN PROGRESS Podcast](https://www.eli5.io/podcast)
+
+---
+
+> [!note] 说明
+> 该 entity 待补充剪藏文章。如有相关内容，请添加到 `00-raw/web-clips/` 目录。
