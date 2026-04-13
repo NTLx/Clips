@@ -22,29 +22,24 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 
 ---
 
-## 三层架构
+## 两层架构
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Clips LLM Wiki 架构                          │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  Layer 0: Raw Sources (00-raw/)                                │
-│  ├── inbox/          快速捕获入口，新文章先放这里               │
-│  ├── web-clips/      已分类的 Web 剪藏                         │
-│  │   ├── AI-Agent/   AI 与 Agent 相关文章                      │
-│  │   ├── Claude-Code/ Claude Code 相关文章                     │
-│  │   ├── Career-Skills/ 职业技能相关文章                       │
-│  │   ├── Knowledge-Work/ 知识工作相关文章                      │
-│  │   ├── General/     通用思想文章                             │
-│  │   └── OpenClaw/    OpenClaw 相关文章                        │
-│  └── pdf-docs/       PDF 文档                                  │
+│  Layer 0: Raw Sources (raw/)                                   │
+│  ├── 所有剪藏文章直接存放于此（扁平结构）                       │
+│  ├── pdf-docs/       PDF 文档                                  │
+│  └─ log.md          Raw 层操作日志                              │
 │                                                                 │
-│  Layer 1: Wiki (10-wiki/) ← LLM 维护层                         │
+│  Layer 1: Wiki (wiki/) ← LLM 维护层                            │
 │  ├── entities/       概念页面（从文章提取的核心概念）           │
 │  ├── topics/         主题页面（整合多篇文章的主题）             │
 │  ├── comparisons/    对比分析页面                              │
-│  └── outputs/        输出作品（博客、笔记等）                   │
+│  ├── outputs/        输出作品（博客、笔记等）                   │
+│  └─ lint-report.md   Lint 报告                                 │
 │                                                                 │
 │  Layer 2: Schema (README.md) ← 当前文件                        │
 │  定义工作流、规范、约定                                         │
@@ -69,10 +64,9 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 ### 触发条件
 
 ```
-- 用户添加新文件到 00-raw/inbox/
+- 用户添加新文件到 raw/
 - 用户请求 "compile <文件名>"
 - 用户请求 "compile all" 批量处理
-- 用户请求 "compile inbox" 处理收件箱
 ```
 
 ### 执行流程
@@ -87,10 +81,10 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 3. 提取 3-5 个核心概念
    └─ 识别文章中的关键术语、方法论、技术概念
 
-4. **文章关联验证**（新增步骤）
+4. **文章关联验证**
    ├─ 检查 raw source 的 author 字段格式
    ├─ 若 author 为 wikilink `[[Author Name]]`：
-   │  ├─ 验证 `10-wiki/entities/{Author-Name}.md` 存在
+   │  ├─ 验证 `wiki/entities/{Author-Name}.md` 存在
    │  ├─ 验证 entity 的 `source_raw` 包含当前文章文件名
    │  ├─ 若不一致：停止编译，输出错误信息：
    │  │  ⚠️ 文章关联验证失败
@@ -105,27 +99,22 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
       └─ 验证通过后才继续编译
 
 5. 为每个概念创建/更新 entity 页面
-   └─ 写入 10-wiki/entities/
+   └─ 写入 wiki/entities/
    └─ ⚠️ source_raw 必须使用短链接格式，禁止使用相对路径
 
 6. 创建/更新 topic 页面
-   └─ 写入 10-wiki/topics/
+   └─ 写入 wiki/topics/
 
 7. 更新 index.md
    └─ 添加新的 entity 和 topic 条目
 
 8. 记录到 log.md
    └─ 记录编译操作详情
-
-9. ⚠️ 移动 raw source 并同步路径（关键步骤）
-   ├─ 从 inbox/ 移到 web-clips/{分类}/
-   └─ 立即更新所有 entity/topic 的 source_raw 为新路径
-   └─ 验证：grep "inbox/" 认无残留引用
 ```
 
 ### 示例
 
-**Raw Source**: `00-raw/inbox/knowledge-work-dying.md`
+**Raw Source**: `raw/knowledge-work-dying.md`
 
 **执行 Ingest 后**：
 
@@ -135,7 +124,6 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 | Topic 页面 | `Knowledge-Work-Evolution.md` |
 | 索引更新 | index.md 添加新条目 |
 | 日志记录 | log.md 记录操作 |
-| 文件移动 | inbox/ → web-clips/Knowledge-Work/ |
 
 ---
 
@@ -175,7 +163,7 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 
 ## 扩展阅读
 - [[topic-X]] - 深入了解
-- [[00-raw/web-clips/.../文章]] - 原始文章
+- [[raw/文章]] - 原始文章
 
 ## 来源
 - 原始链接: {source URL}
@@ -189,8 +177,7 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 
 | 检查项 | 频率 | 条件 | 处理方式 |
 |-------|------|------|---------|
-| Raw backlog | 每次 | inbox/ 中超过 7 天的文件 | 提醒 compile |
-| **路径漂移** | 每次 | source_raw 包含 "inbox/" | 立即修复为 web-clips 路径 |
+| Raw backlog | 每次 | raw/ 中超过 7 天的文件 | 提醒 compile |
 | 孤儿 entity | 每周 | 无 topic 页面引用的 entity | 关联到相关 topic |
 | 过期 entity | 每月 | 超过 30 天未更新的 entity | 检查是否需要更新 |
 | 失效链接 | 每月 | wikilinks 指向不存在的页面 | 修复或删除链接 |
@@ -201,7 +188,6 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 | 类型 | 示例 | 修复方式 |
 |-----|------|---------|
 | Entity 缺失 | `[[Coding-Agents]]` 不存在 | 创建 entity 页面 |
-| 路径错误 | `inbox/` → `web-clips/` | 更新 source_raw 路径 |
 | 类型错误 | Topic 作为 Entity 引用 | 修正链接或创建正确类型 |
 
 ### Lint 报告格式
@@ -229,7 +215,7 @@ date: {YYYY-MM-DD}
 
 ## 建议操作
 
-- [ ] Compile 00-raw/inbox/xxx.md
+- [ ] Compile raw/xxx.md
 - [ ] 将 xxx entity 关联到相关 topic
 - [ ] 更新过期 entity
 ```
@@ -243,9 +229,8 @@ date: {YYYY-MM-DD}
 ### Lint 修复流程
 
 1. **创建缺失 Entity**：`related_entities` 引用但不存在的 entity
-2. **修复路径错误**：`inbox/` → `web-clips/` 的路径漂移
-3. **更新 index.md**：新增 entity 条目和统计数字
-4. **更新 lint-report.md**：记录修复结果和健康度
+2. **更新 index.md**：新增 entity 条目和统计数字
+3. **更新 lint-report.md**：记录修复结果和健康度
 
 ---
 
@@ -254,7 +239,7 @@ date: {YYYY-MM-DD}
 ### Raw Sources
 
 ```
-格式: {YYYYMMDD}-{关键词}.md
+格式: {YYYYMMDD}-{关键词}.md 或原文章标题
 示例: 20260408-knowledge-work-dying.md
 
 注意:
@@ -316,8 +301,8 @@ description: "文章简介"
 type: entity
 title: {Author Name}
 definition: "{一句话定义作者身份}"
-validated_source: "https://验证来源URL"  # 🆕 新增：身份验证来源
-validated_at: "2026-04-13"              # 🆕 新增：验证日期
+validated_source: "https://验证来源URL"  # 身份验证来源
+validated_at: "2026-04-13"              # 验证日期
 created: {YYYY-MM-DD}
 updated: {YYYY-MM-DD}
 tags:
@@ -339,7 +324,7 @@ source_raw:
    ├─ 记录验证日期到 `validated_at` 字段
    └─ ⚠️ 若无法验证：停止创建，文章 author 字段使用纯文本
 
-2. 创建 entity 页面（`10-wiki/entities/{Author-Name}.md`）
+2. 创建 entity 页面（`wiki/entities/{Author-Name}.md`）
    └─ 必须包含 `validated_source` 和 `validated_at` 字段
 
 3. 更新文章 author 字段为 `[[Author Name]]`
@@ -366,14 +351,12 @@ related_entities:
   - "[[相关概念B]]"  # 禁止使用空格格式如 [[Dan Shipper]]
 source_raw:
   - "[[文章名]]"  # ⚠️ 使用短链接格式（纯文件名）
-  # 禁止使用: "[[../00-raw/web-clips/...]]" 或 "[[../00-raw/inbox/...]]"
 ---
 ```
 
 **链接格式规则**：
 - `source_raw` 使用**短链接格式**（纯文件名），如 `[[文章名]]`
 - Quartz 配置 `markdownLinkResolution: "shortest"` 支持短链接跨目录解析
-- 禁止使用相对路径如 `[[../00-raw/web-clips/...]]` 或 `[[../00-raw/inbox/...]]`
 - 文件名在知识库中唯一时，短链接可正确解析
 
 ### Topic Pages
@@ -418,10 +401,8 @@ related_entities:
 ### Ingest（编译）
 
 ```
-compile                    # 编译 inbox 中所有文件
+compile                    # 编译 raw 中所有文件
 compile <文件名>           # 编译指定文件
-compile inbox              # 同 compile
-compile <分类>             # 编译指定分类的所有文件
 ```
 
 ### Query（查询）
@@ -458,7 +439,7 @@ stats                      # 显示统计数据
 | `README.md` | Schema 文件，定义工作流和规范 |
 | `index.md` | 知识库索引，列出所有 entity/topic/comparison |
 | `log.md` | 操作日志，记录所有编译和审计操作 |
-| `10-wiki/lint-report.md` | 最新 lint 报告 |
+| `wiki/lint-report.md` | 最新 lint 报告 |
 
 ---
 
@@ -470,9 +451,8 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 
 - **ignorePatterns**: 使用 `**/pattern` 匹配子目录文件（如 `**/log.md`）
 - **链接解析**: `markdownLinkResolution: "shortest"` 支持短链接跨目录
-- **符号链接**: 创建 `10-wiki/` 子目录，内部链接到 `../entities` 等，避免 `ln -s .` 循环引用
-- **Explorer 过滤**: 符号链接目录需在 `filterFn` 中过滤 `displayName === "10-wiki"`，避免导航栏无限嵌套
-- **Graph 配置**: `depth` 参数含义：`N>0` = N层邻居（BFS），`-1` = 全站图谱。默认值：localGraph.depth=1, globalGraph.depth=-1
+- **Explorer 过滤**: 过滤 `displayName === "wiki"` 避免导航栏嵌套
+- **Graph 配置**: `depth` 参数含义：`N>0` = N层邻居（BFS），`-1` = 全站图谱
 
 ### index.md 维护
 
@@ -493,18 +473,6 @@ Wiki 文档中的 Mermaid 图表必须使用有效语法：
 | **图表类型** | `flowchart TD/LR/BT/RL` 或 `graph TD`（流程图） |
 | **节点语法** | 必须包含 ID，如 `NodeID[显示文本]`，不能只写 `[文本]` |
 | **无效关键字** | `querydown` 等非标准关键字会导致解析失败 |
-| **调试工具** | 使用 Context7 查询 Mermaid 官方文档验证语法 |
-
-示例对比：
-```mermaid
-# ❌ 错误语法
-querydown
-    A --> [B]  # 缺少节点ID
-
-# ✅ 正确语法
-flowchart TD
-    A --> B[B]  # 包含节点ID
-```
 
 ---
 
@@ -519,7 +487,6 @@ flowchart TD
 ### Quartz 调试
 
 - **本地无 node_modules 是正常现象**：构建在 GitHub Actions 中进行，本地 TypeScript 类型警告可忽略
-- **读取 Quartz 源码**：使用 `mcp__zread__read_file` 工具读取 `jackyzha0/quartz` 仓库文件进行调试
 
 ### Entity 设计模式
 
@@ -527,36 +494,13 @@ flowchart TD
 - **概念网络**：通过 `related_entities` 建立关联，而非在 entity 内重复定义
 - **溯源链**：`source_raw` 使用 wikilink 指向原始文章，支持反向追溯
 
-### 文件操作
-
-```bash
-# 创建多个分类目录
-mkdir -p 00-raw/web-clips/{AI-Agent,Claude-Code,Knowledge-Work,Design}
-
-# 移动文件（路径含空格时用引号）
-mv "00-raw/inbox/文章名.md" "00-raw/web-clips/AI-Agent/"
-```
-
 ### Index 更新清单
 
 编译完成后更新 index.md：
 1. 修改概览统计数字
 2. 添加新 entity 到 entity 表格
 3. 添加新 topic 到 topic 表格
-4. 更新分类目录的文章列表和计数
 
-### 路径漂移预防清单
+---
 
-编译完成后必须验证：
-```bash
-# 检查是否残留 inbox 引用
-grep -r "inbox/" 10-wiki/
-# 应返回 0 结果，如有则立即修复
-
-# 检查 source_raw 指向的文件是否存在
-find 00-raw/web-clips/ -name "*.md" | wc -l
-```
-
-- [ ] entity 的 source_raw 使用 `web-clips/{分类}/` 路径
-- [ ] 执行 grep 验证无 inbox/ 引用
-- [ ] 检查所有 source_raw 指向的文件物理存在
+*本文件由 Claude Code 维护，用于指导 AI Agent 在 Clips LLM Wiki 中的工作。*

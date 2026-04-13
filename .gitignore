@@ -34,3 +34,6 @@ Desktop.ini
 
 # Playwright MCP 缓存
 .playwright-mcp/
+
+# docs 目录不属于知识库内容
+docs/

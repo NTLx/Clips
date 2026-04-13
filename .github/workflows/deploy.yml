@@ -41,28 +41,26 @@ jobs:
 
       - name: Setup Quartz Configuration
         run: |
-          # 复制 Quartz 配置文件
           cp clips/quartz.config.ts quartz/
           cp clips/quartz.layout.ts quartz/
 
       - name: Setup Content Directory
         run: |
-          # 创建 content 目录
           mkdir -p quartz/content
-
-          # 复制首页
           cp clips/index.md quartz/content/index.md
 
-          # 直接复制 Wiki 子目录到 content 根目录（扁平化导航）
-          cp -r clips/10-wiki/entities quartz/content/entities
-          cp -r clips/10-wiki/topics quartz/content/topics
-          cp -r clips/10-wiki/comparisons quartz/content/comparisons
-          cp -r clips/10-wiki/outputs quartz/content/outputs 2>/dev/null || true
+          # 复制 Wiki 子目录
+          cp -r clips/wiki/entities quartz/content/entities
+          cp -r clips/wiki/topics quartz/content/topics
+          cp -r clips/wiki/comparisons quartz/content/comparisons
+          cp -r clips/wiki/outputs quartz/content/outputs 2>/dev/null || true
 
-          # 创建 10-wiki 子目录链接（让 index.md 中的链接能正常解析）
-          # 注意：不使用 ln -s . 10-wiki，避免循环引用
-          mkdir -p quartz/content/10-wiki
-          cd quartz/content/10-wiki
+          # 复制 raw 文章
+          cp -r clips/raw quartz/content/raw
+
+          # 创建 wiki 子目录链接
+          mkdir -p quartz/content/wiki
+          cd quartz/content/wiki
           ln -s ../entities entities
           ln -s ../topics topics
           ln -s ../comparisons comparisons

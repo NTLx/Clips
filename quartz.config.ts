@@ -4,9 +4,9 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Quartz 4 Configuration for Clips Wiki
  *
- * 三层架构发布配置：
- * - 00-raw/ 发布（原始剪藏文章）
- * - 10-wiki/ 发布（Entity/Topic/Comparison）
+ * 两层架构发布配置：
+ * - raw/ 发布（原始剪藏文章）
+ * - wiki/ 发布（Entity/Topic/Comparison）
  * - index.md 作为首页
  */
 

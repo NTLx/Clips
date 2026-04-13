@@ -1,7 +1,7 @@
 ---
 type: log
 layer: wiki
-scope: 10-wiki
+scope: wiki
 created: 2026-04-09
 ---
 

@@ -20,33 +20,19 @@ date: 2026-04-13
 
 ## ✅ 本期修复完成
 
+### 架构简化
+
+> **变更**: 知识库架构从三层简化为两层
+> - `00-raw/` → `raw/`（扁平化，无子目录）
+> - `10-wiki/` → `wiki/`
+> - `docs/` 添加到 `.gitignore`
+
 ### 新增 Entity（2 个）
 
 | Entity | 定义 | 状态 |
 |--------|------|------|
 | `Knowledge-Work.md` | 以知识为核心价值的工作形态，正在被 AI 取代 | ✅ 已创建 |
 | `Technical-Debt-Avoidance.md` | 通过持续改进避免技术债务累积的策略 | ✅ 已创建 |
-
-### 路径漂移修复（19 处）
-
-> **问题**: Entity 文件的 `source_raw` 指向 `inbox/`，但原始文章已移动至 `web-clips/{分类}/`
-
-| 文件 | 修复内容 | 状态 |
-|------|---------|------|
-| `Simon-Willison.md` | 5 个 source_raw + 5 个内联链接 → web-clips/AI-Agent/ | ✅ |
-| `Jevons-Paradox-for-Knowledge-Work.md` | 1 个 source_raw → web-clips/AI-Agent/ | ✅ |
-| `逛逛.md` | 1 个 source_raw + 1 个内联链接 → web-clips/Claude-Code/ | ✅ |
-| `Always-On-Economy.md` | 1 个 source_raw → web-clips/Knowledge-Work/ | ✅ |
-| `Model-Manager.md` | 1 个 source_raw → web-clips/Knowledge-Work/ | ✅ |
-| `Vibe-Design.md` | 1 个 source_raw → web-clips/Design/ | ✅ |
-| `Agent-Workflow-Patterns.md` | 1 个 source_raw → web-clips/AI-Agent/ | ✅ |
-| `Ben-Thompson.md` | 1 个 source_raw + 1 个内联链接 → web-clips/AI-Agent/ | ✅ |
-| `Barry-Zhang.md` | 1 个 source_raw + 1 个内联链接 → web-clips/AI-Agent/ | ✅ |
-| `编程进阶社.md` | 1 个 source_raw + 1 个内联链接 → web-clips/Design/ | ✅ |
-| `ACI-Agent-Computer-Interface.md` | 1 个 source_raw → web-clips/AI-Agent/ | ✅ |
-| `Compound-Engineering.md` | 1 个 source_raw → web-clips/AI-Agent/ | ✅ |
-
-**验证结果**: `inbox/` 引用已全部清除 ✅
 
 ---
 
@@ -83,7 +69,7 @@ date: 2026-04-13
 | Entity 页面 | 65 个 | 65 个 | ✅ 一致 |
 | Topic 页面 | 11 个 | 11 个 | ✅ 一致 |
 | Comparison 页面 | 5 个 | 5 个 | ✅ 一致 |
-| Raw Sources | - | 29 篇 | ✅ |
+| Raw Sources | 28 篇 | 28 篇 | ✅ |
 
 ---
 
@@ -91,14 +77,10 @@ date: 2026-04-13
 
 | 分类 | 数量 |
 |-----|------|
-| AI-Agent 文章 | 12 篇 |
-| Claude-Code 文章 | 5 篇 |
-| Career-Skills 文章 | 2 篇 |
-| Knowledge-Work 文章 | 4 篇 |
-| General 文章 | 4 篇 |
-| Design 文章 | 1 篇 |
-| OpenClaw 文章 | 1 篇 |
-| **总计** | **29 篇** |
+| Raw 文章 | 28 篇 |
+| Entity 页面 | 65 个 |
+| Topic 页面 | 11 个 |
+| Comparison 页面 | 5 个 |
 
 ---
 
@@ -109,7 +91,6 @@ date: 2026-04-13
 | 健康度 | 95/100 | 95/100 | 持平 |
 | Entity 数量 | 63 | 65 | +2 |
 | Topic 数量 | 11 | 11 | 持平 |
-| 路径漂移 | 已修复部分 | **全部修复** | ✅ |
 | 失效链接 | 0 | 0 | ✅ |
 
 ---

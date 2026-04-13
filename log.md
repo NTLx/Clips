@@ -18,11 +18,10 @@ created: 2026-04-09
 **Phase 0 完成**：
 - OpenClaw官方文档 移出到根目录，独立为专项知识库
 
-**Phase 1 进行中**：
-- 创建三层目录结构：00-raw/, 10-wiki/
-- 创建 Raw 层子目录：inbox, web-clips/{AI-Agent,Claude-Code,Career-Skills,Knowledge-Work,General,OpenClaw}, pdf-docs
+**Phase 1 完成**：
+- 创建两层目录结构：raw/, wiki/
+- raw 目录扁平化（所有文章直接存放）
 - 创建 Wiki 层子目录：entities, topics, comparisons, outputs
-- 创建各层级 log.md 文件
 
 **待执行**：
 - [ ] Phase 2: 编写 CLAUDE.md Schema 文件
