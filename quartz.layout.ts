@@ -83,13 +83,13 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: true,
         showAttachments: false,
         collapse: false,
-        depth: 2,
+        depth: 1,  // 恢复默认：当前页面 + 1层邻居
       },
       globalGraph: {
         showTags: true,
         showAttachments: false,
         collapse: true,
-        depth: 1,
+        depth: -1, // 恢复默认：显示全站图谱
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
