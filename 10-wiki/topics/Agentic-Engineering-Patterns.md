@@ -15,11 +15,11 @@ related_entities:
   - "[[Vibe-Coding]]"
   - "[[Compound-Engineering]]"
 source_raw:
-  - "[[20260410-what-is-agentic-engineering.md]]"
-  - "[[20260410-code-is-cheap.md]]"
-  - "[[20260410-hoard-things-you-know.md]]"
-  - "[[20260410-better-code.md]]"
-  - "[[20260410-anti-patterns.md]]"
+  - "[[20260410-what-is-agentic-engineering]]"
+  - "[[20260410-code-is-cheap]]"
+  - "[[20260410-hoard-things-you-know]]"
+  - "[[20260410-better-code]]"
+  - "[[20260410-anti-patterns]]"
 ---
 
 # Agentic Engineering Patterns

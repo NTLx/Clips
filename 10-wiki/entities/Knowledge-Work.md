@@ -14,7 +14,7 @@ related_entities:
   - "[[Emotional-Clarity]]"
   - "[[Discernment]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next.md]]"
+  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
 
 # Knowledge Work（知识工作）

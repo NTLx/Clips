@@ -13,7 +13,7 @@ related_entities:
   - "[[Dan Shipper]]"
   - "[[Ethan Mollick]]"
 source_raw:
-  - "[[knowledge-work-dying.md]]"
+  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
 
 # Joe Hudson
@@ -43,7 +43,7 @@ Dan Shipper 借用 Joe Hudson 的观点，提出"配置经济"概念：AI 使每
 
 ## 知识库关联文章
 
-- [[knowledge-work-dying.md|Knowledge Work Is Dying—Here's What Comes Next]] - Every 发布的核心文章
+- [[Knowledge Work Is Dying—Here's What Comes Next]] - Every 发布的核心文章
 
 ## 外部链接
 

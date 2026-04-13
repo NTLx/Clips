@@ -13,7 +13,7 @@ related_entities:
   - "[[Simon Willison]]"
   - "[[Dan Shipper]]"
 source_raw:
-  - "[[building-effective-agents.md]]"
+  - "[[building-effective-agents]]"
 ---
 
 # Erik Schluntz

@@ -13,7 +13,7 @@ related_entities:
   - "[[Model-Manager]]"
   - "[[Agentic-Engineering]]"
 source_raw:
-  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy..md]]"
+  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]"
 ---
 
 # Allocation Economy（分配经济）

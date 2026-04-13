@@ -13,8 +13,8 @@ related_entities:
   - "[[Code-Execution]]"
   - "[[Claude-Code-CLI]]"
 source_raw:
-  - "[[20260410-what-is-agentic-engineering.md]]"
-  - "[[building-effective-agents.md]]"
+  - "[[20260410-what-is-agentic-engineering]]"
+  - "[[building-effective-agents]]"
 ---
 
 # Coding Agents（编码代理）

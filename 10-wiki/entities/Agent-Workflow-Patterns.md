@@ -12,7 +12,7 @@ related_entities:
   - "[[Coding-Agents]]"
   - "[[ACI-Agent-Computer-Interface]]"
 source_raw:
-  - "[[building-effective-agents.md]]"
+  - "[[building-effective-agents]]"
 ---
 
 # Agent Workflow Patterns（Agent 工作流模式）

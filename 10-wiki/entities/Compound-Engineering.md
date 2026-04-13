@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
 source_raw:
-  - "[[20260410-better-code.md]]"
+  - "[[20260410-better-code]]"
 ---
 
 # Compound Engineering（复合工程）

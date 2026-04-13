@@ -13,7 +13,7 @@ related_entities:
   - "[[Erik Schluntz]]"
   - "[[Simon Willison]]"
 source_raw:
-  - "[[building-effective-agents.md]]"
+  - "[[building-effective-agents]]"
 ---
 
 # Barry Zhang

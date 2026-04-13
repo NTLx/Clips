@@ -13,7 +13,7 @@ related_entities:
   - "[[Dan Shipper]]"
   - "[[Ethan Mollick]]"
 source_raw:
-  - "[[AI and the Human Condition.md]]"
+  - "[[AI and the Human Condition]]"
 ---
 
 # Ben Thompson

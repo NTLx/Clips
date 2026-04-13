@@ -13,8 +13,8 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Taste]]"
 source_raw:
-  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy..md]]"
-  - "[[Management as AI superpower.md]]"
+  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]"
+  - "[[Management as AI superpower]]"
 ---
 
 # Model Manager（模型管理者）

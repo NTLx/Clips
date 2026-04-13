@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
 source_raw:
-  - "[[20260410-what-is-agentic-engineering.md]]"
+  - "[[20260410-what-is-agentic-engineering]]"
 ---
 
 # Code Execution（代码执行）

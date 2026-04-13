@@ -13,7 +13,7 @@ related_entities:
   - "[[Ethan Mollick]]"
   - "[[Joe Hudson]]"
 source_raw:
-  - "[[building-effective-agents.md]]"
+  - "[[building-effective-agents]]"
 ---
 
 # Dan Shipper
