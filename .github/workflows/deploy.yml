@@ -44,30 +44,9 @@ jobs:
           cp clips/quartz.config.ts quartz/
           cp clips/quartz.layout.ts quartz/
 
-      - name: Setup Content Directory
-        run: |
-          mkdir -p quartz/content
-          cp clips/index.md quartz/content/index.md
-
-          # 复制 Wiki 子目录
-          cp -r clips/wiki/entities quartz/content/entities
-          cp -r clips/wiki/topics quartz/content/topics
-          cp -r clips/wiki/comparisons quartz/content/comparisons
-          cp -r clips/wiki/outputs quartz/content/outputs 2>/dev/null || true
-
-          # 复制 raw 文章
-          cp -r clips/raw quartz/content/raw
-
-          # 创建 wiki 子目录链接
-          mkdir -p quartz/content/wiki
-          cd quartz/content/wiki
-          ln -s ../entities entities
-          ln -s ../topics topics
-          ln -s ../comparisons comparisons
-
-      - name: Build Quartz
+      - name: Build Quartz (方案 C：直接使用仓库根目录)
         working-directory: quartz
-        run: npx quartz build -d content
+        run: npx quartz build -d ../clips
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -4,10 +4,9 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Quartz 4 Configuration for Clips Wiki
  *
- * 两层架构发布配置：
- * - raw/ 发布（原始剪藏文章）
- * - wiki/ 发布（Entity/Topic/Comparison）
- * - index.md 作为首页
+ * 方案 C：直接使用仓库根目录作为 content
+ * - 通过 ignorePatterns 排除所有无关文件
+ * - raw/ 和 wiki/ 自然映射为网站目录结构
  */
 
 const config: QuartzConfig = {
@@ -18,21 +17,42 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    baseUrl: "ntlx.github.io/Clips", // TODO: 根据实际 GitHub 用户名调整
+    baseUrl: "ntlx.github.io/Clips",
     ignorePatterns: [
+      // Obsidian 配置和回收站
       ".obsidian",
-      "README.md",
-      "CLAUDE.md",
-      "log.md",
-      "**/log.md",
-      "**/lint-report.md",
+      ".trash",
+
+      // 系统文件
+      ".DS_Store",
+      "._*",
+      ".gitignore",
+
+      // 开发配置文件
       "package.json",
       "package-lock.json",
       "tsconfig.json",
       "quartz.config.ts",
       "quartz.layout.ts",
       "node_modules",
+
+      // Git/GitHub 相关
+      ".git",
       ".github",
+
+      // MCP 缓存
+      ".playwright-mcp",
+
+      // Schema 和日志文件
+      "README.md",
+      "CLAUDE.md",
+      "log.md",
+      "**/log.md",
+      "**/lint-report.md",
+      "index.md",
+
+      // 非发布内容
+      "docs",
     ],
     defaultDateType: "modified",
     theme: {
@@ -89,7 +109,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
-        markdownLinkResolution: "shortest",  // 使用最短唯一文件名匹配，支持短链接跨目录
+        markdownLinkResolution: "shortest",
         linkProcessing: true,
       }),
       Plugin.Description(),
