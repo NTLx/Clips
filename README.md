@@ -87,23 +87,40 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 3. 提取 3-5 个核心概念
    └─ 识别文章中的关键术语、方法论、技术概念
 
-4. 为每个概念创建/更新 entity 页面
-   └─ 写入 10-wiki/entities/
-   └─ ⚠️ source_raw 必须使用 web-clips/{分类}/路径，禁止使用 inbox/
+4. **文章关联验证**（新增步骤）
+   ├─ 检查 raw source 的 author 字段格式
+   ├─ 若 author 为 wikilink `[[Author Name]]`：
+   │  ├─ 验证 `10-wiki/entities/{Author-Name}.md` 存在
+   │  ├─ 验证 entity 的 `source_raw` 包含当前文章文件名
+   │  ├─ 若不一致：停止编译，输出错误信息：
+   │  │  ⚠️ 文章关联验证失败
+   │  │  文章: {当前文章名}
+   │  │  作者 entity: {Author Name}
+   │  │  entity.source_raw: {现有内容}
+   │  │  应包含: {当前文章文件名}
+   │  │  请手动修复后重新执行 compile
+   │  └─ 一致则继续
+   └─ 若 author 为纯文本：
+      ├─ 触发 Author Entity 工作流（见上方）
+      └─ 验证通过后才继续编译
 
-5. 创建/更新 topic 页面
+5. 为每个概念创建/更新 entity 页面
+   └─ 写入 10-wiki/entities/
+   └─ ⚠️ source_raw 必须使用短链接格式，禁止使用相对路径
+
+6. 创建/更新 topic 页面
    └─ 写入 10-wiki/topics/
 
-6. 更新 index.md
+7. 更新 index.md
    └─ 添加新的 entity 和 topic 条目
 
-7. 记录到 log.md
+8. 记录到 log.md
    └─ 记录编译操作详情
 
-8. ⚠️ 移动 raw source 并同步路径（关键步骤）
+9. ⚠️ 移动 raw source 并同步路径（关键步骤）
    ├─ 从 inbox/ 移到 web-clips/{分类}/
    └─ 立即更新所有 entity/topic 的 source_raw 为新路径
-   └─ 验证：grep "inbox/" 确认无残留引用
+   └─ 验证：grep "inbox/" 认无残留引用
 ```
 
 ### 示例
@@ -299,6 +316,8 @@ description: "文章简介"
 type: entity
 title: {Author Name}
 definition: "{一句话定义作者身份}"
+validated_source: "https://验证来源URL"  # 🆕 新增：身份验证来源
+validated_at: "2026-04-13"              # 🆕 新增：验证日期
 created: {YYYY-MM-DD}
 updated: {YYYY-MM-DD}
 tags:
@@ -310,10 +329,24 @@ source_raw:
 ---
 ```
 
+**说明**：`validated_source` 和 `validated_at` 仅用于 Author Entity（描述人物的 entity），其他概念 entity 无需此字段。
+
 **Author Entity 工作流**：
-1. 联网搜索作者信息（Tavily）
+1. **联网验证作者身份**（强制步骤）
+   ├─ 使用 BrowserOS 搜索 "{Author Name}" + 相关领域关键词
+   ├─ 确认作者确实存在且有公开身份信息（官网、LinkedIn、博客等）
+   ├─ 记录验证来源 URL 到 `validated_source` 字段
+   ├─ 记录验证日期到 `validated_at` 字段
+   └─ ⚠️ 若无法验证：停止创建，文章 author 字段使用纯文本
+
 2. 创建 entity 页面（`10-wiki/entities/{Author-Name}.md`）
+   └─ 必须包含 `validated_source` 和 `validated_at` 字段
+
 3. 更新文章 author 字段为 `[[Author Name]]`
+
+**阻断规则**：
+- 无法验证作者身份 → 不创建 entity，文章 author 使用纯文本
+- 验证来源不明确 → 使用纯文本，等待用户确认
 
 **中文作者文件名**：特殊字符转义（如 `盛兰雅(岚遥)` → `盛兰雅-岚遥`）
 
