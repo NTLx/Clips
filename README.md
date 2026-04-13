@@ -31,7 +31,6 @@ Clips 是一个 **Obsidian 知识库**，AI Agent 应遵循以下原则：
 │                                                                 │
 │  Layer 0: Raw Sources (raw/)                                   │
 │  ├── 所有剪藏文章直接存放于此（扁平结构）                       │
-│  ├── pdf-docs/       PDF 文档                                  │
 │  └─ log.md          Raw 层操作日志                              │
 │                                                                 │
 │  Layer 1: Wiki (wiki/) ← LLM 维护层                            │
@@ -449,7 +448,9 @@ Clips 通过 Quartz 自动部署为数字花园 Wiki 网站（GitHub Pages）。
 
 ### 关键配置
 
-- **ignorePatterns**: 使用 `**/pattern` 匹配子目录文件（如 `**/log.md`）
+- **部署方案**: 方案 C - 直接使用仓库根目录作为 content，通过 ignorePatterns 排除无关文件
+- **ignorePatterns**: 排除系统文件、配置文件、日志、docs 目录等 24 类无关内容
+- **构建命令**: `npx quartz build -d ../clips` 直接构建，无需复制文件
 - **链接解析**: `markdownLinkResolution: "shortest"` 支持短链接跨目录
 - **Explorer 过滤**: 过滤 `displayName === "wiki"` 避免导航栏嵌套
 - **Graph 配置**: `depth` 参数含义：`N>0` = N层邻居（BFS），`-1` = 全站图谱
@@ -487,6 +488,8 @@ Wiki 文档中的 Mermaid 图表必须使用有效语法：
 ### Quartz 调试
 
 - **本地无 node_modules 是正常现象**：构建在 GitHub Actions 中进行，本地 TypeScript 类型警告可忽略
+- **验证 ignorePatterns**: 检查 quartz/public/ 目录，确认排除的文件未被发布
+- **本地预览**: `npx quartz build --serve` 可在本地启动预览服务器
 
 ### Entity 设计模式
 
