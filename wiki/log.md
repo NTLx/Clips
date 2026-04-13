@@ -128,3 +128,46 @@ created: 2026-04-09
 ---
 
 *日志更新: 2026-04-09*
+
+---
+
+### [2026-04-13] Ingest 执行 - Karpathy LLM Wiki
+
+**已编译文章**：
+
+| Raw Source | 生成的 Entity | 生成的 Topic |
+|-----------|--------------|-------------|
+| 20260413-llm-wiki.md | Andrej-Karpathy, Software-2.0, Memex, Knowledge-Compilation | Karpathy-AI-Thought |
+
+**Ingest 流程**：
+1. 剪藏 Karpathy 的 LLM Wiki 设计文档（GitHub Gist）
+2. 联网检索验证作者身份（karpathy.ai + Tavily）
+3. 分析主题：LLM Wiki 设计模式、知识管理范式
+4. 提取 4 个核心概念（不含已有 Vibe-Coding）
+5. 创建 Entity 页面（4 个新 entity）
+6. 创建 Topic 页面（整合 Karpathy 思想体系）
+7. 更新 Comparison 页面（RAG-vs-LLM-Wiki）
+8. 更新 Vibe-Coding entity（添加 Karpathy 来源）
+
+**Entity 关联矩阵**：
+- Andrej-Karpathy ← Software-2.0, Vibe-Coding, LLM-Wiki, Memex
+- Software-2.0 ← Vibe-Coding, Agentic-Engineering, Coding-Agents
+- Knowledge-Compilation ← RAG-vs-LLM-Wiki, Context-Engineering
+- Memex ← Knowledge-Work, RAG-vs-LLM-Wiki
+
+**Karpathy 核心贡献识别**：
+- OpenAI 创始团队成员、Tesla AI 前总监
+- CS231n 课程创建者（"深度学习圣经"）
+- Software 2.0 概念提出者（编程范式转变）
+- Vibe Coding 术语创造者（2025）
+- LLM Wiki 设计模式提出者（2026）
+- Eureka Labs 创始人（2024，AI 教育）
+
+**Wiki 统计更新**：
+- Entity 页面：67 个（新增 4 个）
+- Topic 页面：9 个（新增 1 个）
+- Comparison 页面：5 个（更新 1 个）
+
+---
+
+*日志更新: 2026-04-13*

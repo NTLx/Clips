@@ -9,6 +9,9 @@ tags:
 related_entities:
   - "[[Context-Engineering]]"
   - "[[Multi-Layer-Memory]]"
+  - "[[Andrej-Karpathy]]"
+  - "[[Knowledge-Compilation]]"
+  - "[[Memex]]"
 ---
 
 # RAG vs LLM Wiki
@@ -238,11 +241,43 @@ RAG 仅覆盖短期+工作记忆，LLM Wiki 构建了完整的长期记忆层。
 +------------------+             +------------------+
 ```
 
+## Karpathy 的原创论述
+
+> [!quote] Andrej Karpathy, LLM Wiki (2026)
+> "Most people's experience with LLMs and documents looks like RAG: you upload a collection of files, the LLM retrieves relevant chunks at query time, and generates an answer. This works, but the LLM is rediscovering knowledge from scratch on every question. There's no accumulation."
+>
+> "The idea here is different. Instead of just retrieving from raw documents at query time, the LLM **incrementally builds and maintains a persistent wiki** — a structured, interlinked collection of markdown files that sits between you and the raw sources."
+
+### 核心差异提炼
+
+> [!important] Karpathy 的关键洞察
+> **The wiki is a persistent, compounding artifact.** The cross-references are already there. The contradictions have already been flagged. The synthesis already reflects everything you've read.
+
+---
+
+## 与 Memex 的思想关联
+
+参见 [[Memex]]
+
+Vannevar Bush 1945 年提出 Memex 概念，Karpathy 明确指出 LLM Wiki 的思想渊源：
+
+> "The idea is related in spirit to Vannevar Bush's Memex (1945) — a personal, curated knowledge store with associative trails between documents. The part he couldn't solve was who does the maintenance. **The LLM handles that.**"
+
+| Memex 挑战 | LLM Wiki 解决方案 |
+|-----------|------------------|
+| 路径创建需要人类劳动 | LLM 自动创建 wikilinks |
+| 维护负担导致 abandon | LLM 不知疲倦地维护 |
+| 矛盾检测需要人工 | 编译时自动标记矛盾 |
+
+---
+
 ## 相关概念
 
 - [[Context-Engineering]] — 上下文管理工程化
 - [[Multi-Layer-Memory]] — 多层记忆架构
+- [[Knowledge-Compilation]] — 知识编译操作
+- [[Andrej-Karpathy]] — LLM Wiki 概念提出者
 
 ---
 
-*本对比页面由 LLM Wiki Comparison Agent 创建，用于系统性理解知识管理的不同范式。*
+*本对比页面基于 Andrej Karpathy 的 LLM Wiki 设计文档创建，由 LLM Wiki 编译流程生成。*

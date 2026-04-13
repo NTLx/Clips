@@ -11,8 +11,11 @@ tags:
 related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Code-Execution]]"
+  - "[[Andrej-Karpathy]]"
+  - "[[Software-2.0]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
+  - "[[20260413-llm-wiki]]"
 ---
 
 # Vibe Coding（氛围编程）
@@ -67,6 +70,29 @@ Simon Willison 强调保持术语的原意：
 > 
 > 保持原意：**未经审查、原型质量的 LLM 生成代码**，与已提升到生产标准的代码区分开来。
 
+## Karpathy 的完整论述
+
+Andrej Karpathy 在 LLM Wiki 文章中进一步阐述：
+
+> "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase."
+
+这揭示了 Vibe Coding 的深层含义：当 LLM 成为"程序员"，人类角色转变为：
+- **Sourcing** — 提供知识源
+- **Exploration** — 探索和验证
+- **Questioning** — 提出正确的问题
+
 ---
 
-> **来源**：Andrej Karpathy (2025-02), Simon Willison (Agentic Engineering Patterns, 2026)
+## 与 Software 2.0 的关系
+
+Vibe Coding 是 Software 2.0 的实践延伸：
+
+| Software 2.0 | Vibe Coding |
+|--------------|-------------|
+| 程序员写目标 | 用户说"氛围" |
+| 神经网络生成程序 | LLM 生成代码 |
+| 数据是源代码 | 对话是源代码 |
+
+---
+
+> **来源**：Andrej Karpathy (2025-02, 2026-04), Simon Willison (Agentic Engineering Patterns, 2026)

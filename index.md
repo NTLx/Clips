@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 65 个 |
-| Topic 页面 | 11 个 |
+| Entity 页面 | 69 个 |
+| Topic 页面 | 12 个 |
 | Comparison 页面 | 5 个 |
-| Raw 文章 | 28 个 |
+| Raw 文章 | 30 个 |
 
 ---
 
@@ -75,6 +75,10 @@ tags:
 | [[wiki/entities/Refusal\|Refusal]] | 判断力的核心动作：拒绝通用的选项 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Knowledge-Work\|Knowledge Work]] | 以知识和专业技能为核心价值的工作形态，正在被 AI 取代 | Knowledge Work Is Dying |
 | [[wiki/entities/Technical-Debt-Avoidance\|Technical Debt Avoidance]] | 通过持续改进避免技术债务累积的策略 | Compound Engineering |
+| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | AI 领域传奇人物，OpenAI 创始成员，Tesla AI 前总监，Software 2.0 提出者 | LLM Wiki |
+| [[wiki/entities/Software-2.0\|Software 2.0]] | 编程范式转变：程序员写目标，神经网络编程 | LLM Wiki |
+| [[wiki/entities/Memex\|Memex]] | Vannevar Bush 1945 年个人知识存储概念，LLM Wiki 思想先驱 | LLM Wiki |
+| [[wiki/entities/Knowledge-Compilation\|Knowledge Compilation]] | Raw → Wiki 的知识转化操作，LLM Wiki 核心流程 | LLM Wiki |
 
 #### 作者 Entities
 
@@ -101,6 +105,8 @@ tags:
 | [[wiki/entities/饼干哥哥\|饼干哥哥]] | 中文技术博主，AI Agent 项目实战分享者 | Claude-Code |
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
 | [[wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具与开发者技能提升 | Claude-Code, AI-Agent |
+| [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
+| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | OpenAI 创始成员、Tesla AI 前总监、CS231n 创建者、Software 2.0 提出者 | AI-Pioneer |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -118,6 +124,7 @@ tags:
 | [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 | Agentic-Engineering, Code-Execution, Vibe-Coding |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
+| [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 LLM Wiki 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -128,7 +135,7 @@ tags:
 | [[wiki/comparisons/Cook-vs-Chef\|Cook vs Chef]] | 创作方式、理解深度、AI 时代影响 | Taste, Conscious-Creators |
 | [[wiki/comparisons/Knowledge-Work-vs-Wisdom-Work\|Knowledge Work vs Wisdom Work]] | 核心能力、价值来源、AI 影响 | Wisdom-Work, Emotional-Clarity, Discernment, Connection |
 | [[wiki/comparisons/PTY-Mode-vs-Headless-Mode\|PTY Mode vs Headless Mode]] | 交互方式、适用场景、输出处理 | PTY-Mode, Headless-Mode, Claude-Code-CLI |
-| [[wiki/comparisons/RAG-vs-LLM-Wiki\|RAG vs LLM Wiki]] | 知识处理、累积性、维护成本 | Context-Engineering, Multi-Layer-Memory |
+| [[wiki/comparisons/RAG-vs-LLM-Wiki\|RAG vs LLM Wiki]] | 知识处理、累积性、维护成本 | Context-Engineering, Multi-Layer-Memory, Andrej-Karpathy, Knowledge-Compilation, Memex |
 
 ### Outputs (outputs/)
 *输出作品*
