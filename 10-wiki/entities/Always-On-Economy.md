@@ -12,7 +12,7 @@ related_entities:
   - "[[Allocation-Economy]]"
   - "[[Jevons-Paradox-for-Knowledge-Work]]"
 source_raw:
-  - "[[../00-raw/web-clips/Knowledge-Work/The Always-On Economy AI and the Next 5-7 Years.md]]"
+  - "[[The Always-On Economy AI and the Next 5-7 Years.md]]"
 ---
 
 # Always-On Economy（永在线经济）

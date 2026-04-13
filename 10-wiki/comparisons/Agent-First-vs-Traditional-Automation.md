@@ -7,9 +7,9 @@ tags:
   - AI-Agent
   - Enterprise-Transformation
 related_entities:
-  - "[[../entities/Agent-First-Enterprise]]"
-  - "[[../entities/Human-Governor-Agent-Operator]]"
-  - "[[../entities/Machine-Readable-Processes]]"
+  - "[[Agent-First-Enterprise]]"
+  - "[[Human-Governor-Agent-Operator]]"
+  - "[[Machine-Readable-Processes]]"
 ---
 
 # Agent-First vs Traditional Automation
@@ -61,7 +61,7 @@ Agent-First 模式通过明确的角色分工释放人类：
 - Agent 无法理解流程边界和约束
 - 无法实现真正的自主运营
 
-Agent-First 要求从零重新设计流程，核心是实现 **[[../entities/Machine-Readable-Processes]]**：
+Agent-First 要求从零重新设计流程，核心是实现 **[[Machine-Readable-Processes]]**：
 
 | 要素 | 说明 |
 |-----|------|
@@ -132,6 +132,6 @@ Agent-First 的技术门槛较高，需要：
 
 ## 相关概念
 
-- [[../entities/Agent-First-Enterprise]] - Agent-First 企业模式的完整定义
-- [[../entities/Human-Governor-Agent-Operator]] - 人类治理者与 Agent 运营者的角色分工
-- [[../entities/Machine-Readable-Processes]] - Agent 运营的技术基础设施
+- [[Agent-First-Enterprise]] - Agent-First 企业模式的完整定义
+- [[Human-Governor-Agent-Operator]] - 人类治理者与 Agent 运营者的角色分工
+- [[Machine-Readable-Processes]] - Agent 运营的技术基础设施

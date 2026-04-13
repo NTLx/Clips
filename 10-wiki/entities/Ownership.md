@@ -13,7 +13,7 @@ related_entities:
   - "[[Taste]]"
   - "[[Decision-Quality]]"
 source_raw:
-  - "[[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]"
+  - "[[Good Taste the Only Real Moat Left]]"
 ---
 
 # Ownership
@@ -47,4 +47,4 @@ AI 使"合格建议"变得廉价，但"承担后果"无法外包。Ownership 成
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]
+- Raw Source: [[Good Taste the Only Real Moat Left]]

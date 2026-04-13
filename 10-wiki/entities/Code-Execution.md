@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]"
+  - "[[20260410-what-is-agentic-engineering.md]]"
 ---
 
 # Code Execution（代码执行）

@@ -12,7 +12,7 @@ related_entities:
   - "[[History-Rewriting]]"
   - "[[Agentic-Engineering]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]"
+  - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
 ---
 
 # Git with Coding Agents
@@ -161,4 +161,4 @@ Use git bisect to find when this bug was introduced:...
 
 ---
 
-**返回**: [[../index|知识库索引]]
+**返回**: [[index|知识库索引]]

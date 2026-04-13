@@ -7,10 +7,10 @@ tags:
   - Career-Evolution
   - AI-Era
 related_entities:
-  - "[[../entities/Wisdom-Work]]"
-  - "[[../entities/Emotional-Clarity]]"
-  - "[[../entities/Discernment]]"
-  - "[[../entities/Connection]]"
+  - "[[Wisdom-Work]]"
+  - "[[Emotional-Clarity]]"
+  - "[[Discernment]]"
+  - "[[Connection]]"
 ---
 
 # Knowledge Work vs Wisdom Work
@@ -60,9 +60,9 @@ related_entities:
 
 | 技能 | 定义 | AI 无法替代的原因 |
 |------|------|-------------------|
-| **[[../entities/Emotional-Clarity]]** | 认识情绪、感受情绪、无阻碍前进 | AI 无法感受身体信号、察觉隐藏恐惧 |
-| **[[../entities/Discernment]]** | 透过数据看清本质、聚焦关键 | AI 无法审视自己的盲点、限制信念 |
-| **[[../entities/Connection]]** | Vulnerability、Impartiality、Empathy、Wonder | AI 无法进行神经系统的共调节 |
+| **[[Emotional-Clarity]]** | 认识情绪、感受情绪、无阻碍前进 | AI 无法感受身体信号、察觉隐藏恐惧 |
+| **[[Discernment]]** | 透过数据看清本质、聚焦关键 | AI 无法审视自己的盲点、限制信念 |
+| **[[Connection]]** | Vulnerability、Impartiality、Empathy、Wonder | AI 无法进行神经系统的共调节 |
 
 **企业验证**:
 - Microsoft CEO Satya Nadella 将情商作为组织核心能力 → 8 年市值从 300 亿美元增至 3 万亿美元
@@ -121,11 +121,11 @@ related_entities:
 
 ## 关联实体
 
-- [[../entities/Wisdom-Work]] - 智慧工作的完整定义
-- [[../entities/Emotional-Clarity]] - 三大核心技能之一
-- [[../entities/Discernment]] - 三大核心技能之二
-- [[../entities/Connection]] - 三大核心技能之三
+- [[Wisdom-Work]] - 智慧工作的完整定义
+- [[Emotional-Clarity]] - 三大核心技能之一
+- [[Discernment]] - 三大核心技能之二
+- [[Connection]] - 三大核心技能之三
 
 ## 来源
 
-- [[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]] - Joe Hudson 原文
+- [[Knowledge Work Is Dying—Here's What Comes Next]] - Joe Hudson 原文

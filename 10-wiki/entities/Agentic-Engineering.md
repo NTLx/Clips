@@ -15,8 +15,8 @@ related_entities:
   - "[[Compound-Engineering]]"
   - "[[Git-Fluent-Agents]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]"
-  - "[[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]"
+  - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
+  - "[[20260410-what-is-agentic-engineering.md]]"
 ---
 
 # Agentic Engineering
@@ -83,6 +83,6 @@ Agent 软件：
 
 ## 来源
 
-- [[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]
-- [[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]
+- [[Using Git with coding agents - Agentic Engineering Patterns]]
+- [[20260410-what-is-agentic-engineering.md]]
 - Simon Willison, [Agentic Engineering Patterns Guide](https://simonwillison.net/guides/agentic-engineering-patterns/)

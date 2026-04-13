@@ -13,7 +13,7 @@ related_entities:
   - "[[Simon Willison]]"
   - "[[Dan Shipper]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/building-effective-agents.md]]"
+  - "[[building-effective-agents.md]]"
 ---
 
 # Erik Schluntz
@@ -49,7 +49,7 @@ Erik Schluntz 目前是 Anthropic 的技术团队成员（Member of Technical St
 
 ## 知识库关联文章
 
-- [[../00-raw/web-clips/AI-Agent/building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南合著者
+- [[building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南合著者
 
 ## 外部链接
 

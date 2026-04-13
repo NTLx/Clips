@@ -12,7 +12,7 @@ related_entities:
   - "[[Git-Fluent-Agents]]"
   - "[[Agentic-Engineering]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]"
+  - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
 ---
 
 # History Rewriting
@@ -40,4 +40,4 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]
+- Raw Source: [[Using Git with coding agents - Agentic Engineering Patterns]]

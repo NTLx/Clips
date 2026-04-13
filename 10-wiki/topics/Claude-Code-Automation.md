@@ -13,8 +13,8 @@ related_entities:
   - "[[Headless-Mode]]"
   - "[[Agent-Orchestration]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]"
-  - "[[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
+  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
+  - "[[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
 ---
 
 # Claude Code Automation
@@ -197,5 +197,5 @@ claude -p "Fix the login bug" \
 
 ## 来源
 
-- [[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]
-- [[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]
+- [[Claude code最小闭环核心文档 openclaw agent skill]]
+- [[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]

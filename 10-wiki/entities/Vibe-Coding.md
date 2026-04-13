@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Code-Execution]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/20260410-what-is-agentic-engineering.md]]"
+  - "[[20260410-what-is-agentic-engineering.md]]"
 ---
 
 # Vibe Coding（氛围编程）

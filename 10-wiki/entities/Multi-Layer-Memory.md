@@ -12,7 +12,7 @@ related_entities:
   - "[[Context-Engineering]]"
   - "[[Agent-Orchestration]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
 ---
 
 # Multi-Layer Memory
@@ -113,4 +113,4 @@ MEMORY.md: "❌ 事件驱动标的必须用条件单模板"
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]

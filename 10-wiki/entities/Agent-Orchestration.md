@@ -14,9 +14,9 @@ related_entities:
   - "[[Agent-Swarm]]"
   - "[[Three-State-Protocol]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
-  - "[[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - "[[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
 ---
 
 # Agent Orchestration
@@ -104,6 +104,6 @@ Elvis 的 Agent Swarm 系统：
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
-- Raw Source: [[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]
+- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- Raw Source: [[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
+- Raw Source: [[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]

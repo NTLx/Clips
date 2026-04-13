@@ -14,8 +14,8 @@ related_entities:
   - "[[Agent-Swarm]]"
   - "[[Three-State-Protocol]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
 ---
 
 # OpenClaw Agent System
@@ -203,5 +203,5 @@ Elvis 的实战数据：
 
 ## 来源
 
-- [[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
-- [[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
+- [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- [[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]

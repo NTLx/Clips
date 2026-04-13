@@ -13,8 +13,8 @@ related_entities:
   - "[[Headless-Mode]]"
   - "[[Agent-Orchestration]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]"
-  - "[[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
+  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
+  - "[[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
 ---
 
 # PTY Mode
@@ -65,5 +65,5 @@ PTY + background + session-id 组合解决了 OpenClaw 直接调用 Claude Code 
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]
-- Raw Source: [[../00-raw/web-clips/Claude-Code/Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]
+- Raw Source: [[Claude code最小闭环核心文档 openclaw agent skill]]
+- Raw Source: [[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]

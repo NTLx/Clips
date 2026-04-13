@@ -14,7 +14,7 @@ related_entities:
   - "[[entities/Connection]]"
   - "[[entities/Judgment]]"
 source_raw:
-  - "[[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
 
 # Wisdom-Work-Evolution
@@ -142,4 +142,4 @@ OpenAI、Google DeepMind、Anthropic、Apple 的高层正在投资：
 
 ## 来源
 
-- [[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]
+- [[Knowledge Work Is Dying—Here's What Comes Next]]

@@ -14,7 +14,7 @@ related_entities:
   - "[[Decision-Quality]]"
   - "[[Taste]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/The Conscious 1% Leading a new renaissance in the era of AI]]"
+  - "[[The Conscious 1% Leading a new renaissance in the era of AI]]"
 ---
 
 # Resonance
@@ -59,5 +59,5 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/AI-Agent/The Conscious 1% Leading a new renaissance in the era of AI]]
+- Raw Source: [[The Conscious 1% Leading a new renaissance in the era of AI]]
 - Original URL: https://www.eli5.io/blog/the-conscious-1-leading-a-new-renaissance-in-the-era-of-ai

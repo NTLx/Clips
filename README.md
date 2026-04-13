@@ -306,7 +306,7 @@ tags:
 related_entities:
   - "[[相关作者]]"
 source_raw:
-  - "[[../00-raw/web-clips/xxx/文章名]]"
+  - "[[文章名]]"  # ⚠️ 使用短链接格式（纯文件名）
 ---
 ```
 
@@ -332,15 +332,16 @@ related_entities:
   - "[[相关概念A]]"  # 必须使用文件名格式（kebab-case）
   - "[[相关概念B]]"  # 禁止使用空格格式如 [[Dan Shipper]]
 source_raw:
-  - "[[../00-raw/web-clips/{分类}/文章名.md]]"  # ⚠️ 必须使用 web-clips 路径
-  # 禁止使用: "[[../00-raw/inbox/...]]"
+  - "[[文章名]]"  # ⚠️ 使用短链接格式（纯文件名）
+  # 禁止使用: "[[../00-raw/web-clips/...]]" 或 "[[../00-raw/inbox/...]]"
 ---
 ```
 
-**路径格式规则**：
-- `source_raw` 必须指向 `web-clips/{分类}/`，永不使用 `inbox/`
-- 文件移动后立即更新所有引用的 wiki 页面
-- 编译结束前执行 `grep "inbox/"` 验证无残留
+**链接格式规则**：
+- `source_raw` 使用**短链接格式**（纯文件名），如 `[[文章名]]`
+- Quartz 配置 `markdownLinkResolution: "shortest"` 支持短链接跨目录解析
+- 禁止使用相对路径如 `[[../00-raw/web-clips/...]]` 或 `[[../00-raw/inbox/...]]`
+- 文件名在知识库中唯一时，短链接可正确解析
 
 ### Topic Pages
 
@@ -356,8 +357,8 @@ related_entities:
   - "[[entities/概念A]]"
   - "[[entities/概念B]]"
 source_raw:
-  - "[[../00-raw/web-clips/xxx/文章1]]"
-  - "[[../00-raw/web-clips/xxx/文章2]]"
+  - "[[文章1]]"
+  - "[[文章2]]"
 ---
 ```
 

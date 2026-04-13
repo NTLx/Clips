@@ -14,9 +14,9 @@ related_entities:
   - "[[entities/Judgment]]"
   - "[[entities/Taste]]"
 source_raw:
-  - "[[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]"
-  - "[[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]"
-  - "[[../00-raw/web-clips/OpenClaw/OpenClaw + seekdb skills：打造个人 seekdb 助手]]"
+  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]"
+  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]"
+  - "[[OpenClaw + seekdb skills：打造个人 seekdb 助手]]"
 ---
 
 # AI-Era Career Skills
@@ -126,6 +126,6 @@ source_raw:
 
 ## 来源
 
-- [[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]
-- [[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]
-- [[../00-raw/web-clips/OpenClaw/OpenClaw + seekdb skills：打造个人 seekdb 助手]]
+- [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]
+- [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]
+- [[OpenClaw + seekdb skills：打造个人 seekdb 助手]]

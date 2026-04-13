@@ -12,7 +12,7 @@ related_entities:
   - "[[Vibe-Coding]]"
   - "[[ACI-Agent-Computer-Interface]]"
 source_raw:
-  - "[[../00-raw/web-clips/Design/100% 免费开源！Google Stitch 发布了 DESIGN.md，一个 Markdown 文件，教会你的 AI Coding Agent 整个设计系统.md]]"
+  - "[[100% 免费开源！Google Stitch 发布了 DESIGN.md，一个 Markdown 文件，教会你的 AI Coding Agent 整个设计系统.md]]"
 ---
 
 # Vibe Design（氛围设计）

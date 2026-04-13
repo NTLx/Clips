@@ -11,7 +11,7 @@ related_entities:
   - "[[Claude-Skills]]"
   - "[[seekdb]]"
 source_raw:
-  - "[[../00-raw/web-clips/OpenClaw/OpenClaw + seekdb skills：打造个人 seekdb 助手]]"
+  - "[[OpenClaw + seekdb skills：打造个人 seekdb 助手]]"
 ---
 
 # OpenClaw
@@ -66,4 +66,4 @@ openclaw skills
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/OpenClaw/OpenClaw + seekdb skills：打造个人 seekdb 助手]]
+- Raw Source: [[OpenClaw + seekdb skills：打造个人 seekdb 助手]]

@@ -12,7 +12,7 @@ related_entities:
   - "[[Agent-First-Enterprise]]"
   - "[[Machine-Readable-Processes]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Enabling agent-first process redesign]]"
+  - "[[Enabling agent-first process redesign]]"
 ---
 
 # Human-Governor-Agent-Operator
@@ -49,5 +49,5 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/AI-Agent/Enabling agent-first process redesign]]
+- Raw Source: [[Enabling agent-first process redesign]]
 - Original URL: https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/

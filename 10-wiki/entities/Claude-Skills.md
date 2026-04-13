@@ -12,8 +12,8 @@ related_entities:
   - "[[Specificity]]"
   - "[[Taste]]"
 source_raw:
-  - "[[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]"
-  - "[[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]"
+  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]"
+  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]"
 ---
 
 # Claude Skills
@@ -68,5 +68,5 @@ Anthropic 官方研究结论：使用 Claude 辅助工作，**任务完成时间
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]
-- Raw Source: [[../00-raw/web-clips/Career-Skills/6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]
+- Raw Source: [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]
+- Raw Source: [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]

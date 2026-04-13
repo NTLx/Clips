@@ -13,7 +13,7 @@ related_entities:
   - "[[Specificity]]"
   - "[[Ownership]]"
 source_raw:
-  - "[[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]"
+  - "[[Good Taste the Only Real Moat Left]]"
 ---
 
 # Competent Output
@@ -50,4 +50,4 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]
+- Raw Source: [[Good Taste the Only Real Moat Left]]

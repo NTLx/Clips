@@ -13,7 +13,7 @@ related_entities:
   - "[[Simon Willison]]"
   - "[[Dan Shipper]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/10-must-have-skills-for-claude-2026.md]]"
+  - "[[10-must-have-skills-for-claude-2026.md]]"
 ---
 
 # Wes Botman
@@ -46,7 +46,7 @@ Wes Botman 是 Eli5.io 的作者，专注于解释复杂的技术概念，特别
 
 ## 知识库关联文章
 
-- [[../00-raw/web-clips/Claude-Code/10-must-have-skills-for-claude-2026.md|10 Must-Have Skills for Claude in 2026]] - Eli5.io 核心文章
+- [[10-must-have-skills-for-claude-2026.md|10 Must-Have Skills for Claude in 2026]] - Eli5.io 核心文章
 
 ## 外部链接
 

@@ -13,7 +13,7 @@ related_entities:
   - "[[PTY-Mode]]"
   - "[[Agent-Orchestration]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]"
+  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
 ---
 
 # Headless Mode
@@ -108,4 +108,4 @@ claude -p "修复最严重的那个 bug" --session-id review-001
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/Claude code最小闭环核心文档 openclaw agent skill]]
+- Raw Source: [[Claude code最小闭环核心文档 openclaw agent skill]]

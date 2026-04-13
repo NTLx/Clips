@@ -7,8 +7,8 @@ tags:
   - Knowledge-Management
   - LLM-Wiki
 related_entities:
-  - "[[../entities/Context-Engineering]]"
-  - "[[../entities/Multi-Layer-Memory]]"
+  - "[[Context-Engineering]]"
+  - "[[Multi-Layer-Memory]]"
 ---
 
 # RAG vs LLM Wiki
@@ -96,7 +96,7 @@ flowchart TD
 
 ### 4. 上下文工程关联
 
-参见 [[../entities/Context-Engineering]]
+参见 [[Context-Engineering]]
 
 | 维度 | RAG | LLM Wiki |
 |-----|-----|----------|
@@ -107,7 +107,7 @@ flowchart TD
 
 ### 5. 多层记忆架构关联
 
-参见 [[../entities/Multi-Layer-Memory]]
+参见 [[Multi-Layer-Memory]]
 
 LLM Wiki 本质上是多层记忆架构的实现：
 - **短期记忆**：当前对话上下文
@@ -240,8 +240,8 @@ RAG 仅覆盖短期+工作记忆，LLM Wiki 构建了完整的长期记忆层。
 
 ## 相关概念
 
-- [[../entities/Context-Engineering]] — 上下文管理工程化
-- [[../entities/Multi-Layer-Memory]] — 多层记忆架构
+- [[Context-Engineering]] — 上下文管理工程化
+- [[Multi-Layer-Memory]] — 多层记忆架构
 
 ---
 

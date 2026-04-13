@@ -14,10 +14,10 @@ related_entities:
   - "[[Jevons-Paradox-for-Knowledge-Work]]"
   - "[[Always-On-Economy]]"
 source_raw:
-  - "[[../00-raw/web-clips/Knowledge-Work/The Knowledge Economy Is Over. Welcome to the Allocation Economy..md]]"
-  - "[[../00-raw/web-clips/AI-Agent/(14) Jevons Paradox for Knowledge Work.md]]"
-  - "[[../00-raw/web-clips/Knowledge-Work/Management as AI superpower.md]]"
-  - "[[../00-raw/web-clips/Knowledge-Work/The Always-On Economy AI and the Next 5-7 Years.md]]"
+  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy..md]]"
+  - "[[(14) Jevons Paradox for Knowledge Work.md]]"
+  - "[[Management as AI superpower.md]]"
+  - "[[The Always-On Economy AI and the Next 5-7 Years.md]]"
 ---
 
 # AI Era Economy Shift（AI 时代经济转型）

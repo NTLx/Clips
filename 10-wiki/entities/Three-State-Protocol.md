@@ -12,7 +12,7 @@ related_entities:
   - "[[Agent-Orchestration]]"
   - "[[Agent-Swarm]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
 ---
 
 # Three-State Protocol
@@ -116,4 +116,4 @@ Trading 不需要每次问 Macro"今天宏观怎么样"，直接读 `intel/finan
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]

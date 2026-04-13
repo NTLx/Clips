@@ -12,7 +12,7 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[History-Rewriting]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]"
+  - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
 ---
 
 # Git-Fluent Agents
@@ -60,5 +60,5 @@ Use git bisect to find when this bug was introduced
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/AI-Agent/Using Git with coding agents - Agentic Engineering Patterns]]
+- Raw Source: [[Using Git with coding agents - Agentic Engineering Patterns]]
 - Original URL: https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/

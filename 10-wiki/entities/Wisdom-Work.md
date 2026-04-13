@@ -13,7 +13,7 @@ related_entities:
   - "[[Taste]]"
   - "[[Claude-Skills]]"
 source_raw:
-  - "[[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
 
 # Wisdom Work
@@ -88,4 +88,4 @@ AI 模型的特点：
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Knowledge-Work/Knowledge Work Is Dying—Here's What Comes Next]]
+- Raw Source: [[Knowledge Work Is Dying—Here's What Comes Next]]

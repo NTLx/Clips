@@ -13,8 +13,8 @@ related_entities:
   - "[[PTY-Mode]]"
   - "[[Context-Engineering]]"
 source_raw:
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
-  - "[[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
 ---
 
 # Agent Swarm
@@ -137,5 +137,5 @@ Elvis 的实战数据：
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
-- Raw Source: [[../00-raw/web-clips/Claude-Code/OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- Raw Source: [[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
+- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]

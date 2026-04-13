@@ -13,7 +13,7 @@ related_entities:
   - "[[Ethan Mollick]]"
   - "[[Joe Hudson]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/building-effective-agents.md]]"
+  - "[[building-effective-agents.md]]"
 ---
 
 # Dan Shipper
@@ -42,7 +42,7 @@ Dan Shipper 提出"配置经济"概念：随着 AI 的发展，每个人都将�
 
 ## 知识库关联文章
 
-- [[../00-raw/web-clips/AI-Agent/building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南深度解读
+- [[building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南深度解读
 
 ## 外部链接
 

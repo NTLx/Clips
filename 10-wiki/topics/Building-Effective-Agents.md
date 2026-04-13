@@ -13,7 +13,7 @@ related_entities:
   - "[[ACI-Agent-Computer-Interface]]"
   - "[[Coding-Agents]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/building-effective-agents.md]]"
+  - "[[building-effective-agents.md]]"
 ---
 
 # Building Effective Agents

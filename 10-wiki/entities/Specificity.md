@@ -13,7 +13,7 @@ related_entities:
   - "[[Judgment]]"
   - "[[Competent-Output]]"
 source_raw:
-  - "[[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]"
+  - "[[Good Taste the Only Real Moat Left]]"
 ---
 
 # Specificity（特异性）
@@ -81,9 +81,9 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]
+- Raw Source: [[Good Taste the Only Real Moat Left]]
 - 原始链接: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/
 
 ---
 
-**返回**: [[../index|知识库索引]]
+**返回**: [[index|知识库索引]]

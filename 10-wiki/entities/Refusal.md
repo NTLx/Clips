@@ -13,7 +13,7 @@ related_entities:
   - "[[Taste]]"
   - "[[Specificity]]"
 source_raw:
-  - "[[../00-raw/web-clips/General/Good Taste the Only Real Moat Left]]"
+  - "[[Good Taste the Only Real Moat Left]]"
 ---
 
 # Refusal（拒绝）

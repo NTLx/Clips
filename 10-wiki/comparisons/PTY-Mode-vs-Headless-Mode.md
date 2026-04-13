@@ -7,9 +7,9 @@ tags:
   - Claude-Code
   - Automation
 related_entities:
-  - "[[../entities/PTY-Mode]]"
-  - "[[../entities/Headless-Mode]]"
-  - "[[../entities/Claude-Code-CLI]]"
+  - "[[PTY-Mode]]"
+  - "[[Headless-Mode]]"
+  - "[[Claude-Code-CLI]]"
 ---
 
 # PTY Mode vs Headless Mode
@@ -105,7 +105,7 @@ Agent Process ←→ PTY Master ←→ PTY Slave ←→ Claude Code CLI
 
 ## 关联实体
 
-- [[../entities/PTY-Mode]] - PTY 模式实体详情
-- [[../entities/Headless-Mode]] - Headless 模式实体详情
-- [[../entities/Claude-Code-CLI]] - Claude Code CLI 实体
-- [[../concepts/Agent-Integration]] - Agent 集成概念
+- [[PTY-Mode]] - PTY 模式实体详情
+- [[Headless-Mode]] - Headless 模式实体详情
+- [[Claude-Code-CLI]] - Claude Code CLI 实体
+- [[Agent-Integration]] - Agent 集成概念

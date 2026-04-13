@@ -13,7 +13,7 @@ related_entities:
   - "[[Dan Shipper]]"
   - "[[Ethan Mollick]]"
 source_raw:
-  - "[[../00-raw/web-clips/AI-Agent/Enabling agent-first process redesign.md]]"
+  - "[[Enabling agent-first process redesign.md]]"
 ---
 
 # MIT Technology Review Insights
@@ -39,7 +39,7 @@ MIT Technology Review Insights 发布的报告"Enabling agent-first process rede
 
 ## 知识库关联文章
 
-- [[../00-raw/web-clips/AI-Agent/Enabling agent-first process redesign.md|Enabling agent-first process redesign]]
+- [[Enabling agent-first process redesign.md|Enabling agent-first process redesign]]
 
 ## 外部链接
 

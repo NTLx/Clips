@@ -7,8 +7,8 @@ tags:
   - Creativity
   - Taste
 related_entities:
-  - "[[../entities/Taste]]"
-  - "[[../entities/Conscious-Creators]]"
+  - "[[Taste]]"
+  - "[[Conscious-Creators]]"
 ---
 
 # Cook vs Chef
@@ -109,11 +109,11 @@ Paul Graham 给出的品味培养建议：
 
 ## 与相关概念的关系
 
-### [[../entities/Taste]]
+### [[Taste]]
 
 Cook 与 Chef 的根本差异在于品味。品味是判断「什么是好的」的能力——Cook 无需品味，只需执行力；Chef 必须有品味，否则无法创造有价值的食谱。
 
-### [[../entities/Conscious-Creators]]
+### [[Conscious-Creators]]
 
 Chef 属于 Conscious Creators——他们是有意识地在创造，而非无意识地在执行。Conscious Creators 的核心特征是：知道自己为什么这样做，并能在结果中看到意图的痕迹。
 
