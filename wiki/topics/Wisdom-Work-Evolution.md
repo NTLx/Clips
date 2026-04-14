@@ -2,19 +2,22 @@
 type: topic
 title: Wisdom-Work-Evolution
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 tags:
   - Knowledge-Work
   - AI-era
   - career-transformation
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Discernment]]"
   - "[[Connection]]"
+  - "[[Dan-Shipper]]"
+  - "[[Discernment]]"
+  - "[[Emotional-Clarity]]"
+  - "[[Joe-Hudson]]"
   - "[[Judgment]]"
+  - "[[Knowledge-Work]]"
+  - "[[Wisdom-Work]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
 ---
 
 # Wisdom-Work-Evolution
@@ -139,6 +142,12 @@ OpenAI、Google DeepMind、Anthropic、Apple 的高层正在投资：
 - [[Judgment]] - 判断力在 AI 时代成为核心价值
 - [[AI-Era-Taste-and-Judgment]] - 品味和判断力的相关性
 
+## 参见
+
+- [[Dan-Shipper]] - Every 出版社，智慧工作相关文章出版者
+- [[Joe-Hudson]] - "Knowledge Work Is Dying" 作者，本主题核心来源
+- [[Knowledge-Work]] - 知识工作概念，本主题讨论的"正在终结"的对象
+
 ## 来源
 
-- [[Knowledge Work Is Dying—Here's What Comes Next]]
+- [[Knowledge Work Is Dying—Here’s What Comes Next]]

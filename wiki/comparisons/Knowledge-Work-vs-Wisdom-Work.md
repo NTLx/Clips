@@ -128,4 +128,4 @@ related_entities:
 
 ## 来源
 
-- [[Knowledge Work Is Dying—Here's What Comes Next]] - Joe Hudson 原文
+- [[Knowledge Work Is Dying—Here’s What Comes Next]] - Joe Hudson 原文
