@@ -13,7 +13,7 @@ related_entities:
   - "[[Emotional-Clarity]]"
   - "[[Discernment]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
 ---
 
 # Connection
@@ -76,4 +76,4 @@ VIEW 框架已在：
 
 ## 来源
 
-- Raw Source: [[Knowledge Work Is Dying—Here's What Comes Next]]
+- Raw Source: [[Knowledge Work Is Dying—Here’s What Comes Next]]

@@ -13,7 +13,9 @@ related_entities:
   - "[[Dan-Shipper]]"
   - "[[Ethan-Mollick]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+validated_source: "https://www.theartofaccomplishment.com/"
+validated_at: "2026-04-14"
 ---
 
 # Joe Hudson
@@ -31,7 +33,7 @@ Joe Hudson 是一位高管教练，与构建 AGI 的 OpenAI 高管以及 Apple�
 
 ### Knowledge Work 转型
 
-Joe Hudson 在 Every 发表的文章"Knowledge Work Is Dying—Here's What Comes Next"提出：
+Joe Hudson 在 Every 发表的文章"Knowledge Work Is Dying—Here’s What Comes Next"提出：
 
 1. **情感处理能力** - AI 无法替代人类处理情感
 2. **判断力** - 在复杂情境中做出决策
@@ -43,7 +45,7 @@ Dan Shipper 借用 Joe Hudson 的观点，提出"配置经济"概念：AI 使每
 
 ## 知识库关联文章
 
-- [[Knowledge Work Is Dying—Here's What Comes Next]] - Every 发布的核心文章
+- [[Knowledge Work Is Dying—Here’s What Comes Next]] - Every 发布的核心文章
 
 ## 外部链接
 

@@ -12,7 +12,7 @@ related_entities:
   - "[[Judgment]]"
   - "[[Taste]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
 ---
 
 # Wisdom Work
@@ -86,4 +86,4 @@ AI 模型的特点：
 
 ## 来源
 
-- Raw Source: [[Knowledge Work Is Dying—Here's What Comes Next]]
+- Raw Source: [[Knowledge Work Is Dying—Here’s What Comes Next]]

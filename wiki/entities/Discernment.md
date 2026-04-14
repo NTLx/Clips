@@ -13,7 +13,7 @@ related_entities:
   - "[[Emotional-Clarity]]"
   - "[[Judgment]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
 ---
 
 # Discernment
@@ -77,4 +77,4 @@ source_raw:
 
 ## 来源
 
-- Raw Source: [[Knowledge Work Is Dying—Here's What Comes Next]]
+- Raw Source: [[Knowledge Work Is Dying—Here’s What Comes Next]]

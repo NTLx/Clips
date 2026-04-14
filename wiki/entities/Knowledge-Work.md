@@ -14,7 +14,7 @@ related_entities:
   - "[[Emotional-Clarity]]"
   - "[[Discernment]]"
 source_raw:
-  - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
+  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
 ---
 
 # Knowledge Work（知识工作）
@@ -85,4 +85,4 @@ Knowledge Work 消亡后，有价值的是：
 - [[Jevons-Paradox-for-Knowledge-Work]] - 效率悖论
 
 ---
-> **来源**：Joe Hudson, "Knowledge Work Is Dying—Here's What Comes Next" (Every, 2025-05-29)
+> **来源**：Joe Hudson, "Knowledge Work Is Dying—Here’s What Comes Next" (Every, 2025-05-29)
