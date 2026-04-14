@@ -19,6 +19,8 @@ source_raw:
   - "[[20260410-hoard-things-you-know]]"
   - "[[20260410-better-code]]"
   - "[[20260410-anti-patterns]]"
+validated_source: "https://simonwillison.net/"
+validated_at: "2026-04-14"
 ---
 
 # Simon Willison

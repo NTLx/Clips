@@ -14,6 +14,8 @@ related_entities:
   - "[[Ethan-Mollick]]"
 source_raw:
   - "[[Enabling agent-first process redesign]]"
+validated_source: "https://www.mittechnologyreview.com/c/technology-review-insights/"
+validated_at: "2026-04-14"
 ---
 
 # MIT Technology Review Insights

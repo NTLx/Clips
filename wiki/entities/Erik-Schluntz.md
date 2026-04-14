@@ -14,6 +14,8 @@ related_entities:
   - "[[Dan-Shipper]]"
 source_raw:
   - "[[building-effective-agents]]"
+validated_source: "https://www.linkedin.com/in/erikschluntz/"
+validated_at: "2026-04-14"
 ---
 
 # Erik Schluntz

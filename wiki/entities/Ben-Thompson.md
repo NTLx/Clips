@@ -14,6 +14,8 @@ related_entities:
   - "[[Ethan-Mollick]]"
 source_raw:
   - "[[AI and the Human Condition]]"
+validated_source: "https://stratechery.com/about/"
+validated_at: "2026-04-14"
 ---
 
 # Ben Thompson

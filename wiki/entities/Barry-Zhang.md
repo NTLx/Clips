@@ -14,6 +14,8 @@ related_entities:
   - "[[Simon-Willison]]"
 source_raw:
   - "[[building-effective-agents]]"
+validated_source: "https://www.linkedin.com/in/barryzhang0/"
+validated_at: "2026-04-14"
 ---
 
 # Barry Zhang

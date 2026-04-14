@@ -14,6 +14,8 @@ related_entities:
   - "[[Ethan-Mollick]]"
 source_raw:
   - "[[(14) Jevons Paradox for Knowledge Work]]"
+validated_source: "https://www.linkedin.com/in/aaronlevie/"
+validated_at: "2026-04-14"
 ---
 
 # Aaron Levie
