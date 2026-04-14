@@ -3,15 +3,18 @@ type: topic
 title: Building Effective Agents
 description: "Anthropic 的 Agent 构建指南：从简单模式到自主 Agent 的架构设计"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - AI-Agent
   - architecture
   - best-practices
 related_entities:
-  - "[[Agent-Workflow-Patterns]]"
   - "[[ACI-Agent-Computer-Interface]]"
+  - "[[Agent-Workflow-Patterns]]"
+  - "[[Barry-Zhang]]"
   - "[[Coding-Agents]]"
+  - "[[Erik-Schluntz]]"
+  - "[[MIT-Technology-Review-Insights]]"
 source_raw:
   - "[[building-effective-agents]]"
 ---
@@ -177,6 +180,12 @@ Orchestrator 分解 → Workers 执行 → 合成结果
 - [[Agent-Workflow-Patterns]] - 详细模式说明
 - [[Agentic-Engineering-Patterns]] - Simon Willison 的工程视角
 - [[ACI-Agent-Computer-Interface]] - 接口设计详解
+
+## 参见
+
+- [[Barry-Zhang]] - Building Effective Agents 合著者
+- [[Erik-Schluntz]] - Building Effective Agents 合著者
+- [[MIT-Technology-Review-Insights]] - Agent 报告研究部门
 
 ---
 

@@ -3,7 +3,7 @@ type: topic
 title: Agentic Engineering Patterns
 description: "Simon Willison 的 Agentic Engineering 指南系列，定义 AI 编程代理时代的工程范式"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - AI-Agent
   - coding-agents
@@ -12,8 +12,11 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
   - "[[Code-Execution]]"
-  - "[[Vibe-Coding]]"
   - "[[Compound-Engineering]]"
+  - "[[Raj-Nandan-Sharma]]"
+  - "[[Simon-Willison]]"
+  - "[[Technical-Debt-Avoidance]]"
+  - "[[Vibe-Coding]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260410-code-is-cheap]]"
@@ -136,6 +139,12 @@ source_raw:
 - [[Coding-Agents]] - 工具层面
 - [[Agent-Workflow-Patterns]] - 架构模式
 - [[ACI-Agent-Computer-Interface]] - 接口设计
+
+## 参见
+
+- [[Raj-Nandan-Sharma]] - AI Agent 实践文章作者
+- [[Simon-Willison]] - Agentic Engineering 指南作者
+- [[Technical-Debt-Avoidance]] - Agentic Engineering 核心模式：用助手预防技术债务
 
 ---
 

@@ -2,17 +2,20 @@
 type: topic
 title: AI 时代的品味与判断力
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 tags:
   - AI-era
   - competitive-advantage
   - human-skills
 related_entities:
-  - "[[Taste]]"
-  - "[[Judgment]]"
-  - "[[Specificity]]"
-  - "[[Ownership]]"
   - "[[Competent-Output]]"
+  - "[[Dan-Shipper]]"
+  - "[[Judgment]]"
+  - "[[Ownership]]"
+  - "[[Paul-Graham]]"
+  - "[[Refusal]]"
+  - "[[Specificity]]"
+  - "[[Taste]]"
 source_raw:
   - "[[Good Taste the Only Real Moat Left]]"
 ---
@@ -153,6 +156,12 @@ AI 可以在几分钟内生成：
 - [[Judgment]] - 判断力的四个层次
 - [[Specificity]] - 如何实现特异性
 - [[Ownership]] - 为什么人类仍需要承担后果
+
+## 参见
+
+- [[Dan-Shipper]] - Every 出版社，品味与判断力相关文章出版者
+- [[Paul-Graham]] - "Taste for Makers" 作者，品味讨论的思想基础
+- [[Refusal]] - 拒绝是判断力的行动体现
 
 ---
 

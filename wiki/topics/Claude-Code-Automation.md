@@ -2,15 +2,17 @@
 type: topic
 title: Claude Code Automation
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 tags:
   - Claude-Code
   - Automation
   - OpenClaw
 related_entities:
+  - "[[Agent-Orchestration]]"
   - "[[Claude-Code-CLI]]"
   - "[[Headless-Mode]]"
-  - "[[Agent-Orchestration]]"
+  - "[[Wes-Botman]]"
+  - "[[同学都叫我-饶老师]]"
 source_raw: []
 ---
 
@@ -190,5 +192,10 @@ claude -p "Fix the login bug" \
 - [[Claude-Code-CLI]] - Claude Code CLI 工具定义
 - [[Headless-Mode]] - Headless 模式详解
 - [[Agent-Orchestration]] - 编排层架构
+
+## 参见
+
+- [[Wes-Botman]] - Claude Code 实践文章作者
+- [[同学都叫我-饶老师]] - Prompt 工程与 Claude Code 实践文章作者
 
 ## 来源

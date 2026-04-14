@@ -2,16 +2,17 @@
 type: topic
 title: OpenClaw Agent System
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 tags:
   - OpenClaw
   - AI-Agent
   - Multi-Agent-System
 related_entities:
   - "[[Agent-Orchestration]]"
-  - "[[Context-Engineering]]"
-  - "[[Multi-Layer-Memory]]"
   - "[[Agent-Swarm]]"
+  - "[[Context-Engineering]]"
+  - "[[Elvis-Sun]]"
+  - "[[Multi-Layer-Memory]]"
   - "[[Three-State-Protocol]]"
 source_raw:
   - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
@@ -199,6 +200,10 @@ Elvis 的实战数据：
 - [[Multi-Layer-Memory]] - 五层记忆系统详解
 - [[Agent-Swarm]] - Agent Swarm 详解
 - [[Three-State-Protocol]] - 三态协议详解
+
+## 参见
+
+- [[Elvis-Sun]] - OpenClaw 系统作者，实战数据来源
 
 ## 来源
 
