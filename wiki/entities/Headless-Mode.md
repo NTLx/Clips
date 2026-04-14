@@ -3,7 +3,7 @@ type: entity
 title: Headless Mode
 definition: "Claude Code 的非交互模式（Headless Mode）通过 -p 参数实现单次执行，输出到 stdout，适合自动化和 CI/CD 场景。"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 tags:
   - AI-Agent
   - Claude-Code
@@ -11,7 +11,9 @@ tags:
 related_entities:
   - "[[Claude-Code-CLI]]"
   - "[[Agent-Orchestration]]"
-source_raw: []
+source_raw:
+  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
+  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
 ---
 
 # Headless Mode

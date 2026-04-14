@@ -3,7 +3,7 @@ type: entity
 title: Raj Nandan Sharma
 definition: "软件工程师，专注于 fintech、AI 和开发者工具，撰写 AI 代理和 RAG 系统相关技术文章"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - AI-Agent
   - developer-tooling
@@ -12,7 +12,10 @@ tags:
 related_entities:
   - "[[Simon-Willison]]"
   - "[[Dan-Shipper]]"
-source_raw: []
+source_raw:
+  - "[[Good Taste the Only Real Moat Left]]"
+validated_source: "https://www.linkedin.com/in/rajsun/"
+validated_at: "2026-04-14"
 ---
 
 # Raj Nandan Sharma

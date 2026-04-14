@@ -3,7 +3,7 @@ type: entity
 title: Ethan Mollick
 definition: "宾夕法尼亚大学沃顿商学院教授，AI 教育与创新研究者，著有《Co-Intelligence》"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - AI-Agent
   - education
@@ -12,7 +12,10 @@ tags:
 related_entities:
   - "[[Dan-Shipper]]"
   - "[[Simon-Willison]]"
-source_raw: []
+source_raw:
+  - "[[Management as AI superpower]]"
+validated_source: "https://www.law.upenn.edu/faculty/emollick/"
+validated_at: "2026-04-14"
 ---
 
 # Ethan Mollick

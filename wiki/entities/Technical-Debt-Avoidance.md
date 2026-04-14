@@ -3,7 +3,7 @@ type: entity
 title: Technical Debt Avoidance
 definition: "通过持续改进和高质量实践避免技术债务累积的策略"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-14
 tags:
   - AI-Agent
   - best-practices
@@ -11,6 +11,8 @@ tags:
 related_entities:
   - "[[Compound-Engineering]]"
   - "[[Agentic-Engineering]]"
+source_raw:
+  - "[[20260410-better-code]]"
 ---
 
 # Technical Debt Avoidance（技术债务避免）

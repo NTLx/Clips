@@ -3,7 +3,7 @@ type: entity
 title: Konstantine Buhler
 definition: "Sequoia Capital 合伙人，AI 和机器学习投资专家，Agent Economy 投资理论提出者"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - AI-Agent
   - venture-capital
@@ -12,7 +12,10 @@ tags:
 related_entities:
   - "[[Dan-Shipper]]"
   - "[[Ethan-Mollick]]"
-source_raw: []
+source_raw:
+  - "[[The Always-On Economy AI and the Next 5-7 Years]]"
+validated_source: "https://www.linkedin.com/in/konstantinebuhler/"
+validated_at: "2026-04-14"
 ---
 
 # Konstantine Buhler

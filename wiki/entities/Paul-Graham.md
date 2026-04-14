@@ -3,7 +3,7 @@ type: entity
 title: Paul Graham
 definition: "Y Combinator 创始人，知名创业文章作家， Lisp 程序员"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 tags:
   - entrepreneurship
   - startup
@@ -11,7 +11,14 @@ tags:
   - essays
 related_entities:
   - "[[Dan-Shipper]]"
-source_raw: []
+  - "[[Taste]]"
+  - "[[Judgment]]"
+  - "[[Specificity]]"
+source_raw:
+  - "[[Taste for Makers]]"
+  - "[[The Brand Age]]"
+validated_source: "https://www.paulgraham.com/"
+validated_at: "2026-04-14"
 ---
 
 # Paul Graham
