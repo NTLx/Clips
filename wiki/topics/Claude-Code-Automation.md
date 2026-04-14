@@ -9,12 +9,9 @@ tags:
   - OpenClaw
 related_entities:
   - "[[Claude-Code-CLI]]"
-  - "[[PTY-Mode]]"
   - "[[Headless-Mode]]"
   - "[[Agent-Orchestration]]"
-source_raw:
-  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
-  - "[[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]"
+source_raw: []
 ---
 
 # Claude Code Automation
@@ -51,7 +48,7 @@ Claude Code 自动化依赖三个关键技术支柱：
 
 ## 三大核心概念
 
-### [[PTY-Mode]] - 终端交互技术
+### 终端交互技术
 
 PTY（伪终端）是 OpenClaw 调用 Claude Code 的**必须技术**：
 
@@ -191,11 +188,7 @@ claude -p "Fix the login bug" \
 ## 相关 Entity
 
 - [[Claude-Code-CLI]] - Claude Code CLI 工具定义
-- [[PTY-Mode]] - PTY 模式详解
 - [[Headless-Mode]] - Headless 模式详解
 - [[Agent-Orchestration]] - 编排层架构
 
 ## 来源
-
-- [[Claude code最小闭环核心文档 openclaw agent skill]]
-- [[Openclaw自己操作Claude code完整开发了TikTok爆款分析系统]]

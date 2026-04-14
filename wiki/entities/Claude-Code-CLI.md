@@ -9,11 +9,9 @@ tags:
   - Claude-Code
   - Developer-Tools
 related_entities:
-  - "[[PTY-Mode]]"
   - "[[Headless-Mode]]"
   - "[[Agent-Orchestration]]"
-source_raw:
-  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
+source_raw: []
 ---
 
 # Claude Code CLI
@@ -57,5 +55,3 @@ Claude Code 有五种权限模式，操控时需选择合适的模式：
 当 OpenClaw 需要进行编码任务时，Claude Code 是其首选的编码执行者。OpenClaw 通过 PTY 模式调用 Claude Code 的 Headless 模式，实现自动化编程流程。
 
 ## 来源
-
-- Raw Source: [[Claude code最小闭环核心文档 openclaw agent skill]]

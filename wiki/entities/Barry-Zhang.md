@@ -10,8 +10,8 @@ tags:
   - Claude
   - Skills
 related_entities:
-  - "[[Erik Schluntz]]"
-  - "[[Simon Willison]]"
+  - "[[Erik-Schluntz]]"
+  - "[[Simon-Willison]]"
 source_raw:
   - "[[building-effective-agents]]"
 ---
@@ -45,7 +45,7 @@ Barry Zhang 是 Anthropic 的研究工程师（Research Engineer），专注于 
 
 ## 知识库关联文章
 
-- [[building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南合著者
+- [[building-effective-agents|Building Effective Agents]] - Anthropic 官方指南合著者
 
 ## 外部链接
 

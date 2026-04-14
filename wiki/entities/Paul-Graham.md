@@ -10,7 +10,7 @@ tags:
   - Y-Combinator
   - essays
 related_entities:
-  - "[[Dan Shipper]]"
+  - "[[Dan-Shipper]]"
 source_raw: []
 ---
 

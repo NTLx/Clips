@@ -10,8 +10,8 @@ tags:
   - AI-Agent
   - cloud
 related_entities:
-  - "[[Dan Shipper]]"
-  - "[[Ethan Mollick]]"
+  - "[[Dan-Shipper]]"
+  - "[[Ethan-Mollick]]"
 source_raw:
   - "[[(14) Jevons Paradox for Knowledge Work]]"
 ---
@@ -49,7 +49,7 @@ Aaron Levie 将 Jevons 悖论应用于知识工作：
 
 ## 知识库关联文章
 
-- [[(14) Jevons Paradox for Knowledge Work.md|Jevons Paradox for Knowledge Work]] - LinkedIn 文章
+- [[(14) Jevons Paradox for Knowledge Work|Jevons Paradox for Knowledge Work]] - LinkedIn 文章
 
 ## 外部链接
 

@@ -2,7 +2,7 @@
 title: "(14) Jevons Paradox for Knowledge Work"
 source: "https://www.linkedin.com/pulse/jevons-paradox-knowledge-work-aaron-levie-qalmc/"
 author:
-  - "[[Aaron Levie]]"
+  - "[[Aaron-Levie]]"
 published: 2025年12月29日
 created: 2026-04-10
 description:
@@ -33,4 +33,32 @@ Historically, this actually happens all the time. If you told someone about Figm
 
 How did we experience a 5X+ increase in these jobs in 50 years at the exact same time that technology made this work far more efficient? Actually precisely because of those efficiencies. We went from advertising being the domain only of the largest companies -your CPG or car companies- to something that almost any small business could participate in. The marketing technology, CRM systems, analytics, graphic design software, targeting platforms, new distribution channels and many other tech-enabled trends allowed more companies to justify the ROI of doing more sophisticated marketing. This will similarly happen in many fields because of AI.
 
-Jevons paradox is coming to knowledge work. By making it far cheaper to take on any type of task that we can possibly imagine, we’re ultimately going to be doing far more. The vast majority of AI tokens in the future will be used on things we don't even do today as workers: they will be used on the software projects that wouldn't have been started, the contracts that wouldn't have been reviewed, the medical research that wouldn't have been discovered, and the marketing campaign that wouldn't have been launched otherwise.
+Jevons paradox is coming to knowledge work. By making it far cheaper to take on any type of task that we can possibly imagine, we’re ultimately going to be doing far more. The vast majority of AI tokens in the future will be used on things we don’t even do today as workers: they will be used on the software projects that wouldn’t have been started, the contracts that wouldn’t have been reviewed, the medical research that wouldn’t have been discovered, and the marketing campaign that wouldn’t have been launched otherwise.
+
+---
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: AI 智能体将 Jevons 悖论引入知识工作——效率提升不会减少总需求，反而增加
+  - 关键证据: 历史上计算设备从大型机→小型机→PC，每个时代销量增长100倍；云让小企业获得企业级软件
+- **核心结论2**: 降低投资成本(I)比提高投资回报率(ROI)更能创造价值
+  - 关键证据: 小团队面临资源稀缺，需在多个投资领域权衡；AI降低每项任务的投入成本
+- **核心结论3**: AI 不会消灭工作，而是创造前所未有的新任务类型
+  - 关键证据: 1970年代美国营销相关岗位几十万人，如今数百万；技术效率提升反而扩大了市场
+
+### 2. 质疑
+- **关于"效率提升增加需求"的质疑**: 历史上硬件成本下降确实带来销量增长，但AI可能存在本质差异——AI可能达到某种饱和点，能力提升不再带来边际需求增加
+- **关于"工作不消失"的质疑**: 如果AI最终达到完全自主，现有结论可能不成立；当前AI仍需人类管理、监督和大量上下文
+- **关于数据可靠性的质疑**: 声称"50年增长5倍"——需验证数据来源和统计口径；"10X-100X需求增长"是预测而非事实
+
+### 3. 对标
+- **跨域关联1**: 此现象类似软件开发中的"工具改进悖论"——更好的IDE和框架导致更多代码被编写，而非减少程序员需求
+- **跨域关联2**: 类似教育培训领域——在线教育降低了获取知识的门槛，但教师需求反而增加（市场扩大）
+- **可迁移场景**: 任何AI降低准入门槛的领域——医疗研究、法律服务、软件开发、内容创作
+
+### 关联概念
+- [[Jevons-Paradox-for-Knowledge-Work]]
+- [[Coding-Agents]]
+- [[Allocation-Economy]]
+- [[Vibe-Coding]]

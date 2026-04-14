@@ -10,10 +10,8 @@ tags:
   - Automation
 related_entities:
   - "[[Claude-Code-CLI]]"
-  - "[[PTY-Mode]]"
   - "[[Agent-Orchestration]]"
-source_raw:
-  - "[[Claude code最小闭环核心文档 openclaw agent skill]]"
+source_raw: []
 ---
 
 # Headless Mode
@@ -107,5 +105,3 @@ claude -p "修复最严重的那个 bug" --session-id review-001
 | 权限处理 | 实时确认 | 预配置或跳过 |
 
 ## 来源
-
-- Raw Source: [[Claude code最小闭环核心文档 openclaw agent skill]]

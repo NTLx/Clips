@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/"
 author:
-  - "[[Simon Willison]]"
+  - "[[Simon-Willison]]"
 published: "2026-03-04"
 updated: "2026-03-04"
 created: "2026-04-10"
@@ -19,7 +19,7 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/anti
 # Anti-patterns: things to avoid
 
 > [!info] 文章来源
-> - 作者: [[Simon Willison]]
+> - 作者: [[Simon-Willison]]
 > - 来自《Agentic Engineering Patterns》指南系列
 
 ## 概述
@@ -69,7 +69,7 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/anti
 - **Pull Request Quality**: PR 质量标准
 
 ### 相关链接
-- [[Agentic Engineering Patterns 指南]] - 本文所属系列
+- [[Agentic-Engineering-Patterns|Agentic Engineering Patterns 指南]] - 本文所属系列
 - [Your job is to deliver code that works](https://simonwillison.net/2025/Dec/18/code-proven-to-work/) - 相关文章
 
 ### 推荐分类
@@ -87,3 +87,31 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/anti
 > - Created: 4th March 2026
 > - Last modified: 4th March 2026
 > - Tag counts: ai (1954), llms (1701), coding-agents (190), agentic-engineering (41), code-review (14)
+
+---
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: AI 编程时代最大的反模式是将未经审查的代码作为 PR 提交给协作者
+  - 关键证据: 别人也可以让 agent 生成代码，你需要提供真正的价值——确保代码能运行
+- **核心结论2**: 好的 AI 编程 PR 应具备四个特征：代码能运行、改动足够小、提供额外上下文、审查 agent 写的 PR 描述
+  - 关键证据: 几百行未审查代码的 PR 是对审查者时间的浪费
+- **核心结论3**: 建议提供额外证据证明你付出了额外努力——手动测试笔记、实现选择评论、截图视频
+  - 关键证据: 这些能证明审查者的时间不会浪费
+
+### 2. 质疑
+- **关于"代码能运行"的质疑**: 如何定义"能运行"？通过测试就算还是需要实际使用验证？
+- **关于"改动足够小"的质疑**: 拆分 PR 是好实践，但何时拆？如何平衡拆分粒度和整体功能完整性？
+- **关于证据的质疑**: 截图和视频是否可验证？审查者如何确认这些证据的真实性？
+
+### 3. 对标
+- **跨域关联1**: 类似产品发布流程——不仅仅是功能可用，还要考虑用户体验和后续支持
+- **跨域关联2**: 类似学术论文审稿——作者有责任确保论文质量，而非丢给审稿人发现所有问题
+- **可迁移场景**: 任何涉及 AI 生成内容需要人工审核的场景——文档、报告、设计稿
+
+### 关联概念
+- [[Agentic-Engineering]]
+- [[Code-Execution]]
+- [[Context-Engineering]]
+- [[Refusal]]

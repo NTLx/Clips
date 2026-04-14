@@ -10,8 +10,8 @@ tags:
   - Google
   - developer-tools
 related_entities:
-  - "[[Dan Shipper]]"
-  - "[[Simon Willison]]"
+  - "[[Dan-Shipper]]"
+  - "[[Simon-Willison]]"
 source_raw: []
 ---
 

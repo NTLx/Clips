@@ -40,14 +40,14 @@ date: 2026-04-13
 
 ### 1. Wikilink 格式不一致（P1 - 建议）
 
-> **问题**: `related_entities` 使用空格而非连字符，如 `[[Dan Shipper]]` 应为 `[[Dan-Shipper]]`
+> **问题**: `related_entities` 使用空格而非连字符，如 `[[Dan-Shipper]]` 应为 `[[Dan-Shipper]]`
 
 **影响**: Obsidian 可自动解析，但不符合命名规范，建议统一。
 
 **示例**:
-- `[[Dan Shipper]]` → `[[Dan-Shipper]]`
-- `[[Simon Willison]]` → `[[Simon-Willison]]`
-- `[[Ethan Mollick]]` → `[[Ethan-Mollick]]`
+- `[[Dan-Shipper]]` → `[[Dan-Shipper]]`
+- `[[Simon-Willison]]` → `[[Simon-Willison]]`
+- `[[Ethan-Mollick]]` → `[[Ethan-Mollick]]`
 
 **涉及文件**: 约 20+ entity 文件，35+ 处引用
 
@@ -98,7 +98,7 @@ date: 2026-04-13
 ## 建议操作
 
 ### P1（建议）
-1. [ ] 统一 wikilink 格式：`[[Name With Space]]` → `[[Name-With-Space]]`
+1. [ ] 统一 wikilink 格式：`[[Name With Space]]` → ``
 
 ### P2（可选）
 2. [ ] 将 `Vibe-Design.md` 关联到相关 topic

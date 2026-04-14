@@ -10,11 +10,9 @@ tags:
   - Multi-Agent-System
 related_entities:
   - "[[Agent-Orchestration]]"
-  - "[[PTY-Mode]]"
   - "[[Context-Engineering]]"
 source_raw:
   - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
-  - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
 ---
 
 # Agent Swarm

@@ -10,8 +10,8 @@ tags:
   - fintech
   - RAG
 related_entities:
-  - "[[Simon Willison]]"
-  - "[[Dan Shipper]]"
+  - "[[Simon-Willison]]"
+  - "[[Dan-Shipper]]"
 source_raw: []
 ---
 

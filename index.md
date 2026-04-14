@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-04-13
+updated: 2026-04-14
 tags:
   - index
   - MOC
@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 69 个 |
+| Entity 页面 | 58 个 |
 | Topic 页面 | 12 个 |
-| Comparison 页面 | 5 个 |
-| Raw 文章 | 30 个 |
+| Comparison 页面 | 4 个 |
+| Raw 文章 | 24 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -46,15 +46,11 @@ tags:
 | [[wiki/entities/History-Rewriting\|History Rewriting]] | 将 Git 历史视为可编辑叙事的理念 | Using Git with coding agents |
 | [[wiki/entities/Agentic-Engineering\|Agentic Engineering]] | 利用 AI Agent 转变开发方式的工程范式 | Using Git with coding agents |
 | [[wiki/entities/Claude-Code-CLI\|Claude Code CLI]] | Claude 命令行工具 | Claude Code 文章 |
-| [[wiki/entities/Claude-Skills\|Claude Skills]] | Claude 技能系统 | Claude Code 文章 |
-| [[wiki/entities/PTY-Mode\|PTY Mode]] | 伪终端模式 | Claude Code 文章 |
 | [[wiki/entities/Headless-Mode\|Headless Mode]] | 无头运行模式 | Claude Code 文章 |
 | [[wiki/entities/Context-Engineering\|Context Engineering]] | 上下文工程 | Claude Code 文章 |
 | [[wiki/entities/Multi-Layer-Memory\|Multi-Layer Memory]] | 多层记忆系统 | Claude Code 文章 |
 | [[wiki/entities/Agent-Swarm\|Agent Swarm]] | Agent 群体协作 | Claude Code 文章 |
 | [[wiki/entities/Three-State-Protocol\|Three-State Protocol]] | 三态协议 | Claude Code 文章 |
-| [[wiki/entities/OpenClaw\|OpenClaw]] | OpenClaw 平台 | OpenClaw 文章 |
-| [[wiki/entities/seekdb\|seekdb]] | seekdb 数据库工具 | OpenClaw 文章 |
 | [[wiki/entities/Wisdom-Work\|Wisdom Work]] | 智慧工作 | Career-Skills 文章 |
 | [[wiki/entities/Emotional-Clarity\|Emotional Clarity]] | 情绪清晰 | Career-Skills 文章 |
 | [[wiki/entities/Discernment\|Discernment]] | 识别能力 | Career-Skills 文章 |
@@ -71,7 +67,6 @@ tags:
 | [[wiki/entities/Always-On-Economy\|Always-On Economy]] | AI 驱动的 24/7 运营模式，消除传统商业时间限制 | The Always-On Economy |
 | [[wiki/entities/ACI-Agent-Computer-Interface\|ACI]] | Agent-Computer Interface，类比 HCI 但针对 AI Agent 优化 | Building Effective Agents |
 | [[wiki/entities/Agent-Workflow-Patterns\|Agent Workflow Patterns]] | 构建 Agentic 系统的模式集合：从简单组合到自主 Agent | Building Effective Agents |
-| [[wiki/entities/Vibe-Design\|Vibe Design]] | AI 时代设计范式：描述感受而非操作软件 | Google Stitch DESIGN.md |
 | [[wiki/entities/Coding-Agents\|Coding Agents]] | 能够编写并执行代码的 AI Agent | What is agentic engineering |
 | [[wiki/entities/Refusal\|Refusal]] | 判断力的核心动作：拒绝通用的选项 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Knowledge-Work\|Knowledge Work]] | 以知识和专业技能为核心价值的工作形态，正在被 AI 取代 | Knowledge Work Is Dying |
@@ -95,19 +90,11 @@ tags:
 | [[wiki/entities/Raj-Nandan-Sharma\|Raj Nandan Sharma]] | 软件工程师，fintech/AI 开发者工具作者 | AI-Agent, Developer |
 | [[wiki/entities/Wes-Botman\|Wes Botman]] | Eli5.io 作者，AI 编程代理专家 | Claude-Code, DevOps |
 | [[wiki/entities/Elvis-Sun\|Elvis Sun]] | 前 Google 工程师，AI 创业者 | AI-Agent, Entrepreneurship |
-| [[wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 研究工程师，Claude Skills 系统开发者 | AI-Agent, Anthropic |
 | [[wiki/entities/Aaron-Levie\|Aaron Levie]] | Box CEO，企业软件与 AI Agent 思想家 | Enterprise Software |
 | [[wiki/entities/Ben-Thompson\|Ben Thompson]] | Stratechery 创始人，科技分析师 | Tech Analysis |
 | [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
-| [[wiki/entities/逛逛\|逛逛]] | 中文技术博主，Claude Code 最佳实践开源作者 | Claude-Code |
-| [[wiki/entities/Ai大刘\|Ai大刘]] | 中文技术博主，AI 职场技能分析 | Career-Skills |
-| [[wiki/entities/盛兰雅-岚遥\|盛兰雅(岚遥)]] | 中文技术博主，OpenClaw Agent 实战分享者 | Claude-Code, OpenClaw |
-| [[wiki/entities/从筠\|从筠]] | 中文技术博主，OpenClaw seekdb 实践者 | OpenClaw |
-| [[wiki/entities/饼干哥哥\|饼干哥哥]] | 中文技术博主，AI Agent 项目实战分享者 | Claude-Code |
+| [[wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 技术团队成员，Building Effective Agents 合著者 | AI-Agent, Anthropic |
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
-| [[wiki/entities/编程进阶社\|编程进阶社]] | 中文技术社区，AI 编程工具与开发者技能提升 | Claude-Code, AI-Agent |
-| [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
-| [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | OpenAI 创始成员、Tesla AI 前总监、CS231n 创建者、Software 2.0/Vibe Coding/LLM Wiki 提出者 | AI-Pioneer |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -118,14 +105,14 @@ tags:
 | [[wiki/topics/Agent-First-Process-Redesign\|Agent-First 流程重构]] | 企业如何围绕 Agent 重新设计运营模式 | Agent-First-Enterprise, Human-Governor-Agent-Operator, Machine-Readable-Processes |
 | [[wiki/topics/Conscious-Creation-in-AI-Era\|AI 时代的有意识创造]] | 成为新 1% 的路径：内在掌控与三大指标 | Conscious-Creators, Inner-World-Mastery, Decision-Quality, Taste, Resonance |
 | [[wiki/topics/Git-with-Coding-Agents\|Git 与编码 Agent]] | Agent 如何改变版本控制工作方式 | Git-Fluent-Agents, History-Rewriting, Agentic-Engineering |
-| [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践 | Claude-Code-CLI, Claude-Skills, PTY-Mode, Headless-Mode |
-| [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent 系统]] | OpenClaw 平台的 Agent 系统设计 | OpenClaw, Agent-Swarm, Three-State-Protocol |
+| [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践 | Claude-Code-CLI, Headless-Mode |
 | [[wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment |
 | [[wiki/topics/Wisdom-Work-Evolution\|智慧工作演化]] | 从知识工作到智慧工作的演进 | Wisdom-Work, Connection, Agent-Orchestration |
 | [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 | Agentic-Engineering, Code-Execution, Vibe-Coding |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
 | [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 LLM Wiki 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation |
+| [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -135,7 +122,6 @@ tags:
 | [[wiki/comparisons/Agent-First-vs-Traditional-Automation\|Agent-First vs Traditional Automation]] | 运营模式、绩效提升、流程设计 | Agent-First-Enterprise, Human-Governor-Agent-Operator |
 | [[wiki/comparisons/Cook-vs-Chef\|Cook vs Chef]] | 创作方式、理解深度、AI 时代影响 | Taste, Conscious-Creators |
 | [[wiki/comparisons/Knowledge-Work-vs-Wisdom-Work\|Knowledge Work vs Wisdom Work]] | 核心能力、价值来源、AI 影响 | Wisdom-Work, Emotional-Clarity, Discernment, Connection |
-| [[wiki/comparisons/PTY-Mode-vs-Headless-Mode\|PTY Mode vs Headless Mode]] | 交互方式、适用场景、输出处理 | PTY-Mode, Headless-Mode, Claude-Code-CLI |
 | [[wiki/comparisons/RAG-vs-LLM-Wiki\|RAG vs LLM Wiki]] | 知识处理、累积性、维护成本 | Context-Engineering, Multi-Layer-Memory, Andrej-Karpathy, Knowledge-Compilation, Memex |
 
 ### Outputs (outputs/)
@@ -149,7 +135,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（28 个）*
+*原始剪藏文章（24 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 
@@ -159,8 +145,9 @@ tags:
 
 ### 编译文章
 ```
-compile              # 编译 raw 中的所有文章
+compile              # 编译 raw 中所有未处理的文件
 compile <文件名>     # 编译指定文章
+rebuild              # 重新编译全部 Raw 文件（批量回溯）
 ```
 
 ### 查询知识
@@ -171,11 +158,16 @@ compile <文件名>     # 编译指定文章
 
 ### 审计检查
 ```
-lint               # 执行完整 lint 检查
+lint               # 执行完整 lint 检查（含摘要覆盖检查）
 status             # 查看知识库状态
 ```
+
+### 知识编译（三步法）
+1. **浓缩** - 提取核心结论（≤3条）+ 关键证据
+2. **质疑** - 审视前提假设、数据可靠性、边界条件
+3. **对标** - 跨领域找类似现象，建立知识迁移
 
 ---
 
 *索引版本: v2.0*
-*最后更新: 2026-04-13*
+*最后更新: 2026-04-14*

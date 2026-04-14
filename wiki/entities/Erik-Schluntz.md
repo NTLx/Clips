@@ -10,8 +10,8 @@ tags:
   - robotics
   - Claude-Code
 related_entities:
-  - "[[Simon Willison]]"
-  - "[[Dan Shipper]]"
+  - "[[Simon-Willison]]"
+  - "[[Dan-Shipper]]"
 source_raw:
   - "[[building-effective-agents]]"
 ---
@@ -49,7 +49,7 @@ Erik Schluntz 目前是 Anthropic 的技术团队成员（Member of Technical St
 
 ## 知识库关联文章
 
-- [[building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南合著者
+- [[building-effective-agents|Building Effective Agents]] - Anthropic 官方指南合著者
 
 ## 外部链接
 

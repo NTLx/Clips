@@ -10,8 +10,8 @@ tags:
   - Sequoia
   - agent-economy
 related_entities:
-  - "[[Dan Shipper]]"
-  - "[[Ethan Mollick]]"
+  - "[[Dan-Shipper]]"
+  - "[[Ethan-Mollick]]"
 source_raw: []
 ---
 

@@ -9,9 +9,9 @@ tags:
   - newsletter
   - entrepreneurship
 related_entities:
-  - "[[Simon Willison]]"
-  - "[[Ethan Mollick]]"
-  - "[[Joe Hudson]]"
+  - "[[Simon-Willison]]"
+  - "[[Ethan-Mollick]]"
+  - "[[Joe-Hudson]]"
 source_raw:
   - "[[building-effective-agents]]"
 ---
@@ -42,7 +42,7 @@ Dan Shipper 提出"配置经济"概念：随着 AI 的发展，每个人都将�
 
 ## 知识库关联文章
 
-- [[building-effective-agents.md|Building Effective Agents]] - Anthropic 官方指南深度解读
+- [[building-effective-agents|Building Effective Agents]] - Anthropic 官方指南深度解读
 
 ## 外部链接
 

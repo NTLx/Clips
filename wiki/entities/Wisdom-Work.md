@@ -11,7 +11,6 @@ tags:
 related_entities:
   - "[[Judgment]]"
   - "[[Taste]]"
-  - "[[Claude-Skills]]"
 source_raw:
   - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
@@ -84,7 +83,6 @@ AI 模型的特点：
 
 - [[Judgment]] - Wisdom Work 的核心技能之一
 - [[Taste]] - 在 AI 时代，品味成为差异化价值
-- [[Claude-Skills]] - Skills 是智慧工作者的效率放大器
 
 ## 来源
 

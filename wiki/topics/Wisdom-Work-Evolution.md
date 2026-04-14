@@ -8,11 +8,11 @@ tags:
   - AI-era
   - career-transformation
 related_entities:
-  - "[[entities/Wisdom-Work]]"
-  - "[[entities/Emotional-Clarity]]"
-  - "[[entities/Discernment]]"
-  - "[[entities/Connection]]"
-  - "[[entities/Judgment]]"
+  - "[[Wisdom-Work]]"
+  - "[[Emotional-Clarity]]"
+  - "[[Discernment]]"
+  - "[[Connection]]"
+  - "[[Judgment]]"
 source_raw:
   - "[[Knowledge Work Is Dying—Here's What Comes Next]]"
 ---
@@ -26,7 +26,7 @@ source_raw:
 
 ### 1. Wisdom Work：知识工作的终结
 
-详见 [[entities/Wisdom-Work]]
+详见 [[Wisdom-Work]]
 
 **根本转变**: 整个社会建立围绕"知识作为稀缺珍贵资源"的体系正在变得无关紧要，就像今天生火的能力——偶尔有用，但大部分时候没必要。
 
@@ -44,7 +44,7 @@ source_raw:
 
 ### 2. Emotional Clarity：认真对待情绪，而非字面理解
 
-详见 [[entities/Emotional-Clarity]]
+详见 [[Emotional-Clarity]]
 
 **黄金算法**:
 ```
@@ -61,7 +61,7 @@ source_raw:
 
 ### 3. Discernment：如果不能清晰看自己，就不能清晰看世界
 
-详见 [[entities/Discernment]]
+详见 [[Discernment]]
 
 **数据过载的伤害**:
 - 24 种口味购买率 3%，6 种购买率 30%（10 倍差距）
@@ -73,7 +73,7 @@ source_raw:
 
 ### 4. Connection：人们不想要你完美，想要与你连接
 
-详见 [[entities/Connection]]
+详见 [[Connection]]
 
 **VIEW 框架**:
 - Vulnerability（脆弱性）
@@ -136,9 +136,8 @@ OpenAI、Google DeepMind、Anthropic、Apple 的高层正在投资：
 
 ## 相关概念
 
-- [[entities/Judgment]] - 判断力在 AI 时代成为核心价值
-- [[entities/Claude-Skills]] - Skills 是智慧工作者的效率放大器
-- [[entities/AI-Era-Taste-and-Judgment]] - 品味和判断力的相关性
+- [[Judgment]] - 判断力在 AI 时代成为核心价值
+- [[AI-Era-Taste-and-Judgment]] - 品味和判断力的相关性
 
 ## 来源
 

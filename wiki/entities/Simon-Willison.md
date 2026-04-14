@@ -10,9 +10,9 @@ tags:
   - open-source
   - django
 related_entities:
-  - "[[Agentic Engineering]]"
-  - "[[Coding Agents]]"
-  - "[[Claude Code]]"
+  - "[[Agentic-Engineering]]"
+  - "[[Coding-Agents]]"
+  - "[[Claude-Code-CLI]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260410-code-is-cheap]]"
@@ -62,11 +62,11 @@ Simon Willison 提出 "Agentic Engineering" 概念，定义为使用 coding agen
 
 ## 在本知识库中的文章
 
-- [[20260410-what-is-agentic-engineering.md|What is agentic engineering?]]
-- [[20260410-code-is-cheap.md|Writing code is cheap now]]
-- [[20260410-hoard-things-you-know.md|Hoard things you know how to do]]
-- [[20260410-better-code.md|AI should help us produce better code]]
-- [[20260410-anti-patterns.md|Anti-patterns: things to avoid]]
+- [[20260410-what-is-agentic-engineering|What is agentic engineering?]]
+- [[20260410-code-is-cheap|Writing code is cheap now]]
+- [[20260410-hoard-things-you-know|Hoard things you know how to do]]
+- [[20260410-better-code|AI should help us produce better code]]
+- [[20260410-anti-patterns|Anti-patterns: things to avoid]]
 
 ## 外部链接
 

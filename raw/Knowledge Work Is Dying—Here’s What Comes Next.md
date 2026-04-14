@@ -2,7 +2,7 @@
 title: "Knowledge Work Is Dying—Here’s What Comes Next"
 source: "https://every.to/thesis/knowledge-work-is-dying-here-s-what-comes-next"
 author:
-  - "[[Joe Hudson]]"
+  - "[[Joe-Hudson]]"
 published: 2025-05-29
 created: 2026-04-09
 description: "While AI devours information-based roles, OpenAI, Alphabet, and Apple are investing in wisdom work—and you can, too"
@@ -187,3 +187,28 @@ Inner work isn’t just a personal growth tool anymore. It’s a strategic imper
 *Get paid for sharing Every with your friends. Join our [referral program](https://every.getrewardful.com/signup).*
 
 [Subscribe](https://every.to/subscribe?source=post_button)
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: 知识工作正在消亡——AI 吞噬信息型角色
+  - 关键证据: OpenAI、Alphabet、Apple 投资于"智慧工作"而非信息处理
+- **核心结论2**: 科技巨头不恐慌，他们在开发不同的技能
+  - 关键证据: OpenAI 高管在 Joe Hudson 帮助下学习"智慧工作"技能
+- **核心结论3**: AI 时代需要的技能从"信息处理"转向"智慧工作"
+  - 关键证据: 文章标题明确指出"what comes next"——智慧工作将成为新方向
+
+### 2. 质疑
+- **关于"知识工作消亡"的质疑**: 消亡的是哪类知识工作？是否所有知识工作都会被替代？
+- **关于"智慧工作"的质疑**: 具体指什么？能否被教授？
+
+### 3. 对标
+- **跨域关联1**: 类似工业革命——从体力劳动到脑力劳动，从脑力劳动到"智慧劳动"
+- **跨域关联2**: 类似"爱因斯坦"效应——专业门槛降低后，"智慧"成为稀缺资源
+
+### 关联概念
+- [[Knowledge-Work]]
+- [[Wisdom-Work]]
+- AI-Transformation
+
+current

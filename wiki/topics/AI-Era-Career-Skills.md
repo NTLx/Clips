@@ -8,27 +8,19 @@ tags:
   - productivity
   - career
 related_entities:
-  - "[[entities/Claude-Skills]]"
-  - "[[entities/OpenClaw]]"
-  - "[[entities/seekdb]]"
-  - "[[entities/Judgment]]"
-  - "[[entities/Taste]]"
-source_raw:
-  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]"
-  - "[[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]"
-  - "[[OpenClaw + seekdb skills：打造个人 seekdb 助手]]"
+  - "[[Judgment]]"
+  - "[[Taste]]"
+source_raw: []
 ---
 
 # AI-Era Career Skills
 
 > [!info] 主题概述
-> 本主题探讨 AI 时代职业技能的演化——从 Prompt 到 Skill，从知识积累到智慧工作，以及如何利用工具（如 OpenClaw、seekdb）重构工作流程。
+> 本主题探讨 AI 时代职业技能的演化——从 Prompt 到 Skill，从知识积累到智慧工作，以及如何利用 AI 工具重构工作流程。
 
 ## 核心概念
 
 ### 1. Claude Skills：从一次性对话到可复用资产
-
-详见 [[entities/Claude-Skills]]
 
 **关键转变**:
 - Prompt = 一次性消耗品
@@ -69,26 +61,6 @@ source_raw:
 - **合规/审核**: RA/QM Team Bundle、soc2-audit-helper
 - **科研/学术**: claude-scientific-skills（147+ Skill）、claude-scholar
 
-### 3. OpenClaw：本地优先的个人 AI 助手
-
-详见 [[entities/OpenClaw]]
-
-**三大特点**:
-- 本地优先：数据与对话由用户掌控
-- 多渠道：支持 WhatsApp、Telegram、Slack、Discord 等
-- 可扩展：通过 Skill 注入领域知识
-
-### 4. seekdb：AI 原生数据库
-
-详见 [[entities/seekdb]]
-
-**混合搜索能力**: 一条 SQL 完成向量搜索 + 全文搜索 + 关系查询。
-
-**seekdb Agent Skill**:
-- seekdb-docs（文档技能）：内置官方文档知识库
-- importing-to-seekdb（导入技能）：CSV/Excel 导入 + 可选列向量化
-- querying-from-seekdb（查询技能）：标量/混合搜索 + 元数据过滤
-
 ## 关键洞察
 
 ### Skill 不是程序员的专利
@@ -120,12 +92,6 @@ source_raw:
 
 ## 相关概念
 
-- [[entities/Judgment]] - Skill 放大判断力，不替代思考
-- [[entities/Taste]] - 优质 Skill 需品味设计工作流程
-- [[entities/Wisdom-Work]] - 知识工作正在向智慧工作转变
-
-## 来源
-
-- [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行]]
-- [[6 类岗位的必备 Skills 总结：用上的人正在甩开 90% 的同行（第二篇）]]
-- [[OpenClaw + seekdb skills：打造个人 seekdb 助手]]
+- [[Judgment]] - Skill 放大判断力，不替代思考
+- [[Taste]] - 优质 Skill 需品味设计工作流程
+- [[Wisdom-Work]] - 知识工作正在向智慧工作转变

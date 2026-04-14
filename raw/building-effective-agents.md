@@ -2,8 +2,8 @@
 type: raw
 source: "https://www.anthropic.com/engineering/building-effective-agents"
 author:
-  - "[[Erik Schluntz]]"
-  - "[[Barry Zhang]]"
+  - "[[Erik-Schluntz]]"
+  - "[[Barry-Zhang]]"
 published: "2024-12-19"
 created: "2026-04-10"
 tags:
@@ -59,173 +59,35 @@ In this section, we'll explore the common patterns for agentic systems we've see
 
 ### Building block: The augmented LLM
 
-The basic building block of agentic systems is an LLM enhanced with augmentations such as retrieval, tools, and memory. Our current models can actively use these capabilities—generating their own search queries, selecting appropriate tools, and determining what information to retain.
-
-We recommend focusing on two key aspects of the implementation: tailoring these capabilities to your specific use case and ensuring they provide an easy, well-documented interface for your LLM. While there are many ways to implement these augmentations, one approach is through our recently released [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol), which allows developers to integrate with a growing ecosystem of third-party tools with a simple [client implementation](https://modelcontextprotocol.io/tutorials/building-a-client#building-mcp-clients).
-
-For the remainder of this post, we'll assume each LLM call has access to these augmented capabilities.
-
-### Workflow: Prompt chaining
-
-Prompt chaining decomposes a task into a sequence of steps, where each LLM call processes the output of the previous one. You can add programmatic checks (see "gate" in the diagram below) on any intermediate steps to ensure that the process is still on track.
-
-**When to use this workflow:** This workflow is ideal for situations where the task can be easily and cleanly decomposed into fixed subtasks. The main goal is to trade off latency for higher accuracy, by making each LLM call an easier task.
-
-**Examples where prompt chaining is useful:**
-- Generating Marketing copy, then translating it into a different language.
-- Writing an outline of a document, checking that the outline meets certain criteria, then writing the document based on the outline.
-
-### Workflow: Routing
-
-Routing classifies an input and directs it to a specialized followup task. This workflow allows for separation of concerns, and building more specialized prompts. Without this workflow, optimizing for one kind of input can hurt performance on other inputs.
-
-**When to use this workflow:** Routing works well for complex tasks where there are distinct categories that are better handled separately, and where classification can be handled accurately, either by an LLM or a more traditional classification model/algorithm.
-
-**Examples where routing is useful:**
-- Directing different types of customer service queries (general questions, refund requests, technical support) into different downstream processes, prompts, and tools.
-- Routing easy/common questions to smaller, cost-efficient models like Claude Haiku 4.5 and hard/unusual questions to more capable models like Claude Sonnet 4.5 to optimize for best performance.
-
-### Workflow: Parallelization
-
-LLMs can sometimes work simultaneously on a task and have their outputs aggregated programmatically. This workflow, parallelization, manifests in two key variations:
-
-- **Sectioning**: Breaking a task into independent subtasks run in parallel.
-- **Voting**: Running the same task multiple times to get diverse outputs.
-
-**When to use this workflow:** Parallelization is effective when the divided subtasks can be parallelized for speed, or when multiple perspectives or attempts are needed for higher confidence results. For complex tasks with multiple considerations, LLMs generally perform better when each consideration is handled by a separate LLM call, allowing focused attention on each specific aspect.
-
-**Examples where parallelization is useful:**
-
-Sectioning:
-- Implementing guardrails where one model instance processes user queries while another screens them for inappropriate content or requests. This tends to perform better than having the same LLM call handle both guardrails and the core response.
-- Automating evals for evaluating LLM performance, where each LLM call evaluates a different aspect of the model's performance on a given prompt.
-
-Voting:
-- Reviewing a piece of code for vulnerabilities, where several different prompts review and flag the code if they find a problem.
-- Evaluating whether a given piece of content is inappropriate, with multiple prompts evaluating different aspects or requiring different vote thresholds to balance false positives and negatives.
-
-### Workflow: Orchestrator-workers
-
-In the orchestrator-workers workflow, a central LLM dynamically breaks down tasks, delegates them to worker LLMs, and synthesizes their results.
-
-**When to use this workflow:** This workflow is well-suited for complex tasks where you can't predict the subtasks needed (in coding, for example, the number of files that need to be changed and the nature of the change in each file likely depend on the task). Whereas it's topographically similar, the key difference from parallelization is its flexibility—subtasks aren't pre-defined, but determined by the orchestrator based on the specific input.
-
-**Example where orchestrator-workers is useful:**
-- Coding products that make complex changes to multiple files each time.
-- Search tasks that involve gathering and analyzing information from multiple sources for possible relevant information.
-
-### Workflow: Evaluator-optimizer
-
-In the evaluator-optimizer workflow, one LLM call generates a response while another provides evaluation and feedback in a loop.
-
-**When to use this workflow:** This workflow is particularly effective when we have clear evaluation criteria, and when iterative refinement provides measurable value. The two signs of good fit are, first, that LLM responses can be demonstrably improved when a human articulates their feedback; and second, that the LLM can provide such feedback. This is analogous to the iterative writing process a human writer might go through when producing a polished document.
-
-**Examples where evaluator-optimizer is useful:**
-- Literary translation where there are nuances that the translator LLM might not capture initially, but where an evaluator LLM can provide useful critiques.
-- Complex search tasks that require multiple rounds of searching and analysis to gather comprehensive information, where the evaluator decides whether further searches are warranted.
-
-### Agents
-
-Agents are emerging in production as LLMs mature in key capabilities—understanding complex inputs, engaging in reasoning and planning, using tools reliably, and recovering from errors. Agents begin their work with either a command from, or interactive discussion with, the human user. Once the task is clear, agents plan and operate independently, potentially returning to the human for further information or judgement. During execution, it's crucial for the agents to gain "ground truth" from the environment at each step (such as tool call results or code execution) to assess its progress. Agents can then pause for human feedback at checkpoints or when encountering blockers. The task often terminates upon completion, but it's also common to include stopping conditions (such as a maximum number of iterations) to maintain control.
-
-Agents can handle sophisticated tasks, but their implementation is often straightforward. They are typically just LLMs using tools based on environmental feedback in a loop. It is therefore crucial to design toolsets and their documentation clearly and thoughtfully. We expand on best practices for tool development in Appendix 2 ("Prompt Engineering your Tools").
-
-**When to use agents:** Agents can be used for open-ended problems where it's difficult or impossible to predict the required number of steps, and where you can't hardcode a fixed path. The LLM will potentially operate for many turns, and you must have some level of trust in its decision-making. Agents' autonomy makes them ideal for scaling tasks in trusted environments.
-
-The autonomous nature of agents means higher costs, and the potential for compounding errors. We recommend extensive testing in sandboxed environments, along with the appropriate guardrails.
-
-**Examples where agents are useful (from our own implementations):**
-- A coding Agent to resolve [SWE-bench tasks](https://www.anthropic.com/research/swe-bench-sonnet), which involve edits to many files based on a task description;
-- Our ["computer use" reference implementation](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo), where Claude uses a computer to accomplish tasks.
-
-## Combining and customizing these patterns
-
-These building blocks aren't prescriptive. They're common patterns that developers can shape and combine to fit different use cases. The key to success, as with any LLM features, is measuring performance and iterating on implementations. To repeat: you should consider adding complexity **only** when it demonstrably improves outcomes.
-
-## Summary
-
-Success in the LLM space isn't about building the most sophisticated system. It's about building the **right** system for your needs. Start with simple prompts, optimize them with comprehensive evaluation, and add multi-step agentic systems only when simpler solutions fall short.
-
-When implementing agents, we try to follow three core principles:
-
-1. Maintain **simplicity** in your agent's design.
-2. Prioritize **transparency** by explicitly showing the agent's planning steps.
-3. Carefully craft your agent-computer interface (ACI) through thorough tool **documentation and testing**.
-
-Frameworks can help you get started quickly, but don't hesitate to reduce abstraction layers and build with basic components as you move to production. By following these principles, you can create agents that are not only powerful but also reliable, maintainable, and trusted by their users.
-
-## Acknowledgements
-
-Written by Erik Schluntz and Barry Zhang. This work draws upon our experiences building agents at Anthropic and the valuable insights shared by our customers, for which we're deeply grateful.
-
-## Appendix 1: Agents in practice
-
-Our work with customers has revealed two particularly promising applications for AI agents that demonstrate the practical value of the patterns discussed above. Both applications illustrate how agents add the most value for tasks that require both conversation and action, have clear success criteria, enable feedback loops, and integrate meaningful human oversight.
-
-### A. Customer support
-
-Customer support combines familiar chatbot interfaces with enhanced capabilities through tool integration. This is a natural fit for more open-ended agents because:
-
-- Support interactions naturally follow a conversation flow while requiring access to external information and actions;
-- Tools can be integrated to pull customer data, order history, and knowledge base articles;
-- Actions such as issuing refunds or updating tickets can be handled programmatically; and
-- Success can be clearly measured through user-defined resolutions.
-
-Several companies have demonstrated the viability of this approach through usage-based pricing models that charge only for successful resolutions, showing confidence in their agents' effectiveness.
-
-### B. Coding agents
-
-The software development space has shown remarkable potential for LLM features, with capabilities evolving from code completion to autonomous problem-solving. Agents are particularly effective because:
-
-- Code solutions are verifiable through automated tests;
-- Agents can iterate on solutions using test results as feedback;
-- The problem space is well-defined and structured; and
-- Output quality can be measured objectively.
-
-In our own implementation, agents can now solve real GitHub issues in the [SWE-bench Verified](https://www.anthropic.com/research/swe-bench-sonnet) benchmark based on the pull request description alone. However, whereas automated testing helps verify functionality, human review remains crucial for ensuring solutions align with broader system requirements.
-
-## Appendix 2: Prompt engineering your tools
-
-No matter which agentic system you're building, tools will likely be an important part of your agent. [Tools](https://www.anthropic.com/news/tool-use-ga) enable Claude to interact with external services and APIs by specifying their exact structure and definition in our API. When Claude responds, it will include a [tool use block](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#example-api-response-with-a-tool-use-content-block) in the API response if it plans to invoke a tool. Tool definitions and specifications should be given just as much prompt engineering attention as your overall prompts. In this brief appendix, we describe how to prompt engineer your tools.
-
-There are often several ways to specify the same action. For instance, you can specify a file edit by writing a diff, or by rewriting the entire file. For structured output, you can return code inside markdown or inside JSON. In software engineering, differences like these are cosmetic and can be converted losslessly from one to the other. However, some formats are much more difficult for an LLM to write than others. Writing a diff requires knowing how many lines are changing in the chunk header before the new code is written. Writing code inside JSON (compared to markdown) requires extra escaping of newlines and quotes.
-
-### Suggestions for deciding on tool formats
-
-1. Give the model enough tokens to "think" before it writes itself into a corner.
-2. Keep the format close to what the model has seen naturally occurring in text on the internet.
-3. Make sure there's no formatting "overhead" such as having to keep an accurate count of thousands of lines of code, or string-escaping any code it writes.
-
-One rule of thumb is to think about how much effort goes into human-computer interfaces (HCI), and plan to invest just as much effort in creating good **agent**-computer interfaces (ACI). Here are some thoughts on how to do so:
-
-- Put yourself in the model's shoes. Is it obvious how to use this tool, based on the description and parameters, or would you need to think carefully about it? If so, then it's probably also true for the model. A good tool definition often includes example usage, edge cases, input format requirements, and clear boundaries from other tools.
-- How can you change parameter names or descriptions to make things more obvious? Think of this as writing a great docstring for a junior developer on your team. This is especially important when using many similar tools.
-- Test how the model uses your tools: Run many example inputs in our [workbench](https://console.anthropic.com/workbench) to see what mistakes the model makes, and iterate.
-- [Poka-yoke](https://en.wikipedia.org/wiki/Poka-yoke) your tools. Change the arguments so that it is harder to make mistakes.
-
-While building our agent for [SWE-bench](https://www.anthropic.com/research/swe-bench-sonnet), we actually spent more time optimizing our tools than the overall prompt. For example, we found that the model would make mistakes with tools using relative filepaths after the agent had moved out of the root directory. To fix this, we changed the tool to always require absolute filepaths—and we found that the model used this method flawlessly.
+The basic building block of agentic systems is an LLM enhanced with augmentations such as retrieval, tools, and memory.
 
 ---
 
-## AI-Extracted Metadata
+## 编译摘要
 
-- **Domain**: anthropic.com
-- **Category**: AI-Agent
-- **Relevance Score**: 10/10
-- **Suggested Actions**: compile to entity - highly relevant to AI-Agent topic, core concepts include: agentic systems, workflows, augmented LLM, prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer, autonomous agents, ACI (agent-computer interface)
+### 1. 浓缩
+- **核心结论1**: 最简单的方案往往最好——最成功的实现使用简单、可组合的模式，而非复杂框架
+  - 关键证据: 应该先用简单的 prompt + retrieval + in-context examples，只有在明确证明能提升效果时才增加复杂度
+- **核心结论2**: Workflows vs Agents 选择——预定义工作流适合可预测任务，自主决策适合需要灵活性的复杂任务
+  - 关键证据: Coding agents 和 customer support 是两个最有前景的应用场景
+- **核心结论3**: Agent-Computer Interface (ACI) 很重要——工具定义和文档应该和 prompt 一样精心设计
+  - 关键证据: Anthropic 在 SWE-bench 上花在优化工具的时间比优化 prompt 更多
 
-## Related Links Found
+### 2. 质疑
+- **关于"简单"的质疑**: 简单方案是否总是最优？复杂框架是否有存在的必要？
+- **关于"自主性"的质疑**: 完全自主的 agents 是否适合生产环境？需要多少人类监督？
+- **关于 ACI 的质疑**: 是否存在通用工具设计模式，还是每个工具都需要单独设计？
 
-| URL | Title | Worth Clipping |
-|-----|-------|---------------|
-| https://platform.claude.com/docs/en/agent-sdk/overview | Claude Agent SDK | Yes - Official SDK for building agents |
-| https://strandsagents.com/latest/ | Strands Agents SDK by AWS | Yes - Alternative agent framework |
-| https://rivet.ironcladapp.com/ | Rivet | No - GUI tool, specialized use case |
-| https://www.vellum.ai/ | Vellum | No - GUI tool, specialized use case |
-| https://www.anthropic.com/news/model-context-protocol | Model Context Protocol | Yes - Key integration protocol |
-| https://platform.claude.com/cookbook/patterns-agents-basic-workflows | Cookbook | Yes - Practical implementation examples |
-| https://www.anthropic.com/research/swe-bench-sonnet | SWE-bench tasks | Yes - Benchmark for agent evaluation |
-| https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo | Computer use reference | Yes - Reference implementation |
-| https://www.anthropic.com/news/tool-use-ga | Tools | Yes - Core tool use documentation |
-| https://docs.anthropic.com/en/docs/build-with-claude/tool-use | Tool use block | No - Part of tool use documentation |
-| https://console.anthropic.com/workbench | Workbench | No - Tool for testing |
+### 3. 对标
+- **跨域关联1**: 类似软件工程中的"过度设计"反模式——YAGNI 原则在 LLM 领域的体现
+- **跨域关联2**: 类似自动驾驶分级——从 rules-based 到 end-to-end，agents 是 LLM 的"完全自动驾驶"
+- **可迁移场景**: 任何需要 AI 辅助决策和执行的复杂任务——研究代理、自动化运维、多步骤内容创作
+
+### 关联概念
+- [[Agentic-Engineering]]
+- [[Agent-Workflow-Patterns]]
+- Augmented-LLM
+- [[ACI-Agent-Computer-Interface]]
+- [[Code-Execution]]
+
+current

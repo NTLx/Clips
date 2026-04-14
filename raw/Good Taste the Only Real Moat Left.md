@@ -2,7 +2,7 @@
 title: "Good Taste the Only Real Moat Left"
 source: "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/"
 author:
-  - "[[Raj Nandan Sharma]]"
+  - "[[Raj-Nandan-Sharma]]"
 published:
 created: 2026-04-08
 description: "AI makes competent output cheap. That makes taste more valuable, but also more incomplete. The real edge comes from pairing judgment with context, stakes, and the willingness to build."
@@ -48,6 +48,7 @@ That is why so much AI-generated work feels familiar:
 - Essays with clean headings and little lived judgment
 - Visual design that looks modern, but not memorable
 
+---
 This is not a failure in the catastrophic sense. It is a success at average. The problem is that average used to be hard enough that it still created some separation. Now it is abundant.
 
 The result is a crowded 7 out of 10 world. The middle is full.
@@ -225,3 +226,34 @@ That is why taste matters more now.
 It is also why taste, by itself, is not enough.
 
 The real edge in the age of AI is not having better vibes than the model. It is using the model to strip away average output faster, then applying human judgment where it matters most: direction, specificity, consequence, and the courage to build something that could not have emerged from the statistical middle alone.
+## 编译摘要
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: AI 让"合格输出"变得廉价，品味变得更有价值但也更不完整
+  - 关键证据: 几分钟生成 landing page，单个 prompt 生成产品 memo，优势转向判断力
+- **核心结论2**: 品味不是最终答案——单纯从 AI 输出中选择会让人沦为机器流程的审查者
+  - 关键证据: 真正机会是"将品味与情境、约束、愿意构建的意愿结合"
+- **核心结论3**: 品味体现在三处——你注意到什么、你拒绝什么、你多精确地解释什么错了
+  - 关键证据: 很多人说"感觉不对"，极少人能说出"这失败是因为听起来像其他 SaaS 产品"
+
+### 2. 质疑
+- **关于"品味"的质疑**: 品味是否也是一种可以被 AI 学习的模式？是否会变得可复制？
+- **关于"判断力"的质疑**: 判断力是否需要真实的"利益关系"（stakes）才能形成？
+- **关于"廉价"的质疑**: "廉价"是相对于什么而言？Token 成本 vs 人类时间？
+
+### 3. 对标
+- **跨域关联1**: 类似艺术中的"审美判断"——可意会不可言传，但可以通过训练提升
+- **跨域关联2**: 类似投资中的"价值投资"——逆向思维，不从众
+- **可迁移场景**: 任何需要从 AI 输出中做出选择的领域——内容创作、产品决策、设计评审
+
+### 关联概念
+- [[Taste]]
+- [[Judgment]]
+- [[Specificity]]
+- [[Refusal]]
+- [[Competent-Output]]
+
+
+current

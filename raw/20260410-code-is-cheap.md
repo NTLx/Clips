@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/"
 author:
-  - "[[Simon Willison]]"
+  - "[[Simon-Willison]]"
 published: "2026-02-23"
 updated: "2026-02-24"
 created: "2026-04-10"
@@ -71,8 +71,8 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/code
 ---
 
 > [!info] 导航
-> 上一章：[[What is agentic engineering]]
-> 下一章：[[Hoard things you know how to do]]
+> 上一章：[[20260410-what-is-agentic-engineering|What is agentic engineering]]
+> 下一章：[[20260410-hoard-things-you-know|Hoard things you know how to do]]
 
 ---
 
@@ -87,14 +87,42 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/code
 
 ### 相关主题
 
-- [[Agentic Engineering]] - 代理工程方法论
-- [[Coding Agents]] - 编程代理工具
-- [[AI-Assisted Programming]] - AI 辅助编程
+- [[Agentic-Engineering]] - 代理工程方法论
+- [[Coding-Agents]] - 编程代理工具
 
 ### 来源信息
 
-- 作者：[[Simon Willison]]
+- 作者：[[Simon-Willison]]
 - 系列：Agentic Engineering Patterns 指南
 - 创建日期：2026-02-23
 - 最后修改：2026-02-24
 - 标签：coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, yagni
+
+---
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: AI 代理让写代码成本降至几乎免费，颠覆了软件工程的核心约束
+  - 关键证据: 过去几百行干净测试代码需一整天；现在可以在多个地方同时实现、重构、测试
+- **核心结论2**: 好代码仍然昂贵——需要工作、能被验证、解决正确问题、优雅处理错误等
+  - 关键证据: 好代码的10个维度包括：能工作、验证能工作、解决正确问题、错误处理、简单最小、测试保护、文档、YAGNI设计、相关的非功能性质量
+- **核心结论3**: 需要建立新习惯——当直觉说"不值得花时间"时，至少发送一个 prompt 试试
+  - 关键证据: 最坏情况是十分钟后检查发现不值得那些 tokens，成本极低
+
+### 2. 质疑
+- **关于"代码便宜"的质疑**: 便宜是相对于人类时间而言，但 token 成本和计算资源是否也需要考虑？
+- **关于并行代理的质疑**: 多人同时使用代理是否会导致代码风格不一致、冲突增加？
+- **关于新习惯的质疑**: "先试试"是否可能导致过度探索而缺乏聚焦？
+
+### 3. 对标
+- **跨域关联1**: 类似设计领域的"快速原型"——低成本试错是验证想法的有效方式
+- **跨域关联2**: 类似写作中的"先写再改"——初稿廉价，精修昂贵
+- **可迁移场景**: 任何需要快速验证假设的领域——产品功能、技术方案、用户体验
+
+### 关联概念
+- [[Agentic-Engineering]]
+- [[Vibe-Coding]]
+- [[Compound-Engineering]]
+- [[Technical-Debt-Avoidance]]
+- [[Specificity]]

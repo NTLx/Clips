@@ -2,7 +2,7 @@
 title: "AI and the Human Condition"
 source: "https://stratechery.com/2026/ai-and-the-human-condition/"
 author:
-  - "[[Ben Thompson]]"
+  - "[[Ben-Thompson]]"
 published: 2026-01-05
 created: 2026-04-10
 description: "AI might replace all of the jobs; that’s only a problem if you think that humans will care, but if they care, they will create new jobs."
@@ -104,3 +104,31 @@ If you assume that the negative parts of humanity will persist in this world of 
 [^2]: This isn’t idle talk: I’m encouraging [my daughter](https://www.instagram.com/07artchronicles/) to pursue art; granted, I’m also working quite hard to build up a store of capital for her as well!
 
 [^3]: As an aside, this is why galaxy exploration would be a positive, not a negative: out of sight, out of mind, just like it used to be.
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: AI 时代人类内容创作者仍有机会——人类想要人类，独特性和不完美是 feature 不是 bug
+  - 关键证据: Sora 在 App Store 排名 59，排在双位数人类社交应用后面
+- **核心结论2**: 人类历史是不断创造新工作的历史——每次技术革命都创造了以前无法想象的新工作
+  - 关键证据: 播客 30 年前不存在，现在是一个产业；农业人口从 81% 降到 1%
+- **核心结论3**: 幸福是比较的产物——物质丰富不会让人快乐，关键是比较优势
+  - 关键证据: Louis C.K. 的名言"一切都很神奇，但没人开心"
+
+### 2. 质疑
+- **关于"人类想要人类"的质疑**: 这是否只是内容创作者的自我安慰？AI 复制人类风格的能力在提升
+- **关于"新工作"的质疑**: 新工作的数量和质量能否匹配被取代的工作？
+- **关于"比较"的质疑**: 如果大家都用 AI，比较是否还有意义？
+
+### 3. 对标
+- **跨域关联1**: 类似农业革命——从 81% 农业人口降到 1%，但创造了新产业
+- **跨域关联2**: 类似艺术市场——AI 生成艺术可能让人类艺术更有价值（来源溢价）
+- **跨域关联3**: 类似约会经济——即使有完美机器人，人类还是更喜欢人类
+
+### 关联概念
+- Human-AI-Relationship
+- AI-Unemployment
+- Content-Creation
+- Comparative-Happiness
+
+current

@@ -10,8 +10,8 @@ tags:
   - research
   - AI-education
 related_entities:
-  - "[[Dan Shipper]]"
-  - "[[Simon Willison]]"
+  - "[[Dan-Shipper]]"
+  - "[[Simon-Willison]]"
 source_raw: []
 ---
 

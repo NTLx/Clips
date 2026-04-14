@@ -2,7 +2,7 @@
 title: Taste for Makers
 source: https://paulgraham.com/taste.html
 author:
-  - "[[Paul Graham]]"
+  - "[[Paul-Graham]]"
 published:
 created: 2026-04-09
 description:
@@ -183,6 +183,35 @@ Intolerance for ugliness is not in itself enough. You have to understand a field
   
 [Sullivan](https://sep.turbifycdn.com/ty/cdn/paulgraham/sullivan.html?t=1772732230&) actually said "form ever follows function," but I think the usual misquotation is closer to what modernist architects meant.  
   
-Stephen G. Brush, "Why was Relativity Accepted?" *Phys. Perspect. 1 (1999) 184-214.  
+Stephen G. Brush, "Why was Relativity Accepted?" *Phys. Perspect. 1 (1999) 184-214.*
+
+---
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: 品味是真实存在的，可以被培养和改进，不是主观偏好的问题
+  - 关键证据: 随着设计能力提升，品味会改变，旧品味"不只是不同，而是更差"
+- **核心结论2**: 好的设计有几个共同特征——简单、永恒、解决问题、启发性、有趣、困难、看似轻松、对称、模仿自然、再设计、可复制、奇怪、分块、大胆
+  - 关键证据: 数学家、工程师、音乐家、建筑师、作家、画家都用"美"来形容好作品
+- **核心结论3**: 伟大作品来自杰出人才社区——15世纪佛罗伦萨的文艺复兴不是基因问题，而是环境
+  - 关键证据: 佛罗伦萨、米兰同样大小，但佛罗伦萨出了达芬奇、米开朗基罗
+
+### 2. 质疑
+- **关于"品味可培养"的质疑**: 品味是天生还是后天？如何量化"好品味"vs"坏品味"？
+- **关于"简单"的质疑**: 简单 vs 过度简化——边界在哪里？"极简"是否也可能变成一种时尚？
+- **关于"奇怪"的质疑**: "奇怪"是好的设计特征还是结果？试图让事物奇怪是否反而得不到？
+
+### 3. 对标
+- **跨域关联1**: 类似"美味"——主观但有共识，专业的厨师和普通人对食物的判断不同
+- **跨域关联2**: 类似"写作风格"——好写作看似简单，但背后是大量修改
+- **可迁移场景**: 任何创造性领域——编程、产品设计、写作、音乐
+
+### 关联概念
+- [[Taste]]
+- [[Judgment]]
+- [[Specificity]]
+- [[Conscious-Creators]]
+- [[Decision-Quality]]  
   
 *

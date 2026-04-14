@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/"
 author:
-  - "[[Simon Willison]]"
+  - "[[Simon-Willison]]"
 published: "2026-02-26"
 updated: "2026-03-16"
 created: "2026-04-10"
@@ -90,9 +90,9 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/hoar
 > - Created: 26th February 2026
 > - Last modified: 16th March 2026
 > - 9 changes
-> - Author: [[Simon Willison]]
-> - Previous: [[Writing code is cheap now]]
-> - Next: [[AI should help us produce better code]]
+> - Author: [[Simon-Willison]]
+> - Previous: [[20260410-code-is-cheap|Writing code is cheap now]]
+> - Next: [[20260410-better-code|AI should help us produce better code]]
 > - Series: Agentic Engineering Patterns
 
 ## AI 提取摘要
@@ -117,3 +117,31 @@ changes_url: "https://simonwillison.net/guides/agentic-engineering-patterns/hoar
 
 ### 案例研究
 OCR 工具开发：组合 Tesseract.js（图像 OCR）和 PDF.js（PDF 转图像）两个库的工作示例，通过单个 prompt 生成完整的 PDF OCR 工具。
+
+---
+
+## 编译摘要
+
+### 1. 浓缩
+- **核心结论1**: 囤积你知道如何做的事情是高效使用编码代理的核心技巧
+  - 关键证据: 越多答案（附带运行证明），越可能发现用技术解决问题的机会
+- **核心结论2**: 运行代码是最好的证明——知道某事可能与亲眼看到它完成是不同的
+  - 关键证据: 收集的代码示例成为编码代理的强大输入
+- **核心结论3**: 编码代理让囤积价值倍增——只需一次找出一个技巧，代理可永久复用
+  - 关键证据: 通过组合两个或更多现有工作示例构建新东西是最有效的提示模式
+
+### 2. 质疑
+- **关于囤积的质疑**: 如何避免囤积变成"数字 hoarding"（类似实物 hoarding）——需要定期清理和索引？
+- **关于"证明"的质疑**: 代码能运行是否足够？是否还需要性能、安全等维度的验证？
+- **关于复用的质疑**: 组合示例构建新工具是否可能产生"弗兰肯斯坦"式的代码——能工作但难以维护？
+
+### 3. 对标
+- **跨域关联1**: 类似知识管理中的卡片盒法——将知识碎片组合成新见解
+- **跨域关联2**: 类似乐高积木——基础模块可无限组合创造新事物
+- **可迁移场景**: 任何需要快速构建原型的领域——数据分析、自动化流程、原型验证
+
+### 关联概念
+- [[Multi-Layer-Memory]]
+- [[Context-Engineering]]
+- [[Compound-Engineering]]
+- [[Memex]]
