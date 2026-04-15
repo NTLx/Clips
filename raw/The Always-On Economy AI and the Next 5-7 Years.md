@@ -79,9 +79,9 @@ The key to success will not lie in completely automating human tasks, but in tho
 - **跨域关联3**: 类似"软件定义一切"——从硬件限制到软件编排
 
 ### 关联概念
-- [[Always-On-Economy]]
-- Temporal-Friction
-- Hybrid-Agent-Human
-- AI-Adoption
+- [[Always-On-Economy]] - 全天候经济形态
+- [[ACI-Agent-Computer-Interface]] - 人机协作的接口模式
+- [[Allocation-Economy]] - 分配经济中的 AI 角色
+- [[AI-Era-Economy-Shift]] - AI 驱动的经济转型
 
 current

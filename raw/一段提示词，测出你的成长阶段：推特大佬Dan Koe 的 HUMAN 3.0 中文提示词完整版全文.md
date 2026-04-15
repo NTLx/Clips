@@ -225,8 +225,8 @@ Step 4：总结反馈（输出结构）
 - **跨域关联2**: 类似"创作者经济"浪潮——个人品牌与内容创业
 
 ### 关联概念
-- Dan-Koe
-- HUMAN-3.0
-- Creator-Economy
+- [[Conscious-Creators]] - 有意识创作者的成长阶段
+- [[Inner-World-Mastery]] - 内在世界掌握度
+- [[Resonance]] - 与受众的共鸣能力
 
 current

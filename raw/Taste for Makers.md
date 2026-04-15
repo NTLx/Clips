@@ -9,7 +9,8 @@ description:
 tags:
   - clippings
 ---
-[![](https://s.turbifycdn.com/aah/paulgraham/taste-for-makers-21.gif)](https://s.turbifycdn.com/aah/paulgraham/taste-for-makers-20.gif)  
+[
+![](https://s.turbifycdn.com/aah/paulgraham/taste-for-makers-21.gif)](https://s.turbifycdn.com/aah/paulgraham/taste-for-makers-20.gif)  
   
 February 2002  
   
@@ -214,4 +215,3 @@ Stephen G. Brush, "Why was Relativity Accepted?" *Phys. Perspect. 1 (1999) 184-2
 - [[Conscious-Creators]]
 - [[Decision-Quality]]  
   
-*

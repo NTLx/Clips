@@ -238,9 +238,9 @@ Reprinted in Donzé, *op cit*.
 - **跨域关联3**: 类似奢侈品的"故意限制供应"——只有品牌驱动的市场才能这样做
 
 ### 关联概念
-- Brand
-- Design-Tradeoff
-- Luxury-Branding
-- Technology-Commoditization
+- [[Taste]] - 品牌时代的品味壁垒
+- [[Discernment]] - 设计取舍的判断力
+- [[AI-Era-Economy-Shift]] - 品牌作为 AI 时代的新护城河
+- [[Competent-Output]] - 技术商品化后的竞争壁垒
 
 current

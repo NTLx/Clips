@@ -96,10 +96,10 @@ I don’t know exactly what work looks like when everyone is a manager with an a
 - **跨域关联3**: 类似"会提问比知道答案更重要"——在 AI 时代变成"会委托比会执行更重要"
 
 ### 关联概念
-- Management-AI-Superpower
-- Delegation-to-AI
-- Agentic-Work
-- Prompt-Engineering
+- [[Model-Manager]] - AI 时代管理委托的核心角色
+- [[Decision-Quality]] - 委托决策公式的基础
+- [[Agentic-Engineering]] - AI Agent 工程范式
+- [[Compound-Engineering]] - 复合型工程能力
 
 current
 

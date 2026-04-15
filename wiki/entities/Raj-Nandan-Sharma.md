@@ -14,8 +14,8 @@ related_entities:
   - "[[Dan-Shipper]]"
 source_raw:
   - "[[Good Taste the Only Real Moat Left]]"
-validated_source: "https://www.linkedin.com/in/rajsun/"
-validated_at: "2026-04-14"
+validated_source: "https://www.linkedin.com/in/rajnandan1/"
+validated_at: "2026-04-15"
 ---
 
 # Raj Nandan Sharma

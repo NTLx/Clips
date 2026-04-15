@@ -178,8 +178,9 @@ Last modified: 23rd March 2026
 - **跨域关联2**: 类似"自动驾驶"——从人驾驶到人监控机器驾驶
 
 ### 关联概念
-- [[Agentic-Engineering]]
-- [[Coding-Agents]]
-- Git-Workflow
+- [[Agentic-Engineering]] - Agent 工程范式
+- [[Coding-Agents]] - AI 编程助手
+- [[Git-Fluent-Agents]] - AI Agent 的 Git 流利度
+- [[History-Rewriting]] - Git 历史重写的工程模式
 
 current

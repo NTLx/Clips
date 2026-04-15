@@ -299,8 +299,8 @@ If you want to see how far I take this, follow along.
 - **跨域关联2**: 类似"程序员生产力"重新定义——从写代码到审代码
 
 ### 关联概念
-- OpenClaw
-- One-Person-Dev-Team
-- [[Agent-Orchestration]]
+- [[Agent-Orchestration]] - Agent 编排模式
+- [[OpenClaw-Agent-System]] - OpenClaw 系统实践
+- [[Claude-Code-Automation]] - Claude Code 自动化主题
 
 current

@@ -122,9 +122,9 @@ It will be on our society as a whole to make sure that, with the incredible new 
 - **跨域关联3**: 类似软件开发中的"项目经理"角色——从技术实现到资源分配
 
 ### 关联概念
-- Knowledge-Economy
-- [[Allocation-Economy]]
-- [[Model-Manager]]
-- AI-Adoption
+- [[AI-Era-Economy-Shift]] - 知识经济的终结
+- [[Allocation-Economy]] - 分配经济的到来
+- [[Model-Manager]] - 分配经济中的核心角色
+- [[Judgment]] - 知道要什么比知道怎么做更重要
 
 current

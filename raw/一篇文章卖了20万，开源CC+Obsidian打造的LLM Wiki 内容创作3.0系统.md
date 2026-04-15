@@ -212,10 +212,9 @@ LLM 把这个成本打到了接近零。它可以在一次操作中同时修改 
 - **跨域关联3**: 类似从"人力资源"到"人才DevOps"——知识作为可组合的资产
 
 ### 关联概念
-- LLM-Wiki
-- [[Knowledge-Compilation]]
-- Runtime-RAG
-- Compile-time-Wiki
-- [[Karpathy-AI-Thought]]
+- [[Knowledge-Compilation]] - 知识编译工作流
+- [[Software-2.0]] - 软件范式与 AI 创作
+- [[Vibe-Coding]] - AI 驱动创作范式
+- [[Agent-Swarm]] - Agent 协作工作流
 
-current
+currentcurrent

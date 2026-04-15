@@ -84,10 +84,10 @@ The basic building block of agentic systems is an LLM enhanced with augmentation
 - **可迁移场景**: 任何需要 AI 辅助决策和执行的复杂任务——研究代理、自动化运维、多步骤内容创作
 
 ### 关联概念
-- [[Agentic-Engineering]]
-- [[Agent-Workflow-Patterns]]
-- Augmented-LLM
-- [[ACI-Agent-Computer-Interface]]
-- [[Code-Execution]]
+- [[Agentic-Engineering]] - Agent 工程范式
+- [[Agent-Workflow-Patterns]] - Agent 工作流模式
+- [[ACI-Agent-Computer-Interface]] - Agent 计算机接口
+- [[Code-Execution]] - AI 代码执行能力
+- [[Context-Engineering]] - Agent 上下文工程
 
 current

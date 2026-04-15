@@ -60,9 +60,9 @@ Routine and repetitive tasks are increasingly handled automatically, freeing emp
 - **跨域关联3**: 类似 DevOps——从"开发"和"运维"分离到"开发运维一体化"
 
 ### 关联概念
-- [[Agent-First-Enterprise]]
-- Process-Redesign
-- [[Human-Governor-Agent-Operator]]
-- AI-Adoption
+- [[Agent-First-Enterprise]] - Agent 优先的企业设计
+- [[Human-Governor-Agent-Operator]] - 人类监督+AI 执行的模式
+- [[Agent-First-Process-Redesign]] - Agent 优先流程重构主题
+- [[Agent-Workflow-Patterns]] - Agent 工作流模式
 
 current

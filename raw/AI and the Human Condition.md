@@ -126,9 +126,9 @@ If you assume that the negative parts of humanity will persist in this world of 
 - **跨域关联3**: 类似约会经济——即使有完美机器人，人类还是更喜欢人类
 
 ### 关联概念
-- Human-AI-Relationship
-- AI-Unemployment
-- Content-Creation
-- Comparative-Happiness
+- [[AI-Era-Taste-and-Judgment]] - AI 时代人类情感与判断力的关系
+- [[Conscious-Creators]] - 有意识创造者 vs 无意识生产者
+- [[Knowledge-Work]] - 知识工作的转型
+- [[Judgment]] - 人类判断力的不可替代性
 
 current

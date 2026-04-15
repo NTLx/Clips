@@ -14,8 +14,8 @@ related_entities:
   - "[[Simon-Willison]]"
 source_raw:
   - "[[Management as AI superpower]]"
-validated_source: "https://www.law.upenn.edu/faculty/emollick/"
-validated_at: "2026-04-14"
+validated_source: "https://mgmt.wharton.upenn.edu/profile/emollick/"
+validated_at: "2026-04-15"
 ---
 
 # Ethan Mollick

@@ -104,6 +104,6 @@ Ethan Mollick 提出的委托决策公式：
 - [[Allocation-Economy]] - Model Manager 是分配经济中的核心角色
 - [[Agentic-Engineering]] - Model Manager 管理 coding agents 的工程范式
 - [[Taste]] - Clear Taste 是 Model Manager 的核心能力之一
-- [[Delegation-to-AI]] - 委托决策公式的具体应用
+- Delegation to AI - 委托决策公式的具体应用（详见 raw: *Management as AI superpower*）
 
 > **来源**：Dan Shipper (Every), Ethan Mollick (Wharton)

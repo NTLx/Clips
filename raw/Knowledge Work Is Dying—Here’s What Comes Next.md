@@ -207,8 +207,8 @@ Inner work isn’t just a personal growth tool anymore. It’s a strategic imper
 - **跨域关联2**: 类似"爱因斯坦"效应——专业门槛降低后，"智慧"成为稀缺资源
 
 ### 关联概念
-- [[Knowledge-Work]]
-- [[Wisdom-Work]]
-- AI-Transformation
+- [[Knowledge-Work]] - 知识工作的本质与终结
+- [[Wisdom-Work]] - 知识工作之后的下一阶段
+- [[AI-Era-Economy-Shift]] - AI 驱动的经济转型
 
 current

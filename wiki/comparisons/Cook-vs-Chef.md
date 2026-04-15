@@ -2,6 +2,7 @@
 type: comparison
 title: Cook vs Chef
 created: 2026-04-09
+updated: 2026-04-15
 tags:
   - comparison
   - Creativity
