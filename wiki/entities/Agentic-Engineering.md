@@ -3,7 +3,7 @@ type: entity
 title: Agentic Engineering
 definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
 created: 2026-04-09
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Software-Engineering
@@ -72,6 +72,20 @@ Agent 软件：
 | **代码理解** | Linear walkthroughs、解释代码 | 提出问题 |
 | **重构** | 后台异步重构 | PR 评估 |
 | **历史管理** | History Rewriting | 编辑决策 |
+
+## 关键数据点
+
+- Agent 定义：**Agents run tools in a loop to achieve a goal**
+- Code Execution 是决定性能力：没有直接运行代码的能力，LLM 输出价值有限
+- Vibe Coding 一词由 Andrej Karpathy 在 2025 年 2 月提出（Claude Code 发布前三周）
+- 四项核心原则：代码成本趋近于零、囤积可运行代码示例、AI 应帮助产出更好的代码、不提交未审查的代码
+
+## 前提与局限性
+
+- Agentic Engineering 依赖 coding agents 具备代码执行能力，纯文本 LLM 无法胜任
+- 人类角色从"写代码"转为"验证和迭代"，需要对结果负责
+- LLM 不从过去错误中学习，需要人类显式更新指令和工具 harness
+- Vibe Coding 和 Agentic Engineering 应保持区分：前者是未审查原型，后者是生产级代码
 
 ## 关联概念
 

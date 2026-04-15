@@ -3,7 +3,7 @@ type: entity
 title: Code Execution
 definition: "AI Agent 直接运行代码的能力，是 Agentic Engineering 的决定性能力"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - coding-agents
@@ -60,7 +60,22 @@ User → Agent → 代码 → 自动执行 → 测试结果 → 自动迭代
 | 验证方式 | 无 | 自动测试 + 运行验证 |
 | 人类角色 | "忘记代码存在" | 验证者、迭代者 |
 
-## 相关概念
+## 关键数据点
+
+- Code Execution 是 Agent 迭代出可验证工作软件的关键能力
+- Coding agents 工具包括 Claude Code、OpenAI Codex、Gemini CLI
+- Agent 的核心定义：循环调用工具达成目标
+- LLM 不会从过去的错误中学习，但 coding agents 可以通过更新指令和工具配置来学习
+
+## 前提与局限性
+
+- 依赖前提：代码库可访问且可执行环境可用
+- 适用边界：适用于软件开发、脚本编写、测试验证等场景
+- 局限性：无法执行需要外部硬件或特殊环境的代码
+- 安全风险：自动执行代码可能引入安全漏洞，需要沙箱环境
+- 验证成本：人类仍需验证 Agent 产出的正确性和鲁棒性
+
+## 关联概念
 
 - [[Agentic-Engineering]] - 以此能力为基础的工程范式
 - [[Coding-Agents]] - 具备此能力的 Agent 类型

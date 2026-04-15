@@ -3,7 +3,7 @@ type: entity
 title: Git-Fluent Agents
 definition: "AI coding agents with deep understanding of Git terminology and operations, capable of executing both basic and advanced Git commands autonomously."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Software-Engineering
@@ -52,6 +52,20 @@ Sort out this git mess for me
 Find and recover my code that does...
 Use git bisect to find when this bug was introduced
 ```
+
+## 关键数据点
+
+- Coding agents 深度理解 Git 术语，能执行 `git init`、`git commit`、`git branch`、`git checkout`、`git remote add`、`git log`、`git diff`、merge/rebase/squash、`git reset`、`git rebase -i`、`git bisect`、`git reflog` 等命令
+- Agent 可以分析冲突代码意图，智能解决 merge conflict，并确保测试通过后才完成合并
+- Frontier models 对 commit message 有很好品味，通常比开发者自己写的更好
+- Git clone 包含完整历史，使"潜入历史"零网络开销
+
+## 前提与局限性
+
+- Agent 需要人类告知"做什么"而非"怎么做"——人类需要知道 Git 的能力边界但不需记住具体命令
+- 自动化测试是 agent 安全合并的前提（"it should"）
+- Git bisect 需要将测试条件表达为 Git 可执行的格式
+- 历史重写操作应在未推送的分支上使用，避免影响协作
 
 ## 关联概念
 

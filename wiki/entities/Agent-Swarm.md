@@ -3,7 +3,7 @@ type: entity
 title: Agent Swarm
 definition: "Agent Swarm 是多个编码 Agent 的并行调度系统，每个 Agent 拥有独立的 worktree 和 tmux session，实现并行开发和自主监控。"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - OpenClaw
@@ -133,7 +133,27 @@ Elvis 的实战数据：
 
 分析 Agent 不写代码，编码全部通过 `sessions_spawn` 委派给专家。
 
-## 来源
+## 关键数据点
 
-- Raw Source: [[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
-- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- Elvis 实战数据：94 commits in one day（有 3 个 client calls，没打开编辑器）、7 PRs in 30 minutes
+- RAM 是天花板：5 个 Agent 同时运行 → 5 组并行进程 → Mac Mini 16GB 开始 swapping，解决方案是 Mac Studio M4 max 128GB RAM
+- Definition of Done：PR created + Branch synced + CI passing + review passed + screenshots included（UI changes）
+- Cron 级监控每 10 分钟运行，自动 respawn 失败 agent（max 3 attempts），只在需要人工介入时 alert
+- ACP 编码专家阵型：6 种编码 Agent，最大 6 并发，120min TTL
+
+## 前提与局限性
+
+- 每个 Agent 需要独立 worktree、node_modules、TypeScript compiler、test runner，RAM 是并发瓶颈
+- Agent 选择需根据任务类型：Codex 适合后端/复杂 bug，Claude Code 适合前端/Git 操作，Gemini 适合设计
+- 直接用 Claude Code/Codex 的限制：一次只能盯一个事、上下文窗口是零和博弈
+- Definition of Done 必须严格定义，否则 Agent 可能产出未验证的代码
+- 分析和编码应分离——分析 Agent 不写代码，编码通过 ACP 委派给专业工具
+
+## 关联概念
+
+- [[Agent-Orchestration]] — 编排层调度 Agent 群体
+- [[Headless-Mode]] — Agent 运行的无头模式基础
+- [[Three-State-Protocol]] — Swarm 成员间通信协议
+- [[Context-Engineering]] — Swarm 需要专业的上下文工程
+
+## 来源

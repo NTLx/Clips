@@ -3,7 +3,7 @@ type: entity
 title: Agent Workflow Patterns
 definition: "构建 Agentic 系统的模式集合，从简单组合到自主 Agent 的渐进式架构"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - architecture
@@ -165,4 +165,22 @@ Generator ← 改进
 
 ---
 
-> **来源**：Anthropic, "Building Effective AI Agents", 2024-12-19
+## 关键数据点
+
+- Anthropic 与数十个团队跨行业合作构建 LLM Agent，最成功的实现使用简单、可组合模式而非复杂框架
+- Coding agents 和 customer support 是两个最有前景的应用场景
+- 五种 Workflow 模式：Prompt Chaining、Routing、Parallelization、Orchestrator-Workers、Evaluator-Optimizer
+- Parallelization 有两种形式：Sectioning（拆分子任务）和 Voting（多次运行取共识）
+
+## 前提与局限性
+
+- 模式选择应遵循"从简单开始，只在需要时增加复杂性"原则
+- 自主 Agent 适合开放性、无法预测步数的任务，但需要信任其决策能力
+- 框架（如 Claude Agent SDK、Rivet、Vellum）可能增加抽象层，使调试变难
+- 多数应用只需优化单次 LLM 调用 + retrieval + in-context examples，不需要 agentic 系统
+
+## 关联概念
+
+- [[Coding-Agents]] - Workflow 的主要执行者
+- [[ACI-Agent-Computer-Interface]] - 工具接口设计
+- [[Agentic-Engineering]] - 更广泛的工程实践

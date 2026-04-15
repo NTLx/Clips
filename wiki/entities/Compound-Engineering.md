@@ -3,7 +3,7 @@ type: entity
 title: Compound Engineering
 definition: "持续改进 Agent 指令和工具配置的模式，每个项目后记录有效做法供未来运行使用"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - coding-agents
@@ -77,11 +77,26 @@ source_raw:
 3. **成功模式**：标准化为可复用模板
 4. **工具文档**：持续优化 Agent-Computer Interface
 
-## 相关概念
+## 关联概念
 
 - [[Agentic-Engineering]] - 基础工程范式
 - [[ACI-Agent-Computer-Interface]] - 工具接口设计
 - [[Technical-Debt-Avoidance]] - 复合工程帮助避免技术债务
+
+## 关键数据点
+
+- 由 Dan Shipper 和 Kieran Klaassen (Every) 提出
+- 每个编码项目以回顾结束，称为"compound step"
+- 小改进会复合，曾经耗时的质量增强现在成本已降至没有借口不投资
+- 编码助手意味着可以两者兼得：新功能 + 高质量
+
+## 前提与局限性
+
+- 依赖前提：编码助手能够理解并遵循积累的指令和配置
+- 适用边界：适用于使用 AI 编码助手的软件开发流程
+- 局限性：指令迭代可能有天花板，过度定制可能丧失通用性
+- 需要人类主动记录：Agent 不会自动学习，需要人类刻意更新指令
+- 知识沉淀依赖团队纪律性：需要每个项目后坚持做 compound step
 
 ---
 

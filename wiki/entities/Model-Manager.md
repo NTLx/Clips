@@ -3,7 +3,7 @@ type: entity
 title: Model Manager
 definition: "分配经济中的人的核心角色，负责分配 AI 工作资源、评估质量、迭代改进"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - management
@@ -82,5 +82,28 @@ Ethan Mollick 提出的委托决策公式：
 | 核心挑战 | 找到好人才 | 知道要什么 |
 
 ---
+
+## 关键数据点
+
+- GPT-5.2 Thinking 和 Pro 模型在 GDPval 任务中平均 72% 的时间打平或击败人类专家
+- 人类专家完成 GDPval 任务平均需要 7 小时，AI 只需几分钟但检查需要 1 小时
+- 如果任务需要 1 小时，AI 只需几分钟但检查需要 30 分钟，只有高成功率才值得委托
+- 如果一个任务需要 10 小时，值得花数小时与 AI 合作
+- 委托决策公式：是否委托 AI = f(Human Baseline Time, Probability of Success, AI Process Time)
+
+## 前提与局限性
+
+- 依赖前提：AI 速度足够快且成本足够低，使得委托的 overhead 值得
+- 适用边界：适用于 Human Baseline Time > AI Process Time × (1/Probability of Success) 的场景
+- 局限性：对于看似 plausible 但实际失败的任务，检查和纠正可能比自己做更耗时
+- 领域专业知识是关键：专家知道给什么指令、能更快发现错误、更擅长纠正
+- 不是所有任务都适合委托：需要明确输出标准的任务比开放性任务更适合
+
+## 关联概念
+
+- [[Allocation-Economy]] - Model Manager 是分配经济中的核心角色
+- [[Agentic-Engineering]] - Model Manager 管理 coding agents 的工程范式
+- [[Taste]] - Clear Taste 是 Model Manager 的核心能力之一
+- [[Delegation-to-AI]] - 委托决策公式的具体应用
 
 > **来源**：Dan Shipper (Every), Ethan Mollick (Wharton)

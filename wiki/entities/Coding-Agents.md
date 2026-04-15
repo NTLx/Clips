@@ -3,7 +3,7 @@ type: entity
 title: Coding Agents
 definition: "能够编写并执行代码的 AI Agent，具备 Code Execution 能力，是 Agentic Engineering 的核心工具"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - coding-tools
@@ -62,12 +62,27 @@ source_raw:
 > 没有 Code Execution：LLM 输出价值有限
 > 有了 Code Execution：Agent 可以迭代出**可验证工作的软件**
 
-## 相关概念
+## 关联概念
 
 - [[Agentic-Engineering]] - 以 Coding Agents 为基础的工程范式
 - [[Code-Execution]] - Coding Agents 的核心能力
 - [[Claude-Code-CLI]] - Anthropic 的 Coding Agent 工具
 - [[Vibe-Coding]] - 不强调验证的对比模式
+
+## 关键数据点
+
+- 代表工具：Claude Code (Anthropic)、Codex (OpenAI)、Gemini CLI (Google)
+- Agent 定义：循环调用工具达成目标
+- Coding Agents 工具包括能执行代码的工具，区别于仅生成代码文本的 LLM
+- LLM 不会从过去错误中学习，但 Agent 可通过更新指令和工具配置来学习
+
+## 前提与局限性
+
+- 依赖前提：代码执行环境可用且安全
+- 适用边界：软件开发、脚本编写、测试验证、自动化任务
+- 局限性：无法替代人类判断"什么代码值得写"
+- 安全风险：自动执行代码需要沙箱环境和人类监督
+- 迭代依赖：需要人类提供正确的目标 specification 和验证标准
 
 ---
 

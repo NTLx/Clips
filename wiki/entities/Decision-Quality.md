@@ -3,7 +3,7 @@ type: entity
 title: Decision Quality
 definition: "The ability to make decisions from clarity and conviction rather than overthinking, driven by intuition built from pattern recognition and self-awareness."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Human-Potential
@@ -47,6 +47,19 @@ source_raw:
 - 经验积累：直觉来自实践中的模式识别
 - Inner World Mastery：清晰来自内在掌控
 - 反思反馈：从决策结果中学习
+
+## 关键数据点
+
+- 生产力趋向无限，商品、服务和劳动力的成本预计在未来几十年内崩溃至接近零
+- AI 可以提供所有分析，但无法提供信念
+- 直觉不是猜测，而是基于多年经验的模式识别
+
+## 前提与局限性
+
+- 依赖前提：执行成本已经足够低，使得"做什么"比"怎么做"更重要
+- 适用边界：适用于生产力充裕、选项无限的场景
+- 局限性：在信息极度匮乏或资源受限的环境中，分析型决策仍然必要
+- 不可量化：Decision Quality 目前缺乏标准化评估方法
 
 ## 关联概念
 

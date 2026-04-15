@@ -3,7 +3,7 @@ type: entity
 title: Headless Mode
 definition: "Claude Code 的非交互模式（Headless Mode）通过 -p 参数实现单次执行，输出到 stdout，适合自动化和 CI/CD 场景。"
 created: 2026-04-09
-updated: 2026-04-14
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Claude-Code
@@ -106,4 +106,22 @@ claude -p "修复最严重的那个 bug" --session-id review-001
 | 输出方式 | 终端交互 | stdout（可捕获） |
 | 权限处理 | 实时确认 | 预配置或跳过 |
 
-## 来源
+## 关键数据点
+
+- 基本语法：`claude -p "任务描述"` 或 `claude --print "任务描述"`
+- 三种输出格式：text（默认）、json（带元数据）、stream-json（实时流式）
+- 关键 flags：--allowedTools、--max-turns、--model、--permission-mode、--session-id、--output-format
+- JSON 输出包含：result、session_id、total_cost_usd、duration_ms、num_turns、usage
+- 在 OpenClaw 中，通过 PTY 模式调用 Headless 模式实现自动化编程
+- Elvis Sun 的实践：使用 tmux 而非直接的 -p 模式，支持 mid-task 重新定向（`tmux send-keys`）
+
+## 前提与局限性
+
+- **前提**: 需要 Anthropic API key 配置在环境变量中
+- **边界条件**: Headless 模式适合单次任务和自动化流程，不适合需要频繁交互的探索性开发
+- **局限性**: `--output-format json` 的结构是固定的，自定义输出格式需要后处理
+- **局限性**: 在 CI/CD 中使用时，权限模式需要预先配置，无法实时确认危险操作
+- **局限性**: `--max-turns` 限制可能导致复杂任务未完成就被截断，需要合理设置
+- **局限性**: 多轮会话（--session-id）的上下文有 token 上限，长期会话仍需要手动清理
+
+## 关联概念

@@ -3,7 +3,7 @@ type: entity
 title: Machine-Readable Processes
 definition: "Process definitions that are structured and explicit, enabling AI agents to understand, execute, and optimize workflows autonomously."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Process-Design
@@ -42,6 +42,20 @@ source_raw:
 - Legacy processes 不是为自主系统设计的
 - Agent 需要明确的规则边界来安全运营
 - 结构化数据流支持实时决策
+
+## 关键数据点
+
+- AI 技术预算预计未来两年增长超过 70%，agents 需要结构化流程才能发挥潜力
+- Machine-Readable 流程的三大要素：流程定义（YAML/JSON）、政策约束（金额上限/权限）、结构化数据流（API/Schema）
+- 遗留流程以文档、手册、隐性知识表达；Machine-Readable 流程以代码、配置、显式定义表达
+- Agent 可动态优化流程，而遗留流程需人工分析改进
+
+## 前提与局限性
+
+- 仅适用于可被结构化和显式定义的流程——高度创意或探索性工作难以机器可读化
+- 需要先有明确的 policy constraints，否则 Agent 缺乏安全运营边界
+- 遗留系统的迁移成本可能很高——不是所有企业都能快速转换
+- 机器可读流程假设数据流标准化，但现实中很多组织的数据流是碎片化的
 
 ## 关联概念
 

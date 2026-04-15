@@ -3,7 +3,7 @@ type: entity
 title: ACI (Agent-Computer Interface)
 definition: "Agent 与计算机交互的接口设计，类比 HCI 但针对 AI Agent 优化"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - tool-design
@@ -83,7 +83,20 @@ source_raw:
 | 反馈机制 | 视觉/触觉 | 文本/工具结果 |
 | 错误处理 | 容错、引导 | 防错、清晰报错 |
 
-## 相关概念
+## 关键数据点
+
+- Anthropic 在构建 SWE-bench Agent 时，**工具优化时间超过整体 prompt 优化时间**
+- 问题案例：Agent 移出根目录后，相对路径工具出错；改为绝对路径后 Agent 完美使用
+- Markdown 代码块格式适用性高、Agent 难度低（自然格式）；JSON 内嵌代码和 Diff 格式适用性低、难度高
+
+## 前提与局限性
+
+- ACI 设计原则假定 Agent 是 LLM 驱动，对非 LLM Agent 可能不适用
+- "给 Agent 足够 Token 思考" 的前提是上下文窗口足够大，成本可接受
+- 工具格式选择需权衡：自然格式（如 Markdown）对 Agent 友好但可能增加 token 消耗
+- SWE-bench 的优化经验不一定直接迁移到非代码场景
+
+## 关联概念
 
 - [[Coding-Agents]] - ACI 的主要使用者
 - [[Agent-Workflow-Patterns]] - 使用 ACI 的模式

@@ -3,7 +3,7 @@ type: entity
 title: Agent Orchestration
 definition: "Agent 编排层是管理多个 AI Agent 协作的核心架构，OpenClaw 作为编排者负责任务拆解、进度监控、错误处理和结果汇总。"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - OpenClaw
@@ -101,7 +101,27 @@ Elvis 的 Agent Swarm 系统：
 3. **协议级通信**：不是群聊问题，是协议问题——设计三态协议防止 ACK storm
 4. **自主进化**：编排者从失败中学习，写更好的 prompts
 
-## 来源
+## 关键数据点
 
-- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
-- Raw Source: [[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]
+- 1+5+6 阵型：1 个编排者（Zoe）+ 5 个专业 Agent（ainews/Trading/Macro/Content/Butler）+ 6 个 ACP 编码专家
+- Zoe 每天 3 次巡检（10:00/14:00/22:00），检查 cron 执行状态、磁盘使用、session 健康度
+- 52 个 cron 任务每天自动轮转，覆盖 A 股 + 美股双时区
+- 编码 Agent 有 200K token 窗口，但无法同时容纳代码库 + 业务上下文
+- 复杂度随 Agent 数快速上升：3 个 Agent = 3 对交互关系，6 个 = 15 对
+
+## 前提与局限性
+
+- 编排层解决的核心问题：编码 Agent 上下文局限、需要人工确认会卡住、进程死掉没人知道
+- 分离关注点：分析 Agent 不写代码，编码通过 ACP 委派；编排者持有业务上下文，编码 Agent 只有代码上下文
+- 早期设了 coding、architect、PM 三个技术角色后发现产出与 Zoe + ACP 组合高度重叠，反而增加通信复杂度，后来全砍了
+- 每加一个 Agent 都需要半天到一天调试，处理通信冲突、共享资源竞争、规则兼容
+- 协议级通信是必须的——不是群聊问题，是协议问题
+
+## 关联概念
+
+- [[Agent-Swarm]] — 编排层与 Agent 群体协作配合
+- [[Three-State-Protocol]] — 协议级通信确保编排可靠性
+- [[Context-Engineering]] — 编排层持有业务上下文，编码层持有代码上下文
+- [[Agent-First-Enterprise]] — Agent 编排是 Agent-First 运营的核心实践
+
+## 来源

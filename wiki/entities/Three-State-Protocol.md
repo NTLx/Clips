@@ -3,7 +3,7 @@ type: entity
 title: Three-State Protocol
 definition: "三态通信协议是 Agent 之间协作的通信协议设计，通过 request → confirmed → final 三种状态防止 ACK storm 并确保协作收敛。"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - OpenClaw
@@ -114,6 +114,27 @@ Trading 不需要每次问 Macro"今天宏观怎么样"，直接读 `intel/finan
 
 每一步协议优化都来自 Agent 的 `.learnings/` 经验沉淀——这正是五层记忆系统的价值。
 
-## 来源
+## 关键数据点
 
-- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- ACK Storm 案例：Macro 和 Trading 在"伊朗局势对 A 股影响"上互相"收到/确认/感谢"刷了十几轮，客套的 token 比分析本身还多
+- 三态协议：request → confirmed → final，final 后全员进入静默，"收到/感谢/OK" → NO_REPLY
+- V1 线程协议（2026-03-08 起）：同一线程只允许一个 ack_id，5 分钟无 confirmed → 催办 1 次，10 分钟 → 升级 Zoe 仲裁
+- 三种通信机制：sessions_send（实时但不可靠）、shared-context/ 文件（可追溯结构化）、Discord Thread（子线程协作）
+- 超时 ≠ 失败：同一 ack_id 不得重试，同一内容最多重试 1 次，第二次超时 → shared-context/ 文件投递
+
+## 前提与局限性
+
+- 协议设计前提：Discord 配置 `requireMention=true`，Agent 只在被 @ 时才回复，否则会出现 A→B→A→B 循环
+- "禁止客套"的初版规则无效，必须设计有状态机的通信协议
+- DRI 原则：一个问题只有一个 Directly Responsible Individual 出最终结论，非 DRI 只能补充不能覆盖
+- 协议不是一次性设计出来的，每一步优化都来自 Agent 的 `.learnings/` 经验沉淀
+- sessions_send 超时不代表失败（任务可能已在执行），需要引入 ambiguous_success 语义
+
+## 关联概念
+
+- [[Agent-Orchestration]] — 三态协议由编排层 Zoe 设计并执行
+- [[Agent-Swarm]] — Swarm 成员间通过三态协议通信
+- [[Agent-Workflow-Patterns]] — 三态协议是 Agent 工作流模式的具体实现
+- [[Machine-Readable-Processes]] — 协议级通信是机器可读流程的基础
+
+## 来源

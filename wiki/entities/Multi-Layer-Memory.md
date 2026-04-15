@@ -3,7 +3,7 @@ type: entity
 title: Multi-Layer Memory
 definition: "五层记忆系统借鉴人类认知模型，从短期到长期分层管理 Agent 的记忆，实现跨会话的知识沉淀和自主进化。"
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - OpenClaw
@@ -111,6 +111,27 @@ MEMORY.md: "❌ 事件驱动标的必须用条件单模板"
 | trading 频道刷屏（双发送链路） | 幂等键 + 单层重试 + 节流 | P0 事故 |
 | 军工策略只看事件驱动 | 条件单模板：入场+失效位+三情景 | **Agent 自提方案** |
 
-## 来源
+## 关键数据点
 
-- Raw Source: [[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]
+- 交易蜘蛛 5 次把龙虎榜 API 字段名搞错（`BILLBOARD_BUY_AMT` 写成 `BUY_AMT`），每次 session 重置后记忆丢失
+- MEMORY.md 有 <3000 tokens 硬上限，超限时 Agent 自主精简（合并相似、删除过时）
+- 每日反思 Cron 扫描 `.learnings/`，复现频率 ≥3 次才 promote 到 MEMORY.md（防止偶发事件污染长期记忆）
+- 真实案例：用户纠正"军工策略"→即时记录→每日反思 promote→三周后遇到类似板块轮动时 Agent 直接引用经验
+- Agent 可以自主更新 `.learnings/`、`MEMORY.md`、`memory/`、`knowledge/`，但绝对不能改 SOUL.md
+
+## 前提与局限性
+
+- 五层记忆系统借鉴人类认知模型，需要不同的时间尺度和管理方式配合
+- SOUL.md 修改需要人工确认——曾有 Agent 把自己的"人格"改松，行为立刻变得不可控
+- "≥3 次"阈值防止偶发事件（如一次 API 超时）污染长期记忆，3000 tokens 额度很珍贵
+- Harness 路径（memoryFlush）和 Agent 自主路径（`.learnings/` → MEMORY.md）互补，缺一不可
+- 记忆系统不是"设计好就不变的"，需要持续运营和维护（Zoe 每周分析 MEMORY 状态并执行压缩）
+
+## 关联概念
+
+- [[Context-Engineering]] — 上下文工程与分层记忆协同解决 Agent 上下文问题
+- [[Agent-Orchestration]] — 编排者每周分析 MEMORY 状态并执行压缩
+- [[Headless-Mode]] — 记忆系统在无头模式下持续运营
+- [[Knowledge-Compilation]] — 知识编译是记忆系统的 Wiki 层实现
+
+## 来源

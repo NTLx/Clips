@@ -3,7 +3,7 @@ type: entity
 title: Conscious Creators
 definition: "Individuals who reject distraction, work on their inner selves, choose creation over consumption, and become the new 1% in the era of AI abundance."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Human-Potential
@@ -43,6 +43,23 @@ source_raw:
 - [[Decision-Quality]] - 清晰和信念驱动的决策
 - [[Taste]] - 通过有意识探索培养的品味
 - [[Resonance]] - 创作与自我身份的共鸣
+
+## 关键数据点
+
+- 70% 的 binge-watcher 感觉良好，但 binge-watching 既非休息也非主动思考，而是认知边缘状态
+- 63% 的美国成年人某种频率 binge-watch，38% 几乎每周都这样做
+- 社交媒体 90-9-1 法则：90% 纯消费，9% 互动，仅 1% 创作原创内容
+- 被动使用社交与更高孤独感、嫉妒、抑郁和生活满意度低相关
+- AI 和机器人使生产力趋向无限，商品、服务、劳动成本趋向于零
+
+## 前提与局限性
+
+- Conscious Creators 将是少数——可能比今天的 1% 更少，但价值巨大
+- 真正的稀缺转向内在世界——内在掌控力决定创作深度
+- 来自 Muse（超越自我的创作灵感）的作品具有独特重量，需要静止、谦逊、无期待
+- 直面而非隐藏自身的矛盾、缺陷、痛苦——需要勇气而非逃避
+- 该概念假设"有意识"是可培养的而非天赋，但存在过度内省的风险
+- 在需要快速协作、外部导向的工作场景中可能不适用
 
 ## 关联概念
 

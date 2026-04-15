@@ -3,7 +3,7 @@ type: entity
 title: Vibe Coding
 definition: "Andrej Karpathy 提出的概念，指未经审查、原型质量的 LLM 生成代码"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-15
 tags:
   - AI-Agent
   - coding-agents
@@ -83,15 +83,35 @@ Andrej Karpathy 在 LLM Wiki 文章中进一步阐述：
 
 ---
 
-## 与 Software 2.0 的关系
+## 关联概念
 
-Vibe Coding 是 Software 2.0 的实践延伸：
+- [[Software-2.0]] - Vibe Coding 是 Software 2.0 的实践延伸
+- [[Agentic-Engineering]] - 与 Vibe Coding 对比的工程范式
+- [[Code-Execution]] - Vibe Coding 不强调验证，Agentic Engineering 强调
+- [[Andrej-Karpathy]] - 概念提出者
+
+Vibe Coding 与 Software 2.0 的关系：
 
 | Software 2.0 | Vibe Coding |
 |--------------|-------------|
 | 程序员写目标 | 用户说"氛围" |
 | 神经网络生成程序 | LLM 生成代码 |
 | 数据是源代码 | 对话是源代码 |
+
+## 关键数据点
+
+- Andrej Karpathy 于 2025 年 2 月提出该术语
+- Karpathy 的原始描述："I just see things, say things, run things, and copy paste things, and it mostly works."
+- Claude Code 于 2025 年 3 月发布（Karpathy 提出术语后仅 3 周）
+- LLM Wiki 的深层含义："Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase."
+
+## 前提与局限性
+
+- 依赖前提：人类愿意接受"忘记代码存在"的开发方式
+- 适用边界：快速原型、个人实验、学习探索、一次性脚本
+- 局限性：不适用于生产环境、团队协作、长期维护系统、安全敏感应用
+- 质量标准：未经审查、原型质量，与生产就绪代码有本质区别
+- 术语滥用风险：不应将"任何 LLM 生成代码"都定义为 Vibe Coding
 
 ---
 

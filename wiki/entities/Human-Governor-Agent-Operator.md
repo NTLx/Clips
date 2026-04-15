@@ -3,7 +3,7 @@ type: entity
 title: Human-Governor-Agent-Operator
 definition: "An operating model where humans serve as governors setting goals and constraints, while AI agents act as operators executing workflows autonomously."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Enterprise-Architecture
@@ -41,6 +41,20 @@ source_raw:
 - 企业需要理解完整的经济驱动因素（如服务成本、交易成本）
 - 需要从"flashy pilots"转向结构性变革
 - 需要重新定义人类员工的技能需求
+
+## 关键数据点
+
+- AI 技术预算预计未来两年增长超过 70%
+- 非线性收益来自于"以 agent 为中心的工作流 + 人类治理 + 自适应编排"
+- 传统模式：人类所有层级决策；Governor-Operator 模式：人类仅处理战略与例外
+- 常规和重复性任务越来越多地自动处理，员工聚焦于高价值、创造性、战略性工作
+
+## 前提与局限性
+
+- 人类 Governor 需要具备战略思维、政策制定、例外判断能力——这些技能需要重新定义和培养
+- Agent Operator 需要机器可读的流程定义和明确的政策约束边界才能安全运营
+- 该模式假设企业有足够的流程可被 Agent 运营——不适用于高度创意或探索性工作
+- 如果企业不理解经济驱动因素，会难以优先创建最有价值的 agents
 
 ## 关联概念
 

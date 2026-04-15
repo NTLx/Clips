@@ -3,7 +3,7 @@ type: entity
 title: Knowledge Compilation
 definition: "LLM Wiki 的核心操作：将原始知识源（文档、对话、经验）通过 LLM 转化为结构化 Wiki（Entities、Topics、Comparisons），实现知识的持久累积和高效复用。"
 created: 2026-04-13
-updated: 2026-04-14
+updated: 2026-04-15
 tags:
   - knowledge-management
   - llm-wiki
@@ -243,7 +243,22 @@ Query → Answer → File back to Wiki → Compounding
 
 ---
 
-## 相关链接
+## 关键数据点
+
+- 单篇 source 编译可能触及 10-15 个 wiki 页面
+- Wiki 规模在 ~100 篇 sources、数百个页面时，index.md 仍可有效工作
+- 一次编译，后续查询免费（相比 RAG 每次查询都需付出 token 成本）
+- 三步编译法：浓缩（≤3 条核心结论）→ 质疑（4 个问题）→ 对标（3 个跨域关联）
+
+## 前提与局限性
+
+- **前提**: LLM 具备足够的理解和综合能力，能准确提炼源材料的核心概念
+- **前提**: index.md 的方式在"中等规模"（~100 sources）有效，超大规模可能需要向量检索
+- **边界条件**: 编译质量依赖 Schema 文档的质量，Schema 不完善会导致编译结果不一致
+- **局限性**: "一次编译、持续复用"假设知识源之间没有根本性冲突，矛盾处理需要人工介入
+- **局限性**: Karpathy 的方案是个人 Wiki 场景，团队/企业场景的协作和权限管理未深入讨论
+
+## 关联概念
 
 - [[RAG-vs-LLM-Wiki]] — 编译 vs 检索的对比
 - [[Context-Engineering]] — 编译时的上下文优化

@@ -3,7 +3,7 @@ type: entity
 title: Resonance
 definition: "The alignment between what you create and who you are - when work speaks from your core identity and creates lasting impact on others."
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-15
 tags:
   - AI-Agent
   - Human-Potential
@@ -49,6 +49,21 @@ source_raw:
 - 整合自身的阴影和矛盾
 - 不隐藏缺陷和痛苦
 - 从核心身份出发创作
+
+## 关键数据点
+
+- 90-9-1 法则：90% 仅消费内容，9% 互动，1% 创作原创内容
+- 超过 63% 的美国成年人有频率性地 binge-watch，38% 几乎每周如此
+- Netflix 报道超过 70% 的 binge-watcher 对此感觉良好
+- 被动社交媒体使用与更高 Rates of 孤独、嫉妒、抑郁和较低生活满意度相关
+
+## 前提与局限性
+
+- 依赖前提：AI 生成内容足够 abundant，使得真正的人类创作脱颖而出
+- 适用边界：适用于创意、艺术、内容创作领域
+- 局限性：在纯功能性或标准化工作中，Resonance 可能不是关键指标
+- 无法伪造：Resonance 来自核心身份，无法通过技巧模仿
+- 文化差异：Ikigai 概念源自日本文化，在其他文化中表达方式可能不同
 
 ## 关联概念
 

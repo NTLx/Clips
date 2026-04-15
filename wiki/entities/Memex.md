@@ -3,7 +3,7 @@ type: entity
 title: Memex
 definition: "Vannevar Bush 1945 年提出的个人知识存储概念，强调关联路径（associative trails）比文档本身更有价值，是 LLM Wiki 的思想先驱。"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-15
 tags:
   - knowledge-management
   - history
@@ -131,6 +131,30 @@ LLM Wiki (2026)
 > "He can add a marginal note... build a path... And when he ties two items together, he is not tying them as a librarian might... He is building a trail of interest."
 
 ---
+
+## 关键数据点
+
+- Vannevar Bush 于 1945 年在《As We May Think》（Atlantic Magazine）中首次提出
+- Bush 当时是 MIT 副校长、科学研究与发展办公室主任
+- Memex 的核心创新不是存储本身，而是文档间的"关联路径"（associative trails）
+- Bush 未能解决的核心问题：谁来做维护？（创建和维持关联路径需要大量劳动，人类很快厌倦）
+- Karpathy 原文："The part he couldn't solve was who does the maintenance. The LLM handles that."
+- 现代最接近 Memex 愿景的组合：Obsidian（存储）+ LLM Agent（路径创建和维护）+ Wikilinks（关联路径）
+
+## 前提与局限性
+
+- **前提**: 个人知识管理中有价值的内容是文档间的连接关系，而非文档本身
+- **边界条件**: Memex 愿景适用于个人知识库场景，不适用于公共知识发现场景
+- **局限性**: Karpathy 的引用来自 2026 年 Gist 文章，Memex 与现代 Wiki 的实际相似度被部分理想化
+- **局限性**: LLM 自动维护路径的质量依赖于 LLM 的理解能力，复杂跨文档推理可能出错
+- **局限性**: Memex 的"关联路径"概念与 Web 超链接的本质区别在实践中可能不如理论清晰
+
+## 关联概念
+
+- [[Andrej-Karpathy]] - 在 LLM Wiki 文章中明确关联 Memex
+- [[Knowledge-Work]] - Memex 为知识工作者的知识管理提供愿景
+- [[RAG-vs-LLM-Wiki]] - Memex 是 LLM Wiki 的思想先驱，区别于 RAG 的检索模式
+- [[Knowledge-Compilation]] - LLM 解决了 Memex "谁维护"的问题
 
 ## 外部链接
 

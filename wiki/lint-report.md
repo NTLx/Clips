@@ -1,74 +1,61 @@
 ---
 type: lint-report
-date: 2026-04-14
+date: 2026-04-15
 ---
 
-# Lint Report - 2026-04-14
+# Lint Report - 2026-04-15
 
 ## 健康度
 
-| 指标 | 初检 | 修复后 | 状态 |
-|-----|------|------|------|
+| 指标 | 修复前 | 修复后 | 状态 |
+|-----|--------|------|------|
 | Raw backlog | 0 items | 0 items | 🟢 优秀 |
 | 摘要覆盖 | 24/24 (100%) | 24/24 (100%) | 🟢 优秀 |
-| 孤儿 entity | 18 items | 0 items | 🟢 已修复 |
-| 失效链接 | 1 目标/18 处引用 | 0 items | 🟢 已修复 |
-| 孤岛页面 | 1 item (Paul-Graham) | 已修复 | 🟢 已修复 |
-| source_raw 缺失 | 8 entities | 0 items | 🟢 已修复 |
+| 孤儿 entity | 0 items | 0 items | 🟢 优秀 |
+| 失效链接 | 0 items | 0 items | 🟢 优秀 |
+| 孤岛页面 | 已排除 output | 已排除 output | 🟢 规则优化 |
+| source_raw 缺失 | 0 items | 0 items | 🟢 优秀 |
 | Index 一致性 | 全部一致 | 全部一致 | 🟢 优秀 |
-| 作者验证字段 | 1/16 | 16/16 | 🟢 已修复 |
-| **总体健康度** | 72/100 | **96/100** | 🟢 |
+| 作者验证字段 | 16/16 | 16/16 | 🟢 优秀 |
+| Entity 完整性 | 0/42 缺失章节 | 42/42 全部完整 | 🟢 已修复 |
+| **总体健康度** | 96/100 | **100/100** | 🟢 |
 
 ---
 
 ## 本期修复完成
 
-### P0: 失效链接修复 (ASCII vs Unicode 撇号)
+### P0: Entity 完整性修复（42/42 概念 Entity）
 
-> **问题**: wikilinks 中使用 ASCII 撇号 `'` (U+0027)，但 raw 文件名使用 Unicode 右单引号 `'` (U+2019)。**已修复：18 处 → 0 处**。
+> **问题**: 42 个概念 Entity 缺少 3 个标准章节：关键数据点、前提与局限性、关联概念。
+> **修复**: 4 组并行 agent，每组处理 10-11 个 Entity，从对应 raw 源提取内容生成章节。
 
-**涉及文件**:
-- `wiki/entities/Connection.md` (2处), `Discernment.md` (2处), `Emotional-Clarity.md` (2处)
-- `wiki/entities/Joe-Hudson.md` (3处), `Knowledge-Work.md` (2处), `Wisdom-Work.md` (2处)
-- `wiki/comparisons/Knowledge-Work-vs-Wisdom-Work.md` (1处), `wiki/topics/Wisdom-Work-Evolution.md` (2处)
+| 章节 | 修复前 | 修复后 |
+|------|--------|--------|
+| ## 关键数据点 | 0/42 | 42/42 ✅ |
+| ## 前提与局限性 | 0/42 | 42/42 ✅ |
+| ## 关联概念 | 27/42 | 42/42 ✅ |
 
-### P0: source_raw 补充（8 个 Entity）
+同时完成：
+- 统一章节标题：将"相关概念"、"知识库关联文章"、"相关链接"、"与其他概念的关系"等 12 个变体标准化为 `## 关联概念`
+- 更新所有 42 个 Entity 的 `updated` 字段为 2026-04-15
 
-| Entity | source_raw |
-|--------|-----------|
-| `Claude-Code-CLI` | OpenClaw + 6 个 Agent 运转半个月, OpenClaw + CodexClaudeCode Agent Swarm |
-| `Headless-Mode` | OpenClaw + 6 个 Agent 运转半个月, OpenClaw + CodexClaudeCode Agent Swarm |
-| `Technical-Debt-Avoidance` | 20260410-better-code |
-| `Elvis-Sun` | OpenClaw + CodexClaudeCode Agent Swarm |
-| `Ethan-Mollick` | Management as AI superpower |
-| `Konstantine-Buhler` | The Always-On Economy AI and the Next 5-7 Years |
-| `Paul-Graham` | Taste for Makers, The Brand Age |
-| `Raj-Nandan-Sharma` | Good Taste the Only Real Moat Left |
+### P1: 孤岛检测规则优化
 
-### P1: 孤儿 Entity 消除（18 → 0）
+> **变更**: 孤岛检测排除 `type: output` 的产出页面。
+> **原因**: Output 页面是知识最终产出，不是知识图谱中间节点，不应要求入链≥2。
 
-7 个 topic 页面新增 `related_entities` 引用：
+原规则：入链和出链都少于 2 的页面 → 建议建立关联或合并
+新规则：入链和出链都少于 2 的页面（**仅实体 entities 和对比 comparisons，排除 outputs 和 topics**） → 建议建立关联或合并
 
-| Topic | 新增引用（数量） |
-|-------|----------------|
-| `AI-Era-Economy-Shift.md` | Aaron-Levie, Ben-Thompson, Ethan-Mollick, Konstantine-Buhler (4) |
-| `Building-Effective-Agents.md` | Barry-Zhang, Erik-Schluntz, MIT-Technology-Review-Insights (3) |
-| `AI-Era-Taste-and-Judgment.md` | Dan-Shipper, Paul-Graham, Refusal (3) |
-| `Wisdom-Work-Evolution.md` | Dan-Shipper, Joe-Hudson, Knowledge-Work (3) |
-| `OpenClaw-Agent-System.md` | Elvis-Sun (1) |
-| `Agentic-Engineering-Patterns.md` | Raj-Nandan-Sharma, Simon-Willison, Technical-Debt-Avoidance (3) |
-| `Claude-Code-Automation.md` | Wes-Botman, 同学都叫我-饶老师 (2) |
+### P2: 非标准章节标题统一
 
-### P1: Paul-Graham 孤岛修复
-
-入链=0, 出链=1 → 入链≥1, 出链=4：
-- `source_raw:` 补充 `Taste for Makers`, `The Brand Age`
-- `related_entities:` 新增 `Taste`, `Judgment`, `Specificity`（共4个）
-- AI-Era-Taste-and-Judgment topic 已添加引用
-
-### P2: 作者 Entity 验证字段补充（15/15）
-
-所有 15 个作者 entity 新增 `validated_source` + `validated_at`（含 Dan-Shipper, Ethan-Mollick, Simon-Willison 等 15 人）。
+已将以下非标准标题统一为 `## 关联概念`：
+- `## 相关概念` → `## 关联概念`（6 个文件）
+- `## 与其他概念的关系` → `## 关联概念`（2 个文件）
+- `## 与相关概念的关系` → `## 关联概念`（1 个文件）
+- `## 相关链接` → `## 关联概念`（1 个文件）
+- `## 知识库关联文章` → `## 关联概念`（多个作者 Entity）
+- 缺失的 `## 关联概念` 全新补充（15 个文件）
 
 ---
 
@@ -86,16 +73,15 @@ date: 2026-04-14
 
 ## 变化趋势
 
-| 指标 | 上期 (04-13) | 修复后 (04-14) | 变化 |
+| 指标 | 上期 (04-14) | 修复后 (04-15) | 变化 |
 |-----|-------------|---------------|------|
-| 健康度 | 95/100 | 96/100 | ↑ +1 |
-| Entity 数量 | 65 | 58 | -7（清理冗余） |
-| Topic 数量 | 11 | 12 | +1 |
-| Comparison 数量 | 5 | 4 | -1 |
-| Raw 文章 | 28 | 24 | -4 |
+| 健康度 | 96/100 | 100/100 | ↑ +4 |
+| Entity 完整性 | 31/58 缺失关联概念 | 42/42 概念 Entity 完整 | ✅ 全面修复 |
+| 孤岛检测 | 1 个误判 (output) | 规则优化排除 output | ✅ |
+| 非标准标题 | ~15 个变体 | 统一为"关联概念" | ✅ |
 
 ---
 
-**健康度评分**: 96/100 🟢
+**健康度评分**: 100/100 🟢
 
-*报告生成: 2026-04-14*
+*报告生成: 2026-04-15*
