@@ -491,6 +491,39 @@ python3 -c "import sys; print(sys.argv[1].encode().decode('unicode_escape').enco
 
 ---
 
+## Gotchas
+
+### Unicode 文件名与 Read 工具
+
+`Read` 工具无法直接读取含中文的文件名。改用 Python：
+```python
+python3 << 'PYEOF'
+import os
+d = "/Users/lx/Obsidian/Clips/raw/"
+files = [f for f in os.listdir(d) if "关键词" in f]
+path = os.path.join(d, files[0])
+with open(path, 'r') as f: content = f.read()
+PYEOF
+```
+
+### 微信公众号文章剪藏不完整
+
+Obsidian 浏览器插件剪藏 WeChat 文章会丢失正文段落。补全步骤：
+1. 使用 `web-access` Skill → CDP 模式打开文章 URL
+2. `/eval` 提取 `#js_content` 的完整 `innerText` 和元数据
+3. 对比已有内容，补充缺失段落
+4. 清理 WeChat 注入的 `<!--rehype:style=...-->` HTML 注释标记
+
+### source_raw Wikilink 引号编码一致性
+
+Raw 文件名若含弯引号 `" "`（U+201C/201D），entity 的 `source_raw` wikilink 必须使用相同的弯引号，不能用 ASCII 直引号 `"`（U+0022）。验证时通过 Python `repr()` 逐字符检查 `ord(ch)`。
+
+### 编辑含中文文件名的文件
+
+`edit` 工具同样受 Unicode 文件名限制。使用 Python `open(path, 'w')` 直接写入是可靠方案。
+
+---
+
 ## 概念筛选标准（决定是否建立 Entity）
 
 | 类型 | 处理方式 | 示例 |

@@ -31,6 +31,25 @@ created: 2026-04-09
 ---
 
 *日志创建: 2026-04-09*
+## 2026-04-15: 编译 — 每月$20成本，$60000+营收：加拿大程序员的"最穷"技术栈
+
+- **来源**: https://mp.weixin.qq.com/s/eTFOY-gtZxNJr8lRHGf6pg (微信公众号，刘小排)
+- **编译方式**: 标准路径（三步编译法）
+- **新增 Entity (7 个)**:
+  - [[Steve-Hanov]] (person) — 加拿大 Waterloo 独立开发者
+  - [[Lean-Stack]] — $20/月极简技术栈：VPS + SQLite + Go + systemd
+  - [[Runway-Math]] — 生存时间 = 资金 ÷ 月支出，控制分母
+  - [[Anti-Enterprise-Mindset]] — 拒绝预优化，不买"万一"的账
+  - [[B2B-Nurture-C-Model]] — B2B 养 C 端的抗周期产品组合
+  - [[Time-Moat]] — 多年运营积累的 SEO + 品牌 + 信任壁垒
+  - [[Constraint-Driven-Engineering]] — 先设定约束，再从约束出发选技术
+- **新增 Topic (1 个)**:
+  - [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] — 整合 7 个相关 Entity
+- **索引更新**: 58→65 entities, 12→13 topics, 24→25 raw articles
+- **编译摘要**: 3 条核心结论 + 5 条质疑 + 3 条跨域对标
+
+---
+
 ## 2026-04-14: Lint 修复
 
 - **失效链接**: 修复 18 处 ASCII/Unicode 撇号不匹配 (Knowledge Work Is Dying...)

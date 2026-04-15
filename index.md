@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 58 个 |
-| Topic 页面 | 12 个 |
+| Entity 页面 | 65 个 |
+| Topic 页面 | 13 个 |
 | Comparison 页面 | 4 个 |
-| Raw 文章 | 24 个 |
+| Raw 文章 | 25 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -75,6 +75,12 @@ tags:
 | [[wiki/entities/Software-2.0\|Software 2.0]] | 编程范式转变：程序员写目标，神经网络编程 | LLM Wiki |
 | [[wiki/entities/Memex\|Memex]] | Vannevar Bush 1945 年个人知识存储概念，LLM Wiki 思想先驱 | LLM Wiki |
 | [[wiki/entities/Knowledge-Compilation\|Knowledge Compilation]] | Raw → Wiki 的知识转化操作，LLM Wiki 核心流程 | LLM Wiki |
+| [[wiki/entities/Lean-Stack\|Lean-Stack]] | 极低成本（$20/月）独立运营盈利产品的技术栈 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Runway-Math\|Runway-Math]] | 生存时间 = 资金 ÷ 月支出，控制分母比控制分子更可确定 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Anti-Enterprise-Mindset\|Anti-Enterprise-Mindset]] | 拒绝为企业级需求预先优化，只在实际需要后才升级 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/B2B-Nurture-C-Model\|B2B-Nurture-C-Model]] | 用 B2B 大额订单养 C 端产品的抗周期商业模式组合 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Time-Moat\|Time-Moat]] | 通过多年持续运营积累的 SEO、品牌、信任等无法速成的壁垒 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Constraint-Driven-Engineering\|Constraint-Driven-Engineering]] | 先设定约束（预算、人力、时间），再从约束出发选择技术 | 每月$20成本，$60000+营收 |
 
 #### 作者 Entities
 
@@ -95,6 +101,7 @@ tags:
 | [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
 | [[wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 技术团队成员，Building Effective Agents 合著者 | AI-Agent, Anthropic |
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
+| [[wiki/entities/Steve-Hanov\|Steve Hanov]] | 加拿大 Waterloo 独立开发者，6 个 $10K+ MRR 产品，月成本 $20 | Indie Developer, Bootstrap |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -113,6 +120,7 @@ tags:
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
 | [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 LLM Wiki 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation |
 | [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
+| [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] | 独立开发者用极低技术成本运营盈利产品的工程哲学 | Steve-Hanov, Lean-Stack, Runway-Math |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -135,7 +143,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（24 个）*
+*原始剪藏文章（25 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 
@@ -169,5 +177,5 @@ status             # 查看知识库状态
 
 ---
 
-*索引版本: v2.0*
+*索引版本: v2.1*
 *最后更新: 2026-04-15*

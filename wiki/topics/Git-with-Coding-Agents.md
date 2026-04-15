@@ -161,4 +161,4 @@ Use git bisect to find when this bug was introduced:...
 
 ---
 
-**返回**: [[index|知识库索引]]
+**返回**: [知识库索引](index.md)
