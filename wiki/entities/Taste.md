@@ -15,14 +15,6 @@ related_entities:
   - "[[Competent-Output]]"
 source_raw:
   - "[[Good Taste the Only Real Moat Left]]"
----
-
----
-title: 概念解剖：Taste
-tags: [concept]
-date: 2026-04-15
----
-
 # 定锚
 
 **通行定义**：Taste 是在缺乏明确规则或标准时，对"什么是好的"做出准确判断的能力。在 AI 时代，它被重新定义为人类最后的护城河——当机器能生产一切，选择什么变得比生产什么更重要。

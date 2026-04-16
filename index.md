@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - index
   - MOC
@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 65 个 |
+| Entity 页面 | 67 个 |
 | Topic 页面 | 13 个 |
 | Comparison 页面 | 4 个 |
 | Raw 文章 | 25 个 |
@@ -81,6 +81,8 @@ tags:
 | [[wiki/entities/B2B-Nurture-C-Model\|B2B-Nurture-C-Model]] | 用 B2B 大额订单养 C 端产品的抗周期商业模式组合 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Time-Moat\|Time-Moat]] | 通过多年持续运营积累的 SEO、品牌、信任等无法速成的壁垒 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Constraint-Driven-Engineering\|Constraint-Driven-Engineering]] | 先设定约束（预算、人力、时间），再从约束出发选择技术 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Harness-Engineering\|Harness Engineering]] | 让 AI Agent 成为主要构建者的完整系统框架 | Why Your "AI-First" Strategy Is Probably Wrong |
+| [[wiki/entities/AI-First\|AI-First]] | 围绕"AI 是主要构建者"重新设计流程、架构和组织的范式 | Why Your "AI-First" Strategy Is Probably Wrong |
 
 #### 作者 Entities
 
@@ -115,7 +117,7 @@ tags:
 | [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践 | Claude-Code-CLI, Headless-Mode |
 | [[wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment |
 | [[wiki/topics/Wisdom-Work-Evolution\|智慧工作演化]] | 从知识工作到智慧工作的演进 | Wisdom-Work, Connection, Agent-Orchestration |
-| [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 | Agentic-Engineering, Code-Execution, Vibe-Coding |
+| [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 → 涵盖 Harness Engineering 演进 | Agentic-Engineering, Code-Execution, Vibe-Coding, Harness-Engineering |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
 | [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 LLM Wiki 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation |
@@ -177,5 +179,5 @@ status             # 查看知识库状态
 
 ---
 
-*索引版本: v2.1*
-*最后更新: 2026-04-15*
+*索引版本: v2.2*
+*最后更新: 2026-04-16*

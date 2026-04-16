@@ -3,7 +3,7 @@ type: topic
 title: Agentic Engineering Patterns
 description: "Simon Willison 的 Agentic Engineering 指南系列，定义 AI 编程代理时代的工程范式"
 created: 2026-04-10
-updated: 2026-04-14
+updated: 2026-04-16
 tags:
   - AI-Agent
   - coding-agents
@@ -17,12 +17,15 @@ related_entities:
   - "[[Simon-Willison]]"
   - "[[Technical-Debt-Avoidance]]"
   - "[[Vibe-Coding]]"
+  - "[[Harness-Engineering]]"
+  - "[[AI-First]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260410-code-is-cheap]]"
   - "[[20260410-hoard-things-you-know]]"
   - "[[20260410-better-code]]"
   - "[[20260410-anti-patterns]]"
+  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
 ---
 
 # Agentic Engineering Patterns
@@ -140,12 +143,27 @@ source_raw:
 - [[Agent-Workflow-Patterns]] - 架构模式
 - [[ACI-Agent-Computer-Interface]] - 接口设计
 
+## Agentic Engineering 到 Harness Engineering 的演进
+
+| 阶段 | 核心问题 | 解决方案 | 来源 |
+|------|---------|---------|------|
+| **Agentic Engineering** | Agent 如何有效运行工具循环？ | Code Execution + TDD + Git Fluent | Simon Willison |
+| **AI-First** | 如何围绕 AI 重建组织？ | 流程重设计 + 全职能 AI 原生 | CREAO / Peter Pang |
+| **Harness Engineering** | 如何让 Agent 成为主要构建者？ | Monorepo + 自愈循环 + 6 阶段 CI/CD | OpenAI (2026.02) + CREAO |
+
+> [!quote] CREAO CTO Peter Pang
+> "You build the system. The prompts are disposable."
+
 ## 参见
 
 - [[Raj-Nandan-Sharma]] - AI Agent 实践文章作者
 - [[Simon-Willison]] - Agentic Engineering 指南作者
 - [[Technical-Debt-Avoidance]] - Agentic Engineering 核心模式：用助手预防技术债务
+- [[Harness-Engineering]] - 让 Agent 成为主要构建者的完整系统框架
+- [[AI-First]] - 组织级 AI 优先范式
 
 ---
 
 > **来源**：Simon Willison, [Agentic Engineering Patterns Guide](https://simonwillison.net/guides/agentic-engineering-patterns/)
+>
+> **案例来源**：Peter Pang (CREAO CTO), [Why Your "AI-First" Strategy Is Probably Wrong](https://x.com/intuitiveml/status/2043545596699750791), 2026-04-13

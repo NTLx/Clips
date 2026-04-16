@@ -3,19 +3,21 @@ type: entity
 title: Vibe Coding
 definition: "Andrej Karpathy 提出的概念，指未经审查、原型质量的 LLM 生成代码"
 created: 2026-04-10
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - AI-Agent
   - coding-agents
   - programming
 related_entities:
   - "[[Agentic-Engineering]]"
+  - "[[Harness-Engineering]]"
   - "[[Code-Execution]]"
   - "[[Andrej-Karpathy]]"
   - "[[Software-2.0]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260413-llm-wiki]]"
+  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
 ---
 
 # Vibe Coding（氛围编程）
@@ -87,7 +89,8 @@ Andrej Karpathy 在 LLM Wiki 文章中进一步阐述：
 
 - [[Software-2.0]] - Vibe Coding 是 Software 2.0 的实践延伸
 - [[Agentic-Engineering]] - 与 Vibe Coding 对比的工程范式
-- [[Code-Execution]] - Vibe Coding 不强调验证，Agentic Engineering 强调
+- [[Harness-Engineering]] - 超越 Agentic Engineering：不仅审查代码，而是构建让 Agent 有效工作的完整系统
+- [[Code-Execution]] - Vibe Coding 不强调验证，Agentic Engineering 和 Harness Engineering 强调
 - [[Andrej-Karpathy]] - 概念提出者
 
 Vibe Coding 与 Software 2.0 的关系：

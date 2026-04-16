@@ -3,7 +3,7 @@ type: entity
 title: Machine-Readable Processes
 definition: "Process definitions that are structured and explicit, enabling AI agents to understand, execute, and optimize workflows autonomously."
 created: 2026-04-09
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - AI-Agent
   - Process-Design
@@ -11,8 +11,10 @@ tags:
 related_entities:
   - "[[Agent-First-Enterprise]]"
   - "[[Human-Governor-Agent-Operator]]"
+  - "[[Harness-Engineering]]"
 source_raw:
   - "[[Enabling agent-first process redesign]]"
+  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
 ---
 
 # Machine-Readable Processes

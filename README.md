@@ -493,6 +493,12 @@ python3 -c "import sys; print(sys.argv[1].encode().decode('unicode_escape').enco
 
 ## Gotchas
 
+### ljg-wrapper 残留 frontmatter
+
+`.sisyphus/ljg-wiki-wrapper.py` 处理 ljg-learn 输出时，不会剥离 ljg 自带的 meta frontmatter
+（`title: 概念解剖：X / tags: [concept] / date: YYYY-MM-DD`），导致 entity 正文中出现多余的 `---` 块。
+**修复**: 创建 entity 后检查第 2 个 `---` 块并删除。
+
 ### Unicode 文件名与 Read 工具
 
 `Read` 工具无法直接读取含中文的文件名。改用 Python：
@@ -522,6 +528,12 @@ Raw 文件名若含弯引号 `" "`（U+201C/201D），entity 的 `source_raw` wi
 
 `edit` 工具同样受 Unicode 文件名限制。使用 Python `open(path, 'w')` 直接写入是可靠方案。
 
+### X/Twitter Obsidian 剪藏 Author 格式
+
+Obsidian Web Clipper 自动生成的 author wikilink 带 `@` 前缀（如 `[[@intuitiveml]]`），
+不符合 kebab-case 规范。必须替换为纯文本作者名（如 `"Peter Pang"`），
+待创建 Author Entity 后再改为 `[[Peter-Pang]]`。
+
 ---
 
 ## 概念筛选标准（决定是否建立 Entity）
@@ -534,7 +546,12 @@ Raw 文件名若含弯引号 `" "`（U+201C/201D），entity 的 `source_raw` wi
 | 通用泛概念（单篇出现） | 不建 Entity | AI-Adoption, AI-Transformation |
 | 多篇文章重复出现 | ✅ 评估后建 Entity | Taste, Agentic-Engineering |
 
-## Raw 关联概念规范
+### 重复来源：保留一手来源
+
+同一文章的多语言版本/翻译版本共存时，**只保留一手来源**（原文），删除翻译副本。
+- 判断标准：语言（原文优先）、来源层级（X/博客 > 微信转载）、完整性
+
+### Raw 关联概念规范
 
 - 必须使用 `[[wikilink]]` 格式，禁止纯文本（如 `- ConceptName` 无效）
 - 所有链接必须指向已存在的 Entity/Topic 页面

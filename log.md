@@ -58,3 +58,23 @@ created: 2026-04-09
 - **孤岛修复**: Paul-Graham 补充 source_raw + 3 个相关实体 + topic 引用
 - **作者验证**: 15 个作者 entity 新增 validated_source / validated_at
 - **健康度**: 72/100 → 96/100
+
+---
+
+## 2026-04-16: 剪藏 → 编译 — Why Your "AI-First" Strategy Is Probably Wrong
+
+- **来源**: https://x.com/intuitiveml/status/2043545596699750791 (X/Twitter, Peter Pang / @intuitiveml)
+- **中文翻译**: 微信公众号 ThinkInAI社区 2026-04-15 发布
+- **编译方式**: 标准路径（三步编译法） + Entity 创建
+- **新建 Entity (2 个)**:
+  - [[Harness-Engineering]] — 让 AI Agent 成为主要构建者的完整系统框架（OpenAI 2026.02 提出概念，CREAO 实践案例）
+  - [[AI-First]] — 围绕"AI 是主要构建者"重新设计流程、架构和组织的全职能范式
+- **更新 Entity (3 个)**:
+  - [[Vibe-Coding]] — 追加 Harness-Engineering 关联 + 新增 source_raw
+  - [[Agentic-Engineering]] — 追加 Harness-Engineering 关联 + 新增 source_raw
+  - [[Machine-Readable-Processes]] — 追加 Harness-Engineering 关联 + 新增 source_raw
+- **更新 Topic (1 个)**:
+  - [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] — 追加 AI-First → Harness Engineering 演进展节
+- **索引更新**: 65→67 entities
+- **编译摘要**: 3 条核心结论 + 5 条质疑 + 3 条跨域对标（[[Constraint-Driven-Engineering]], [[Always-On-Economy]], [[Decision-Quality]]）
+- **备注**: 重复的微信公众号中文翻译文件已删除，保留英文原文为唯一 Raw source

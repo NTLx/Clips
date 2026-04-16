@@ -3,7 +3,7 @@ type: entity
 title: Agentic Engineering
 definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
 created: 2026-04-09
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - AI-Agent
   - Software-Engineering
@@ -12,11 +12,13 @@ related_entities:
   - "[[Code-Execution]]"
   - "[[Coding-Agents]]"
   - "[[Vibe-Coding]]"
+  - "[[Harness-Engineering]]"
   - "[[Compound-Engineering]]"
   - "[[Git-Fluent-Agents]]"
 source_raw:
   - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
   - "[[20260410-what-is-agentic-engineering]]"
+  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
 ---
 
 # Agentic Engineering
