@@ -14,6 +14,7 @@ related_entities:
 source_raw:
   - "[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]"
   - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - "[[20260409-ai-capability-gap-ai-psychosis]]"
 ---
 
 # Claude Code CLI

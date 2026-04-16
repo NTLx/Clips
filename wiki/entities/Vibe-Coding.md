@@ -14,10 +14,13 @@ related_entities:
   - "[[Code-Execution]]"
   - "[[Andrej-Karpathy]]"
   - "[[Software-2.0]]"
+  - "[[AI-Capability-Gap]]"
+  - "[[AI-Psychosis]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260413-llm-wiki]]"
   - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260409-ai-capability-gap-ai-psychosis]]"
 ---
 
 # Vibe Coding（氛围编程）

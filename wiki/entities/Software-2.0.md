@@ -14,8 +14,11 @@ related_entities:
   - "[[Vibe-Coding]]"
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
+  - "[[AI-Capability-Gap]]"
+  - "[[AI-Psychosis]]"
 source_raw:
   - "[[20260413-llm-wiki]]"
+  - "[[20260409-ai-capability-gap-ai-psychosis]]"
 ---
 
 # Software 2.0

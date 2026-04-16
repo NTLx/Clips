@@ -19,6 +19,7 @@ source_raw:
   - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260409-ai-capability-gap-ai-psychosis]]"
 ---
 
 # Agentic Engineering

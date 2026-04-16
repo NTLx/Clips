@@ -50,6 +50,26 @@ created: 2026-04-09
 
 ---
 
+## 2026-04-16: 编译 — Karpathy AI 能力鸿沟帖
+
+- **来源**: https://x.com/karpathy/status/2042334451611693415 (X/Twitter, Andrej Karpathy)
+- **编译方式**: 标准路径（三步编译法）+ 附加思考整合
+- **附加资料**: 池建强微信公众号 + 墨问笔记（人群分层、核心洞察、社区讨论）
+- **新建 Entity (2 个)**:
+  - [[AI-Psychosis]] — 付费前沿 agentic 模型用户对 AI 编程能力跃迁的极度震撼
+  - [[AI-Capability-Gap]] — 同一技术在不同用户群体中的能力鸿沟，形成两条平行认知现实
+- **更新 Entity (4 个)**:
+  - [[Andrej-Karpathy]] — 新增 source_raw + AI-Psychosis/AI-Capability-Gap 关联
+  - [[Vibe-Coding]] — 新增 source_raw + AI-Capability-Gap/AI-Psychosis 关联
+  - [[Software-2.0]] — 新增 source_raw + AI-Capability-Gap/AI-Psychosis 关联
+  - [[Claude-Code-CLI]] — 新增 source_raw
+- **更新 Topic (1 个)**:
+  - [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] — 新增 AI-Capability-Gap、AI-Psychosis 概念矩阵 + 相关实体引用
+- **索引更新**: 67→69 entities，25→26 raw articles
+- **编译摘要**: 3 条核心结论 + 5 条质疑 + 3 条跨域对标
+
+---
+
 ## 2026-04-14: Lint 修复
 
 - **失效链接**: 修复 18 处 ASCII/Unicode 撇号不匹配 (Knowledge Work Is Dying...)
@@ -78,3 +98,24 @@ created: 2026-04-09
 - **索引更新**: 65→67 entities
 - **编译摘要**: 3 条核心结论 + 5 条质疑 + 3 条跨域对标（[[Constraint-Driven-Engineering]], [[Always-On-Economy]], [[Decision-Quality]]）
 - **备注**: 重复的微信公众号中文翻译文件已删除，保留英文原文为唯一 Raw source
+
+---
+
+## 2026-04-16: 剪藏 Karpathy X 帖 → 优化 + 附加思考
+
+- **来源**: https://x.com/karpathy/status/2042334451611693415 (X/Twitter, Andrej Karpathy / @karpathy)
+- **附加资料**:
+  - 池建强微信公众号文章: https://mp.weixin.qq.com/s/OArrjAbDpinIADQzmymsVA
+  - 池建强墨问笔记: https://note.mowen.cn/detail/wVRtr2XSutpQQZTnKnX5W
+- **操作类型**: 剪藏完善（通过 web-access 获取原文 + 附加思考）
+- **优化文件**:
+  - 文件名: `Thread by @karpathy.md` → `20260409-ai-capability-gap-ai-psychosis.md`
+  - 提取 X Thread 相关回复（Karpathy 补充 / NBER 数据 / Raschka 评论）
+  - 追加池建强分析（人群分层：完全不用 → 免费用户 → 付费专业 → 顶尖 Researcher）
+  - 追加墨问社区讨论精选（普通人应对策略讨论）
+- **附加元数据**: `engagement`（1.1 万 likes / 1.9 万 RTs）, `related_commentary`（池建强微信/墨问链接）
+- **Tags**: clippings / ai-gap / ai-psychosis / agentic-models / chi-jianqiang
+- **更新 Entity (2 个)**:
+  - [[Andrej-Karpathy]] — 新增 `source_raw` 引用 + `[[AI-Psychosis]]` / `[[AI-Capability-Gap]]` 关联
+  - [[AI-Psychosis]] — 新建（Karpathy 提出的 AI 狂热概念）
+- **编译摘要**: 追加三步编译法（浓缩/质疑/对标）到 raw 文档

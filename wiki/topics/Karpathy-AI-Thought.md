@@ -17,6 +17,12 @@ related_entities:
   - "[[Memex]]"
   - "[[Agentic-Engineering]]"
   - "[[Coding-Agents]]"
+  - "[[AI-Psychosis]]"
+  - "[[AI-Capability-Gap]]"
+  - "[[AI-Psychosis]]"
+  - "[[AI-Capability-Gap]]"
+  - "[[AI-Psychosis]]"
+  - "[[AI-Capability-Gap]]"
 source_raw:
   - "[[20260413-llm-wiki]]"
   - "[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]"
@@ -24,7 +30,7 @@ source_raw:
 
 # Karpathy AI 思想体系
 
-> **核心洞察**：从 Software 2.0 到 LLM Wiki，Karpathy 系统性地定义了 AI 时代的编程范式和知识管理范式。
+> **核心洞察**：从 Software 2.0 到 AI Psychosis，Karpathy 系统性地定义了 AI 时代的编程范式、能力鸿沟和知识管理范式。
 
 ---
 
@@ -51,6 +57,8 @@ Eureka Labs (2024)
 | **[[Vibe-Coding]]** | 2025 | 忘记代码存在，氛围驱动编程 | Software 2.0 的极端实践 |
 | **LLM Wiki** | 2026 | LLM 维护的持久知识库 | Software 2.0 的知识管理应用 |
 | **[[Memex]]** | 1945 (引用) | 个人知识存储 + 关联路径 | LLM Wiki 的思想先驱 |
+| **[[AI-Capability-Gap]]** | 2026 | 不同用户群体因 AI 能力体验差异形成平行认知现实 | 编程 vs 日常使用 |
+| **[[AI-Psychosis]]** | 2026 | 专业技术用户对 agentic AI 编程能力的极度震撼 | AI-Capability-Gap 的高端端 |
 
 ---
 

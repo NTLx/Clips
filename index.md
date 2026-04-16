@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 67 个 |
+| Entity 页面 | 69 个 |
 | Topic 页面 | 13 个 |
 | Comparison 页面 | 4 个 |
 | Raw 文章 | 25 个 |
@@ -83,6 +83,8 @@ tags:
 | [[wiki/entities/Constraint-Driven-Engineering\|Constraint-Driven-Engineering]] | 先设定约束（预算、人力、时间），再从约束出发选择技术 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Harness-Engineering\|Harness Engineering]] | 让 AI Agent 成为主要构建者的完整系统框架 | Why Your "AI-First" Strategy Is Probably Wrong |
 | [[wiki/entities/AI-First\|AI-First]] | 围绕"AI 是主要构建者"重新设计流程、架构和组织的范式 | Why Your "AI-First" Strategy Is Probably Wrong |
+| [[wiki/entities/AI-Capability-Gap\|AI Capability Gap]] | AI 在不同用户群体和应用场景中的不均衡进步，形成两条平行认知现实 | Karpathy X 帖 |
+| [[wiki/entities/AI-Psychosis\|AI Psychosis]] | 专业技术用户对 agentic 模型编程能力的极度震撼，与日常使用者的认知鸿沟 | Karpathy X 帖 |
 
 #### 作者 Entities
 
@@ -120,7 +122,7 @@ tags:
 | [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 → 涵盖 Harness Engineering 演进 | Agentic-Engineering, Code-Execution, Vibe-Coding, Harness-Engineering |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
-| [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 LLM Wiki 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation |
+| [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 AI Psychosis 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation, AI-Psychosis |
 | [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
 | [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] | 独立开发者用极低技术成本运营盈利产品的工程哲学 | Steve-Hanov, Lean-Stack, Runway-Math |
 
