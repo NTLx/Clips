@@ -101,6 +101,3 @@ source_raw:
 - Raw Source: [[Good Taste the Only Real Moat Left]]
 - 原始链接: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/
 
----
-
-**返回**: [知识库索引](index.md)

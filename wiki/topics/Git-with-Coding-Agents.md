@@ -159,6 +159,3 @@ Use git bisect to find when this bug was introduced:...
 - Subagents
 - Linear Walkthroughs
 
----
-
-**返回**: [知识库索引](index.md)

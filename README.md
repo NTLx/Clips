@@ -82,11 +82,11 @@ python3 .sisyphus/ljg-wiki-wrapper.py --all
 
 ### 各层职责
 
-| 层级 | 职责 | 维护者 |
-|-----|------|-------|
-| **Raw Sources** | 存储原始文章，不可变 | 用户 |
-| **Wiki** | 结构化知识，可更新 | **AI Agent** |
-| **Schema** | 工作流定义、规范 | 用户 + AI Agent |
+| 层级              | 职责       | 维护者           |
+| --------------- | -------- | ------------- |
+| **Raw Sources** | 存储原始文章   | 用户            |
+| **Wiki**        | 结构化知识    | **AI Agent**  |
+| **Schema**      | 工作流定义、规范 | 用户 + AI Agent |
 
 ---
 
@@ -453,6 +453,7 @@ Clips 通过 Quartz 自动部署为 GitHub Pages 网站。
 | `fix-lint` | 按 lint 报告逐项修复，输出修复前后对比 |
 | `lint-plain <entity>` | 用 ljg-plain 校验 Entity definition 可读性 |
 | `cast <页面>` | 用 ljg-card 将 Entity/Topic 转为 PNG 传播卡片 |
+| `scan-entity-quality` | 扫描 entity ljg-learn 残留格式/缺失章节/末尾导航链接 |
 | `什么是 <概念>?` | 概念查询（优先调用 ljg-learn） |
 | `关于 <主题> 有什么讨论?` | 主题查询（优先调用 ljg-rank / ljg-think） |
 
@@ -523,10 +524,22 @@ Obsidian 浏览器插件剪藏 WeChat 文章会丢失正文段落。补全步骤
 ### source_raw Wikilink 引号编码一致性
 
 Raw 文件名若含弯引号 `" "`（U+201C/201D），entity 的 `source_raw` wikilink 必须使用相同的弯引号，不能用 ASCII 直引号 `"`（U+0022）。验证时通过 Python `repr()` 逐字符检查 `ord(ch)`。
+⚠️ 来源区块（## 来源）中的 wikilink 同样适用此规则。
 
 ### 编辑含中文文件名的文件
 
 `edit` 工具同样受 Unicode 文件名限制。使用 Python `open(path, 'w')` 直接写入是可靠方案。
+
+### ljg-learn 原始输出格式转换
+
+部分 entity 文件仍保留 ljg-learn 八维拆解原始输出（`# 定锚 / # 八刀 / # 内观 / # 压缩`），
+缺少标准 entity 格式。需转换为：`> [!definition] 定义` + `## 关键数据点` + `## 前提与局限性` + `## 关联概念`。
+已修复 Taste/Judgment/Coding-Agents/Dan-Shipper，但仍需批量扫描确认。
+
+### 文件末尾导航链接
+
+部分 wiki 文件末尾有 `**返回**: [知识库索引](index.md)` 无意义链接。
+Obsidian 不需要手动导航链接，应删除。扫描命令: `grep -r '\*\*返回\*\*' wiki/`
 
 ### X/Twitter Obsidian 剪藏 Author 格式
 
@@ -563,12 +576,13 @@ Obsidian Web Clipper 自动生成的 author wikilink 带 `@` 前缀（如 `[[@in
 
 | 文件 | 用途 |
 |-----|------|
-| `README.md` | Schema 文件，定义工作流和规范 |
-| `AGENTS.md` | README.md 软链接，兼容其他 AI Coding 工具 |
+| `README.md` | Schema 主文件，定义工作流和规范（唯一真实文件） |
+| `CLAUDE.md` | → README.md 软链接，兼容 Claude Code |
+| `AGENTS.md` | → README.md 软链接，兼容其他 AI Coding 工具 |
 | `index.md` | 知识库索引 |
 | `log.md` | 操作日志 |
 | `wiki/lint-report.md` | 最新 lint 报告 |
 
 ---
 
-*本文件由 Claude Code 维护，用于指导 AI Agent 在 Clips LLM Wiki 中的工作。*
+*本文件由 AI Agent 维护，用于指导 AI Agent 在 Clips LLM Wiki 中的工作。*

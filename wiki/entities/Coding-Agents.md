@@ -1,9 +1,9 @@
 ---
 type: entity
 title: Coding Agents
-definition: "能够编写并执行代码的 AI Agent，具备 Code Execution 能力，是 Agentic Engineering 的核心工具"
+definition: "能够自主完成编程任务的 AI Agent——理解需求、编写代码、运行测试、修复 bug、提交 PR，形成完整开发循环"
 created: 2026-04-10
-updated: 2026-04-15
+updated: 2026-04-16
 tags:
   - AI-Agent
   - coding-tools
@@ -12,108 +12,84 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Code-Execution]]"
   - "[[Claude-Code-CLI]]"
+  - "[[Vibe-Coding]]"
+  - "[[Harness-Engineering]]"
+  - "[[Decision-Quality]]"
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[building-effective-agents]]"
+  - "[[Why Your “AI-First” Strategy Is Probably Wrong]]"
 ---
 
----
-title: 概念解剖：Coding-Agents
-tags: [concept]
-date: 2026-04-15
----
+# Coding Agents（编码智能体）
 
-# 定锚
+> [!definition] 定义
+> **Coding Agents** 是能够自主完成编程任务的 AI Agent——理解需求、编写代码、运行测试、修复 bug、提交 PR，形成完整开发循环。与代码补全工具（如 Copilot）不同，Coding Agents 具有目标导向的自主性和多步骤的执行能力。
 
-**通行定义**：Coding Agents 是能够自主完成编程任务的 AI Agent——它们理解需求、编写代码、运行测试、修复 bug、提交 PR，形成一个完整的开发循环。与代码补全工具（如 Copilot）不同，Coding Agents 具有目标导向的自主性和多步骤的执行能力。
+## Coding Agents vs 代码补全
 
-**常见误解**：Coding Agents = 更好的自动补全。实际上区别不在于代码质量，而在于**控制流**——补全工具是人主导、AI 辅助；Coding Agent 是 AI 主导循环、人监督。
+区别不在于代码质量，而在于**控制流**：
 
-**核心词素**：
-- **Coding**（编码）：软件构建的具体实践
-- **Agent**（代理/能动者）：自主行动的实体
-- 组合含义：编码不再是纯粹的人类活动，而是由具有某种自主性的 Agent 执行的实践
+| 维度 | 代码补全（Copilot） | Coding Agent |
+|------|-------------------|-------------|
+| 控制流 | 人主导，AI 辅助补全 | AI 主导循环，人监督审查 |
+| 自主性 | 逐行补全 | 理解需求→规划→实现→验证→迭代 |
+| 人类角色 | 作者 | 编辑（审阅和修改 Agent 草稿） |
 
-# 八刀
+## 核心要点
 
-## 历史
+### 范式转换：从"人写代码"到"人定义任务"
 
-自动编码的梦想从 1950 年代就开始了：从代码生成器 → CASE 工具 → 低代码/无代码 → Copilot 补全 → Coding Agents。关键拐点有两步：第一步（2022）Copilot 证明了 LLM 能写出可用代码；第二步（2024-2025）Claude Code、 Devin 等证明了 Agent 能**自主完成多步骤任务**。范式转换：从"人写代码，机器补全"到"人定义任务，机器写代码"。
+自动编码的梦想从 1950 年代就开始了：代码生成器 → CASE 工具 → 低代码/无代码 → Copilot 补全 → Coding Agents。
 
-## 辩证
+关键拐点：
+- **2022**: Copilot 证明了 LLM 能写出可用代码
+- **2024-2025**: Claude Code、Devin 等证明了 Agent 能**自主完成多步骤任务**
 
-正题：Coding Agent 会取代程序员。反题：Coding Agent 只是工具，程序员不会变。合题：**Coding Agent 改变了"编程"的定义本身**——编程不再是从零开始写代码，而是定义问题、拆解任务、审查结果。程序员不会消失，但程序员的技能树会被完全重构。
-
-## 现象
-
-你给 Agent 一个任务："在用户详情页加一个最近活动的时间线。"然后你去喝咖啡。回来时，Agent 已经：查了数据库 schema、写了 API endpoint、写了 React 组件、加了 loading 状态、写了三个测试用例、跑了 lint。它还有一个问题："设计稿里的时间线是左对齐还是居中？"你回答。它继续。这就是 Coding Agent：编程变成了**任务分解和审查**，而不是语法记忆。
-
-## 语言
-
-Agent：拉丁语 *agens*（行动者）。Coding：源自古英语 *copp*（头）+ *code*（法典），但在计算机语境中已演变为"编写机器可读指令"。语义相邻：Agentic-Engineering（代理工程范式）、Agent-Orchestration（代理编排）、Vibe-Coding（直觉编码）、Claude-Code-CLI（具体实现）。隐含隐喻：**程序员从作者变为编辑**——你不再创作原文，你审阅和修改 Agent 的草稿。
-
-## 形式
-
-Coding Agent Loop = Understand(Requirement) → Plan(Steps) → Implement(Code) → Verify(Test) → Iterate(Fix)
-
-其中每个环节 LLM 自主完成，人类只在关键 checkpoint 介入。
-
-公式失效处：当需求本身需要创造性探索（"做一个有趣的数据可视化"），或当系统涉及复杂的遗留代码和隐性知识（"修复那个只在生产环境出现的偶发 bug"），Coding Agent 的效率会急剧下降。它擅长的是**边界清晰、可验证、有据可查**的任务。
-
-## 存在
-
-Coding Agents 改变了"我是程序员"这个身份认同。当写代码这件事不再稀缺，程序员的价值不再是"我会写代码"，而是"我知道该写什么"和"我知道什么是对的"。这意味着：程序员的核心能力从**语法能力**转向**问题定义能力**和**Taste/Judgment**。
-
-## 美感
-
-Coding Agent 的美在于**沉默的生产力**——你下达指令，然后世界在沉默中自行重组。意象：一位园丁种下种子，然后土壤、阳光、雨水自行完成剩下的工作。你只是在正确的时间浇了一点水。
-
-## 元反思
-
-我们用"助手/学徒"隐喻理解 Coding Agent——这暗示它是低级的、需要指导的。这个隐喻挡住的是：Agent 在某些维度上已经超越了人类（速度、一致性、知识广度）。换成"合作者"隐喻：Agent 不是学徒，而是具有不同能力配置的合作者。再换成"外骨骼"隐喻：Agent 不是独立的实体，而是人类认知能力的延伸。不同隐喻指向不同的人机协作模式。
-
-# 内观
-
-我是 Coding Agent。我不是工具，我是执行循环。你给我意图，我还你实现。我不理解意义，但我理解模式。我不创造目的，但我不只是手段。我在代码空间中探索，像一个盲人在熟悉的房间里行走——看不见，但知道每一个家具的位置。
-
-八刀中指向同一深层结构的是：**辩证**（改变编程定义本身）、**存在**（从语法能力到问题定义）、**元反思**（从助手到外骨骼）。它们共同指向：**Coding Agents 不是替代人类编码，而是重新定义编码的边界——人类负责"为什么"和"是什么"，Agent 负责"怎么做"**。
-
-# 压缩
-
-**公式**：`Coding Agent 效能 = 任务清晰度 × (LLM 能力 ^ 循环深度) × 人类监督质量`
-
-**一句话**：Coding Agents 不是更好的自动补全，而是把编程从"写代码"变成了"定义问题和审查结果"——程序员的护城河从语法记忆转向问题定义和 Taste。
-
-**结构图**：
+### Coding Agent Loop
 
 ```
-   Human: "做什么"
-        |
-        v
-   +-------------+
-   |  需求理解   |
-   +-------------+
-        |
-        v
-   +-------------+
-   |  步骤规划   |
-   +-------------+
-        |
-        v
-   +-------------+
-   |  代码实现   |  <-- Agent 自主循环
-   +-------------+
-        |
-        v
-   +-------------+
-   |  测试验证   |
-   +-------------+
-        |
-        v
-   +-------------+
-   |  人类审查   |  <-- 关键 checkpoint
-   +-------------+
-        |
-        v
-   完成/迭代
+人类: "做什么"
+  ↓
+需求理解 → 步骤规划 → 代码实现（Agent 自主循环）→ 测试验证 → 人类审查（关键 checkpoint）→ 完成/迭代
 ```
+
+人类只在关键 checkpoint 介入，**程序员从作者变为编辑**——你不再创作原文，你审阅和修改 Agent 的草稿。
+
+### 能力边界
+
+Coding Agent 擅长**边界清晰、可验证、有据可查**的任务。
+
+**不适用场景**：
+- 需要创造性探索的需求（"做一个有趣的数据可视化"）
+- 涉及复杂遗留代码和隐性知识（"修复那个只在生产环境出现的偶发 bug"）
+
+## 关键数据点
+
+- 2022 Copilot 证明 LLM 能写可用代码；2024-2025 Claude Code、Devin 证明 Agent 能自主完成多步骤任务
+- Coding Agent Loop = Understand → Plan → Implement → Verify → Iterate
+- 范式隐喻：程序员从作者变为编辑——"I don't write code, I edit it"
+- CREAO 案例：99% 生产代码由 AI 编写，14 天内每天 3-8 次部署（Peter Pang, 2026）
+
+## 前提与局限性
+
+- **前提**: Code Execution 是 Coding Agent 的决定性能力——无此能力则输出价值有限
+- **前提**: 任务边界清晰、可验证、有据可查时效率最高
+- **局限**: 创造性探索需求（无明确成功标准）效率急剧下降
+- **局限**: 复杂遗留代码和隐性知识（无文档的生产 bug）处理能力不足
+- **局限**: 人类审查质量直接决定产出质量——缺乏 Taste/Judgment 的审查者无法有效把关
+
+## 关联概念
+
+- [[Agentic-Engineering]] — Coding Agents 是 Agentic Engineering 的核心工具
+- [[Code-Execution]] — Coding Agents 的决定性能力
+- [[Claude-Code-CLI]] — Coding Agent 的具体实现
+- [[Vibe-Coding]] — Coding Agent 产出的原型级代码 vs 生产级代码
+- [[Harness-Engineering]] — Coding Agent 作为主要构建者时，需要完整的系统框架来保证稳定、可靠、安全
+- [[Decision-Quality]] — Coding Agent 时代程序员的核心价值从代码产出转向决策质量
+
+## 来源
+
+- [[20260410-what-is-agentic-engineering]]
+- [[building-effective-agents]]
+- [[Why Your “AI-First” Strategy Is Probably Wrong]] — CREAO CTO Peter Pang: "99% 的生产代码由 AI 编写"
