@@ -106,7 +106,10 @@ const config: QuartzConfig = {
         enableInHtmlEmbed: false,
         comments: true,
       }),
-      Plugin.GitHubFlavoredMarkdown(),
+      Plugin.GitHubFlavoredMarkdown({
+        enableSmartyPants: false,
+        linkHeadings: true,
+      }),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
