@@ -498,7 +498,7 @@ Clips 通过 Quartz 自动部署为 GitHub Pages 网站。
 
 - 系统文件：`.obsidian`, `.git`, `.DS_Store`
 - 配置文件：`package.json`, `quartz.config.ts`, `tsconfig.json`
-- Schema 文件：`README.md`, `CLAUDE.md`, `AGENTS.md`（兼容其他 AI 工具）
+- Schema 文件：`README.md`, `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`（兼容其他 AI 工具）
 - 日志文档：`lint-report.md`
 - 其他目录：`docs`, `node_modules`
 

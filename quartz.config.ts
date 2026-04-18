@@ -47,6 +47,7 @@ const config: QuartzConfig = {
       "README.md",
       "CLAUDE.md",
       "AGENTS.md", // 兼容其他 AI Coding 工具的软链接
+      "GEMINI.md",
       "**/lint-report.md",
 
       // 非发布内容
