@@ -60,8 +60,8 @@ export const defaultContentPageLayout: PageLayout = {
         })
       },
       filterFn: (node) => {
-        // 隐藏 log.md 和 lint-report.md
-        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+        // 隐藏 lint-report.md
+        if (node.displayName === "lint-report.md") {
           return false
         }
         // 保留默认的 tags 过滤
@@ -118,7 +118,7 @@ export const defaultListPageLayout: PageLayout = {
       folderClickBehavior: "collapse",
       useSavedState: true,
       filterFn: (node) => {
-        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+        if (node.displayName === "lint-report.md") {
           return false
         }
         if (node.slugSegment === "tags") {

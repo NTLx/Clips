@@ -166,8 +166,6 @@ const config: QuartzConfig = {
       // Schema 和日志文件（index.md 是首页，不应排除）
       "README.md",          // 仓库说明
       "CLAUDE.md",          // AI Agent Schema 文件
-      "log.md",             // 操作日志
-      "**/log.md",          // 所有子目录的 log.md
       "**/lint-report.md",  // 健康度报告
 
       // 非发布内容
@@ -366,7 +364,7 @@ export const defaultContentPageLayout: PageLayout = {
       
       // 过滤：隐藏日志文件和标签目录
       filterFn: (node) => {
-        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+        if (node.displayName === "lint-report.md") {
           return false
         }
         if (node.slugSegment === "tags") {
@@ -377,7 +375,7 @@ export const defaultContentPageLayout: PageLayout = {
       order: ["filter", "map", "sort"],
     }),
   ],
-  
+
   // ─────────────────────────────────────────────
   // 右侧面板：知识图谱 + 目录 + 反向链接
   // ─────────────────────────────────────────────
@@ -428,7 +426,7 @@ export const defaultListPageLayout: PageLayout = {
       folderClickBehavior: "collapse",
       useSavedState: true,
       filterFn: (node) => {
-        if (node.displayName === "log.md" || node.displayName === "lint-report.md") {
+        if (node.displayName === "lint-report.md") {
           return false
         }
         if (node.slugSegment === "tags") {

@@ -51,7 +51,7 @@ source_raw:
 4. Create  → 创建/更新 entity 页面
 5. Link    → 更新 topic 页面、建立关联
 6. Index   → 更新 index.md
-7. Log     → 记录到 log.md
+7. Commit  → 提交 git commit（按 Commit 规范撰写）
 ```
 
 ### 单源编译示例
@@ -85,7 +85,7 @@ Log Entry:
 - 创建/更新 topic（整合主题）
 - 更新 index.md
 - 更新 comparisons（如有对比）
-- 记录到 log.md
+- 提交 git commit
 
 ## 编译产物类型
 
@@ -95,7 +95,7 @@ Log Entry:
 | **Topic** | 主题整合页面 | Agentic-Engineering-Patterns.md |
 | **Comparison** | 对比分析页面 | RAG-vs-LLM-Wiki.md |
 | **Index** | 内容索引 | index.md |
-| **Log** | 操作记录 | log.md |
+| **History** | 操作记录 | git commit log |
 
 ## 编译 vs 检索
 

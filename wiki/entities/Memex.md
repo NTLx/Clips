@@ -108,7 +108,7 @@ Andrej Karpathy 在 LLM Wiki 文章中明确关联 Memex：
 |-----------|--------------|
 | 存储设备 | Raw Sources |
 | 关联路径 | Wiki 层的 Wikilinks |
-| 索引机制 | index.md + log.md |
+| 索引机制 | index.md + git commit history |
 | 维护者 | LLM Agent |
 
 ## 相关概念演进
