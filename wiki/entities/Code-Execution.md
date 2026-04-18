@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Code Execution
+aliases:
+  - Code Execution
 definition: "AI Agent 直接运行代码的能力，是 Agentic Engineering 的决定性能力"
 created: 2026-04-10
 updated: 2026-04-15

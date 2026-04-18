@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Lean-Stack
+aliases:
+  - Lean Stack
 definition: "极低成本（$20/月）独立运营盈利产品的技术栈，反共识选择 SQLite+Go+单机 VPS"
 created: 2026-04-15
 updated: 2026-04-15

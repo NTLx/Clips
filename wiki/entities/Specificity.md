@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Specificity
+aliases:
+  - Specificity
 definition: "在 AI 时代的竞争优势——能够产生深入特定上下文的内容，而不是通用但浅薄的输出"
 created: 2026-04-09
 updated: 2026-04-15

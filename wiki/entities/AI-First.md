@@ -1,6 +1,8 @@
 ---
 type: entity
 title: AI-First
+aliases:
+  - AI First
 definition: "围绕'AI 是主要构建者'假设，重新设计流程、架构和组织的范式——不再问'AI 如何帮助人类'，而是问'如何重构一切，让 AI 负责构建，人类提供方向和判断'"
 created: 2026-04-16
 updated: 2026-04-16

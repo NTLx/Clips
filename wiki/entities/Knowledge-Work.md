@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Knowledge Work
+aliases:
+  - Knowledge Work
 definition: "以知识和专业技能为核心价值的工作形态，正在被 AI 时代取代"
 created: 2026-04-13
 updated: 2026-04-15

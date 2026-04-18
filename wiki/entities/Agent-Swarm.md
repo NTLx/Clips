@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Agent Swarm
+aliases:
+  - Agent Swarm
 definition: "Agent Swarm 是多个编码 Agent 的并行调度系统，每个 Agent 拥有独立的 worktree 和 tmux session，实现并行开发和自主监控。"
 created: 2026-04-09
 updated: 2026-04-15

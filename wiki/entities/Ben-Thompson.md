@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Ben Thompson
+aliases:
+  - Ben Thompson
 definition: "Stratechery 创始人，科技与媒体行业分析师，聚合理论提出者"
 created: 2026-04-10
 updated: 2026-04-10

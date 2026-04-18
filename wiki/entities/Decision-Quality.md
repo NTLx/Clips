@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Decision Quality
+aliases:
+  - Decision Quality
 definition: "The ability to make decisions from clarity and conviction rather than overthinking, driven by intuition built from pattern recognition and self-awareness."
 created: 2026-04-09
 updated: 2026-04-15

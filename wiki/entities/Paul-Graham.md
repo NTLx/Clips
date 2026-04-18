@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Paul Graham
+aliases:
+  - Paul Graham
 definition: "Y Combinator 创始人，知名创业文章作家， Lisp 程序员"
 created: 2026-04-10
 updated: 2026-04-14

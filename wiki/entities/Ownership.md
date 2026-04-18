@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Ownership
+aliases:
+  - Ownership
 definition: "承担后果的意愿与能力——选择一个方向并为之负责，而非将决策外包给他人或 AI。"
 created: 2026-04-09
 updated: 2026-04-15

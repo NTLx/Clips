@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Coding Agents
+aliases:
+  - Coding Agents
 definition: "能够自主完成编程任务的 AI Agent——理解需求、编写代码、运行测试、修复 bug、提交 PR，形成完整开发循环"
 created: 2026-04-10
 updated: 2026-04-16

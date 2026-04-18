@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Agentic Engineering
+aliases:
+  - Agentic Engineering
 definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
 created: 2026-04-09
 updated: 2026-04-16

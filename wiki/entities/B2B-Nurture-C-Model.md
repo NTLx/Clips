@@ -1,6 +1,8 @@
 ---
 type: entity
 title: B2B-Nurture-C-Model
+aliases:
+  - B2B Nurture C Model
 definition: "用 B2B 大额订单养 C 端产品的抗周期商业模式组合"
 created: 2026-04-15
 updated: 2026-04-15

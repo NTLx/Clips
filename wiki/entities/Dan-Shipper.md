@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Dan Shipper
+aliases:
+  - Dan Shipper
 definition: "Every newsletter 创始人兼 CEO，AI 原生工作方式的探索者和布道者"
 created: 2026-04-10
 updated: 2026-04-16

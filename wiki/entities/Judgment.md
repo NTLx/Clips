@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Judgment
+aliases:
+  - Judgment
 definition: "在信息不完整、没有明确规则可循的情况下，做出高质量决策的能力"
 created: 2026-04-09
 updated: 2026-04-16

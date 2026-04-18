@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Software 2.0
+aliases:
+  - Software 2.0
 definition: "Andrej Karpathy 提出的概念，指明软件开发范式的转变：从程序员编写代码（Software 1.0）转向程序员编写目标、神经网络通过数据编程（Software 2.0）。"
 created: 2026-04-13
 updated: 2026-04-15

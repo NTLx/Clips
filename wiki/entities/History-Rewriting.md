@@ -1,6 +1,8 @@
 ---
 type: entity
 title: History Rewriting
+aliases:
+  - History Rewriting
 definition: "将 Git 提交历史视为可编辑的叙事而非永久记录的理念，使历史成为帮助未来开发的工具。"
 created: 2026-04-09
 updated: 2026-04-15

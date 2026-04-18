@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Elvis Sun
+aliases:
+  - Elvis Sun
 definition: "前 Google Firebase 团队工程师（8年），现为独立创业者，构建 AI PR 工具和开发者产品"
 created: 2026-04-10
 updated: 2026-04-14

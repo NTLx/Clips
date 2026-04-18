@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Headless Mode
+aliases:
+  - Headless Mode
 definition: "Claude Code 的非交互模式（Headless Mode）通过 -p 参数实现单次执行，输出到 stdout，适合自动化和 CI/CD 场景。"
 created: 2026-04-09
 updated: 2026-04-15

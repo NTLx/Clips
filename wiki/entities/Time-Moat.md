@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Time-Moat
+aliases:
+  - Time Moat
 definition: "通过多年持续运营积累的 SEO 权重、反链、用户信任等无法速成的竞争壁垒"
 created: 2026-04-15
 updated: 2026-04-15

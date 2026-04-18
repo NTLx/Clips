@@ -1,6 +1,8 @@
 ---
 type: entity
 title: MIT Technology Review Insights
+aliases:
+  - MIT Technology Review Insights
 definition: "MIT Technology Review 的研究与分析部门，发布 AI、企业技术等领域的深度报告"
 created: 2026-04-10
 updated: 2026-04-10

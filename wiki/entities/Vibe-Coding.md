@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Vibe Coding
+aliases:
+  - Vibe Coding
 definition: "Andrej Karpathy 提出的概念，指未经审查、原型质量的 LLM 生成代码"
 created: 2026-04-10
 updated: 2026-04-16

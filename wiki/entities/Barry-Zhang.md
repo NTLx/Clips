@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Barry Zhang
+aliases:
+  - Barry Zhang
 definition: "Anthropic 研究工程师，专注于 Claude 代理架构和 Skills 系统开发，Effective Agents 文章合著者"
 created: 2026-04-10
 updated: 2026-04-10

@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Multi-Layer Memory
+aliases:
+  - Multi Layer Memory
 definition: "五层记忆系统借鉴人类认知模型，从短期到长期分层管理 Agent 的记忆，实现跨会话的知识沉淀和自主进化。"
 created: 2026-04-09
 updated: 2026-04-15

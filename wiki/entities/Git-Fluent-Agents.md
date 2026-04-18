@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Git-Fluent Agents
+aliases:
+  - Git Fluent Agents
 definition: "AI coding agents with deep understanding of Git terminology and operations, capable of executing both basic and advanced Git commands autonomously."
 created: 2026-04-09
 updated: 2026-04-15

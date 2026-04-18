@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Agent Workflow Patterns
+aliases:
+  - Agent Workflow Patterns
 definition: "构建 Agentic 系统的模式集合，从简单组合到自主 Agent 的渐进式架构"
 created: 2026-04-10
 updated: 2026-04-15

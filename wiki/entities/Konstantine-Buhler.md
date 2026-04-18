@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Konstantine Buhler
+aliases:
+  - Konstantine Buhler
 definition: "Sequoia Capital 合伙人，AI 和机器学习投资专家，Agent Economy 投资理论提出者"
 created: 2026-04-10
 updated: 2026-04-14

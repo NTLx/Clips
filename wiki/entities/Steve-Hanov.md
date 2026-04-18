@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Steve Hanov
+aliases:
+  - Steve Hanov
 definition: "加拿大 Waterloo 独立开发者，一人运营 6 个 $10K+ MRR 产品，月技术成本仅 $20，代表 Lean-Stack 实践者"
 created: 2026-04-15
 updated: 2026-04-15

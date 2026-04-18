@@ -1,6 +1,8 @@
 ---
 type: entity
 title: AI Capability Gap
+aliases:
+  - AI Capability Gap
 definition: "AI 技术在不同用户群体、不同应用场景中呈现的不均衡进步现象——同一技术的用户体验差距导致相互隔离的认知现实"
 created: 2026-04-16
 updated: 2026-04-16

@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Refusal
+aliases:
+  - Refusal
 definition: "判断力的核心动作——拒绝通用的、隐藏真正权衡的、不适合实际情况的选项"
 created: 2026-04-10
 updated: 2026-04-15

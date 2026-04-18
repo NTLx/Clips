@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Constraint-Driven-Engineering
+aliases:
+  - Constraint Driven Engineering
 definition: "先设定约束（预算、人力、时间），再从约束出发选择技术方案"
 created: 2026-04-15
 updated: 2026-04-15

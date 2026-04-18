@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Compound Engineering
+aliases:
+  - Compound Engineering
 definition: "持续改进 Agent 指令和工具配置的模式，每个项目后记录有效做法供未来运行使用"
 created: 2026-04-10
 updated: 2026-04-15

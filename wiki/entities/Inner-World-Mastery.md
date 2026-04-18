@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Inner World Mastery
+aliases:
+  - Inner World Mastery
 definition: "The ability to control one's inner dialogue, maintain presence, and create space for originality in an age of infinite distraction."
 created: 2026-04-09
 updated: 2026-04-15

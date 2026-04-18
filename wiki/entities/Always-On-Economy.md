@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Always-On Economy
+aliases:
+  - Always On Economy
 definition: "AI 驱动的 24/7 运营模式，消除传统商业时间限制，实现持续服务"
 created: 2026-04-10
 updated: 2026-04-15

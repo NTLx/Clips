@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Competent Output
+aliases:
+  - Competent Output
 definition: "AI 默认产出的合格、标准、无错但缺乏独特性的内容——正确但不杰出。"
 created: 2026-04-09
 updated: 2026-04-15

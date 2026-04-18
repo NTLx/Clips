@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Allocation Economy
+aliases:
+  - Allocation Economy
 definition: "从知识经济转型而来的新经济形态，价值从'你知道什么'转向'如何分配和管理 AI 资源完成任务'"
 created: 2026-04-10
 updated: 2026-04-15

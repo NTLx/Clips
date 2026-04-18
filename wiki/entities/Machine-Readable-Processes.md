@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Machine-Readable Processes
+aliases:
+  - Machine Readable Processes
 definition: "Process definitions that are structured and explicit, enabling AI agents to understand, execute, and optimize workflows autonomously."
 created: 2026-04-09
 updated: 2026-04-16

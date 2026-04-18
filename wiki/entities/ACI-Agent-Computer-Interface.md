@@ -1,6 +1,8 @@
 ---
 type: entity
 title: ACI (Agent-Computer Interface)
+aliases:
+  - ACI Agent Computer Interface
 definition: "Agent 与计算机交互的接口设计，类比 HCI 但针对 AI Agent 优化"
 created: 2026-04-10
 updated: 2026-04-15

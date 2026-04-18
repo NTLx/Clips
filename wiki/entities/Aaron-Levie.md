@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Aaron Levie
+aliases:
+  - Aaron Levie
 definition: "Box 联合创始人兼 CEO，企业云计算领域先驱，AI Agent 在企业应用的热情倡导者"
 created: 2026-04-10
 updated: 2026-04-10

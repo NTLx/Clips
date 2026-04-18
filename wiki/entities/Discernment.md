@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Discernment
+aliases:
+  - Discernment
 definition: "透过数据看清本质、聚焦关键的能力——如果不能清晰看自己，就不能清晰看世界"
 created: 2026-04-09
 updated: 2026-04-15

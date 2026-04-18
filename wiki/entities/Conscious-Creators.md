@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Conscious Creators
+aliases:
+  - Conscious Creators
 definition: "Individuals who reject distraction, work on their inner selves, choose creation over consumption, and become the new 1% in the era of AI abundance."
 created: 2026-04-09
 updated: 2026-04-15

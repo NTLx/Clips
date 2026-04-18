@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Jevons Paradox for Knowledge Work
+aliases:
+  - Jevons Paradox for Knowledge Work
 definition: "知识工作领域的杰文斯悖论：AI 效率提升导致知识工作需求大幅增长而非减少"
 created: 2026-04-10
 updated: 2026-04-15

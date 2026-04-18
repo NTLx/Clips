@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Memex
+aliases:
+  - Memex
 definition: "Vannevar Bush 1945 年提出的个人知识存储概念，强调关联路径（associative trails）比文档本身更有价值，是 LLM Wiki 的思想先驱。"
 created: 2026-04-13
 updated: 2026-04-15

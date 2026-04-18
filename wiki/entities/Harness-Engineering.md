@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Harness Engineering
+aliases:
+  - Harness Engineering
 definition: "工程团队的首要工作不再是编写代码，而是构建让 AI Agent 能有效工作的系统——设计 SOP、测试基础设施、集成系统、分诊系统，使 Agent 可检查、可验证、可修改"
 created: 2026-04-16
 updated: 2026-04-16

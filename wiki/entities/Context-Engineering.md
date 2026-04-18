@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Context Engineering
+aliases:
+  - Context Engineering
 definition: "Context Engineering 是设计 Agent 每次推理时看到的完整信息结构，包括 SOUL.md、AGENTS.md、Skills 按需加载、上下文生命周期管理等。"
 created: 2026-04-09
 updated: 2026-04-15

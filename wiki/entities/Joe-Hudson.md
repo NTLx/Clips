@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Joe Hudson
+aliases:
+  - Joe Hudson
 definition: "高管教练，与 OpenAI、Apple、Google 等科技公司高管合作，专注于情感清晰度和领导力发展"
 created: 2026-04-10
 updated: 2026-04-10

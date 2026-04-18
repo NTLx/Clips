@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Model Manager
+aliases:
+  - Model Manager
 definition: "分配经济中的人的核心角色，负责分配 AI 工作资源、评估质量、迭代改进"
 created: 2026-04-10
 updated: 2026-04-15

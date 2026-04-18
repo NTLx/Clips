@@ -1,6 +1,8 @@
 ---
 type: entity
 title: AI Psychosis
+aliases:
+  - AI Psychosis
 definition: "付费使用前沿 agentic 模型（Claude Code / Codex）的专业技术用户群体对 AI 能力进步产生的极度震撼感——其根源在于编程/科研领域 2025-2026 年的能力跃迁远超常人体验"
 created: 2026-04-16
 updated: 2026-04-16

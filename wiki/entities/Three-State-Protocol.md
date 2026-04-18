@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Three-State Protocol
+aliases:
+  - Three State Protocol
 definition: "三态通信协议是 Agent 之间协作的通信协议设计，通过 request → confirmed → final 三种状态防止 ACK storm 并确保协作收敛。"
 created: 2026-04-09
 updated: 2026-04-15

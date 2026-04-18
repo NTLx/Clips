@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Anti-Enterprise-Mindset
+aliases:
+  - Anti Enterprise Mindset
 definition: "拒绝为企业级需求预先优化，只在有真实用户后才升级基础设施"
 created: 2026-04-15
 updated: 2026-04-15

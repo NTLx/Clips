@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Technical Debt Avoidance
+aliases:
+  - Technical Debt Avoidance
 definition: "通过持续改进和高质量实践避免技术债务累积的策略"
 created: 2026-04-13
 updated: 2026-04-15

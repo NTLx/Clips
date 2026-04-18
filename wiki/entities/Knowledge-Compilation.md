@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Knowledge Compilation
+aliases:
+  - Knowledge Compilation
 definition: "LLM Wiki 的核心操作：将原始知识源（文档、对话、经验）通过 LLM 转化为结构化 Wiki（Entities、Topics、Comparisons），实现知识的持久累积和高效复用。"
 created: 2026-04-13
 updated: 2026-04-15

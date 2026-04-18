@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Runway-Math
+aliases:
+  - Runway Math
 definition: "生存时间 = 资金 ÷ 月支出，控制分母比控制分子更可确定"
 created: 2026-04-15
 updated: 2026-04-15

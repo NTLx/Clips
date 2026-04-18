@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Ethan Mollick
+aliases:
+  - Ethan Mollick
 definition: "宾夕法尼亚大学沃顿商学院教授，AI 教育与创新研究者，著有《Co-Intelligence》"
 created: 2026-04-10
 updated: 2026-04-14

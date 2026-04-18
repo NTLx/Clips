@@ -1,6 +1,8 @@
 ---
 type: entity
 title: Wes Botman
+aliases:
+  - Wes Botman
 definition: "Eli5.io 作者和 WORK IN PROGRESS Podcast 主持人，专注于技术创业和数字产品"
 created: 2026-04-10
 updated: 2026-04-13
