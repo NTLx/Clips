@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 69 个 |
-| Topic 页面 | 13 个 |
+| Entity 页面 | 80 个 |
+| Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
-| Raw 文章 | 25 个 |
+| Raw 文章 | 28 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -85,6 +85,17 @@ tags:
 | [[wiki/entities/AI-First\|AI-First]] | 围绕"AI 是主要构建者"重新设计流程、架构和组织的范式 | Why Your "AI-First" Strategy Is Probably Wrong |
 | [[wiki/entities/AI-Capability-Gap\|AI Capability Gap]] | AI 在不同用户群体和应用场景中的不均衡进步，形成两条平行认知现实 | Karpathy X 帖 |
 | [[wiki/entities/AI-Psychosis\|AI Psychosis]] | 专业技术用户对 agentic 模型编程能力的极度震撼，与日常使用者的认知鸿沟 | Karpathy X 帖 |
+| [[wiki/entities/Ontology\|Ontology]] | 对现实业务世界的数字化建模，承载企业业务的语义结构与规则 | Enterprise-Ontology-Application |
+| [[wiki/entities/TBox\|TBox]] | 本体的概念与规则部分，类比数据库 Schema | Enterprise-Ontology-Application |
+| [[wiki/entities/ABox\|ABox]] | 本体的事实数据部分，类比数据库表数据 | Enterprise-Ontology-Application |
+| [[wiki/entities/RDF\|RDF]] | W3C 基础数据标准，使用三元组表达信息 | Enterprise-Ontology-Application |
+| [[wiki/entities/OWL\|OWL]] | 高级本体表示语言，用于定义复杂业务规则 | Enterprise-Ontology-Application |
+| [[wiki/entities/Protégé\|Protégé]] | 斯坦福开源本体编辑器 | Enterprise-Ontology-Application |
+| [[wiki/entities/HermiT\|HermiT]] | OWL 推理引擎 | Enterprise-Ontology-Application |
+| [[wiki/entities/Ontology-Agent\|Ontology-Agent]] | 基于本体语义层的 AI Agent | Enterprise-Ontology-Application |
+| [[wiki/entities/Owlready2\|Owlready2]] | Python 本体操作库 | Enterprise-Ontology-Application |
+| [[wiki/entities/GraphDB\|GraphDB]] | RDF 三元组数据库 | Enterprise-Ontology-Application |
+| [[wiki/entities/SPARQL\|SPARQL]] | RDF/本体查询语言 | Enterprise-Ontology-Application |
 
 #### 作者 Entities
 
@@ -125,6 +136,7 @@ tags:
 | [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 AI Psychosis 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation, AI-Psychosis |
 | [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
 | [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] | 独立开发者用极低技术成本运营盈利产品的工程哲学 | Steve-Hanov, Lean-Stack, Runway-Math |
+| [[wiki/topics/Enterprise-Ontology-Application\|企业级本体应用]] | 用本体为 AI Agent 提供统一的业务语义层 | Ontology, TBox, ABox, OWL, Ontology-Agent |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -147,7 +159,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（25 个）*
+*原始剪藏文章（28 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 
@@ -181,5 +193,5 @@ status             # 查看知识库状态
 
 ---
 
-*索引版本: v2.2*
-*最后更新: 2026-04-16*
+*索引版本: v2.3*
+*最后更新: 2026-04-20*
