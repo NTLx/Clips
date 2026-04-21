@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 82 个 |
+| Entity 页面 | 87 个 |
 | Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
 | Raw 文章 | 33 个 |
@@ -60,6 +60,11 @@ tags:
 | [[wiki/entities/Competent-Output\|Competent Output]] | AI 默认产出的合格但平庸的内容 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Slopocalypse\|Slopocalypse]] | Karpathy 预测的 AI 内容泛滥现象 | Claude Coding Notes (2026-01) |
 | [[wiki/entities/Agent-Tenacity\|Agent Tenacity]] | Agent 永不疲劳、持续尝试的特性 | Claude Coding Notes (2026-01) |
+| [[wiki/entities/Drew-Breunig\|Drew Breunig]] | 网络安全博主，dbreunig.com 作者 | Cybersecurity Proof of Work |
+| [[wiki/entities/Cybersecurity-Proof-of-Work\|Cybersecurity Proof of Work]] | 安全变成 token 成本博弈 | Cybersecurity Proof of Work |
+| [[wiki/entities/Mythos\|Mythos]] | Anthropic 安全专用模型 | Cybersecurity Proof of Work |
+| [[wiki/entities/Security-Hardening-Phase\|Security Hardening Phase]] | Agentic Coding 第三阶段 | Cybersecurity Proof of Work |
+| [[wiki/entities/AISI\|AISI]] | 英国 AI 安全研究所 | Cybersecurity Proof of Work |
 | [[wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
 | [[wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
 | [[wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |

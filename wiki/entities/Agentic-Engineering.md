@@ -17,12 +17,14 @@ related_entities:
   - "[[Harness-Engineering]]"
   - "[[Compound-Engineering]]"
   - "[[Git-Fluent-Agents]]"
+  - "[[Security-Hardening-Phase]]"
 source_raw:
   - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
   - "20260127-claude-coding-notes"
+  - "20260414-cybersecurity-proof-of-work"
 ---
 
 # Agentic Engineering
@@ -97,6 +99,19 @@ Karpathy 补充了获得 Agent 杠杆的关键方法：
 1. 先写测试，让 Agent 循环直到测试通过
 2. 给 Agent 配浏览器 MCP，让它自主探索验证
 3. 先写朴素算法（确保正确），再让 Agent 优化
+
+
+### 三阶段模型：开发/审查/硬化 (Breunig, 2026)
+
+Drew Breunig 提出扩展的三阶段 Agentic Coding 模型：
+
+| 阶段 | 任务 | 瓶颈 | 说明 |
+|------|------|------|------|
+| **开发** | 实现功能、快速迭代 | Human input | 人类直觉主导，反馈驱动 |
+| **代码审查** | 文档、重构、PR 审查 | Human input | 异步应用最佳实践 |
+| **安全硬化** | 识别漏洞、持续审计 | Money (tokens) | 自主运行直到预算耗尽 |
+
+**关键洞察**：安全审计从"rare, discrete, inconsistent"变为"constant, within optimal budget"。
 
 ## 关键数据点
 
