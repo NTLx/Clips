@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 87 个 |
+| Entity 页面 | 91 个 |
 | Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
 | Raw 文章 | 33 个 |
@@ -65,6 +65,10 @@ tags:
 | [[wiki/entities/Mythos\|Mythos]] | Anthropic 安全专用模型 | Cybersecurity Proof of Work |
 | [[wiki/entities/Security-Hardening-Phase\|Security Hardening Phase]] | Agentic Coding 第三阶段 | Cybersecurity Proof of Work |
 | [[wiki/entities/AISI\|AISI]] | 英国 AI 安全研究所 | Cybersecurity Proof of Work |
+| [[wiki/entities/Martin-Fowler\|Martin Fowler]] | 软件架构大师、敏捷先驱 | Martin Fowler Fragments |
+| [[wiki/entities/Laziness-Virtue\|Laziness Virtue]] | 程序员三美德：懒惰驱动抽象和简化 | Martin Fowler Fragments |
+| [[wiki/entities/AI-Restraint\|AI Restraint]] | AI 需要学会克制和不行动 | Martin Fowler Fragments |
+| [[wiki/entities/YAGNI\|YAGNI]] | 敏捷原则：不要实现未需要的功能 | Martin Fowler Fragments |
 | [[wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
 | [[wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
 | [[wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |
