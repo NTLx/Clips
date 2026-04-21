@@ -728,6 +728,8 @@ python3 -c "import sys; print(sys.argv[1].encode().decode('unicode_escape').enco
 ### Unicode 文件名与 Read 工具
 
 `Read` 工具无法直接读取含中文的文件名。改用 Python：
+**根因**: Python 字符串中直接嵌入中文文件名会导致 SyntaxError（弯引号 U+201C/201D 与 ASCII 引号 U+0022 编码冲突）。
+必须用 `os.listdir()` + `os.path.join()` 构建路径，不能硬编码文件名字符串。
 ```python
 python3 << 'PYEOF'
 import os
@@ -741,6 +743,10 @@ PYEOF
 ### 微信公众号文章剪藏不完整
 
 Obsidian 浏览器插件剪藏 WeChat 文章会丢失正文段落。补全步骤：
+
+**图片缺失**: Obsidian 插件只抓取第一张可见图片。完整图片列表需用 CDP `/eval` 提取：
+`Array.from(document.querySelectorAll("#js_content img")).map(img => img.getAttribute("data-src"))`
+微信图片使用 `data-src` 属性而非 `src`，需注意区分。
 1. 使用 `web-access` Skill → CDP 模式打开文章 URL
 2. `/eval` 提取 `#js_content` 的完整 `innerText` 和元数据
 3. 对比已有内容，补充缺失段落
