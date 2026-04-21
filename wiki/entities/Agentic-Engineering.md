@@ -18,6 +18,7 @@ related_entities:
   - "[[Compound-Engineering]]"
   - "[[Git-Fluent-Agents]]"
   - "[[Security-Hardening-Phase]]"
+  - "[[Adversarial-Distillation]]"
 source_raw:
   - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
   - "[[20260410-what-is-agentic-engineering]]"
@@ -25,6 +26,7 @@ source_raw:
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
   - "20260127-claude-coding-notes"
   - "20260414-cybersecurity-proof-of-work"
+  - "[[工程师抗拒被\"蒸馏\"，企业的Skills从何而来？五大招破局]]"
 ---
 
 # Agentic Engineering

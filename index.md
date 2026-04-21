@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 95 个 |
+| Entity 页面 | 97 个 |
 | Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
-| Raw 文章 | 33 个 |
+| Raw 文章 | 34 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -112,6 +112,8 @@ tags:
 | [[wiki/entities/GraphDB\|GraphDB]] | RDF 三元组数据库 | Enterprise-Ontology-Application |
 | [[wiki/entities/SPARQL\|SPARQL]] | RDF/本体查询语言 | Enterprise-Ontology-Application |
 
+| [[wiki/entities/Adversarial-Distillation\|Adversarial Distillation]] | 工程师为避免被 Skills 系统替代而采取的对抗策略 | 工程师抗拒被"蒸馏" |
+
 #### 作者 Entities
 
 | Entity | 定义 | 领域 |
@@ -131,6 +133,7 @@ tags:
 | [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
 | [[wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 技术团队成员，Building Effective Agents 合著者 | AI-Agent, Anthropic |
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
+| [[wiki/entities/朱少民\|朱少民]] | 软件工程领域作者，关注 AI Agent 与企业组织变革 | Software-Engineering, AI-Agent |
 | [[wiki/entities/Steve-Hanov\|Steve Hanov]] | 加拿大 Waterloo 独立开发者，6 个 $10K+ MRR 产品，月成本 $20 | Indie Developer, Bootstrap |
 
 ### Topics (topics/)
@@ -209,4 +212,4 @@ status             # 查看知识库状态
 ---
 
 *索引版本: v2.3*
-*最后更新: 2026-04-20*
+*最后更新: 2026-04-21*
