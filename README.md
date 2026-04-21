@@ -835,6 +835,7 @@ PYEOF
 ### Compile 操作注意事项
 
 - **append 编译摘要只执行一次** — 使用 Python `open(path, 'a')` 追加前先用 `grep` 检查 `## 编译摘要` 是否已存在，避免重复追加
+- **git add 必须从根目录执行** — 子目录执行 `git add -A` 会意外添加外部符号链接（.codebuddy/ 等），应 `cd /Users/lx/Obsidian/Clips && git add <target-dir>/`
 - **X/Twitter 剪藏 author 格式**：若 Author Entity 已存在，用 `[[Author-Name]]` wikilink 格式；若不存在，先用纯文本
 - **web-access CDP Proxy**：通过 `localhost:3456` 操作，使用前先运行 `node "/Users/lx/.agents/skills/web-access/scripts/check-deps.mjs"` 检查
 
