@@ -23,6 +23,7 @@ source_raw:
   - "[[20260413-llm-wiki]]"
   - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - "20260127-claude-coding-notes"
 ---
 
 # Vibe Coding（氛围编程）
@@ -105,6 +106,19 @@ Vibe Coding 与 Software 2.0 的关系：
 | 程序员写目标 | 用户说"氛围" |
 | 神经网络生成程序 | LLM 生成代码 |
 | 数据是源代码 | 对话是源代码 |
+
+
+### Karpathy 的新观察 (2026-01)
+
+在 Claude Coding Notes 中，Karpathy 补充了 Vibe Coding 的常见陷阱：
+
+> "They really like to overcomplicate code and APIs, they bloat abstractions, they don't clean up dead code after themselves... They will implement an inefficient, bloated, brittle construction over 1000 lines of code and it's up to you to be like 'umm couldn't you just do this instead?'"
+
+**模型倾向**：
+1. 过度复杂化代码和 API
+2. 膨胀抽象层
+3. 不清理死代码
+4. 实现冗余、脆弱的 1000 行方案，经提示后可压缩为 100 行
 
 ## 关键数据点
 

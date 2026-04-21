@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-04-16
+updated: 2026-04-21
 tags:
   - index
   - MOC
@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 80 个 |
+| Entity 页面 | 82 个 |
 | Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
-| Raw 文章 | 28 个 |
+| Raw 文章 | 33 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -58,6 +58,8 @@ tags:
 | [[wiki/entities/Agent-Orchestration\|Agent Orchestration]] | Agent 编排 | AI-Agent 文章 |
 | [[wiki/entities/Ownership\|Ownership]] | 承担后果的意愿与能力 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Competent-Output\|Competent Output]] | AI 默认产出的合格但平庸的内容 | Good Taste the Only Real Moat Left |
+| [[wiki/entities/Slopocalypse\|Slopocalypse]] | Karpathy 预测的 AI 内容泛滥现象 | Claude Coding Notes (2026-01) |
+| [[wiki/entities/Agent-Tenacity\|Agent Tenacity]] | Agent 永不疲劳、持续尝试的特性 | Claude Coding Notes (2026-01) |
 | [[wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
 | [[wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
 | [[wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |

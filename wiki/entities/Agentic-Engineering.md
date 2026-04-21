@@ -5,7 +5,7 @@ aliases:
   - Agentic Engineering
 definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
 created: 2026-04-09
-updated: 2026-04-16
+updated: 2026-04-21
 tags:
   - AI-Agent
   - Software-Engineering
@@ -22,6 +22,7 @@ source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - "20260127-claude-coding-notes"
 ---
 
 # Agentic Engineering
@@ -77,6 +78,25 @@ Agent 软件：
 | **代码理解** | Linear walkthroughs、解释代码 | 提出问题 |
 | **重构** | 后台异步重构 | PR 评估 |
 | **历史管理** | History Rewriting | 编辑决策 |
+
+
+### Leverage：声明式指令 (Karpathy, 2026)
+
+Karpathy 补充了获得 Agent 杠杆的关键方法：
+
+> "Don't tell it what to do, give it success criteria and watch it go."
+
+**声明式 vs 命令式**：
+
+| 方式 | 示例 | 杠杆效果 |
+|------|------|---------|
+| **命令式** | "写一个排序函数" | Agent 执行一次，结果固定 |
+| **声明式** | "测试通过后停止" | Agent 循环迭代，自我修正 |
+
+**实践模式**：
+1. 先写测试，让 Agent 循环直到测试通过
+2. 给 Agent 配浏览器 MCP，让它自主探索验证
+3. 先写朴素算法（确保正确），再让 Agent 优化
 
 ## 关键数据点
 
