@@ -1,41 +1,114 @@
 ---
 type: lint-report
-title: Lint Report
-updated: 2026-04-15
+title: Clips Lint Report
+date: 2026-04-21
+health_score: 57
 ---
 
-# Lint Report — 2026-04-15
+# Clips Lint Report (2026-04-21)
 
-## 总分: 80/100 (100/100 排除历史债务)
+## 📊 健康度评分
 
-### 检查结果
+| 指标 | 分数 |
+|------|------|
+| **健康度** | **57/100** |
 
-| # | 检查项 | 状态 | 详情 |
-|---|-------|------|------|
-| 1 | Raw Backlog | ✓ PASS | 26/26 文件已编译 |
-| 2 | 孤儿 Entity | ✓ PASS | 0 个孤儿 |
-| 3 | 失效链接 | ✓ PASS | 0 个断裂 wikilink |
-| 4 | Entity 完整性 | ⚠ PARTIAL | 16 个 Entity 缺失字段（全部为预存历史债务） |
-| 5 | 孤岛检测 | ✓ PASS | 0 个孤岛 |
-| 6 | 摘要覆盖 | ✓ PASS | 26/26 Raw 文件均有编译摘要 |
-| 7 | Comparison 元数据 | ✓ PASS | 所有 Comparison 均有 updated 字段 |
-| 8 | 一致性 | ✓ PASS | 无跨文件定义冲突 |
+## 📈 知识库统计
 
-### 扣分项
+| 指标 | 数值 |
+|------|------|
+| Entity 页面 | 91 |
+| Raw 文章 | 33 |
 
-| 扣分项 | 扣分 | 说明 |
-|-------|------|------|
-| Entity 完整性 | -20 | 16 个预存 Entity 缺失「关键数据点」「前提与局限性」「关联概念」章节 |
+## 🔍 检查结果
 
-### 新编译内容（本次 compile 产出）
+### ✅ 通过项 (5/8)
 
-- **7 新 Entity**: Steve-Hanov, Lean-Stack, Runway-Math, Anti-Enterprise-Mindset, B2B-Nurture-C-Model, Time-Moat, Constraint-Driven-Engineering
-- **1 新 Topic**: Lean-Indie-Engineering
-- **质量**: 所有新增 Entity 均通过完整性检查 ✓
+| 检查项 | 结果 |
+|--------|------|
+| Raw backlog | ✅ 无未编译文章 |
+| 一致性检查 | ✅ 无明显冲突 |
+| 孤岛检测 | ✅ 无孤岛 Entity |
+| Comparison 元数据 | ✅ 所有 comparison 有 updated 字段 |
+| 摘要覆盖 | ✅ 所有 raw 文件已编译 |
 
-### 历史债务（非本次 compile 引入）
+### ❌ 问题项 (3/8)
 
-16 个预存 Entity 缺失标准三章节：
-- Aaron-Levie, Barry-Zhang, Ben-Thompson, Coding-Agents, Dan-Shipper, Elvis-Sun, Erik-Schluntz, Ethan-Mollick, Joe-Hudson, Judgment, Konstantine-Buhler, MIT-Technology-Review-Insights, Paul-Graham, Raj-Nandan-Sharma, Taste, Wes-Botman
+#### 1. 失效链接 (963 处)
 
-待执行 `fix-lint` 时统一补充。
+**扣分**: -20 分
+
+主要问题：`source_raw` 使用了带 `.md` 后缀的完整文件名，应使用短链接格式。
+
+| 文件 | 失效链接 |
+|------|---------|
+| Aaron-Levie | [[[[Dan-Shipper]]]] |
+| Aaron-Levie | [[[[Ethan-Mollick]]]] |
+| Aaron-Levie | [[[[(14) Jevons Paradox for Knowledge Work]]]] |
+| Aaron-Levie | [[[[(14) Jevons Paradox for Knowledge Work]] |
+| Multi-Layer-Memory | [[[[Context-Engineering]]]] |
+| Multi-Layer-Memory | [[[[Agent-Orchestration]]]] |
+| Multi-Layer-Memory | [[[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]]] |
+| Multi-Layer-Memory | [[[[Context-Engineering]]]] |
+| Multi-Layer-Memory | [[[[Agent-Orchestration]]]] |
+| Multi-Layer-Memory | [[[[Headless-Mode]]]] |
+| Multi-Layer-Memory | [[[[Knowledge-Compilation]]]] |
+| Ontology | [[[[TBox]]]] |
+| Ontology | [[[[ABox]]]] |
+| Ontology | [[[[RDF]]]] |
+| Ontology | [[[[OWL]]]] |
+| Ontology | [[[[Protégé]]]] |
+| Ontology | [[[[Ontology-Agent]]]] |
+| Ontology | [[[[20260420-ontology-enterprise-ai-agent]]]] |
+| Ontology | [[[[20260420-build-first-business-ontology]]]] |
+| Ontology | [[[[20260420-ontology-meets-agent-case-study]]]] |
+
+#### 2. Entity 完整性 (13 个)
+
+**扣分**: -13 分
+
+概念 Entity 缺失标准三章节：
+
+| Entity | 缺失章节 |
+|--------|---------|
+| Aaron-Levie | 关键数据点 / 前提与局限性 / 关联概念 |
+| AISI | 关键数据点 / 前提与局限性 / 关联概念 |
+| Barry-Zhang | 关键数据点 / 前提与局限性 / 关联概念 |
+| Raj-Nandan-Sharma | 关键数据点 / 前提与局限性 / 关联概念 |
+| Wes-Botman | 关键数据点 / 前提与局限性 / 关联概念 |
+| Joe-Hudson | 关键数据点 / 前提与局限性 / 关联概念 |
+| Paul-Graham | 关键数据点 / 前提与局限性 / 关联概念 |
+| Konstantine-Buhler | 关键数据点 / 前提与局限性 / 关联概念 |
+| Erik-Schluntz | 关键数据点 / 前提与局限性 / 关联概念 |
+| Elvis-Sun | 关键数据点 / 前提与局限性 / 关联概念 |
+| MIT-Technology-Review-Insights | 关键数据点 / 前提与局限性 / 关联概念 |
+| Ben-Thompson | 关键数据点 / 前提与局限性 / 关联概念 |
+| Ethan-Mollick | 关键数据点 / 前提与局限性 / 关联概念 |
+
+#### 3. MathJax 冲突风险 (62 处)
+
+**扣分**: -10 分
+
+包含 `$` 符号的文本可能触发 MathJax 解析，需检查是否已包裹或转义。
+
+## 📋 修复建议
+
+### 优先级 P0（立即修复）
+
+1. **失效链接**：批量移除 `source_raw` wikilinks 中的 `.md` 后缀
+   - 影响文件：Ontology.md, Harness-Engineering.md, Vibe-Coding.md 等
+   - 命令：`sed -i '' 's/\[\[\([^]]*\)\.md\]\]/[[]]/' wiki/entities/*.md`
+
+### 优先级 P1（本周修复）
+
+2. **Entity 完整性**：为 13 个概念 Entity 补充标准三章节
+   - 部分 Entity 可能需要重新分类为 `person` 类型
+
+### 优先级 P2（持续监控）
+
+3. **MathJax 冲突**：扫描包含金额、缩写等 `$` 符号的文本
+   - 修复方式：用反引号包裹 `` `$200` `` 或转义 `\$200`
+
+---
+
+*报告由 Claude Code 自动生成*
