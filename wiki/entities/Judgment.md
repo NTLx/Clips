@@ -18,7 +18,7 @@ related_entities:
   - "[[Discernment]]"
 source_raw:
   - "[[Good Taste the Only Real Moat Left]]"
-  - "[[Why Your “AI-First” Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
 ---
 
 # Judgment（判断力）
@@ -82,4 +82,4 @@ Judgment 不是终审判决，它是**暂时性结论的 art**——在迷雾中
 ## 来源
 
 - [[Good Taste the Only Real Moat Left]]
-- [[Why Your “AI-First” Strategy Is Probably Wrong]] — CREAO CTO Peter Pang: "训练批判性思维。学会评估论点、找出漏洞、质疑假设。"
+- [[20260413-why-ai-first-strategy-wrong]] — CREAO CTO Peter Pang: "训练批判性思维。学会评估论点、找出漏洞、质疑假设。"

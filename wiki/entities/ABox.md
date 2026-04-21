@@ -16,7 +16,7 @@ related_entities:
   - "[[TBox]]"
   - "[[RDF]]"
 source_raw:
-  - "[[20260420-build-first-business-ontology.md]]"
+  - "[[20260420-build-first-business-ontology]]"
 ---
 
 # ABox（断言集）

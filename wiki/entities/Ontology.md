@@ -19,9 +19,9 @@ related_entities:
   - "[[Protégé]]"
   - "[[Ontology-Agent]]"
 source_raw:
-  - "[[20260420-ontology-enterprise-ai-agent.md]]"
-  - "[[20260420-build-first-business-ontology.md]]"
-  - "[[20260420-ontology-meets-agent-case-study.md]]"
+  - "[[20260420-ontology-enterprise-ai-agent]]"
+  - "[[20260420-build-first-business-ontology]]"
+  - "[[20260420-ontology-meets-agent-case-study]]"
 ---
 
 # Ontology（本体）

@@ -16,7 +16,7 @@ related_entities:
   - "[[RDF]]"
   - "[[SPARQL]]"
 source_raw:
-  - "[[20260420-build-first-business-ontology.md]]"
+  - "[[20260420-build-first-business-ontology]]"
 ---
 
 # GraphDB
@@ -50,4 +50,4 @@ source_raw:
 - [[Ontology]]：GraphDB 存储的对象
 - [[RDF]]：GraphDB 的数据格式
 - [[SPARQL]]：GraphDB 的查询语言
-- [[Neo4j]]：属性图数据库（不同类别）
+- Neo4j：属性图数据库（不同类别）

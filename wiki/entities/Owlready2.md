@@ -16,8 +16,8 @@ related_entities:
   - "[[OWL]]"
   - "[[HermiT]]"
 source_raw:
-  - "[[20260420-build-first-business-ontology.md]]"
-  - "[[20260420-ontology-meets-agent-case-study.md]]"
+  - "[[20260420-build-first-business-ontology]]"
+  - "[[20260420-ontology-meets-agent-case-study]]"
 ---
 
 # Owlready2

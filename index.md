@@ -17,7 +17,7 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 91 个 |
+| Entity 页面 | 95 个 |
 | Topic 页面 | 14 个 |
 | Comparison 页面 | 4 个 |
 | Raw 文章 | 33 个 |
@@ -69,6 +69,10 @@ tags:
 | [[wiki/entities/Laziness-Virtue\|Laziness Virtue]] | 程序员三美德：懒惰驱动抽象和简化 | Martin Fowler Fragments |
 | [[wiki/entities/AI-Restraint\|AI Restraint]] | AI 需要学会克制和不行动 | Martin Fowler Fragments |
 | [[wiki/entities/YAGNI\|YAGNI]] | 敏捷原则：不要实现未需要的功能 | Martin Fowler Fragments |
+| [[wiki/entities/Knowledge-Graph\|Knowledge Graph]] | 事实数据的集合（图结构） | Ontology 系列 |
+| [[wiki/entities/Individual\|Individual]] | ABox 核心元素：具体实例 | Ontology 系列 |
+| [[wiki/entities/AI-Lacks-Laziness\|AI Lacks Laziness]] | AI 不具备懒惰美德的问题 | Martin Fowler Fragments |
+| [[wiki/entities/Class\|Class]] | TBox 核心元素：概念类型 | Ontology 系列 |
 | [[wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
 | [[wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
 | [[wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |

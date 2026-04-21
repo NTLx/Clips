@@ -102,4 +102,4 @@ AI-First 不是免费午餐，真实成本包括：
 
 ## 来源
 
-- [[Why Your "AI-First" Strategy Is Probably Wrong]] - Peter Pang (CREAO CTO), 2026-04-13
+- [[20260413-why-ai-first-strategy-wrong]] - Peter Pang (CREAO CTO), 2026-04-13

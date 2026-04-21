@@ -16,7 +16,7 @@ related_entities:
   - "[[OWL]]"
   - "[[Protégé]]"
 source_raw:
-  - "[[20260420-build-first-business-ontology.md]]"
+  - "[[20260420-build-first-business-ontology]]"
 ---
 
 # HermiT

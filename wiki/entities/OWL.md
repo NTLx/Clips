@@ -18,7 +18,7 @@ related_entities:
   - "[[TBox]]"
   - "[[Protégé]]"
 source_raw:
-  - "[[20260420-build-first-business-ontology.md]]"
+  - "[[20260420-build-first-business-ontology]]"
 ---
 
 # OWL（Web Ontology Language）

@@ -20,7 +20,7 @@ related_entities:
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[building-effective-agents]]"
-  - "[[Why Your “AI-First” Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
 ---
 
 # Coding Agents（编码智能体）
@@ -94,4 +94,4 @@ Coding Agent 擅长**边界清晰、可验证、有据可查**的任务。
 
 - [[20260410-what-is-agentic-engineering]]
 - [[building-effective-agents]]
-- [[Why Your “AI-First” Strategy Is Probably Wrong]] — CREAO CTO Peter Pang: "99% 的生产代码由 AI 编写"
+- [[20260413-why-ai-first-strategy-wrong]] — CREAO CTO Peter Pang: "99% 的生产代码由 AI 编写"
