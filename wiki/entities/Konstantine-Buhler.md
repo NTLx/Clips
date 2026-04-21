@@ -7,6 +7,7 @@ definition: "Sequoia Capital 合伙人，AI 和机器学习投资专家，Agent 
 created: 2026-04-10
 updated: 2026-04-14
 tags:
+  - person
   - AI-Agent
   - venture-capital
   - Sequoia

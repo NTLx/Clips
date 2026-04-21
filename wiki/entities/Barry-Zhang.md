@@ -7,6 +7,7 @@ definition: "Anthropic 研究工程师，专注于 Claude 代理架构和 Skills
 created: 2026-04-10
 updated: 2026-04-10
 tags:
+  - person
   - AI-Agent
   - Anthropic
   - Claude

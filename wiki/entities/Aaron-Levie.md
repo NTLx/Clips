@@ -7,6 +7,7 @@ definition: "Box 联合创始人兼 CEO，企业云计算领域先驱，AI Agent
 created: 2026-04-10
 updated: 2026-04-10
 tags:
+  - person
   - entrepreneurship
   - enterprise-software
   - AI-Agent

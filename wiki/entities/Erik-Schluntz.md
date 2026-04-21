@@ -7,6 +7,7 @@ definition: "Anthropic 技术团队成员，前 Cobalt Robotics CTO，AI 代理�
 created: 2026-04-10
 updated: 2026-04-10
 tags:
+  - person
   - AI-Agent
   - Anthropic
   - robotics

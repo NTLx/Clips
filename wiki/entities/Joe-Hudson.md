@@ -7,6 +7,7 @@ definition: "高管教练，与 OpenAI、Apple、Google 等科技公司高管合
 created: 2026-04-10
 updated: 2026-04-10
 tags:
+  - person
   - Career-Skills
   - coaching
   - leadership
