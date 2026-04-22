@@ -40,8 +40,19 @@ const config: QuartzConfig = {
       ".git",
       ".github",
 
-      // MCP 缓存
+      // AI 工具配置目录（skills 等不应发布）
+      ".agents",
+      ".sisyphus",
+      ".claude",
+      ".codebuddy",
+      ".iflow",
+      ".neovate",
+      ".qoder",
+      ".qwen",
+      ".trae",
+      ".ruff_cache",
       ".playwright-mcp",
+      "skills",
 
       // Schema 和日志文件（index.md 是首页，不应排除）
       "README.md",
