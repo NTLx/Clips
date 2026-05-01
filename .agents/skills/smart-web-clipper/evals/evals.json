@@ -1,0 +1,42 @@
+{
+  "skill_name": "smart-web-clipper",
+  "evals": [
+    {
+      "id": 1,
+      "name": "basic-article-clip",
+      "prompt": "Clip this article to my knowledge base: https://www.anthropic.com/research/building-effective-agents",
+      "expected_output": "A markdown file created in 00-raw/inbox/ with proper frontmatter including title, author, source, date, and AI-extracted tags. Content should be about AI agents.",
+      "files": [],
+      "assertions": [
+        {"type": "file_exists", "path_pattern": "00-raw/inbox/*.md"},
+        {"type": "contains_text", "text": "type: raw"},
+        {"type": "contains_text", "text": "source:"},
+        {"type": "contains_text", "text": "agent", "case_insensitive": true}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "link-discovery",
+      "prompt": "抓取这篇文章并评估相关链接：https://simonwillison.net/2024/Dec/19/llm-patterns/",
+      "expected_output": "Clipped article with AI-assessed links. Should identify related posts on simonwillison.net and evaluate if they're worth clipping. Category should be AI-Agent or Knowledge-Work.",
+      "files": [],
+      "assertions": [
+        {"type": "file_exists", "path_pattern": "00-raw/inbox/*.md"},
+        {"type": "contains_text", "text": "Related Links Found"},
+        {"type": "contains_text", "text": "Worth Clipping"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "chinese-content",
+      "prompt": "帮我剪藏这个中文文章：https://www.ruanyifeng.com/blog/2024/12/weekly-issue-323.html",
+      "expected_output": "Chinese article clipped with proper frontmatter. Language should be detected and noted. Should handle Chinese characters correctly.",
+      "files": [],
+      "assertions": [
+        {"type": "file_exists", "path_pattern": "00-raw/inbox/*.md"},
+        {"type": "contains_text", "text": "language:"},
+        {"type": "contains_chinese", "min_chars": 50}
+      ]
+    }
+  ]
+}
