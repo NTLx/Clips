@@ -18,16 +18,16 @@ related_entities:
   - "[[Time-Moat]]"
   - "[[Constraint-Driven-Engineering]]"
 source_raw:
-  - "[[每月$20成本，$60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
 ---
 
 # Lean-Indie-Engineering（精益独立开发）
 
 ## 主题定义
 
-**Lean-Indie-Engineering** 是独立开发者用极低成本（$20/月）运营多个盈利产品的工程哲学。2026 年由 Steve Hanov 的 Hacker News 帖子 (952 分) 引发广泛讨论。
+**Lean-Indie-Engineering** 是独立开发者用极低成本（`$20/月`）运营多个盈利产品的工程哲学。2026 年由 Steve Hanov 的 Hacker News 帖子 (952 分) 引发广泛讨论。
 
-核心问题：**如何在一个人都能跑月入六位数产品的前提下，把技术月支出压到 $20？**
+核心问题：**如何在一个人都能跑月入六位数产品的前提下，把技术月支出压到 `$20`？**
 
 ---
 
@@ -41,7 +41,7 @@ source_raw:
 
 - 分子不可控（VC 不理你、市场不买账、产品没起来 → 随时归零）
 - 分母 100% 可控（你可以永远选择花多少钱）
-- $20 月支出 = 永远不会死，可以一直试
+- `$20` 月支出 = 永远不会死，可以一直试
 
 > "Keeping costs near zero gives you the exact same runway as getting a million dollars in funding."
 
@@ -49,17 +49,17 @@ source_raw:
 
 | "万一"担忧 | 预付成本 | 实际需要 |
 |-----------|---------|---------|
-| 万一火了 → K8s | $500-2000/月 | 便宜 VPS |
-| 万一挂了 → Multi-AZ RDS | $200-500/月 | 单机 + 备份 |
-| 万一要 SSO → Auth0 | $50-200/月 | 30 行 OAuth2 |
+| 万一火了 → K8s | `$500-2000/月` | 便宜 VPS |
+| 万一挂了 → Multi-AZ RDS | `$200-500/月` | 单机 + 备份 |
+| 万一要 SSO → Auth0 | `$50-200/月` | 30 行 OAuth2 |
 
-六个"万一" = $3,000/月 = 300 个 $10 用户才能回本。而你还没发第一条营销推文。
+六个"万一" = `$3,000/月` = 300 个 `$10` 用户才能回本。而你还没发第一条营销推文。
 
 ### 3. Constraint-Driven-Engineering：约束决定选择
 
 没有放之四海皆准的"最佳技术栈"。必须先设定约束（预算、人力、时间），再从约束出发选择。
 
-Steve 的约束 = "一个人、$20/月、6 个产品" → Go + SQLite + 单机 VPS 是唯一最优解。
+Steve 的约束 = "一个人、`$20/月`、6 个产品" → Go + SQLite + 单机 VPS 是唯一最优解。
 
 ---
 
@@ -67,13 +67,13 @@ Steve 的约束 = "一个人、$20/月、6 个产品" → Go + SQLite + 单机 V
 
 | 组件 | 选择 | 成本 |
 |------|------|------|
-| 服务器 | Linode/DigitalOcean 1GB | $5/月 |
-| 数据库 | SQLite + WAL | $0 |
-| 语言 | Go (静态二进制) | $0 |
-| 认证 | 自写 30 行 OAuth2 | $0 |
-| 部署 | systemd service | $0 |
-| AI 开发 | GitHub Copilot per-request | $13/月 |
-| 本地 AI | RTX 3090 + VLLM | 一次性 $900 |
+| 服务器 | Linode/DigitalOcean 1GB | `$5/月` |
+| 数据库 | SQLite + WAL | `$0` |
+| 语言 | Go (静态二进制) | `$0` |
+| 认证 | 自写 30 行 OAuth2 | `$0` |
+| 部署 | systemd service | `$0` |
+| AI 开发 | GitHub Copilot per-request | `$13/月` |
+| 本地 AI | RTX 3090 + VLLM | 一次性 `$900` |
 
 ### SQLite + WAL 的 40 倍优势
 
@@ -89,7 +89,7 @@ Steve 的约束 = "一个人、$20/月、6 个产品" → Go + SQLite + 单机 V
 
 | 产品 | 类型 | 定价 | 作用 |
 |------|------|------|------|
-| zwibbler | B2B SDK | $5,999/单 | 现金流引擎 |
+| zwibbler | B2B SDK | `$5,999/`单 | 现金流引擎 |
 | websequencediagrams | C 端工具 | Freemium | SEO 引流 |
 | rhymebrain | C 端工具 | 广告+API | 长尾收入 |
 | rapt.ink | C 端工具 | Freemium | 用户增长 |
@@ -113,7 +113,7 @@ Steve 的约束 = "一个人、$20/月、6 个产品" → Go + SQLite + 单机 V
 ## 我们能抄什么作业？
 
 1. **数据库迁到 SQLite + WAL** — 体验 50ms → 2ms 的响应
-2. **App 搬到 Hetzner** — $5 买 4GB，systemd 一个 service 就起来
+2. **App 搬到 Hetzner** — `$5` 买 4GB，systemd 一个 service 就起来
 3. **试试 GitHub Copilot per-request** — 省下来的钱买 RTX 3090
 4. **先想清楚你的约束** — 再看别人用了什么，往自己身上套
 
@@ -121,8 +121,13 @@ Steve 的约束 = "一个人、$20/月、6 个产品" → Go + SQLite + 单机 V
 
 ## 最清醒的一段话
 
-> "Forget about the tech stack, how do I get multiple $10k MRR companies?"
+> "Forget about the tech stack, how do I get multiple `$10k` MRR companies?"
 > — @stavros, HN 评论区
 
 > "The tech industry wants you to believe that building a real business requires complex orchestration. It doesn't."
 > — Steve Hanov
+
+## 关联 Entity
+- [[Cybersecurity-Proof-of-Work]]
+- [[Security-Hardening-Phase]]
+- [[YAGNI]]

@@ -25,7 +25,7 @@ source_raw:
   - "[[20260410-hoard-things-you-know]]"
   - "[[20260410-better-code]]"
   - "[[20260410-anti-patterns]]"
-  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
 ---
 
 # Agentic Engineering Patterns
@@ -167,3 +167,9 @@ source_raw:
 > **来源**：Simon Willison, [Agentic Engineering Patterns Guide](https://simonwillison.net/guides/agentic-engineering-patterns/)
 >
 > **案例来源**：Peter Pang (CREAO CTO), [Why Your "AI-First" Strategy Is Probably Wrong](https://x.com/intuitiveml/status/2043545596699750791), 2026-04-13
+
+## 关联 Entity
+- [[AI-Restraint]]
+- [[Agent-Tenacity]]
+- [[Martin-Fowler]]
+- [[朱少民]]

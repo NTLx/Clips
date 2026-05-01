@@ -15,7 +15,7 @@ related_entities:
   - "[[Anti-Enterprise-Mindset]]"
   - "[[Taste]]"
 source_raw:
-  - "[[每月$20成本，$60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
 ---
 
 # Constraint-Driven-Engineering（约束驱动工程）
@@ -37,7 +37,7 @@ source_raw:
 
 | 约束集 | 技术选型 | 理由 |
 |-------|---------|------|
-| 一个人、$20/月、6 个产品 | Go + SQLite + 单机 VPS | 唯一最优解 |
+| 一个人、`$20/月`、6 个产品 | Go + SQLite + 单机 VPS | 唯一最优解 |
 | 单机、多人协作 Web app | Clojure + 全栈 | 开发效率高 |
 | JVM 生态、React Native、最小客户端 | JVM 后端 + 薄客户端 | 约束决定的选择 |
 
@@ -49,14 +49,14 @@ source_raw:
 ## 与 Anti-Enterprise-Mindset 的关系
 
 Anti-Enterprise-Mindset 是 Constraint-Driven-Engineering 在成本维度上的具体应用：
-- 约束 = "一个人、$20/月"
+- 约束 = "一个人、`$20/月`"
 - 选择 = 不用 K8s、Auth0、Multi-AZ RDS
 
 但 Constraint-Driven-Engineering 更通用：约束可以是团队规模、技术债务、合规要求等任何维度。
 
 ## 关键数据点
 
-- Steve Hanov 约束集: {一个人, $20/月, 6 个产品} → Go + SQLite + 单机 VPS（唯一最优解）
+- Steve Hanov 约束集: {一个人, `$20/月,` 6 个产品} → Go + SQLite + 单机 VPS（唯一最优解）
 - @andersmurphy 两套完全不同的技术选型：{单机, Clojure, Web app} vs {JVM, React Native, 最小客户端}
 - HN 952 分帖子引发 500+ 条评论，"约束决定选择" 被社区广泛认同
 

@@ -18,7 +18,7 @@ related_entities:
   - "[[Decision-Quality]]"
   - "[[Taste]]"
 source_raw:
-  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
 ---
 
 # Harness Engineering（驾驭工程）

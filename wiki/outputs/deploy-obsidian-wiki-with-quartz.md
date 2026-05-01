@@ -540,7 +540,7 @@ jobs:
     needs: build  # 等待构建完成
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: `${{ steps.deployment.outputs.page_url }}`
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages

@@ -22,11 +22,11 @@ related_entities:
 source_raw:
   - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
   - "[[20260410-what-is-agentic-engineering]]"
-  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
   - "20260127-claude-coding-notes"
   - "20260414-cybersecurity-proof-of-work"
-  - "[[工程师抗拒被\"蒸馏\"，企业的Skills从何而来？五大招破局]]"
+  - "[[工程师抗拒被"蒸馏"，企业的Skills从何而来？五大招破局]]"
 ---
 
 # Agentic Engineering

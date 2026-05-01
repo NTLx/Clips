@@ -21,7 +21,7 @@ related_entities:
 source_raw:
   - "[[20260410-what-is-agentic-engineering]]"
   - "[[20260413-llm-wiki]]"
-  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
   - "[[20260409-ai-capability-gap-ai-psychosis]]"
   - "20260127-claude-coding-notes"
 ---

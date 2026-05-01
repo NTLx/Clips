@@ -29,7 +29,7 @@ source_raw:
 ## 关键数据点
 
 - **核心方程**: "to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them"
-- **成本基准**: AISI 测试中 100M tokens = $12,500 per Mythos attempt
+- **成本基准**: AISI 测试中 100M tokens = `$12,500` per Mythos attempt
 - **测试结果**: Mythos 完成 32 步企业网络攻击（人类需 20 小时），10 次尝试中成功 3 次
 - **边际收益**: 100M tokens 预算仍未显示 diminishing returns
 

@@ -43,7 +43,7 @@ cd ../feat-custom-templates && pnpm install
 
 tmux new-session -d -s "codex-templates" \
   -c "/Users/elvis/Documents/GitHub/medialyst-worktrees/feat-custom-templates" \
-  "$HOME/.codex-agent/run-agent.sh templates gpt-5.3-codex high"
+  "`$HOME/.codex-agent/run-agent.sh` templates gpt-5.3-codex high"
 ```
 
 ### 任务注册系统

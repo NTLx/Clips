@@ -3,7 +3,7 @@ type: entity
 title: Lean-Stack
 aliases:
   - Lean Stack
-definition: "极低成本（$20/月）独立运营盈利产品的技术栈，反共识选择 SQLite+Go+单机 VPS"
+definition: "极低成本（`$20/月`）独立运营盈利产品的技术栈，反共识选择 SQLite+Go+单机 VPS"
 created: 2026-04-15
 updated: 2026-04-15
 tags:
@@ -17,20 +17,20 @@ related_entities:
   - "[[Time-Moat]]"
 
 source_raw:
-  - "[[每月$20成本，$60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
 ---
 
 # Lean-Stack（精益技术栈）
 
 ## 定义
 
-**Lean-Stack** 是一种将月技术开销压到极低水平（$20/月或以下）仍能支撑盈利产品的技术架构选择。核心哲学：**成本接近零 = 无限跑道**。
+**Lean-Stack** 是一种将月技术开销压到极低水平（`$20/月`或以下）仍能支撑盈利产品的技术架构选择。核心哲学：**成本接近零 = 无限跑道**。
 
 ## 标准配置
 
 | 组件 | Lean-Stack 选择 | 传统选择 |
 |------|---------------|---------|
-| 服务器 | Linode/DigitalOcean $5/月 (1GB RAM) | AWS/GCP $50-500/月 |
+| 服务器 | Linode/DigitalOcean `$5/月` (1GB RAM) | AWS/GCP `$50-500/月` |
 | 数据库 | SQLite + WAL | PostgreSQL/MySQL |
 | 语言 | Go (静态二进制) | Python/Node.js/Java |
 | 认证 | 自写 OAuth2 (30 行) | Auth0/Clerk |

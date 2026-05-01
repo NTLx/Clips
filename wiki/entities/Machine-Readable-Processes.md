@@ -16,7 +16,7 @@ related_entities:
   - "[[Harness-Engineering]]"
 source_raw:
   - "[[Enabling agent-first process redesign]]"
-  - "[[Why Your \u201cAI-First\u201d Strategy Is Probably Wrong]]"
+  - "[[20260413-why-ai-first-strategy-wrong]]"
 ---
 
 # Machine-Readable Processes

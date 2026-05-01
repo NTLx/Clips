@@ -170,3 +170,7 @@ AI 可以在几分钟内生成：
 - Raw Source: [[Good Taste the Only Real Moat Left]]
 - 原始链接: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/
 
+## 关联 Entity
+- [[AI-Lacks-Laziness]]
+- [[Laziness-Virtue]]
+- [[Slopocalypse]]

@@ -82,3 +82,6 @@ source_raw:
 
 - Raw Source: [[The Conscious 1% Leading a new renaissance in the era of AI]]
 - Original URL: https://www.eli5.io/blog/the-conscious-1-leading-a-new-renaissance-in-the-era-of-ai
+
+## 关联 Entity
+- [[Mythos]]

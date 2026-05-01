@@ -35,8 +35,8 @@ source_raw:
 
 ## 关键数据点
 
-- **Anthropic Code Review**: $15-20 per review（代码审查阶段产品）
-- **Mythos Hardening**: $12,500 per attempt (100M tokens)
+- **Anthropic Code Review**: `$15-20` per review（代码审查阶段产品）
+- **Mythos Hardening**: `$12,500` per attempt (100M tokens)
 - **历史对比**: 安全审计从"rare, discrete, inconsistent"变为"constant, within optimal budget"
 
 ## 前提与局限性

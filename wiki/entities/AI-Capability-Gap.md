@@ -34,7 +34,7 @@ source_raw:
 | 提出者 | Andrej Karpathy (@karpathy), 2026-04-09 |
 | 编程查询占比 | ~4% of ChatGPT messages |
 | 非工作类查询 | >73% of ChatGPT messages |
-| 非编程体验 | 2025 年至今"停滞甚至倒退"（即使 $200/月用户） |
+| 非编程体验 | 2025 年至今"停滞甚至倒退"（即使 `$200/月`用户） |
 | 人群分层 | 4 层（不用 AI → 免费用户 → 付费专业 → 顶尖 Researcher） |
 
 ---

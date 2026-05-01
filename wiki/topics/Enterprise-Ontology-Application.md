@@ -113,3 +113,6 @@ source_raw:
 ---
 
 *本 Topic 整合自「企业级本体应用」系列三篇文章。*
+
+## 关联 Entity
+- [[Knowledge-Graph]]

@@ -91,7 +91,7 @@ claude -p "修复最严重的那个 bug" --session-id review-001
 # GitHub Actions 示例
 - name: Review PR
   env:
-    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    ANTHROPIC_API_KEY: `${{ secrets.ANTHROPIC_API_KEY }}`
   run: |
     claude -p "Review the code changes for security issues" \
       --allowedTools Read,Grep,Glob \

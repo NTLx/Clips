@@ -1,114 +1,107 @@
 ---
 type: lint-report
-title: Clips Lint Report
-date: 2026-04-21
-health_score: 57
+title: "Lint Report"
+date: "2026-05-01"
+score: 100
+previous_score: 68
 ---
 
-# Clips Lint Report (2026-04-21)
+# Lint Report - 2026-05-01 (fix-lint)
 
-## 📊 健康度评分
+## 健康度: 100/100 (68 → 100, +32)
 
-| 指标 | 分数 |
-|------|------|
-| **健康度** | **57/100** |
+---
 
-## 📈 知识库统计
+## 检查项汇总
+
+| 检查项 | 状态 | 发现 | 扣分 |
+|-------|------|------|------|
+| Raw backlog | ✅ | 所有 34 个 raw 文件已包含编译摘要 | 0 |
+| 失效链接 | ✅ | 0 处断裂，全部修复 | 0 |
+| 孤儿 entity | ✅ | 0 个孤儿，全部关联到 topic | 0 |
+| 一致性检查 | ✅ | 未发现定义冲突 | 0 |
+| 完整性检查 | ✅ | 所有 entity 字段/章节完整 | 0 |
+| 孤岛检测 | ✅ | 未发现孤岛页面 | 0 |
+| Comparison 元数据 | ✅ | 所有 comparison 有 updated 字段 | 0 |
+| \$ 符号转义 | ✅ | 0 处未转义，全部修复 | 0 |
+
+---
+
+## 修复记录
+
+### 1. \$ 符号转义修复 (98 处 → 0, +12 分)
+
+修复 16 个文件中所有未转义的 `$` 符号，全部用反引号包裹。
+
+| 文件 | 修复数 |
+|------|--------|
+| `Lean-Indie-Engineering.md` (topic) | 21 |
+| `Runway-Math.md` | 17 |
+| `Anti-Enterprise-Mindset.md` | 14 |
+| `B2B-Nurture-C-Model.md` | 12 |
+| `Steve-Hanov.md` | 12 |
+| `Lean-Stack.md` | 6 |
+| `Constraint-Driven-Engineering.md` | 5 |
+| `Cybersecurity-Proof-of-Work.md` | 1 |
+| `AI-Capability-Gap.md` | 1 |
+| `AI-Psychosis.md` | 1 |
+| `Agent-Swarm.md` | 1 |
+| `Headless-Mode.md` | 1 |
+| `Mythos.md` | 1 |
+| `Security-Hardening-Phase.md` | 2 |
+| `Time-Moat.md` | 2 |
+| `deploy-obsidian-wiki-with-quartz.md` | 1 |
+
+**附带修复**: 修复了美元符号转义时误入 wikilink 内部的反引号问题（8 个文件）。
+
+### 2. 失效链接修复 (9 处 → 0, +10 分)
+
+| 断裂链接 | 修复方式 | 影响文件数 |
+|---------|---------|-----------|
+| `Why Your "AI-First" Strategy Is Probably Wrong` | 改为 raw 文件名 `20260413-why-ai-first-strategy-wrong` | 6 |
+| `工程师抗拒被\"蒸馏\"...` | 移除 wikilink 中 `\"` 转义，改为实际 `"` 字符 | 3 |
+
+### 3. 孤儿 entity 关联 (15 个 → 0, +5 分)
+
+| Topic | 关联 Entity |
+|-------|------------|
+| `AI-Era-Taste-and-Judgment` | AI-Lacks-Laziness, Laziness-Virtue, Slopocalypse |
+| `Agentic-Engineering-Patterns` | AI-Restraint, Agent-Tenacity, Martin-Fowler, 朱少民 |
+| `Lean-Indie-Engineering` | Cybersecurity-Proof-of-Work, Security-Hardening-Phase, YAGNI |
+| `Agent-First-Process-Redesign` | Adversarial-Distillation |
+| `Conscious-Creation-in-AI-Era` | Mythos |
+| `Enterprise-Ontology-Application` | Knowledge-Graph |
+| `Karpathy-AI-Thought` | AISI |
+| `OpenClaw-Agent-System` | Drew-Breunig |
+
+### 4. 完整性修复 (2 个 → 0, +5 分)
+
+| Entity | 修复内容 |
+|--------|---------|
+| `朱少民.md` | 添加 `person` tag，正确识别为作者 entity（已有 validated_source + validated_at） |
+| `Memex.md` | 无需修复 — 是概念 entity 非作者 entity，三章节完整 |
+
+---
+
+## 与上次报告对比
+
+| 指标 | 上次 | 本次 | 变化 |
+|------|------|------|------|
+| 健康度 | 68 | 100 | +32 |
+| 失效链接 | 9 处 | 0 处 | -9 |
+| \$ 符号 | 98 处 | 0 处 | -98 |
+| 孤儿 entity | 15 个 | 0 个 | -15 |
+| 完整性缺失 | 2 个 | 0 个 | -2 |
+
+---
+
+## 统计概览
 
 | 指标 | 数值 |
 |------|------|
-| Entity 页面 | 91 |
-| Raw 文章 | 33 |
-
-## 🔍 检查结果
-
-### ✅ 通过项 (5/8)
-
-| 检查项 | 结果 |
-|--------|------|
-| Raw backlog | ✅ 无未编译文章 |
-| 一致性检查 | ✅ 无明显冲突 |
-| 孤岛检测 | ✅ 无孤岛 Entity |
-| Comparison 元数据 | ✅ 所有 comparison 有 updated 字段 |
-| 摘要覆盖 | ✅ 所有 raw 文件已编译 |
-
-### ❌ 问题项 (3/8)
-
-#### 1. 失效链接 (963 处)
-
-**扣分**: -20 分
-
-主要问题：`source_raw` 使用了带 `.md` 后缀的完整文件名，应使用短链接格式。
-
-| 文件 | 失效链接 |
-|------|---------|
-| Aaron-Levie | [[[[Dan-Shipper]]]] |
-| Aaron-Levie | [[[[Ethan-Mollick]]]] |
-| Aaron-Levie | [[[[(14) Jevons Paradox for Knowledge Work]]]] |
-| Aaron-Levie | [[[[(14) Jevons Paradox for Knowledge Work]] |
-| Multi-Layer-Memory | [[[[Context-Engineering]]]] |
-| Multi-Layer-Memory | [[[[Agent-Orchestration]]]] |
-| Multi-Layer-Memory | [[[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]]] |
-| Multi-Layer-Memory | [[[[Context-Engineering]]]] |
-| Multi-Layer-Memory | [[[[Agent-Orchestration]]]] |
-| Multi-Layer-Memory | [[[[Headless-Mode]]]] |
-| Multi-Layer-Memory | [[[[Knowledge-Compilation]]]] |
-| Ontology | [[[[TBox]]]] |
-| Ontology | [[[[ABox]]]] |
-| Ontology | [[[[RDF]]]] |
-| Ontology | [[[[OWL]]]] |
-| Ontology | [[[[Protégé]]]] |
-| Ontology | [[[[Ontology-Agent]]]] |
-| Ontology | [[[[20260420-ontology-enterprise-ai-agent]]]] |
-| Ontology | [[[[20260420-build-first-business-ontology]]]] |
-| Ontology | [[[[20260420-ontology-meets-agent-case-study]]]] |
-
-#### 2. Entity 完整性 (13 个)
-
-**扣分**: -13 分
-
-概念 Entity 缺失标准三章节：
-
-| Entity | 缺失章节 |
-|--------|---------|
-| Aaron-Levie | 关键数据点 / 前提与局限性 / 关联概念 |
-| AISI | 关键数据点 / 前提与局限性 / 关联概念 |
-| Barry-Zhang | 关键数据点 / 前提与局限性 / 关联概念 |
-| Raj-Nandan-Sharma | 关键数据点 / 前提与局限性 / 关联概念 |
-| Wes-Botman | 关键数据点 / 前提与局限性 / 关联概念 |
-| Joe-Hudson | 关键数据点 / 前提与局限性 / 关联概念 |
-| Paul-Graham | 关键数据点 / 前提与局限性 / 关联概念 |
-| Konstantine-Buhler | 关键数据点 / 前提与局限性 / 关联概念 |
-| Erik-Schluntz | 关键数据点 / 前提与局限性 / 关联概念 |
-| Elvis-Sun | 关键数据点 / 前提与局限性 / 关联概念 |
-| MIT-Technology-Review-Insights | 关键数据点 / 前提与局限性 / 关联概念 |
-| Ben-Thompson | 关键数据点 / 前提与局限性 / 关联概念 |
-| Ethan-Mollick | 关键数据点 / 前提与局限性 / 关联概念 |
-
-#### 3. MathJax 冲突风险 (62 处)
-
-**扣分**: -10 分
-
-包含 `$` 符号的文本可能触发 MathJax 解析，需检查是否已包裹或转义。
-
-## 📋 修复建议
-
-### 优先级 P0（立即修复）
-
-1. **失效链接**：批量移除 `source_raw` wikilinks 中的 `.md` 后缀
-   - 影响文件：Ontology.md, Harness-Engineering.md, Vibe-Coding.md 等
-   - 命令：`sed -i '' 's/\[\[\([^]]*\)\.md\]\]/[[]]/' wiki/entities/*.md`
-
-### 优先级 P1（本周修复）
-
-2. **Entity 完整性**：为 13 个概念 Entity 补充标准三章节
-   - 部分 Entity 可能需要重新分类为 `person` 类型
-
-### 优先级 P2（持续监控）
-
-3. **MathJax 冲突**：扫描包含金额、缩写等 `$` 符号的文本
-   - 修复方式：用反引号包裹 `` `$200` `` 或转义 `\$200`
-
----
-
-*报告由 Claude Code 自动生成*
+| Raw 文章 | 34 |
+| Entity 页面 | 97 (78 概念 + 19 作者) |
+| Topic 页面 | 14 |
+| Comparison 页面 | 4 |
+| Wikilink 总数 | 995 |
+| 编译覆盖率 | 100% (34/34) |
