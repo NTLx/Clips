@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-05-07
+updated: 2026-05-08
 tags:
   - index
   - MOC
@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 98 个 |
-| Topic 页面 | 14 个 |
+| Entity 页面 | 101 个 |
+| Topic 页面 | 15 个 |
 | Comparison 页面 | 4 个 |
-| Raw 文章 | 35 个 |
+| Raw 文章 | 36 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -114,6 +114,8 @@ tags:
 
 | [[wiki/entities/Adversarial-Distillation\|Adversarial Distillation]] | 工程师为避免被 Skills 系统替代而采取的对抗策略 | 工程师抗拒被"蒸馏" |
 | [[wiki/entities/Dominator-Analysis\|Dominator Analysis]] | 编译器控制流图理论：节点 A 支配 B = 所有路径必经 A，用于 Agent 验证中提取 essential states | GitHub Blog: Validating agentic behavior |
+| [[wiki/entities/Elon-Musk\|Elon Musk]] | 特斯拉/SpaceX CEO，以第一性原理思考和五步工作法著称 | 成年人最大的内耗：拼命优化错误的东西 |
+| [[wiki/entities/Question-Requirements\|Question Requirements]] | Musk 五步法第一步：在优化之前先质疑存在必要性 | 成年人最大的内耗：拼命优化错误的东西 |
 
 #### 作者 Entities
 
@@ -136,6 +138,7 @@ tags:
 | [[wiki/entities/同学都叫我-饶老师\|同学都叫我 饶老师]] | 中文技术博主，提示词与个人成长方法论 | Prompt Engineering |
 | [[wiki/entities/朱少民\|朱少民]] | 软件工程领域作者，关注 AI Agent 与企业组织变革 | Software-Engineering, AI-Agent |
 | [[wiki/entities/Steve-Hanov\|Steve Hanov]] | 加拿大 Waterloo 独立开发者，6 个 $10K+ MRR 产品，月成本 $20 | Indie Developer, Bootstrap |
+| [[wiki/entities/达珍\|达珍]] | 得到App《得到头条》栏目作者 | Media |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -156,6 +159,7 @@ tags:
 | [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
 | [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] | 独立开发者用极低技术成本运营盈利产品的工程哲学 | Steve-Hanov, Lean-Stack, Runway-Math |
 | [[wiki/topics/Enterprise-Ontology-Application\|企业级本体应用]] | 用本体为 AI Agent 提供统一的业务语义层 | Ontology, TBox, ABox, OWL, Ontology-Agent |
+| [[wiki/topics/Musk-First-Principles-Thinking\|马斯克的第一性原理思考]] | Musk 五步工作法：质疑需求 → 删减 → 优化 → 加速 → 自动化 | Elon-Musk, Question-Requirements, YAGNI, Refusal |
 
 ### Comparisons (comparisons/)
 *对比分析页面*
@@ -178,7 +182,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（35 个）*
+*原始剪藏文章（36 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 
@@ -213,4 +217,4 @@ status             # 查看知识库状态
 ---
 
 *索引版本: v2.4*
-*最后更新: 2026-05-07*
+*最后更新: 2026-05-08*
