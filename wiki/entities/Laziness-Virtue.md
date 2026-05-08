@@ -13,9 +13,9 @@ tags:
   - philosophy
   - programming
 related_entities:
-  - "[[Martin-Fowler]]"
-  - "[[AI-Lacks-Laziness]]"
-  - "[[YAGNI]]"
+  - '[[Martin-Fowler]]'
+  - '[[AI-Lacks-Laziness]]'
+  - '[[YAGNI]]'
 source_raw:
   - "20260414-martin-fowler-fragments"
 ---

@@ -8,8 +8,8 @@ tags:
   - Creativity
   - Taste
 related_entities:
-  - "[[Taste]]"
-  - "[[Conscious-Creators]]"
+  - '[[Taste]]'
+  - '[[Conscious-Creators]]'
 ---
 
 # Cook vs Chef

@@ -2,7 +2,7 @@
 title: "Cybersecurity Looks Like Proof of Work Now"
 source: "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html"
 author:
-  - "[[Drew-Breunig]]"
+  - '[[Drew-Breunig]]'
 published: 2026-04-14
 created: 2026-04-20
 description: "Is security spending more tokens than your attacker?"

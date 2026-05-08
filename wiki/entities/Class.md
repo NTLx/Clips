@@ -12,9 +12,9 @@ tags:
   - ontology
   - knowledge-representation
 related_entities:
-  - "[[TBox]]"
-  - "[[Individual]]"
-  - "[[Ontology]]"
+  - '[[TBox]]'
+  - '[[Individual]]'
+  - '[[Ontology]]'
 source_raw:
   - "20260420-build-first-business-ontology"
 ---

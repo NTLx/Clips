@@ -15,7 +15,7 @@ tags:
   - entrepreneurship
   - technology
 source_raw:
-  - "[[成年人最大的内耗：拼命优化错误的东西]]"
+  - '[[成年人最大的内耗：拼命优化错误的东西]]'
 ---
 
 # Elon Musk

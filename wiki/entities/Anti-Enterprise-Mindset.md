@@ -11,11 +11,11 @@ tags:
   - entrepreneurship
   - decision-making
 related_entities:
-  - "[[Lean-Stack]]"
-  - "[[Runway-Math]]"
-  - "[[Constraint-Driven-Engineering]]"
+  - '[[Lean-Stack]]'
+  - '[[Runway-Math]]'
+  - '[[Constraint-Driven-Engineering]]'
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # Anti-Enterprise-Mindset（反企业思维）

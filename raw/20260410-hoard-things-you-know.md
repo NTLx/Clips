@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/"
 author:
-  - "[[Simon-Willison]]"
+  - '[[Simon-Willison]]'
 published: "2026-02-26"
 updated: "2026-03-16"
 created: "2026-04-10"

@@ -10,13 +10,13 @@ tags:
   - AI-adoption
   - perception-gap
 related_entities:
-  - "[[AI-Psychosis]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Vibe-Coding]]"
-  - "[[Software-2.0]]"
-  - "[[Andrej-Karpathy]]"
+  - '[[AI-Psychosis]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Vibe-Coding]]'
+  - '[[Software-2.0]]'
+  - '[[Andrej-Karpathy]]'
 source_raw:
-  - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - '[[20260409-ai-capability-gap-ai-psychosis]]'
 ---
 
 # AI Capability Gap（AI 能力鸿沟）

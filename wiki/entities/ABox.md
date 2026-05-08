@@ -12,11 +12,11 @@ tags:
   - Ontology
   - Knowledge-Engineering
 related_entities:
-  - "[[Ontology]]"
-  - "[[TBox]]"
-  - "[[RDF]]"
+  - '[[Ontology]]'
+  - '[[TBox]]'
+  - '[[RDF]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # ABox（断言集）

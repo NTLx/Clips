@@ -13,8 +13,8 @@ tags:
   - ai-design
   - decision-making
 related_entities:
-  - "[[Martin-Fowler]]"
-  - "[[AI-Lacks-Laziness]]"
+  - '[[Martin-Fowler]]'
+  - '[[AI-Lacks-Laziness]]'
 source_raw:
   - "20260414-martin-fowler-fragments"
 ---

@@ -11,11 +11,11 @@ tags:
   - decision-making
   - leadership
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Judgment]]"
+  - '[[Wisdom-Work]]'
+  - '[[Emotional-Clarity]]'
+  - '[[Judgment]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Discernment

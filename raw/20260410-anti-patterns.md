@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/"
 author:
-  - "[[Simon-Willison]]"
+  - '[[Simon-Willison]]'
 published: "2026-03-04"
 updated: "2026-03-04"
 created: "2026-04-10"

@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/"
 author:
-  - "[[Simon-Willison]]"
+  - '[[Simon-Willison]]'
 published: "2026-03-10"
 updated: "2026-03-11"
 created: "2026-04-10"

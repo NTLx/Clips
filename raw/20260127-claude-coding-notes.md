@@ -2,7 +2,7 @@
 title: "Claude Coding Notes (2026-01)"
 source: "https://x.com/karpathy/status/2015883857489522876"
 author:
-  - "[[Andrej-Karpathy]]"
+  - '[[Andrej-Karpathy]]'
 published: 2026-01-27
 created: 2026-04-21
 description: "Andrej Karpathy 分享使用 Claude Code 进行 AI 辅助编程的经验与观察，涵盖工作流转变、模型局限性、代理韧性、效率提升、杠杆效应、乐趣感、能力萎缩、Slopocalypse 等维度。"

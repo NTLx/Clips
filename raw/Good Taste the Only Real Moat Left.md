@@ -2,8 +2,8 @@
 title: "Good Taste the Only Real Moat Left"
 source: "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/"
 author:
-  - "[[Raj-Nandan-Sharma]]"
-published:
+  - '[[Raj-Nandan-Sharma]]'
+published: "2026-04-08"
 created: 2026-04-08
 description: "AI makes competent output cheap. That makes taste more valuable, but also more incomplete. The real edge comes from pairing judgment with context, stakes, and the willingness to build."
 tags:

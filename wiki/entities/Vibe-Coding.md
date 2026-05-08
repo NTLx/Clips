@@ -11,18 +11,18 @@ tags:
   - coding-agents
   - programming
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Harness-Engineering]]"
-  - "[[Code-Execution]]"
-  - "[[Andrej-Karpathy]]"
-  - "[[Software-2.0]]"
-  - "[[AI-Capability-Gap]]"
-  - "[[AI-Psychosis]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Harness-Engineering]]'
+  - '[[Code-Execution]]'
+  - '[[Andrej-Karpathy]]'
+  - '[[Software-2.0]]'
+  - '[[AI-Capability-Gap]]'
+  - '[[AI-Psychosis]]'
 source_raw:
-  - "[[20260410-what-is-agentic-engineering]]"
-  - "[[20260413-llm-wiki]]"
-  - "[[20260413-why-ai-first-strategy-wrong]]"
-  - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - '[[20260410-what-is-agentic-engineering]]'
+  - '[[20260413-llm-wiki]]'
+  - '[[20260413-why-ai-first-strategy-wrong]]'
+  - '[[20260409-ai-capability-gap-ai-psychosis]]'
   - "20260127-claude-coding-notes"
 ---
 

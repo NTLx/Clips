@@ -2,7 +2,7 @@
 title: "AI and the Human Condition"
 source: "https://stratechery.com/2026/ai-and-the-human-condition/"
 author:
-  - "[[Ben-Thompson]]"
+  - '[[Ben-Thompson]]'
 published: 2026-01-05
 created: 2026-04-10
 description: "AI might replace all of the jobs; that’s only a problem if you think that humans will care, but if they care, they will create new jobs."

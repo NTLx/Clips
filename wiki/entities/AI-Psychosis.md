@@ -10,12 +10,12 @@ tags:
   - AI-agent
   - perception-gap
 related_entities:
-  - "[[Andrej-Karpathy]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Claude-Code-CLI]]"
-  - "[[Software-2.0]]"
+  - '[[Andrej-Karpathy]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Claude-Code-CLI]]'
+  - '[[Software-2.0]]'
 source_raw:
-  - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - '[[20260409-ai-capability-gap-ai-psychosis]]'
 ---
 
 # AI Psychosis

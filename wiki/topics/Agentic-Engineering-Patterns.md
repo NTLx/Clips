@@ -9,25 +9,25 @@ tags:
   - coding-agents
   - best-practices
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Coding-Agents]]"
-  - "[[Code-Execution]]"
-  - "[[Compound-Engineering]]"
-  - "[[Dominator-Analysis]]"
-  - "[[Raj-Nandan-Sharma]]"
-  - "[[Simon-Willison]]"
-  - "[[Technical-Debt-Avoidance]]"
-  - "[[Vibe-Coding]]"
-  - "[[Harness-Engineering]]"
-  - "[[AI-First]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Coding-Agents]]'
+  - '[[Code-Execution]]'
+  - '[[Compound-Engineering]]'
+  - '[[Dominator-Analysis]]'
+  - '[[Raj-Nandan-Sharma]]'
+  - '[[Simon-Willison]]'
+  - '[[Technical-Debt-Avoidance]]'
+  - '[[Vibe-Coding]]'
+  - '[[Harness-Engineering]]'
+  - '[[AI-First]]'
 source_raw:
-  - "[[20260410-what-is-agentic-engineering]]"
-  - "[[20260410-code-is-cheap]]"
-  - "[[20260410-hoard-things-you-know]]"
-  - "[[20260410-better-code]]"
-  - "[[20260410-anti-patterns]]"
-  - "[[20260413-why-ai-first-strategy-wrong]]"
-  - "[[Validating agentic behavior when “correct” isn’t deterministic]]"
+  - '[[20260410-what-is-agentic-engineering]]'
+  - '[[20260410-code-is-cheap]]'
+  - '[[20260410-hoard-things-you-know]]'
+  - '[[20260410-better-code]]'
+  - '[[20260410-anti-patterns]]'
+  - '[[20260413-why-ai-first-strategy-wrong]]'
+  - '[[Validating agentic behavior when “correct” isn’t deterministic]]'
 ---
 
 # Agentic Engineering Patterns

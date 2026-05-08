@@ -13,10 +13,10 @@ tags:
   - media
   - newsletter
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Ethan-Mollick]]"
+  - '[[Dan-Shipper]]'
+  - '[[Ethan-Mollick]]'
 source_raw:
-  - "[[AI and the Human Condition]]"
+  - '[[AI and the Human Condition]]'
 validated_source: "https://stratechery.com/about/"
 validated_at: "2026-04-14"
 ---

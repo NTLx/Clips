@@ -13,10 +13,10 @@ tags:
   - research
   - AI-education
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Simon-Willison]]"
+  - '[[Dan-Shipper]]'
+  - '[[Simon-Willison]]'
 source_raw:
-  - "[[Management as AI superpower]]"
+  - '[[Management as AI superpower]]'
 validated_source: "https://mgmt.wharton.upenn.edu/profile/emollick/"
 validated_at: "2026-04-15"
 ---

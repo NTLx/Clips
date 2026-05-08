@@ -2,7 +2,7 @@
 title: "Knowledge Work Is Dying—Here’s What Comes Next"
 source: "https://every.to/thesis/knowledge-work-is-dying-here-s-what-comes-next"
 author:
-  - "[[Joe-Hudson]]"
+  - '[[Joe-Hudson]]'
 published: 2025-05-29
 created: 2026-04-09
 description: "While AI devours information-based roles, OpenAI, Alphabet, and Apple are investing in wisdom work—and you can, too"

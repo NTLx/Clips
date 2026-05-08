@@ -2,7 +2,7 @@
 title: "工程师抗拒被\"蒸馏\"，企业的Skills从何而来？五大招破局"
 source: "https://mp.weixin.qq.com/s/OAQ-Vn6_ClLijT_b5KTELA"
 author:
-  - "[[朱少民]]"
+  - '[[朱少民]]'
 published: "2026-04-21"
 created: 2026-04-21
 description: "缺的不是技术，是制度"

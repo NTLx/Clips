@@ -11,12 +11,12 @@ tags:
   - Process-Design
   - Technical-Architecture
 related_entities:
-  - "[[Agent-First-Enterprise]]"
-  - "[[Human-Governor-Agent-Operator]]"
-  - "[[Harness-Engineering]]"
+  - '[[Agent-First-Enterprise]]'
+  - '[[Human-Governor-Agent-Operator]]'
+  - '[[Harness-Engineering]]'
 source_raw:
-  - "[[Enabling agent-first process redesign]]"
-  - "[[20260413-why-ai-first-strategy-wrong]]"
+  - '[[Enabling agent-first process redesign]]'
+  - '[[20260413-why-ai-first-strategy-wrong]]'
 ---
 
 # Machine-Readable Processes

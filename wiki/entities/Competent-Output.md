@@ -11,11 +11,11 @@ tags:
   - Creativity
   - Quality
 related_entities:
-  - "[[Taste]]"
-  - "[[Specificity]]"
-  - "[[Ownership]]"
+  - '[[Taste]]'
+  - '[[Specificity]]'
+  - '[[Ownership]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # Competent Output

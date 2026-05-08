@@ -13,9 +13,9 @@ tags:
   - software-engineering
   - design-philosophy
 related_entities:
-  - "[[Laziness-Virtue]]"
-  - "[[AI-Restraint]]"
-  - "[[Martin-Fowler]]"
+  - '[[Laziness-Virtue]]'
+  - '[[AI-Restraint]]'
+  - '[[Martin-Fowler]]'
 source_raw:
   - "20260414-martin-fowler-fragments"
 ---

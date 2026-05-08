@@ -11,12 +11,12 @@ tags:
   - Human-Potential
   - Psychology
 related_entities:
-  - "[[Conscious-Creators]]"
-  - "[[Decision-Quality]]"
-  - "[[Taste]]"
-  - "[[Resonance]]"
+  - '[[Conscious-Creators]]'
+  - '[[Decision-Quality]]'
+  - '[[Taste]]'
+  - '[[Resonance]]'
 source_raw:
-  - "[[The Conscious 1% Leading a new renaissance in the era of AI]]"
+  - '[[The Conscious 1% Leading a new renaissance in the era of AI]]'
 ---
 
 # Inner World Mastery

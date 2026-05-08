@@ -13,10 +13,10 @@ tags:
   - Google
   - developer-tools
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Simon-Willison]]"
+  - '[[Dan-Shipper]]'
+  - '[[Simon-Willison]]'
 source_raw:
-  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - '[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]'
 validated_source: "https://www.linkedin.com/in/elvissun/"
 validated_at: "2026-04-14"
 ---

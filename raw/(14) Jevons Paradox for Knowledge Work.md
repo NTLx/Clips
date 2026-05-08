@@ -2,8 +2,8 @@
 title: "(14) Jevons Paradox for Knowledge Work"
 source: "https://www.linkedin.com/pulse/jevons-paradox-knowledge-work-aaron-levie-qalmc/"
 author:
-  - "[[Aaron-Levie]]"
-published: 2025年12月29日
+  - '[[Aaron-Levie]]'
+published: "2025-12-29"
 created: 2026-04-10
 description:
 tags:

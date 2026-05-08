@@ -13,10 +13,10 @@ tags:
   - Claude
   - Skills
 related_entities:
-  - "[[Erik-Schluntz]]"
-  - "[[Simon-Willison]]"
+  - '[[Erik-Schluntz]]'
+  - '[[Simon-Willison]]'
 source_raw:
-  - "[[building-effective-agents]]"
+  - '[[building-effective-agents]]'
 validated_source: "https://www.linkedin.com/in/barryzhang0/"
 validated_at: "2026-04-15"
 ---

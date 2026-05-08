@@ -13,10 +13,10 @@ tags:
   - Sequoia
   - agent-economy
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Ethan-Mollick]]"
+  - '[[Dan-Shipper]]'
+  - '[[Ethan-Mollick]]'
 source_raw:
-  - "[[The Always-On Economy AI and the Next 5-7 Years]]"
+  - '[[The Always-On Economy AI and the Next 5-7 Years]]'
 validated_source: "https://www.linkedin.com/in/konstantinebuhler/"
 validated_at: "2026-04-14"
 ---

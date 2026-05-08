@@ -10,15 +10,15 @@ tags:
   - software-engineering
   - entrepreneurship
 related_entities:
-  - "[[Steve-Hanov]]"
-  - "[[Lean-Stack]]"
-  - "[[Runway-Math]]"
-  - "[[Anti-Enterprise-Mindset]]"
-  - "[[B2B-Nurture-C-Model]]"
-  - "[[Time-Moat]]"
-  - "[[Constraint-Driven-Engineering]]"
+  - '[[Steve-Hanov]]'
+  - '[[Lean-Stack]]'
+  - '[[Runway-Math]]'
+  - '[[Anti-Enterprise-Mindset]]'
+  - '[[B2B-Nurture-C-Model]]'
+  - '[[Time-Moat]]'
+  - '[[Constraint-Driven-Engineering]]'
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # Lean-Indie-Engineering（精益独立开发）

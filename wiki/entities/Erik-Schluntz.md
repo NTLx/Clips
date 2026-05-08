@@ -13,10 +13,10 @@ tags:
   - robotics
   - Claude-Code
 related_entities:
-  - "[[Simon-Willison]]"
-  - "[[Dan-Shipper]]"
+  - '[[Simon-Willison]]'
+  - '[[Dan-Shipper]]'
 source_raw:
-  - "[[building-effective-agents]]"
+  - '[[building-effective-agents]]'
 validated_source: "https://www.linkedin.com/in/erikschluntz/"
 validated_at: "2026-04-14"
 ---

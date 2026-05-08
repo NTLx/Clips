@@ -12,11 +12,11 @@ tags:
   - Database
   - RDF-Store
 related_entities:
-  - "[[Ontology]]"
-  - "[[RDF]]"
-  - "[[SPARQL]]"
+  - '[[Ontology]]'
+  - '[[RDF]]'
+  - '[[SPARQL]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # GraphDB

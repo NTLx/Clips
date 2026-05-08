@@ -11,14 +11,14 @@ tags:
   - Organizational-Design
   - Development-Paradigm
 related_entities:
-  - "[[Harness-Engineering]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Machine-Readable-Processes]]"
-  - "[[Agent-First-Enterprise]]"
-  - "[[Decision-Quality]]"
-  - "[[Taste]]"
+  - '[[Harness-Engineering]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Machine-Readable-Processes]]'
+  - '[[Agent-First-Enterprise]]'
+  - '[[Decision-Quality]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[20260413-why-ai-first-strategy-wrong]]"
+  - '[[20260413-why-ai-first-strategy-wrong]]'
 ---
 
 # AI-First（AI 优先）

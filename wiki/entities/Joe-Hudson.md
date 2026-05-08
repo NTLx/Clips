@@ -13,10 +13,10 @@ tags:
   - leadership
   - emotional-intelligence
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Ethan-Mollick]]"
+  - '[[Dan-Shipper]]'
+  - '[[Ethan-Mollick]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 validated_source: "https://www.theartofaccomplishment.com/"
 validated_at: "2026-04-14"
 ---

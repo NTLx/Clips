@@ -11,11 +11,11 @@ tags:
   - bootstrap
   - finance
 related_entities:
-  - "[[Lean-Stack]]"
-  - "[[Anti-Enterprise-Mindset]]"
-  - "[[Steve-Hanov]]"
+  - '[[Lean-Stack]]'
+  - '[[Anti-Enterprise-Mindset]]'
+  - '[[Steve-Hanov]]'
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # Runway-Math（跑道数学）

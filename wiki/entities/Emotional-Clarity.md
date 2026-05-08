@@ -11,11 +11,11 @@ tags:
   - psychology
   - leadership
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Discernment]]"
-  - "[[Connection]]"
+  - '[[Wisdom-Work]]'
+  - '[[Discernment]]'
+  - '[[Connection]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Emotional Clarity

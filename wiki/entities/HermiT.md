@@ -12,11 +12,11 @@ tags:
   - Reasoner
   - Open-Source
 related_entities:
-  - "[[Ontology]]"
-  - "[[OWL]]"
-  - "[[Protégé]]"
+  - '[[Ontology]]'
+  - '[[OWL]]'
+  - '[[Protégé]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # HermiT

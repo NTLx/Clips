@@ -8,11 +8,11 @@ tags:
   - Software-Engineering
   - Git
 related_entities:
-  - "[[Git-Fluent-Agents]]"
-  - "[[History-Rewriting]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Git-Fluent-Agents]]'
+  - '[[History-Rewriting]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
-  - "[[Using Git with coding agents - Agentic Engineering Patterns]]"
+  - '[[Using Git with coding agents - Agentic Engineering Patterns]]'
 ---
 
 # Git with Coding Agents

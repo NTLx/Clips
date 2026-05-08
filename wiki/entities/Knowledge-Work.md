@@ -11,12 +11,12 @@ tags:
   - work
   - knowledge-work
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Allocation-Economy]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Discernment]]"
+  - '[[Wisdom-Work]]'
+  - '[[Allocation-Economy]]'
+  - '[[Emotional-Clarity]]'
+  - '[[Discernment]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Knowledge Work（知识工作）

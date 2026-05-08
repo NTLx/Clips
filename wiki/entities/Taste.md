@@ -11,12 +11,12 @@ tags:
   - competitive-advantage
   - human-skill
 related_entities:
-  - "[[Judgment]]"
-  - "[[Specificity]]"
-  - "[[Ownership]]"
-  - "[[Competent-Output]]"
+  - '[[Judgment]]'
+  - '[[Specificity]]'
+  - '[[Ownership]]'
+  - '[[Competent-Output]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # Taste（品味）

@@ -11,12 +11,12 @@ tags:
   - management
   - skills
 related_entities:
-  - "[[Allocation-Economy]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Taste]]"
+  - '[[Allocation-Economy]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]"
-  - "[[Management as AI superpower]]"
+  - '[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]'
+  - '[[Management as AI superpower]]'
 ---
 
 # Model Manager（模型管理者）

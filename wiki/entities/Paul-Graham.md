@@ -13,13 +13,13 @@ tags:
   - Y-Combinator
   - essays
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Taste]]"
-  - "[[Judgment]]"
-  - "[[Specificity]]"
+  - '[[Dan-Shipper]]'
+  - '[[Taste]]'
+  - '[[Judgment]]'
+  - '[[Specificity]]'
 source_raw:
-  - "[[Taste for Makers]]"
-  - "[[The Brand Age]]"
+  - '[[Taste for Makers]]'
+  - '[[The Brand Age]]'
 validated_source: "https://www.paulgraham.com/"
 validated_at: "2026-04-14"
 ---

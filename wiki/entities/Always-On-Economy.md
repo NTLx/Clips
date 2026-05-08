@@ -11,10 +11,10 @@ tags:
   - economy
   - automation
 related_entities:
-  - "[[Allocation-Economy]]"
-  - "[[Jevons-Paradox-for-Knowledge-Work]]"
+  - '[[Allocation-Economy]]'
+  - '[[Jevons-Paradox-for-Knowledge-Work]]'
 source_raw:
-  - "[[The Always-On Economy AI and the Next 5-7 Years]]"
+  - '[[The Always-On Economy AI and the Next 5-7 Years]]'
 ---
 
 # Always-On Economy（永在线经济）

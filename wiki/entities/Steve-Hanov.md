@@ -11,7 +11,7 @@ tags:
   - indie-developer
   - bootstrap
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 validated_source: "https://stevehanov.ca/"
 validated_at: "2026-04-15"
 ---

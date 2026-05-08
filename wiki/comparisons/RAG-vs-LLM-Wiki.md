@@ -8,11 +8,11 @@ tags:
   - Knowledge-Management
   - LLM-Wiki
 related_entities:
-  - "[[Context-Engineering]]"
-  - "[[Multi-Layer-Memory]]"
-  - "[[Andrej-Karpathy]]"
-  - "[[Knowledge-Compilation]]"
-  - "[[Memex]]"
+  - '[[Context-Engineering]]'
+  - '[[Multi-Layer-Memory]]'
+  - '[[Andrej-Karpathy]]'
+  - '[[Knowledge-Compilation]]'
+  - '[[Memex]]'
 ---
 
 # RAG vs LLM Wiki

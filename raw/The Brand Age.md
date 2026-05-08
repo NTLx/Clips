@@ -2,8 +2,8 @@
 title: The Brand Age
 source: https://www.paulgraham.com/brandage.html
 author:
-  - "[[Paul-Graham]]"
-published:
+  - '[[Paul-Graham]]'
+published: "2026-04-09"
 created: 2026-04-09
 description:
 tags:

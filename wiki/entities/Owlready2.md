@@ -12,12 +12,12 @@ tags:
   - Python
   - Library
 related_entities:
-  - "[[Ontology]]"
-  - "[[OWL]]"
-  - "[[HermiT]]"
+  - '[[Ontology]]'
+  - '[[OWL]]'
+  - '[[HermiT]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
-  - "[[20260420-ontology-meets-agent-case-study]]"
+  - '[[20260420-build-first-business-ontology]]'
+  - '[[20260420-ontology-meets-agent-case-study]]'
 ---
 
 # Owlready2

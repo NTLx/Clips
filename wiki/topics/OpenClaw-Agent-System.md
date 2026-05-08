@@ -8,14 +8,14 @@ tags:
   - AI-Agent
   - Multi-Agent-System
 related_entities:
-  - "[[Agent-Orchestration]]"
-  - "[[Agent-Swarm]]"
-  - "[[Context-Engineering]]"
-  - "[[Elvis-Sun]]"
-  - "[[Multi-Layer-Memory]]"
-  - "[[Three-State-Protocol]]"
+  - '[[Agent-Orchestration]]'
+  - '[[Agent-Swarm]]'
+  - '[[Context-Engineering]]'
+  - '[[Elvis-Sun]]'
+  - '[[Multi-Layer-Memory]]'
+  - '[[Three-State-Protocol]]'
 source_raw:
-  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - '[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]'
 ---
 
 # OpenClaw Agent System

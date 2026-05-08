@@ -11,16 +11,16 @@ tags:
   - coding-tools
   - core-concept
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Code-Execution]]"
-  - "[[Claude-Code-CLI]]"
-  - "[[Vibe-Coding]]"
-  - "[[Harness-Engineering]]"
-  - "[[Decision-Quality]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Code-Execution]]'
+  - '[[Claude-Code-CLI]]'
+  - '[[Vibe-Coding]]'
+  - '[[Harness-Engineering]]'
+  - '[[Decision-Quality]]'
 source_raw:
-  - "[[20260410-what-is-agentic-engineering]]"
-  - "[[building-effective-agents]]"
-  - "[[20260413-why-ai-first-strategy-wrong]]"
+  - '[[20260410-what-is-agentic-engineering]]'
+  - '[[building-effective-agents]]'
+  - '[[20260413-why-ai-first-strategy-wrong]]'
 ---
 
 # Coding Agents（编码智能体）

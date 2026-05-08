@@ -13,9 +13,9 @@ tags:
   - software-engineering
   - design-principle
 related_entities:
-  - "[[Laziness-Virtue]]"
-  - "[[Martin-Fowler]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Laziness-Virtue]]'
+  - '[[Martin-Fowler]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
   - "20260414-martin-fowler-fragments"
 ---

@@ -11,14 +11,14 @@ tags:
   - human-skill
   - decision-making
 related_entities:
-  - "[[Taste]]"
-  - "[[Refusal]]"
-  - "[[Specificity]]"
-  - "[[Decision-Quality]]"
-  - "[[Discernment]]"
+  - '[[Taste]]'
+  - '[[Refusal]]'
+  - '[[Specificity]]'
+  - '[[Decision-Quality]]'
+  - '[[Discernment]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
-  - "[[20260413-why-ai-first-strategy-wrong]]"
+  - '[[Good Taste the Only Real Moat Left]]'
+  - '[[20260413-why-ai-first-strategy-wrong]]'
 ---
 
 # Judgment（判断力）

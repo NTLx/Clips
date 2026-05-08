@@ -2,7 +2,7 @@
 title: "Management as AI superpower"
 source: "https://www.oneusefulthing.org/p/management-as-ai-superpower"
 author:
-  - "[[Ethan-Mollick]]"
+  - '[[Ethan-Mollick]]'
 published: 2026-01-28
 created: 2026-04-10
 description: "Thriving in a world of agents"

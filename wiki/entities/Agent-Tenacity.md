@@ -13,9 +13,9 @@ tags:
   - software-engineering
   - productivity
 related_entities:
-  - "[[Andrej-Karpathy]]"
-  - "[[Claude-Code-CLI]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Andrej-Karpathy]]'
+  - '[[Claude-Code-CLI]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
   - "20260127-claude-coding-notes"
 ---

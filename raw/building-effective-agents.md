@@ -2,8 +2,8 @@
 type: raw
 source: "https://www.anthropic.com/engineering/building-effective-agents"
 author:
-  - "[[Erik-Schluntz]]"
-  - "[[Barry-Zhang]]"
+  - '[[Erik-Schluntz]]'
+  - '[[Barry-Zhang]]'
 published: "2024-12-19"
 created: "2026-04-10"
 tags:

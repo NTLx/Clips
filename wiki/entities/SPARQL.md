@@ -12,11 +12,11 @@ tags:
   - Query-Language
   - W3C-Standard
 related_entities:
-  - "[[Ontology]]"
-  - "[[RDF]]"
-  - "[[GraphDB]]"
+  - '[[Ontology]]'
+  - '[[RDF]]'
+  - '[[GraphDB]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # SPARQL

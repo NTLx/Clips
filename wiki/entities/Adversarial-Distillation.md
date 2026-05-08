@@ -12,10 +12,10 @@ tags:
   - Organizational-Behavior
   - Game-Theory
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[朱少民]]"
+  - '[[Agentic-Engineering]]'
+  - '[[朱少民]]'
 source_raw:
-  - "[[工程师抗拒被"蒸馏"，企业的Skills从何而来？五大招破局]]"
+  - '[[工程师抗拒被"蒸馏"，企业的Skills从何而来？五大招破局]]'
 ---
 
 # Adversarial Distillation

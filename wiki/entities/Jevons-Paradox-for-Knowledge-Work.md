@@ -11,10 +11,10 @@ tags:
   - economy
   - knowledge-work
 related_entities:
-  - "[[Allocation-Economy]]"
-  - "[[Always-On-Economy]]"
+  - '[[Allocation-Economy]]'
+  - '[[Always-On-Economy]]'
 source_raw:
-  - "[[(14) Jevons Paradox for Knowledge Work]]"
+  - '[[(14) Jevons Paradox for Knowledge Work]]'
 ---
 
 # Jevons Paradox for Knowledge Work（知识工作的杰文斯悖论）

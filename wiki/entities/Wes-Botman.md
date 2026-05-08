@@ -13,10 +13,10 @@ tags:
   - digital-products
   - AI-Agent
 related_entities:
-  - "[[Simon-Willison]]"
-  - "[[Dan-Shipper]]"
+  - '[[Simon-Willison]]'
+  - '[[Dan-Shipper]]'
 source_raw:
-  - "[[The Conscious 1% Leading a new renaissance in the era of AI]]"
+  - '[[The Conscious 1% Leading a new renaissance in the era of AI]]'
 validated_source: "https://eli5.io/"
 validated_at: "2026-04-14"
 ---

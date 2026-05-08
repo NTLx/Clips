@@ -2,7 +2,7 @@
 title: "The Always-On Economy: AI and the Next 5-7 Years"
 source: "https://sequoiacap.com/article/always-on-economy/"
 author:
-  - "[[Konstantine-Buhler]]"
+  - '[[Konstantine-Buhler]]'
 published: 2025-04-21
 created: 2026-04-10
 description: "Before we get to full-blown AGI, hybrid agent/human systems will remove temporal friction from the economy and create new opportunities."

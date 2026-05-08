@@ -7,11 +7,11 @@ tags:
   - thinking
   - methodology
 related_entities:
-  - "[[Elon-Musk]]"
-  - "[[Question-Requirements]]"
-  - "[[YAGNI]]"
-  - "[[Refusal]]"
-  - "[[AI-Lacks-Laziness]]"
+  - '[[Elon-Musk]]'
+  - '[[Question-Requirements]]'
+  - '[[YAGNI]]'
+  - '[[Refusal]]'
+  - '[[AI-Lacks-Laziness]]'
 ---
 
 # 马斯克的第一性原理思考

@@ -8,11 +8,11 @@ tags:
   - Automation
   - OpenClaw
 related_entities:
-  - "[[Agent-Orchestration]]"
-  - "[[Claude-Code-CLI]]"
-  - "[[Headless-Mode]]"
-  - "[[Wes-Botman]]"
-  - "[[同学都叫我-饶老师]]"
+  - '[[Agent-Orchestration]]'
+  - '[[Claude-Code-CLI]]'
+  - '[[Headless-Mode]]'
+  - '[[Wes-Botman]]'
+  - '[[同学都叫我-饶老师]]'
 source_raw: []
 ---
 

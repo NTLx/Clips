@@ -10,11 +10,11 @@ tags:
   - methodology
   - thinking
 related_entities:
-  - "[[Elon-Musk]]"
-  - "[[YAGNI]]"
-  - "[[Refusal]]"
+  - '[[Elon-Musk]]'
+  - '[[YAGNI]]'
+  - '[[Refusal]]'
 source_raw:
-  - "[[成年人最大的内耗：拼命优化错误的东西]]"
+  - '[[成年人最大的内耗：拼命优化错误的东西]]'
 ---
 
 > [!definition] 定义

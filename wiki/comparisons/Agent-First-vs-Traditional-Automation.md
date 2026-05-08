@@ -8,9 +8,9 @@ tags:
   - AI-Agent
   - Enterprise-Transformation
 related_entities:
-  - "[[Agent-First-Enterprise]]"
-  - "[[Human-Governor-Agent-Operator]]"
-  - "[[Machine-Readable-Processes]]"
+  - '[[Agent-First-Enterprise]]'
+  - '[[Human-Governor-Agent-Operator]]'
+  - '[[Machine-Readable-Processes]]'
 ---
 
 # Agent-First vs Traditional Automation

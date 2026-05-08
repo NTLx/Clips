@@ -11,11 +11,11 @@ tags:
   - human-skill
   - decision-making
 related_entities:
-  - "[[Judgment]]"
-  - "[[Taste]]"
-  - "[[Specificity]]"
+  - '[[Judgment]]'
+  - '[[Taste]]'
+  - '[[Specificity]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # Refusal（拒绝）

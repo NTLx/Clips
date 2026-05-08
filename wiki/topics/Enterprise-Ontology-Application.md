@@ -9,21 +9,21 @@ tags:
   - Enterprise-AI
   - AI-Agent
 related_entities:
-  - "[[Ontology]]"
-  - "[[TBox]]"
-  - "[[ABox]]"
-  - "[[RDF]]"
-  - "[[OWL]]"
-  - "[[Protégé]]"
-  - "[[HermiT]]"
-  - "[[Ontology-Agent]]"
-  - "[[Owlready2]]"
-  - "[[GraphDB]]"
-  - "[[SPARQL]]"
+  - '[[Ontology]]'
+  - '[[TBox]]'
+  - '[[ABox]]'
+  - '[[RDF]]'
+  - '[[OWL]]'
+  - '[[Protégé]]'
+  - '[[HermiT]]'
+  - '[[Ontology-Agent]]'
+  - '[[Owlready2]]'
+  - '[[GraphDB]]'
+  - '[[SPARQL]]'
 source_raw:
-  - "[[20260420-ontology-enterprise-ai-agent]]"
-  - "[[20260420-build-first-business-ontology]]"
-  - "[[20260420-ontology-meets-agent-case-study]]"
+  - '[[20260420-ontology-enterprise-ai-agent]]'
+  - '[[20260420-build-first-business-ontology]]'
+  - '[[20260420-ontology-meets-agent-case-study]]'
 ---
 
 # 企业级本体应用（Enterprise Ontology Application）

@@ -13,10 +13,10 @@ tags:
   - fintech
   - RAG
 related_entities:
-  - "[[Simon-Willison]]"
-  - "[[Dan-Shipper]]"
+  - '[[Simon-Willison]]'
+  - '[[Dan-Shipper]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 validated_source: "https://www.linkedin.com/in/rajnandan1/"
 validated_at: "2026-04-15"
 ---

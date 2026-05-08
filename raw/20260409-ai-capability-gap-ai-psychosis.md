@@ -3,7 +3,7 @@ title: "AI 能力鸿沟与 AI Psychosis"
 type: raw
 source: "https://x.com/karpathy/status/2042334451611693415"
 author:
-  - "[[Andrej-Karpathy]]"
+  - '[[Andrej-Karpathy]]'
 published: "2026-04-09"
 created: "2026-04-16"
 updated: "2026-04-16"

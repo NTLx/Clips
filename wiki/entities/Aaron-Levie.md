@@ -13,10 +13,10 @@ tags:
   - AI-Agent
   - cloud
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Ethan-Mollick]]"
+  - '[[Dan-Shipper]]'
+  - '[[Ethan-Mollick]]'
 source_raw:
-  - "[[(14) Jevons Paradox for Knowledge Work]]"
+  - '[[(14) Jevons Paradox for Knowledge Work]]'
 validated_source: "https://www.linkedin.com/in/aaronlevie/"
 validated_at: "2026-04-14"
 ---

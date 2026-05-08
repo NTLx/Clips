@@ -11,12 +11,12 @@ tags:
   - Human-Potential
   - Creativity
 related_entities:
-  - "[[Conscious-Creators]]"
-  - "[[Inner-World-Mastery]]"
-  - "[[Decision-Quality]]"
-  - "[[Taste]]"
+  - '[[Conscious-Creators]]'
+  - '[[Inner-World-Mastery]]'
+  - '[[Decision-Quality]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[The Conscious 1% Leading a new renaissance in the era of AI]]"
+  - '[[The Conscious 1% Leading a new renaissance in the era of AI]]'
 ---
 
 # Resonance

@@ -8,10 +8,10 @@ tags:
   - Career-Evolution
   - AI-Era
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Discernment]]"
-  - "[[Connection]]"
+  - '[[Wisdom-Work]]'
+  - '[[Emotional-Clarity]]'
+  - '[[Discernment]]'
+  - '[[Connection]]'
 ---
 
 # Knowledge Work vs Wisdom Work

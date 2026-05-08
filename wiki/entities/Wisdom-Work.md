@@ -11,10 +11,10 @@ tags:
   - AI-era
   - career
 related_entities:
-  - "[[Judgment]]"
-  - "[[Taste]]"
+  - '[[Judgment]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Wisdom Work

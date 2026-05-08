@@ -11,10 +11,10 @@ tags:
   - Enterprise-Architecture
   - Operating-Model
 related_entities:
-  - "[[Agent-First-Enterprise]]"
-  - "[[Machine-Readable-Processes]]"
+  - '[[Agent-First-Enterprise]]'
+  - '[[Machine-Readable-Processes]]'
 source_raw:
-  - "[[Enabling agent-first process redesign]]"
+  - '[[Enabling agent-first process redesign]]'
 ---
 
 # Human-Governor-Agent-Operator

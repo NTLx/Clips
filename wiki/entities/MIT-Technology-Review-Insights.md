@@ -12,10 +12,10 @@ tags:
   - enterprise
   - MIT
 related_entities:
-  - "[[Dan-Shipper]]"
-  - "[[Ethan-Mollick]]"
+  - '[[Dan-Shipper]]'
+  - '[[Ethan-Mollick]]'
 source_raw:
-  - "[[Enabling agent-first process redesign]]"
+  - '[[Enabling agent-first process redesign]]'
 ---
 
 # MIT Technology Review Insights

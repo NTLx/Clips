@@ -11,11 +11,11 @@ tags:
   - economy
   - knowledge-work
 related_entities:
-  - "[[Knowledge-Work]]"
-  - "[[Model-Manager]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Knowledge-Work]]'
+  - '[[Model-Manager]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
-  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]"
+  - '[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]'
 ---
 
 # Allocation Economy（分配经济）

@@ -9,23 +9,23 @@ tags:
   - neural-networks
   - programming-paradigm
 related_entities:
-  - "[[Andrej-Karpathy]]"
-  - "[[Software-2.0]]"
-  - "[[Vibe-Coding]]"
-  - "[[RAG-vs-LLM-Wiki]]"
-  - "[[Knowledge-Compilation]]"
-  - "[[Memex]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Coding-Agents]]"
-  - "[[AI-Psychosis]]"
-  - "[[AI-Capability-Gap]]"
-  - "[[AI-Psychosis]]"
-  - "[[AI-Capability-Gap]]"
-  - "[[AI-Psychosis]]"
-  - "[[AI-Capability-Gap]]"
+  - '[[Andrej-Karpathy]]'
+  - '[[Software-2.0]]'
+  - '[[Vibe-Coding]]'
+  - '[[RAG-vs-LLM-Wiki]]'
+  - '[[Knowledge-Compilation]]'
+  - '[[Memex]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Coding-Agents]]'
+  - '[[AI-Psychosis]]'
+  - '[[AI-Capability-Gap]]'
+  - '[[AI-Psychosis]]'
+  - '[[AI-Capability-Gap]]'
+  - '[[AI-Psychosis]]'
+  - '[[AI-Capability-Gap]]'
 source_raw:
-  - "[[20260413-llm-wiki]]"
-  - "[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]"
+  - '[[20260413-llm-wiki]]'
+  - '[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]'
 ---
 
 # Karpathy AI 思想体系

@@ -11,11 +11,11 @@ tags:
   - Enterprise-Architecture
   - Process-Design
 related_entities:
-  - "[[Human-Governor-Agent-Operator]]"
-  - "[[Machine-Readable-Processes]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Human-Governor-Agent-Operator]]'
+  - '[[Machine-Readable-Processes]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
-  - "[[Enabling agent-first process redesign]]"
+  - '[[Enabling agent-first process redesign]]'
 ---
 
 # Agent-First Enterprise

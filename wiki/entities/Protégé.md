@@ -12,11 +12,11 @@ tags:
   - Tool
   - Open-Source
 related_entities:
-  - "[[Ontology]]"
-  - "[[OWL]]"
-  - "[[HermiT]]"
+  - '[[Ontology]]'
+  - '[[OWL]]'
+  - '[[HermiT]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # Protégé

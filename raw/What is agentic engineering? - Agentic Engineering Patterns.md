@@ -2,8 +2,8 @@
 title: "What is agentic engineering? - Agentic Engineering Patterns"
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/"
 author:
-  - "[[Simon-Willison]]"
-published:
+  - '[[Simon-Willison]]'
+published: "2026-04-10"
 created: 2026-04-10
 description: "What is agentic engineering? - Agentic Engineering Patterns"
 tags:

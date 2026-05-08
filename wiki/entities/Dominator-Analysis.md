@@ -11,12 +11,12 @@ tags:
   - compiler-theory
   - graph-theory
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Ontology]]"
-  - "[[Decision-Quality]]"
-  - "[[Agent-Tenacity]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Ontology]]'
+  - '[[Decision-Quality]]'
+  - '[[Agent-Tenacity]]'
 source_raw:
-  - "[[Validating agentic behavior when “correct” isn’t deterministic]]"
+  - '[[Validating agentic behavior when “correct” isn’t deterministic]]'
 ---
 
 > [!definition] 定义

@@ -13,9 +13,9 @@ tags:
   - content-quality
   - software-engineering
 related_entities:
-  - "[[Andrej-Karpathy]]"
-  - "[[AI-Psychosis]]"
-  - "[[Vibe-Coding]]"
+  - '[[Andrej-Karpathy]]'
+  - '[[AI-Psychosis]]'
+  - '[[Vibe-Coding]]'
 source_raw:
   - "20260127-claude-coding-notes"
 ---

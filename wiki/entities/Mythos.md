@@ -13,9 +13,9 @@ tags:
   - cybersecurity
   - anthropic
 related_entities:
-  - "[[Cybersecurity-Proof-of-Work]]"
-  - "[[Drew-Breunig]]"
-  - "[[AISI]]"
+  - '[[Cybersecurity-Proof-of-Work]]'
+  - '[[Drew-Breunig]]'
+  - '[[AISI]]'
 source_raw:
   - "20260414-cybersecurity-proof-of-work"
 ---

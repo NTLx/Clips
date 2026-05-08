@@ -12,15 +12,15 @@ tags:
   - open-source
   - django
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Coding-Agents]]"
-  - "[[Claude-Code-CLI]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Coding-Agents]]'
+  - '[[Claude-Code-CLI]]'
 source_raw:
-  - "[[20260410-what-is-agentic-engineering]]"
-  - "[[20260410-code-is-cheap]]"
-  - "[[20260410-hoard-things-you-know]]"
-  - "[[20260410-better-code]]"
-  - "[[20260410-anti-patterns]]"
+  - '[[20260410-what-is-agentic-engineering]]'
+  - '[[20260410-code-is-cheap]]'
+  - '[[20260410-hoard-things-you-know]]'
+  - '[[20260410-better-code]]'
+  - '[[20260410-anti-patterns]]'
 validated_source: "https://simonwillison.net/"
 validated_at: "2026-04-14"
 ---

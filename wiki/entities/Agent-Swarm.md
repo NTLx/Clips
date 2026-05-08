@@ -11,10 +11,10 @@ tags:
   - OpenClaw
   - Multi-Agent-System
 related_entities:
-  - "[[Agent-Orchestration]]"
-  - "[[Context-Engineering]]"
+  - '[[Agent-Orchestration]]'
+  - '[[Context-Engineering]]'
 source_raw:
-  - "[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]"
+  - '[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]'
 ---
 
 # Agent Swarm

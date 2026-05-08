@@ -9,7 +9,7 @@ tags:
   - comparison
   - analysis
 source_raw:
-  - "[[待补充]]"
+  - '[[待补充]]'
 ---
 
 # Taste vs Judgment

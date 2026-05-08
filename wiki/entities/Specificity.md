@@ -11,11 +11,11 @@ tags:
   - competitive-advantage
   - writing
 related_entities:
-  - "[[Taste]]"
-  - "[[Judgment]]"
-  - "[[Competent-Output]]"
+  - '[[Taste]]'
+  - '[[Judgment]]'
+  - '[[Competent-Output]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # Specificity（特异性）

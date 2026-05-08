@@ -13,13 +13,13 @@ tags:
   - Enterprise-AI
   - Ontology
 related_entities:
-  - "[[Ontology]]"
-  - "[[TBox]]"
-  - "[[ABox]]"
-  - "[[OWL]]"
-  - "[[HermiT]]"
+  - '[[Ontology]]'
+  - '[[TBox]]'
+  - '[[ABox]]'
+  - '[[OWL]]'
+  - '[[HermiT]]'
 source_raw:
-  - "[[20260420-ontology-meets-agent-case-study]]"
+  - '[[20260420-ontology-meets-agent-case-study]]'
 ---
 
 # Ontology-Agent（本体增强 Agent）

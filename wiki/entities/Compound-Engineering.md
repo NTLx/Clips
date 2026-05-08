@@ -11,10 +11,10 @@ tags:
   - coding-agents
   - best-practices
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Coding-Agents]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Coding-Agents]]'
 source_raw:
-  - "[[20260410-better-code]]"
+  - '[[20260410-better-code]]'
 ---
 
 # Compound Engineering（复合工程）

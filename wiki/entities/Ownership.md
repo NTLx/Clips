@@ -11,11 +11,11 @@ tags:
   - Human-Potential
   - Decision-Making
 related_entities:
-  - "[[Judgment]]"
-  - "[[Taste]]"
-  - "[[Decision-Quality]]"
+  - '[[Judgment]]'
+  - '[[Taste]]'
+  - '[[Decision-Quality]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # Ownership

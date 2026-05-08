@@ -13,12 +13,12 @@ tags:
   - W3C-Standard
   - Semantic-Web
 related_entities:
-  - "[[Ontology]]"
-  - "[[RDF]]"
-  - "[[TBox]]"
-  - "[[Protégé]]"
+  - '[[Ontology]]'
+  - '[[RDF]]'
+  - '[[TBox]]'
+  - '[[Protégé]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # OWL（Web Ontology Language）

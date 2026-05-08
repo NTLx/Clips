@@ -13,9 +13,9 @@ tags:
   - cybersecurity
   - software-engineering
 related_entities:
-  - "[[Cybersecurity-Proof-of-Work]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Drew-Breunig]]"
+  - '[[Cybersecurity-Proof-of-Work]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Drew-Breunig]]'
 source_raw:
   - "20260414-cybersecurity-proof-of-work"
 ---

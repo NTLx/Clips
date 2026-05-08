@@ -2,7 +2,7 @@
 title: "OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team [Full Setup]"
 source: "https://x.com/elvissun/article/2025920521871716562"
 author:
-  - "[[Elvis-Sun]]"
+  - '[[Elvis-Sun]]'
 published: 2026-02-23
 created: 2026-03-07
 description:

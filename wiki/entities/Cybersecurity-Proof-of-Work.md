@@ -13,10 +13,10 @@ tags:
   - ai-security
   - proof-of-work
 related_entities:
-  - "[[Drew-Breunig]]"
-  - "[[Mythos]]"
-  - "[[Security-Hardening-Phase]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Drew-Breunig]]'
+  - '[[Mythos]]'
+  - '[[Security-Hardening-Phase]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
   - "20260414-cybersecurity-proof-of-work"
 ---

@@ -2,7 +2,7 @@
 title: "The Knowledge Economy Is Over. Welcome to the Allocation Economy."
 source: "https://every.to/chain-of-thought/the-knowledge-economy-is-over-welcome-to-the-allocation-economy"
 author:
-  - "[[Dan-Shipper]]"
+  - '[[Dan-Shipper]]'
 published: 2024-01-19
 created: 2026-04-10
 description: "In the age of AI, every maker becomes a manager"

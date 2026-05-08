@@ -11,11 +11,11 @@ tags:
   - relationships
   - leadership
 related_entities:
-  - "[[Wisdom-Work]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Discernment]]"
+  - '[[Wisdom-Work]]'
+  - '[[Emotional-Clarity]]'
+  - '[[Discernment]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Connection

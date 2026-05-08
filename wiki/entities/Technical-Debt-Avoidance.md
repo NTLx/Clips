@@ -11,10 +11,10 @@ tags:
   - best-practices
   - coding-agents
 related_entities:
-  - "[[Compound-Engineering]]"
-  - "[[Agentic-Engineering]]"
+  - '[[Compound-Engineering]]'
+  - '[[Agentic-Engineering]]'
 source_raw:
-  - "[[20260410-better-code]]"
+  - '[[20260410-better-code]]'
 ---
 
 # Technical Debt Avoidance（技术债务避免）

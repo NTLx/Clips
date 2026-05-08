@@ -8,16 +8,16 @@ tags:
   - AI-era
   - career-transformation
 related_entities:
-  - "[[Connection]]"
-  - "[[Dan-Shipper]]"
-  - "[[Discernment]]"
-  - "[[Emotional-Clarity]]"
-  - "[[Joe-Hudson]]"
-  - "[[Judgment]]"
-  - "[[Knowledge-Work]]"
-  - "[[Wisdom-Work]]"
+  - '[[Connection]]'
+  - '[[Dan-Shipper]]'
+  - '[[Discernment]]'
+  - '[[Emotional-Clarity]]'
+  - '[[Joe-Hudson]]'
+  - '[[Judgment]]'
+  - '[[Knowledge-Work]]'
+  - '[[Wisdom-Work]]'
 source_raw:
-  - "[[Knowledge Work Is Dying—Here’s What Comes Next]]"
+  - '[[Knowledge Work Is Dying—Here’s What Comes Next]]'
 ---
 
 # Wisdom-Work-Evolution

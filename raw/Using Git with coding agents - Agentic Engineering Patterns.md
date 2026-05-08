@@ -2,8 +2,8 @@
 title: "Using Git with coding agents - Agentic Engineering Patterns"
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/"
 author:
-  - "[[Simon-Willison]]"
-published:
+  - '[[Simon-Willison]]'
+published: "2026-04-10"
 created: 2026-04-10
 description: "Using Git with coding agents - Agentic Engineering Patterns"
 tags:

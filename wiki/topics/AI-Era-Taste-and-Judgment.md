@@ -8,16 +8,16 @@ tags:
   - competitive-advantage
   - human-skills
 related_entities:
-  - "[[Competent-Output]]"
-  - "[[Dan-Shipper]]"
-  - "[[Judgment]]"
-  - "[[Ownership]]"
-  - "[[Paul-Graham]]"
-  - "[[Refusal]]"
-  - "[[Specificity]]"
-  - "[[Taste]]"
+  - '[[Competent-Output]]'
+  - '[[Dan-Shipper]]'
+  - '[[Judgment]]'
+  - '[[Ownership]]'
+  - '[[Paul-Graham]]'
+  - '[[Refusal]]'
+  - '[[Specificity]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[Good Taste the Only Real Moat Left]]"
+  - '[[Good Taste the Only Real Moat Left]]'
 ---
 
 # AI 时代的品味与判断力

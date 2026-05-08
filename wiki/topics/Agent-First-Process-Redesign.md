@@ -8,11 +8,11 @@ tags:
   - Enterprise-Transformation
   - Process-Design
 related_entities:
-  - "[[Agent-First-Enterprise]]"
-  - "[[Human-Governor-Agent-Operator]]"
-  - "[[Machine-Readable-Processes]]"
+  - '[[Agent-First-Enterprise]]'
+  - '[[Human-Governor-Agent-Operator]]'
+  - '[[Machine-Readable-Processes]]'
 source_raw:
-  - "[[Enabling agent-first process redesign]]"
+  - '[[Enabling agent-first process redesign]]'
 ---
 
 # Agent-First Process Redesign

@@ -12,16 +12,16 @@ tags:
   - Enterprise-AI
   - Knowledge-Engineering
 related_entities:
-  - "[[TBox]]"
-  - "[[ABox]]"
-  - "[[RDF]]"
-  - "[[OWL]]"
-  - "[[Protégé]]"
-  - "[[Ontology-Agent]]"
+  - '[[TBox]]'
+  - '[[ABox]]'
+  - '[[RDF]]'
+  - '[[OWL]]'
+  - '[[Protégé]]'
+  - '[[Ontology-Agent]]'
 source_raw:
-  - "[[20260420-ontology-enterprise-ai-agent]]"
-  - "[[20260420-build-first-business-ontology]]"
-  - "[[20260420-ontology-meets-agent-case-study]]"
+  - '[[20260420-ontology-enterprise-ai-agent]]'
+  - '[[20260420-build-first-business-ontology]]'
+  - '[[20260420-ontology-meets-agent-case-study]]'
 ---
 
 # Ontology（本体）

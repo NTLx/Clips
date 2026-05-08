@@ -11,11 +11,11 @@ tags:
   - decision-making
   - architecture
 related_entities:
-  - "[[Lean-Stack]]"
-  - "[[Anti-Enterprise-Mindset]]"
-  - "[[Taste]]"
+  - '[[Lean-Stack]]'
+  - '[[Anti-Enterprise-Mindset]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # Constraint-Driven-Engineering（约束驱动工程）

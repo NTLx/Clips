@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/"
 author:
-  - "[[Simon-Willison]]"
+  - '[[Simon-Willison]]'
 published: "2026-03-15"
 updated: "2026-03-16"
 created: "2026-04-10"

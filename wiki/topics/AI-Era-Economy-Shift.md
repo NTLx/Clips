@@ -9,19 +9,19 @@ tags:
   - economy
   - knowledge-work
 related_entities:
-  - "[[Aaron-Levie]]"
-  - "[[Allocation-Economy]]"
-  - "[[Always-On-Economy]]"
-  - "[[Ben-Thompson]]"
-  - "[[Ethan-Mollick]]"
-  - "[[Jevons-Paradox-for-Knowledge-Work]]"
-  - "[[Konstantine-Buhler]]"
-  - "[[Model-Manager]]"
+  - '[[Aaron-Levie]]'
+  - '[[Allocation-Economy]]'
+  - '[[Always-On-Economy]]'
+  - '[[Ben-Thompson]]'
+  - '[[Ethan-Mollick]]'
+  - '[[Jevons-Paradox-for-Knowledge-Work]]'
+  - '[[Konstantine-Buhler]]'
+  - '[[Model-Manager]]'
 source_raw:
-  - "[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]"
-  - "[[(14) Jevons Paradox for Knowledge Work]]"
-  - "[[Management as AI superpower]]"
-  - "[[The Always-On Economy AI and the Next 5-7 Years]]"
+  - '[[The Knowledge Economy Is Over. Welcome to the Allocation Economy.]]'
+  - '[[(14) Jevons Paradox for Knowledge Work]]'
+  - '[[Management as AI superpower]]'
+  - '[[The Always-On Economy AI and the Next 5-7 Years]]'
 ---
 
 # AI Era Economy Shift（AI 时代经济转型）

@@ -12,12 +12,12 @@ tags:
   - entrepreneurship
   - person
 related_entities:
-  - "[[Simon-Willison]]"
-  - "[[Ethan-Mollick]]"
-  - "[[Agent-First-Enterprise]]"
-  - "[[Allocation-Economy]]"
+  - '[[Simon-Willison]]'
+  - '[[Ethan-Mollick]]'
+  - '[[Agent-First-Enterprise]]'
+  - '[[Allocation-Economy]]'
 source_raw:
-  - "[[building-effective-agents]]"
+  - '[[building-effective-agents]]'
 validated_source: "https://every.to/every-team/about"
 validated_at: "2026-04-14"
 ---

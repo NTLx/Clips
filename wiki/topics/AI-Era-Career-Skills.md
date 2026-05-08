@@ -8,8 +8,8 @@ tags:
   - productivity
   - career
 related_entities:
-  - "[[Judgment]]"
-  - "[[Taste]]"
+  - '[[Judgment]]'
+  - '[[Taste]]'
 source_raw: []
 ---
 

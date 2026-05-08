@@ -11,13 +11,13 @@ tags:
   - llm-wiki
   - workflow
 related_entities:
-  - "[[RAG-vs-LLM-Wiki]]"
-  - "[[Context-Engineering]]"
-  - "[[Multi-Layer-Memory]]"
-  - "[[Andrej-Karpathy]]"
+  - '[[RAG-vs-LLM-Wiki]]'
+  - '[[Context-Engineering]]'
+  - '[[Multi-Layer-Memory]]'
+  - '[[Andrej-Karpathy]]'
 source_raw:
-  - "[[20260413-llm-wiki]]"
-  - "[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]"
+  - '[[20260413-llm-wiki]]'
+  - '[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]'
 ---
 
 # Knowledge Compilation

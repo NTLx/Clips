@@ -2,7 +2,7 @@
 type: raw
 source: "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/"
 author:
-  - "[[Simon-Willison]]"
+  - '[[Simon-Willison]]'
 published: "2026-02-23"
 updated: "2026-02-24"
 created: "2026-04-10"

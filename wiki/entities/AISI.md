@@ -13,8 +13,8 @@ tags:
   - ai-safety
   - government
 related_entities:
-  - "[[Mythos]]"
-  - "[[Cybersecurity-Proof-of-Work]]"
+  - '[[Mythos]]'
+  - '[[Cybersecurity-Proof-of-Work]]'
 source_raw:
   - "20260414-cybersecurity-proof-of-work"
 ---

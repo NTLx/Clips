@@ -13,11 +13,11 @@ tags:
   - W3C-Standard
   - Semantic-Web
 related_entities:
-  - "[[Ontology]]"
-  - "[[OWL]]"
-  - "[[ABox]]"
+  - '[[Ontology]]'
+  - '[[OWL]]'
+  - '[[ABox]]'
 source_raw:
-  - "[[20260420-build-first-business-ontology]]"
+  - '[[20260420-build-first-business-ontology]]'
 ---
 
 # RDF（Resource Description Framework）

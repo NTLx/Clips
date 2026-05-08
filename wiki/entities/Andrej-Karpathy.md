@@ -16,17 +16,17 @@ tags:
   - deep-learning
   - educator
 related_entities:
-  - "[[Knowledge-Compilation]]"
-  - "[[Vibe-Coding]]"
-  - "[[Software-2.0]]"
-  - "[[Agentic-Engineering]]"
-  - "[[Claude-Code-CLI]]"
-  - "[[AI-Psychosis]]"
+  - '[[Knowledge-Compilation]]'
+  - '[[Vibe-Coding]]'
+  - '[[Software-2.0]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Claude-Code-CLI]]'
+  - '[[AI-Psychosis]]'
 source_raw:
-  - "[[20260413-llm-wiki]]"
-  - "[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]"
-  - "[[20260409-ai-capability-gap-ai-psychosis]]"
-  - "[[20260409-ai-capability-gap-ai-psychosis]]"
+  - '[[20260413-llm-wiki]]'
+  - '[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]'
+  - '[[20260409-ai-capability-gap-ai-psychosis]]'
+  - '[[20260409-ai-capability-gap-ai-psychosis]]'
 ---
 
 # Andrej Karpathy

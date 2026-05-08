@@ -11,12 +11,12 @@ tags:
   - entrepreneurship
   - bootstrap
 related_entities:
-  - "[[Steve-Hanov]]"
-  - "[[Runway-Math]]"
-  - "[[Time-Moat]]"
+  - '[[Steve-Hanov]]'
+  - '[[Runway-Math]]'
+  - '[[Time-Moat]]'
 
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # B2B-Nurture-C-Model（B2B 养 C 端模式）

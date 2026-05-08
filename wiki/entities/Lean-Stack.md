@@ -11,13 +11,13 @@ tags:
   - bootstrap
   - indie-developer
 related_entities:
-  - "[[Steve-Hanov]]"
-  - "[[Anti-Enterprise-Mindset]]"
-  - "[[Runway-Math]]"
-  - "[[Time-Moat]]"
+  - '[[Steve-Hanov]]'
+  - '[[Anti-Enterprise-Mindset]]'
+  - '[[Runway-Math]]'
+  - '[[Time-Moat]]'
 
 source_raw:
-  - "[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]"
+  - '[[每月20成本，60000+营收：加拿大程序员的“最穷”技术栈]]'
 ---
 
 # Lean-Stack（精益技术栈）

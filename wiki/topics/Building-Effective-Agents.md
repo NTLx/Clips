@@ -9,14 +9,14 @@ tags:
   - architecture
   - best-practices
 related_entities:
-  - "[[ACI-Agent-Computer-Interface]]"
-  - "[[Agent-Workflow-Patterns]]"
-  - "[[Barry-Zhang]]"
-  - "[[Coding-Agents]]"
-  - "[[Erik-Schluntz]]"
-  - "[[MIT-Technology-Review-Insights]]"
+  - '[[ACI-Agent-Computer-Interface]]'
+  - '[[Agent-Workflow-Patterns]]'
+  - '[[Barry-Zhang]]'
+  - '[[Coding-Agents]]'
+  - '[[Erik-Schluntz]]'
+  - '[[MIT-Technology-Review-Insights]]'
 source_raw:
-  - "[[building-effective-agents]]"
+  - '[[building-effective-agents]]'
 ---
 
 # Building Effective Agents

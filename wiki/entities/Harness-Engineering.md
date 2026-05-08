@@ -11,14 +11,14 @@ tags:
   - Software-Engineering
   - Development-Paradigm
 related_entities:
-  - "[[Agentic-Engineering]]"
-  - "[[Vibe-Coding]]"
-  - "[[Context-Engineering]]"
-  - "[[Machine-Readable-Processes]]"
-  - "[[Decision-Quality]]"
-  - "[[Taste]]"
+  - '[[Agentic-Engineering]]'
+  - '[[Vibe-Coding]]'
+  - '[[Context-Engineering]]'
+  - '[[Machine-Readable-Processes]]'
+  - '[[Decision-Quality]]'
+  - '[[Taste]]'
 source_raw:
-  - "[[20260413-why-ai-first-strategy-wrong]]"
+  - '[[20260413-why-ai-first-strategy-wrong]]'
 ---
 
 # Harness Engineering（驾驭工程）

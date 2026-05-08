@@ -2,8 +2,8 @@
 title: "一段提示词，测出你的成长阶段：推特大佬Dan Koe 的 HUMAN 3.0 中文提示词完整版全文"
 source: "https://mp.weixin.qq.com/s/dXhFLlaCJY5r6bzI2w3F5A"
 author:
-  - "[[同学都叫我-饶老师]]"
-published:
+  - '[[同学都叫我-饶老师]]'
+published: "2026-03-06"
 created: 2026-03-06
 description: "“自我觉醒不是改变你是谁，而是停止假装成别人。”——Dan Koe"
 tags:

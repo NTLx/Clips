@@ -12,8 +12,8 @@ tags:
   - ontology
   - knowledge-representation
 related_entities:
-  - "[[ABox]]"
-  - "[[Ontology]]"
+  - '[[ABox]]'
+  - '[[Ontology]]'
 source_raw:
   - "20260420-build-first-business-ontology"
 ---
