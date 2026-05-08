@@ -3,9 +3,9 @@ type: entity
 title: Vibe Coding
 aliases:
   - Vibe Coding
-definition: "Andrej Karpathy 提出的概念，指未经审查、原型质量的 LLM 生成代码"
+definition: "Andrej Karpathy 2025 年提出的概念——提升所有人的编程能力底线（raising the floor），让任何人都能通过自然语言和 agent 交互来生成软件；未经审查、原型质量是其特征而非缺陷"
 created: 2026-04-10
-updated: 2026-04-16
+updated: 2026-05-08
 tags:
   - AI-Agent
   - coding-agents
@@ -18,7 +18,10 @@ related_entities:
   - '[[Software-2.0]]'
   - '[[AI-Capability-Gap]]'
   - '[[AI-Psychosis]]'
+  - '[[Software-3.0]]'
+  - '[[Jagged-Intelligence]]'
 source_raw:
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[What is agentic engineering? - Agentic Engineering Patterns]]'
   - '[[20260413-llm-wiki]]'
   - '[[20260413-why-ai-first-strategy-wrong]]'

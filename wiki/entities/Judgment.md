@@ -5,7 +5,7 @@ aliases:
   - Judgment
 definition: "在信息不完整、没有明确规则可循的情况下，做出高质量决策的能力"
 created: 2026-04-09
-updated: 2026-04-16
+updated: 2026-05-08
 tags:
   - AI-era
   - human-skill
@@ -16,7 +16,10 @@ related_entities:
   - '[[Specificity]]'
   - '[[Decision-Quality]]'
   - '[[Discernment]]'
+  - '[[Jagged-Intelligence]]'
+  - '[[Ghost-Intelligence]]'
 source_raw:
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[Good Taste the Only Real Moat Left]]'
   - '[[20260413-why-ai-first-strategy-wrong]]'
 ---

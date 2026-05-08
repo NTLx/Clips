@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 100 个 |
+| Entity 页面 | 124 个 |
 | Topic 页面 | 15 个 |
 | Comparison 页面 | 6 个 |
-| Raw 文章 | 34 个 |
+| Raw 文章 | 38 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -35,18 +35,22 @@ tags:
 | [[wiki/entities/Taste\|Taste（品味）]] | 在不确定条件下做出独特判断的能力 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Judgment\|Judgment（判断力）]] | 识别什么过于通用、什么隐藏真正权衡的能力 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Specificity\|Specificity（特异性）]] | 产生深入特定上下文内容的竞争优势 | Good Taste the Only Real Moat Left |
+| [[wiki/entities/Agent-Loops\|Agent Loops（Agent 循环调度）]] | Cron 驱动的定时自主运行 Agent 编排范式 | Boris Cherny: Why Coding Is Solved |
 | [[wiki/entities/Agent-First-Enterprise\|Agent-First Enterprise]] | AI 系统运营流程，人类设定目标的组织模式 | Enabling agent-first process redesign |
 | [[wiki/entities/Human-Governor-Agent-Operator\|Human-Governor-Agent-Operator]] | 人类治理、Agent 运营的分工模式 | Enabling agent-first process redesign |
 | [[wiki/entities/Machine-Readable-Processes\|Machine-Readable Processes]] | Agent 运营的技术基础设施 | Enabling agent-first process redesign |
 | [[wiki/entities/Conscious-Creators\|Conscious Creators]] | 拒绝干扰、专注内在世界的新 1% | The Conscious 1% |
 | [[wiki/entities/Inner-World-Mastery\|Inner World Mastery]] | 掌控内心对话、为原创创造空间的能力 | The Conscious 1% |
 | [[wiki/entities/Decision-Quality\|Decision Quality]] | 基于清晰和信念而非过度分析的决策能力 | The Conscious 1% |
+| [[wiki/entities/Research-Preview\|Research Preview（研究预览）]] | 以"早期版本不保证支持"降低发布门槛的核心策略 | Cat Wu: How Anthropic's product team moves faster |
 | [[wiki/entities/Resonance\|Resonance]] | 创作与自我身份的共鸣 | The Conscious 1% |
+| [[wiki/entities/Ghost-Intelligence\|Ghost-Intelligence（幽灵智能）]] | LLM 是统计模拟回路，非动物智能——无内在动机和意识 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Git-Fluent-Agents\|Git-Fluent Agents]] | 深度理解 Git 的 AI 编码 Agent | Using Git with coding agents |
 | [[wiki/entities/History-Rewriting\|History Rewriting]] | 将 Git 历史视为可编辑叙事的理念 | Using Git with coding agents |
 | [[wiki/entities/Agentic-Engineering\|Agentic Engineering]] | 利用 AI Agent 转变开发方式的工程范式 | Using Git with coding agents |
 | [[wiki/entities/Claude-Code-CLI\|Claude Code CLI]] | Claude 命令行工具 | Claude Code 文章 |
 | [[wiki/entities/Headless-Mode\|Headless Mode]] | 无头运行模式 | Claude Code 文章 |
+| [[wiki/entities/Continual-Learning\|Continual Learning（持续学习）]] | 不遗忘已有知识地整合新知识——AGI 缺失的关键拼图 | Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough |
 | [[wiki/entities/Context-Engineering\|Context Engineering]] | 上下文工程 | Claude Code 文章 |
 | [[wiki/entities/Multi-Layer-Memory\|Multi-Layer Memory]] | 多层记忆系统 | Claude Code 文章 |
 | [[wiki/entities/Agent-Swarm\|Agent Swarm]] | Agent 群体协作 | Claude Code 文章 |
@@ -55,14 +59,19 @@ tags:
 | [[wiki/entities/Emotional-Clarity\|Emotional Clarity]] | 情绪清晰 | Career-Skills 文章 |
 | [[wiki/entities/Discernment\|Discernment]] | 识别能力 | Career-Skills 文章 |
 | [[wiki/entities/Connection\|Connection]] | 连接能力 | Career-Skills 文章 |
+| [[wiki/entities/Agent-Native\|Agent-Native（Agent 原生）]] | 为 AI agent 而非人类设计的基础设施、文档、流程 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Agent-Orchestration\|Agent Orchestration]] | Agent 编排 | AI-Agent 文章 |
+| [[wiki/entities/PM-in-AI-Era\|PM in AI Era（AI 时代 PM）]] | PM 从路线图对齐者转型为"高速公路设计师"——消除每步摩擦 | Cat Wu: How Anthropic's product team moves faster |
 | [[wiki/entities/Ownership\|Ownership]] | 承担后果的意愿与能力 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Competent-Output\|Competent Output]] | AI 默认产出的合格但平庸的内容 | Good Taste the Only Real Moat Left |
 | [[wiki/entities/Slopocalypse\|Slopocalypse]] | Karpathy 预测的 AI 内容泛滥现象 | Claude Coding Notes (2026-01) |
 | [[wiki/entities/Agent-Tenacity\|Agent Tenacity]] | Agent 永不疲劳、持续尝试的特性 | Claude Coding Notes (2026-01) |
+| [[wiki/entities/Einstein-Test\|Einstein Test（爱因斯坦测试）]] | AI 创造力终极测试：只用过时知识能否自主推导新理论 | Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough |
 | [[wiki/entities/Drew-Breunig\|Drew Breunig]] | 网络安全博主，dbreunig.com 作者 | Cybersecurity Proof of Work |
+| [[wiki/entities/Cross-Disciplinary-Generalist\|Cross-Disciplinary Generalist（跨学科通才）]] | 横跨工程、设计、产品、数据科学的未来核心人才模型 | Boris Cherny: Why Coding Is Solved |
 | [[wiki/entities/Cybersecurity-Proof-of-Work\|Cybersecurity Proof of Work]] | 安全变成 token 成本博弈 | Cybersecurity Proof of Work |
 | [[wiki/entities/Mythos\|Mythos]] | Anthropic 安全专用模型 | Cybersecurity Proof of Work |
+| [[wiki/entities/Scientific-Discovery-AI\|Scientific Discovery AI（科学发现 AI）]] | AI 科学发现模式：组合搜索 + 目标函数 + 数据 → 突破 | Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough |
 | [[wiki/entities/Security-Hardening-Phase\|Security Hardening Phase]] | Agentic Coding 第三阶段 | Cybersecurity Proof of Work |
 | [[wiki/entities/AISI\|AISI]] | 英国 AI 安全研究所 | Cybersecurity Proof of Work |
 | [[wiki/entities/Martin-Fowler\|Martin Fowler]] | 软件架构大师、敏捷先驱 | Martin Fowler Fragments |
@@ -74,12 +83,17 @@ tags:
 | [[wiki/entities/AI-Lacks-Laziness\|AI Lacks Laziness]] | AI 不具备懒惰美德的问题 | Martin Fowler Fragments |
 | [[wiki/entities/Class\|Class]] | TBox 核心元素：概念类型 | Ontology 系列 |
 | [[wiki/entities/Allocation-Economy\|Allocation Economy]] | 从知识经济转型：价值从知道什么到如何分配资源 | The Knowledge Economy Is Over |
+| [[wiki/entities/Moats-in-AI-Era\|Moats in AI Era（AI 时代护城河）]] | AI 削弱切换成本和流程效力，但网络效应和规模经济不受影响 | Boris Cherny: Why Coding Is Solved |
+| [[wiki/entities/Model-Introspection\|Model Introspection（模型自省）]] | 最被低估的 AI 技能——让模型分析自己为什么会犯错 | Cat Wu: How Anthropic's product team moves faster |
 | [[wiki/entities/Model-Manager\|Model Manager]] | 分配经济中的核心角色：分配 AI 工作、评估质量、迭代改进 | Management as AI superpower |
 | [[wiki/entities/Code-Execution\|Code Execution]] | AI Agent 直接运行代码的能力，Agentic Engineering 的决定性能力 | What is agentic engineering |
+| [[wiki/entities/Verifiability\|Verifiability（可验证性）]] | 决定 LLM 自动化的核心维度——可验证就能 RL 训练，不可验证就停滞 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Vibe-Coding\|Vibe Coding]] | 未经审查、原型质量的 LLM 生成代码（Karpathy 2025） | What is agentic engineering |
 | [[wiki/entities/Compound-Engineering\|Compound Engineering]] | 持续改进 Agent 指令，每个项目后记录有效做法 | AI should help produce better code |
+| [[wiki/entities/Jagged-Intelligence\|Jagged-Intelligence（锯齿状智能）]] | LLM 能力分布高度不均匀——代码超人，常识脆弱 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Jevons-Paradox-for-Knowledge-Work\|Jevons Paradox for Knowledge Work]] | AI 效率提升导致知识工作需求大幅增长 | Jevons Paradox for Knowledge Work |
 | [[wiki/entities/Always-On-Economy\|Always-On Economy]] | AI 驱动的 24/7 运营模式，消除传统商业时间限制 | The Always-On Economy |
+| [[wiki/entities/AI-Native-Shipping\|AI-Native Shipping（AI 原生发布）]] | 6 个月到 1 天的极速迭代模式——Research Preview + Evergreen Launch Room | Cat Wu: How Anthropic's product team moves faster |
 | [[wiki/entities/ACI-Agent-Computer-Interface\|ACI]] | Agent-Computer Interface，类比 HCI 但针对 AI Agent 优化 | Building Effective Agents |
 | [[wiki/entities/Agent-Workflow-Patterns\|Agent Workflow Patterns]] | 构建 Agentic 系统的模式集合：从简单组合到自主 Agent | Building Effective Agents |
 | [[wiki/entities/Coding-Agents\|Coding Agents]] | 能够编写并执行代码的 AI Agent | What is agentic engineering |
@@ -87,13 +101,17 @@ tags:
 | [[wiki/entities/Knowledge-Work\|Knowledge Work]] | 以知识和专业技能为核心价值的工作形态，正在被 AI 取代 | Knowledge Work Is Dying |
 | [[wiki/entities/Technical-Debt-Avoidance\|Technical Debt Avoidance]] | 通过持续改进避免技术债务累积的策略 | Compound Engineering |
 | [[wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | AI 领域传奇人物，提出 Software 2.0（2017）、Vibe Coding（2025）、LLM Wiki（2026）三大概念 | LLM Wiki |
+| [[wiki/entities/Software-3.0\|Software 3.0]] | 上下文窗口是内存，提示词是程序语言，LLM 是解释器 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
+| [[wiki/entities/Software-Democratization\|Software Democratization（软件民主化）]] | 编程从专业技能变为通用素养——印刷术式的民主化进程 | Boris Cherny: Why Coding Is Solved |
 | [[wiki/entities/Software-2.0\|Software 2.0]] | 编程范式转变：程序员写目标，神经网络编程 | LLM Wiki |
 | [[wiki/entities/Memex\|Memex]] | Vannevar Bush 1945 年个人知识存储概念，LLM Wiki 思想先驱 | LLM Wiki |
 | [[wiki/entities/Knowledge-Compilation\|Knowledge Compilation]] | Raw → Wiki 的知识转化操作，LLM Wiki 核心流程 | LLM Wiki |
+| [[wiki/entities/LLM-Wiki\|LLM-Wiki（LLM 知识库）]] | 用 LLM 将文档编译为结构化 Wiki，多次重排列产生洞察 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Lean-Stack\|Lean-Stack]] | 极低成本（$20/月）独立运营盈利产品的技术栈 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Runway-Math\|Runway-Math]] | 生存时间 = 资金 ÷ 月支出，控制分母比控制分子更可确定 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Anti-Enterprise-Mindset\|Anti-Enterprise-Mindset]] | 拒绝为企业级需求预先优化，只在实际需要后才升级 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/B2B-Nurture-C-Model\|B2B-Nurture-C-Model]] | 用 B2B 大额订单养 C 端产品的抗周期商业模式组合 | 每月$20成本，$60000+营收 |
+| [[wiki/entities/Tool-Use-Architecture\|Tool-Use Architecture（工具使用架构）]] | 通用 orchestrator + 专用工具系统的 AGI 架构——反对一个巨大万能脑 | Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough |
 | [[wiki/entities/Time-Moat\|Time-Moat]] | 通过多年持续运营积累的 SEO、品牌、信任等无法速成的壁垒 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Constraint-Driven-Engineering\|Constraint-Driven-Engineering]] | 先设定约束（预算、人力、时间），再从约束出发选择技术 | 每月$20成本，$60000+营收 |
 | [[wiki/entities/Harness-Engineering\|Harness Engineering]] | 让 AI Agent 成为主要构建者的完整系统框架 | Why Your "AI-First" Strategy Is Probably Wrong |
@@ -105,6 +123,7 @@ tags:
 | [[wiki/entities/ABox\|ABox]] | 本体的事实数据部分，类比数据库表数据 | Enterprise-Ontology-Application |
 | [[wiki/entities/RDF\|RDF]] | W3C 基础数据标准，使用三元组表达信息 | Enterprise-Ontology-Application |
 | [[wiki/entities/OWL\|OWL]] | 高级本体表示语言，用于定义复杂业务规则 | Enterprise-Ontology-Application |
+| [[wiki/entities/Product-Overhang\|Product Overhang（产品能力溢出）]] | 模型已具备的能力远超产品释放边界——需为下一代模型构建产品 | Boris Cherny: Why Coding Is Solved |
 | [[wiki/entities/Protégé\|Protégé]] | 斯坦福开源本体编辑器 | Enterprise-Ontology-Application |
 | [[wiki/entities/HermiT\|HermiT]] | OWL 推理引擎 | Enterprise-Ontology-Application |
 | [[wiki/entities/Ontology-Agent\|Ontology-Agent]] | 基于本体语义层的 AI Agent | Enterprise-Ontology-Application |
@@ -122,6 +141,7 @@ tags:
 | Entity | 定义 | 领域 |
 |--------|------|------|
 | [[wiki/entities/Simon-Willison\|Simon Willison]] | AI/LLM 领域知名博主，Agentic Engineering Patterns 指南作者 | AI-Agent |
+| [[wiki/entities/Demis-Hassabis\|Demis Hassabis]] | Google DeepMind CEO，AlphaGo/AlphaFold 推手，2024 年诺贝尔化学奖得主 | AI, DeepMind, AGI |
 | [[wiki/entities/Dan-Shipper\|Dan Shipper]] | Every newsletter 创始人兼 CEO，AI 商业观察者 | AI-Agent, Newsletter |
 | [[wiki/entities/Ethan-Mollick\|Ethan Mollick]] | 沃顿商学院教授，AI 教育与创新研究者 | AI, Education |
 | [[wiki/entities/Paul-Graham\|Paul Graham]] | Y Cominator 创始人，创业思想家 | Entrepreneurship |
@@ -135,6 +155,8 @@ tags:
 | [[wiki/entities/Ben-Thompson\|Ben Thompson]] | Stratechery 创始人，科技分析师 | Tech Analysis |
 | [[wiki/entities/MIT-Technology-Review-Insights\|MIT Technology Review Insights]] | MIT Technology Review 研究部门 | Research |
 | [[wiki/entities/Barry-Zhang\|Barry Zhang]] | Anthropic 技术团队成员，Building Effective Agents 合著者 | AI-Agent, Anthropic |
+| [[wiki/entities/Cat-Wu\|Cat Wu]] | Anthropic Claude Code & Cowork 产品负责人，普林斯顿 CS，Scale AI 早期工程师 | AI, Product-Management, Claude-Code |
+| [[wiki/entities/Boris-Cherny\|Boris Cherny]] | Claude Code 之父，Anthropic 核心开发者，"编程已被解决"的提出者 | AI-Agent, Claude-Code, Anthropic |
 | [[wiki/entities/朱少民\|朱少民]] | 软件工程领域作者，关注 AI Agent 与企业组织变革 | Software-Engineering, AI-Agent |
 | [[wiki/entities/Steve-Hanov\|Steve Hanov]] | 加拿大 Waterloo 独立开发者，6 个 $10K+ MRR 产品，月成本 $20 | Indie Developer, Bootstrap |
 | [[wiki/entities/达珍\|达珍]] | 得到App《得到头条》栏目作者 | Media |
@@ -148,13 +170,13 @@ tags:
 | [[wiki/topics/Agent-First-Process-Redesign\|Agent-First 流程重构]] | 企业如何围绕 Agent 重新设计运营模式 | Agent-First-Enterprise, Human-Governor-Agent-Operator, Machine-Readable-Processes |
 | [[wiki/topics/Conscious-Creation-in-AI-Era\|AI 时代的有意识创造]] | 成为新 1% 的路径：内在掌控与三大指标 | Conscious-Creators, Inner-World-Mastery, Decision-Quality, Taste, Resonance |
 | [[wiki/topics/Git-with-Coding-Agents\|Git 与编码 Agent]] | Agent 如何改变版本控制工作方式 | Git-Fluent-Agents, History-Rewriting, Agentic-Engineering |
-| [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践 | Claude-Code-CLI, Headless-Mode |
+| [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践，包含 Boris Cherny 的 Product Overhang、Loops、Routines | Claude-Code-CLI, Headless-Mode, Agent-Loops, Product-Overhang |
 | [[wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment |
 | [[wiki/topics/Wisdom-Work-Evolution\|智慧工作演化]] | 从知识工作到智慧工作的演进 | Wisdom-Work, Connection, Agent-Orchestration |
 | [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 → 涵盖 Harness Engineering 演进 | Agentic-Engineering, Code-Execution, Vibe-Coding, Harness-Engineering |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
 | [[wiki/topics/Building-Effective-Agents\|Building Effective Agents]] | Anthropic 的 Agent 构建架构设计指南 | Agent-Workflow-Patterns, ACI |
-| [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | 从 Software 2.0 到 AI Psychosis 的系统性思想 | Software-2.0, Vibe-Coding, Memex, Knowledge-Compilation, AI-Psychosis |
+| [[wiki/topics/Karpathy-AI-Thought\|Karpathy AI 思想体系]] | Software 2.0 → 3.0、Vibe Coding → Agentic Engineering、Jagged Intelligence、Ghosts、Verifiability 的系统性思想演化 | Software-2.0, Software-3.0, Vibe-Coding, Agentic-Engineering, Jagged-Intelligence, Ghost-Intelligence, Verifiability, LLM-Wiki |
 | [[wiki/topics/OpenClaw-Agent-System\|OpenClaw Agent System]] | OpenClaw 多 Agent 协作系统架构与实践 | Agent-Orchestration, Context-Engineering, Multi-Layer-Memory, Agent-Swarm, Three-State-Protocol |
 | [[wiki/topics/Lean-Indie-Engineering\|精益独立开发]] | 独立开发者用极低技术成本运营盈利产品的工程哲学 | Steve-Hanov, Lean-Stack, Runway-Math |
 | [[wiki/topics/Enterprise-Ontology-Application\|企业级本体应用]] | 用本体为 AI Agent 提供统一的业务语义层 | Ontology, TBox, ABox, OWL, Ontology-Agent |
@@ -183,7 +205,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（36 个）*
+*原始剪藏文章（38 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 

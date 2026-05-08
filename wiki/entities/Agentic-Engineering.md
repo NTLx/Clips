@@ -3,9 +3,9 @@ type: entity
 title: Agentic Engineering
 aliases:
   - Agentic Engineering
-definition: "使用 Coding Agents 辅助开发软件的实践，核心能力是 Code Execution 使 Agent 能迭代出可验证工作的软件"
+definition: "Andrej Karpathy 2026 年定义的工程学科——在保持专业软件质量（安全、可靠）的前提下，用 agents 实现远超 10x 的速度提升；区别于 Vibe Coding 的「提升底线」，Agentic Engineering 是「保持上限」的严肃实践"
 created: 2026-04-09
-updated: 2026-04-21
+updated: 2026-05-08
 tags:
   - AI-Agent
   - Software-Engineering
@@ -19,7 +19,11 @@ related_entities:
   - '[[Git-Fluent-Agents]]'
   - '[[Security-Hardening-Phase]]'
   - '[[Adversarial-Distillation]]'
+  - '[[Verifiability]]'
+  - '[[Software-3.0]]'
+  - '[[Jagged-Intelligence]]'
 source_raw:
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[Using Git with coding agents - Agentic Engineering Patterns]]'
   - '[[What is agentic engineering? - Agentic Engineering Patterns]]'
   - '[[20260413-why-ai-first-strategy-wrong]]'

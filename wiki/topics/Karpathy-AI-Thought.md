@@ -2,7 +2,7 @@
 type: topic
 title: Karpathy AI 思想体系
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-08
 tags:
   - AI-Agent
   - thought-leader
@@ -11,21 +11,24 @@ tags:
 related_entities:
   - '[[Andrej-Karpathy]]'
   - '[[Software-2.0]]'
+  - '[[Software-3.0]]'
   - '[[Vibe-Coding]]'
-  - '[[RAG-vs-LLM-Wiki]]'
+  - '[[Agentic-Engineering]]'
+  - '[[Jagged-Intelligence]]'
+  - '[[Ghost-Intelligence]]'
+  - '[[Verifiability]]'
+  - '[[Agent-Native]]'
+  - '[[LLM-Wiki]]'
   - '[[Knowledge-Compilation]]'
   - '[[Memex]]'
-  - '[[Agentic-Engineering]]'
   - '[[Coding-Agents]]'
   - '[[AI-Psychosis]]'
   - '[[AI-Capability-Gap]]'
-  - '[[AI-Psychosis]]'
-  - '[[AI-Capability-Gap]]'
-  - '[[AI-Psychosis]]'
-  - '[[AI-Capability-Gap]]'
+  - '[[RAG-vs-LLM-Wiki]]'
 source_raw:
   - '[[20260413-llm-wiki]]'
   - '[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]'
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
 ---
 
 # Karpathy AI 思想体系

@@ -7,7 +7,7 @@ definition: "AI 领域传奇人物、计算机科学家，OpenAI 创始团队成
 validated_source: "https://karpathy.ai/"
 validated_at: "2026-04-13"
 created: 2026-04-13
-updated: 2026-04-16
+updated: 2026-05-08
 tags:
   - person
   - ai-pioneer
@@ -23,6 +23,7 @@ related_entities:
   - '[[Claude-Code-CLI]]'
   - '[[AI-Psychosis]]'
 source_raw:
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[20260413-llm-wiki]]'
   - '[[一篇文章卖了20万，开源CC+Obsidian打造的LLM Wiki 内容创作3.0系统]]'
   - '[[20260409-ai-capability-gap-ai-psychosis]]'

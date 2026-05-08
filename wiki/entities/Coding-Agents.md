@@ -5,12 +5,13 @@ aliases:
   - Coding Agents
 definition: "能够自主完成编程任务的 AI Agent——理解需求、编写代码、运行测试、修复 bug、提交 PR，形成完整开发循环"
 created: 2026-04-10
-updated: 2026-04-16
+updated: 2026-05-0816
 tags:
   - AI-Agent
   - coding-tools
   - core-concept
 related_entities:
+  - '[[Boris-Cherny]]'
   - '[[Agentic-Engineering]]'
   - '[[Code-Execution]]'
   - '[[Claude-Code-CLI]]'
@@ -18,6 +19,7 @@ related_entities:
   - '[[Harness-Engineering]]'
   - '[[Decision-Quality]]'
 source_raw:
+  - '[[Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next]]'
   - '[[What is agentic engineering? - Agentic Engineering Patterns]]'
   - '[[building-effective-agents]]'
   - '[[20260413-why-ai-first-strategy-wrong]]'

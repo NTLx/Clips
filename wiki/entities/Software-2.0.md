@@ -5,7 +5,7 @@ aliases:
   - Software 2.0
 definition: "Andrej Karpathy 提出的概念，指明软件开发范式的转变：从程序员编写代码（Software 1.0）转向程序员编写目标、神经网络通过数据编程（Software 2.0）。"
 created: 2026-04-13
-updated: 2026-04-15
+updated: 2026-05-08
 tags:
   - AI-Agent
   - neural-networks
@@ -18,7 +18,9 @@ related_entities:
   - '[[Coding-Agents]]'
   - '[[AI-Capability-Gap]]'
   - '[[AI-Psychosis]]'
+  - '[[Software-3.0]]'
 source_raw:
+  - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[20260413-llm-wiki]]'
   - '[[20260409-ai-capability-gap-ai-psychosis]]'
 ---
