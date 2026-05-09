@@ -1,7 +1,7 @@
 ---
 type: index
 title: Clips 知识库索引
-updated: 2026-05-08
+updated: 2026-05-09
 tags:
   - index
   - MOC
@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 126 个 |
+| Entity 页面 | 129 个 |
 | Topic 页面 | 15 个 |
 | Comparison 页面 | 6 个 |
-| Raw 文章 | 39 个 |
+| Raw 文章 | 40 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -135,6 +135,8 @@ tags:
 | [[wiki/entities/Dominator-Analysis\|Dominator Analysis]] | 编译器控制流图理论：节点 A 支配 B = 所有路径必经 A，用于 Agent 验证中提取 essential states | GitHub Blog: Validating agentic behavior |
 | [[wiki/entities/Elon-Musk\|Elon Musk]] | 特斯拉/SpaceX CEO，以第一性原理思考和五步工作法著称 | 成年人最大的内耗：拼命优化错误的东西 |
 | [[wiki/entities/Question-Requirements\|Question Requirements]] | Musk 五步法第一步：在优化之前先质疑存在必要性 | 成年人最大的内耗：拼命优化错误的东西 |
+| [[wiki/entities/Software-Economic-Complexity\|Software Economic Complexity]] | 将 ECI 应用于 GitHub 数据衡量国家软件能力并预测 GDP | GitHub Innovation Graph 研究 |
+| [[wiki/entities/Digital-Dark-Matter\|Digital Dark Matter]] | 软件生产在传统经济统计中不可见的现象 | GitHub Innovation Graph 研究 |
 
 | [[wiki/entities/人机对齐|人机对齐]] | 先人人对齐、再人机对齐的 Agent 评测→工程管理方法论 | 美团 AI Coding 实践 |
 | [[wiki/entities/渐进式重构|渐进式重构]] | 技术债拆解为业务需求顺带动作的第三条重构路 | 美团 AI Coding 实践 |
@@ -163,6 +165,7 @@ tags:
 | [[wiki/entities/朱少民\|朱少民]] | 软件工程领域作者，关注 AI Agent 与企业组织变革 | Software-Engineering, AI-Agent |
 | [[wiki/entities/Steve-Hanov\|Steve Hanov]] | 加拿大 Waterloo 独立开发者，6 个 $10K+ MRR 产品，月成本 $20 | Indie Developer, Bootstrap |
 | [[wiki/entities/达珍\|达珍]] | 得到App《得到头条》栏目作者 | Media |
+| [[wiki/entities/Kevin-Xu\|Kevin Xu]] | GitHub CELA Staff Software Engineer，Innovation Graph 系列博客主理人 | Open-Source, Economics |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -208,7 +211,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（38 个）*
+*原始剪藏文章（39 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 
@@ -243,4 +246,4 @@ status             # 查看知识库状态
 ---
 
 *索引版本: v2.4*
-*最后更新: 2026-05-08*
+*最后更新: 2026-05-09*
