@@ -77,6 +77,20 @@ source_raw:
 - 消除工具调用开销（工具 JSON Schema、参数块、响应）
 - 利用 Agent 在 bash 脚本方面的训练
 
+## 关键数据点
+
+| 指标 | 数据 |
+|------|------|
+| 优化工作流数量 | 12 个生产工作流 |
+| Auto-Triage Issues 优化效果 | -62% (109 次运行) |
+| Daily Compiler Quality 优化效果 | -19% (12 次运行) |
+| Community Attribution 优化效果 | -37% (8 次运行) |
+| Security Guard 优化效果 | -43% |
+| Smoke Claude 优化效果 | -59% |
+| Auto-Triage 运行频率 | 6.8 次/天 (最高 15 次) |
+| MCP 工具 Schema 大小 | 40 工具 = 10-15 KB |
+| 移除未使用工具节省 | 8-12 KB 上下文 |
+
 ## 效率测量
 
 ### Effective Tokens (ET) 公式

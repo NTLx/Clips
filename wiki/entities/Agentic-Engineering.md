@@ -22,6 +22,9 @@ related_entities:
   - '[[Verifiability]]'
   - '[[Software-3.0]]'
   - '[[Jagged-Intelligence]]'
+  - '[[Agent-PR-Review]]'
+  - '[[Agentic-Workflow-Token-Efficiency]]'
+  - '[[渐进式重构]]'
 source_raw:
   - '[[Andrej Karpathy: From Vibe Coding to Agentic Engineering]]'
   - '[[Using Git with coding agents - Agentic Engineering Patterns]]'
