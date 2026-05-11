@@ -5,7 +5,7 @@ aliases:
   - Agentic Engineering
 definition: "Andrej Karpathy 2026 年定义的工程学科——在保持专业软件质量（安全、可靠）的前提下，用 agents 实现远超 10x 的速度提升；区别于 Vibe Coding 的「提升底线」，Agentic Engineering 是「保持上限」的严肃实践"
 created: 2026-04-09
-updated: 2026-05-08
+updated: 2026-05-11
 tags:
   - AI-Agent
   - Software-Engineering
@@ -36,6 +36,7 @@ source_raw:
   - "20260414-cybersecurity-proof-of-work"
   - '[[工程师抗拒被"蒸馏"，企业的Skills从何而来？五大招破局]]'
   - '[[The Anatomy of an Agent Harness]]'
+  - "[[MachinaCheck Building a Multi-Agent CNC Manufacturability System on AMD MI300X]]"
 ---
 
 # Agentic Engineering

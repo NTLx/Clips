@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 143 个 |
+| Entity 页面 | 144 个 |
 | Topic 页面 | 15 个 |
 | Comparison 页面 | 6 个 |
-| Raw 文章 | 46 个 |
+| Raw 文章 | 47 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -138,6 +138,8 @@ tags:
 | [[wiki/entities/GraphDB\|GraphDB]] | RDF 三元组数据库 | Enterprise-Ontology-Application |
 | [[wiki/entities/SPARQL\|SPARQL]] | RDF/本体查询语言 | Enterprise-Ontology-Application |
 
+| [[wiki/entities/MachinaCheck\|MachinaCheck]] | 基于多 Agent 流水线的 CNC 可制造性分析系统，选择性 LLM 使用 + 本地推理 | MachinaCheck: Multi-Agent CNC Manufacturability |
+
 | [[wiki/entities/Adversarial-Distillation\|Adversarial Distillation]] | 工程师为避免被 Skills 系统替代而采取的对抗策略 | 工程师抗拒被"蒸馏" |
 | [[wiki/entities/Dominator-Analysis\|Dominator Analysis]] | 编译器控制流图理论：节点 A 支配 B = 所有路径必经 A，用于 Agent 验证中提取 essential states | GitHub Blog: Validating agentic behavior |
 | [[wiki/entities/Elon-Musk\|Elon Musk]] | 特斯拉/SpaceX CEO，以第一性原理思考和五步工作法著称 | 成年人最大的内耗：拼命优化错误的东西 |
@@ -228,7 +230,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（46 个）*
+*原始剪藏文章（47 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 

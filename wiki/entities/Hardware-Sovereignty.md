@@ -5,7 +5,7 @@ aliases:
   - 硬件主权
 definition: "AI 系统在本地硬件上完成全部训练、推理和数据处理，不依赖任何云 API 或外部服务，确保数据完全不出域，满足隐私法规要求。"
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-11
 tags:
   - AI-Infrastructure
   - Privacy
@@ -15,6 +15,7 @@ related_entities:
   - "[[Agent-First-Enterprise]]"
 source_raw:
   - "[[OncoAgent A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support]]"
+  - "[[MachinaCheck Building a Multi-Agent CNC Manufacturability System on AMD MI300X]]"
 ---
 
 > [!definition] 定义

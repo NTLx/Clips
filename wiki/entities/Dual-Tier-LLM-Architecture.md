@@ -6,7 +6,7 @@ aliases:
   - 分层模型路由
 definition: "一种 LLM 系统架构模式，根据查询复杂度将请求路由到不同规模的模型——简单任务用小模型保证速度，复杂任务用大模型保证质量。"
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-11
 tags:
   - AI-Architecture
   - Multi-Agent
@@ -17,6 +17,7 @@ related_entities:
   - "[[Corrective-RAG]]"
 source_raw:
   - "[[OncoAgent A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support]]"
+  - "[[MachinaCheck Building a Multi-Agent CNC Manufacturability System on AMD MI300X]]"
 ---
 
 > [!definition] 定义

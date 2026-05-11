@@ -5,7 +5,7 @@ aliases:
   - Agent Orchestration
 definition: "Agent 编排层是管理多个 AI Agent 协作的核心架构，OpenClaw 作为编排者负责任务拆解、进度监控、错误处理和结果汇总。"
 created: 2026-04-09
-updated: 2026-04-15
+updated: 2026-05-11
 tags:
   - AI-Agent
   - OpenClaw
@@ -18,6 +18,7 @@ related_entities:
 source_raw:
   - '[[OpenClaw + 6 个 Agent 运转半个月，从聊天到干活的完整工程实践]]'
   - '[[OpenClaw + CodexClaudeCode Agent Swarm The One-Person Dev Team Full Setup]]'
+  - "[[MachinaCheck Building a Multi-Agent CNC Manufacturability System on AMD MI300X]]"
 ---
 
 # Agent Orchestration
