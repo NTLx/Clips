@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 144 个 |
+| Entity 页面 | 146 个 |
 | Topic 页面 | 15 个 |
 | Comparison 页面 | 6 个 |
-| Raw 文章 | 47 个 |
+| Raw 文章 | 49 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -50,6 +50,7 @@ tags:
 | [[wiki/entities/History-Rewriting\|History Rewriting]] | 将 Git 历史视为可编辑叙事的理念 | Using Git with coding agents |
 | [[wiki/entities/Agentic-Engineering\|Agentic Engineering]] | 利用 AI Agent 转变开发方式的工程范式 | Using Git with coding agents |
 | [[wiki/entities/Agent-PR-Review\|Agent PR Review]] | 审查 Agent 生成的 PR 的系统性策略：5 个关键检查点 | Agent pull requests are everywhere |
+| [[wiki/entities/Agent-Generated-PRs\|Agent-Generated PRs]] | AI Agent 自动提交的 PR——缺乏设计哲学上下文的核心问题 | The PR you would have opened yourself |
 | [[wiki/entities/Agentic-Workflow-Token-Efficiency\|Agentic Workflow Token Efficiency]] | 系统性优化 Agentic Workflows token 成本的方法论 | Improving token efficiency |
 | [[wiki/entities/Claude-Code-CLI\|Claude Code CLI]] | Claude 命令行工具 | Claude Code 文章 |
 | [[wiki/entities/Headless-Mode\|Headless Mode]] | 无头运行模式 | Claude Code 文章 |
@@ -73,6 +74,7 @@ tags:
 | [[wiki/entities/Drew-Breunig\|Drew Breunig]] | 网络安全博主，dbreunig.com 作者 | Cybersecurity Proof of Work |
 | [[wiki/entities/Cross-Disciplinary-Generalist\|Cross-Disciplinary Generalist（跨学科通才）]] | 横跨工程、设计、产品、数据科学的未来核心人才模型 | Boris Cherny: Why Coding Is Solved |
 | [[wiki/entities/Cybersecurity-Proof-of-Work\|Cybersecurity Proof of Work]] | 安全变成 token 成本博弈 | Cybersecurity Proof of Work |
+| [[wiki/entities/Cybersecurity-Openness\|Cybersecurity Openness]] | 开放生态系统在网络安全防御中的结构性优势 | AI and the Future of Cybersecurity |
 | [[wiki/entities/Mythos\|Mythos]] | Anthropic 安全专用模型 | Cybersecurity Proof of Work |
 | [[wiki/entities/Scientific-Discovery-AI\|Scientific Discovery AI（科学发现 AI）]] | AI 科学发现模式：组合搜索 + 目标函数 + 数据 → 突破 | Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough |
 | [[wiki/entities/Security-Hardening-Phase\|Security Hardening Phase]] | Agentic Coding 第三阶段 | Cybersecurity Proof of Work |
@@ -230,7 +232,7 @@ tags:
 
 ## 📄 Raw (raw/)
 
-*原始剪藏文章（47 个）*
+*原始剪藏文章（49 个）*
 
 所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。
 

@@ -7,17 +7,19 @@ aliases:
   - Anthropic Mythos
 definition: "Anthropic (2026) 的安全专用 LLM 模型，在网络安全任务上表现'strikingly capable'，因安全考虑未公开发布，仅向关键软件制造商提供访问。"
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-11
 tags:
   - ai-model
   - cybersecurity
   - anthropic
 related_entities:
   - '[[Cybersecurity-Proof-of-Work]]'
+  - '[[Cybersecurity-Openness]]'
   - '[[Drew-Breunig]]'
   - '[[AISI]]'
 source_raw:
   - "20260414-cybersecurity-proof-of-work"
+  - "[[AI and the Future of Cybersecurity Why Openness Matters]]"
 ---
 
 # Mythos
@@ -46,6 +48,13 @@ source_raw:
 - [[Cybersecurity-Proof-of-Work]] — 模型能力支撑的概念
 - [[AISI]] — 测试机构（英国 AI 安全研究所）
 - [[Drew-Breunig]] — 分析者
+
+## 系统级理解
+
+Mythos 的真正意义不在单一模型，而在**系统级配方**：
+- 强大海量算力 + 软件数据训练 + 漏洞探测脚手架 + 速度 + 自主性
+- 更小的模型 + 深度安全专业知识可能产生类似结果且更便宜
+- AI 安全能力呈**锯齿状分布**：不随模型大小或通用基准平滑扩展
 
 ## Anthropic Glasswing 项目
 

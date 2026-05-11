@@ -6,7 +6,7 @@ aliases:
   - Agent Pull Request Review
 definition: "审查 Agent 生成的 Pull Request 的系统性策略——关注 CI 游戏化、代码重用盲点、幻觉正确性、Agent 幽灵、工作流安全等 5 个关键检查点"
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-11
 tags:
   - Agentic-Engineering
   - code-review
@@ -15,8 +15,10 @@ related_entities:
   - "[[Agentic-Engineering]]"
   - "[[Agent-Workflow-Patterns]]"
   - "[[AI-Ready-Organization]]"
+  - "[[Agent-Generated-PRs]]"
 source_raw:
   - "[[Agent pull requests are everywhere. Here's how to review them.]]"
+  - "[[The PR you would have opened yourself]]"
 ---
 
 # Agent-PR-Review（Agent PR 审查）
@@ -134,6 +136,16 @@ CI Agent 中的提示注入是真实且被低估的：
 - 基于 2026 年初的 Agent 能力，质量可能随模型迭代快速改善
 - 10 分钟审查流程适用于中等复杂度 PR，大型重构可能需要更多时间
 - 检查清单可能过于繁琐，需要根据团队实际情况调整
+
+## 正面策略：Skills + Test Harness
+
+与上述防御性审查互补，HuggingFace (2026) 展示了**主动提升 Agent PR 质量**的方法：
+
+- **Skills（Agent 配方）**: 文本文件形式的领域知识编码，包含技术规则（RoPE 验证、dtype 检测）和文化规则（不解释代码、不提议重构）
+- **Test Harness**: 独立于 Agent 的非 LLM 测试套件，消除幻觉结果不确定性，保证可复现性
+- **Signal 丰富度**: Agent 辅助 PR 应比中位数人工 PR 提供更多数据（生成示例、数值比较、逐层对比）
+
+> 核心洞察："The bottleneck in open source is not typing speed: it's understanding the codebase to change it without breaking the implicit and explicit contracts with users."
 
 ## 关联概念
 
