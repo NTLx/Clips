@@ -15,7 +15,7 @@ related_entities:
   - '[[Anti-Enterprise-Mindset]]'
   - '[[Taste]]'
 source_raw:
-  - '[[How I run multiple $10K MRR companies on a $20month tech stack]]'
+  - '[[How I run multiple `$10K` MRR companies on a `$20`month tech stack]]'
 ---
 
 # Constraint-Driven-Engineering（约束驱动工程）

@@ -1,5 +1,5 @@
 ---
-title: "How researchers are using GitHub Innovation Graph data to reveal the “digital complexity” of nations"
+title: "How researchers are using GitHub Innovation Graph data to reveal the 'digital complexity' of nations"
 source: "https://github.blog/news-insights/policy-news-and-insights/how-researchers-are-using-github-innovation-graph-data-to-reveal-the-digital-complexity-of-nations/"
 author:
   - "[[Kevin-Xu]]"

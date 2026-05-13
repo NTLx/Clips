@@ -4,7 +4,7 @@ title: Osmosis Learning (渗透式学习)
 aliases:
   - 渗透式学习
   - Osmosis Learning
-definition: "不需要正式的课程或培训计划，而是通过在开放的工作环境中“观察”他人的工作实践，像渗透作用一样自然习得知识和经验的过程。"
+definition: "不需要正式的课程或培训计划，而是通过在开放的工作环境中'观察'他人的工作实践，像渗透作用一样自然习得知识和经验的过程。"
 created: 2026-05-13
 updated: 2026-05-13
 tags:

@@ -17,7 +17,7 @@ related_entities:
   - '[[Time-Moat]]'
 
 source_raw:
-  - '[[How I run multiple $10K MRR companies on a $20month tech stack]]'
+  - '[[How I run multiple `$10K` MRR companies on a `$20`month tech stack]]'
 ---
 
 # Lean-Stack（精益技术栈）

@@ -29,7 +29,7 @@ My git history looks like I just hired a dev team. In reality it's just me going
 
 Success rate: The system one-shots almost all small to medium tasks without any intervention.
 
-Cost: ~$100/month for Claude and $90/month for Codex, but you can start with $20.
+Cost: ~`$100`/month for Claude and `$90`/month for Codex, but you can start with `$20`.
 
 Here's why this works better than using Codex or Claude Code directly:
 
@@ -86,7 +86,7 @@ cd ../feat-custom-templates && pnpm install
 
 tmux new-session -d -s "codex-templates" \
   -c "/Users/elvis/Documents/GitHub/medialyst-worktrees/feat-custom-templates" \
-  "$HOME/.codex-agent/run-agent.sh templates gpt-5.3-codex high"
+  "\$HOME/.codex-agent/run-agent.sh templates gpt-5.3-codex high"
 ```
 
 The agent runs in a tmux session with full terminal logging via a script.
@@ -262,7 +262,7 @@ Each agent needs its own worktree. Each worktree needs its own \`node\_modules\`
 
 My Mac Mini with 16GB tops out at 4-5 agents before it starts swapping — and I need to be lucky they don't try to build at the same time.
 
-So I bought a Mac Studio M4 max with 128GB RAM ($3,500) to power this system. It arrives end of March and I'll share if it's worth it.
+So I bought a Mac Studio M4 max with 128GB RAM (`$3,500`) to power this system. It arrives end of March and I'll share if it's worth it.
 
 ## Up Next: The One-Person Million-Dollar Company
 
@@ -276,7 +276,7 @@ There's so much AI-generated slop right now. So much hype around agents and "mis
 
 I'm trying to do the opposite: less hype, more documentation of building an actual business. Real customers, real revenue, real commits that ship to production, and real loss too.
 
-What am I building? Agentic PR — a one-person company taking on the enterprise PR incumbents. Agents that help startups get press coverage without a $10k/month retainer.
+What am I building? Agentic PR — a one-person company taking on the enterprise PR incumbents. Agents that help startups get press coverage without a `$10`k/month retainer.
 
 If you want to see how far I take this, follow along.
 

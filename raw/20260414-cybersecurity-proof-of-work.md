@@ -25,7 +25,7 @@ The entire report is worth reading, but I want to focus on the following chart, 
 
 This chart suggests an interesting security economy: **to harden a system we need to spend more tokens discovering exploits than attackers spend exploiting them**.
 
-AISI budgeted 100M tokens for each attempt. That’s $12,500 per Mythos attempt, $125k for all ten runs. Worryingly, none of the models given a 100M budget showed signs of diminishing returns. “Models continue making progress with increased token budgets across the token budgets tested,” AISI notes.
+AISI budgeted 100M tokens for each attempt. That’s `$12,500` per Mythos attempt, `$125`k for all ten runs. Worryingly, none of the models given a 100M budget showed signs of diminishing returns. “Models continue making progress with increased token budgets across the token budgets tested,” AISI notes.
 
 If Mythos continues to find exploits so long as you keep throwing money at it, security is reduced to a brutally simple equation: **to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them**.
 
@@ -45,7 +45,7 @@ If security is purely a matter of throwing tokens at a system, [Linus’s law](h
 
 **Second, hardening will be an additional phase for agentic coders.**
 
-We’ve already been seeing developers break their process into two steps, development and code review, often using different models for each phase. As this matures, we’re seeing purpose-built tooling meeting this pattern. Anthropic launched a [code review](https://code.claude.com/docs/en/code-review) product that costs $15-20 per review.
+We’ve already been seeing developers break their process into two steps, development and code review, often using different models for each phase. As this matures, we’re seeing purpose-built tooling meeting this pattern. Anthropic launched a [code review](https://code.claude.com/docs/en/code-review) product that costs `$15`-20 per review.
 
 If the above Mythos claims hold, I suspect we’ll see a three phase cycle: development, review, and hardening.
 
@@ -66,7 +66,7 @@ Code remains [cheap](https://www.dbreunig.com/2026/03/26/winchester-mystery-hous
 - **核心结论1**: 网络安全正在变成”Proof of Work”博弈——防御者需要花费比攻击者更多的 tokens 发现漏洞，而非依靠技术巧思
   - 关键证据: “You don’t get points for being clever. You win by paying more... to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them”
 
-- **核心结论2**: Anthropic Mythos 模型在 AISI 测试中完成 32 步企业网络攻击模拟（人类需 20 小时），100M tokens 预算（$12,500）仍未显示边际收益递减
+- **核心结论2**: Anthropic Mythos 模型在 AISI 测试中完成 32 步企业网络攻击模拟（人类需 20 小时），100M tokens 预算（`$12,500`）仍未显示边际收益递减
   - 关键证据: “Mythos was the only model to complete the task, in 3 out of its 10 attempts... none of the models given a 100M budget showed signs of diminishing returns”
 
 - **核心结论3**: Agentic Coding 将进入三阶段循环：开发 → 代码审查 → 安全硬化（human input vs money 分别是瓶颈）

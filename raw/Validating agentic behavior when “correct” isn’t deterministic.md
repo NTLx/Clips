@@ -1,12 +1,12 @@
 ---
-title: "Validating agentic behavior when “correct” isn’t deterministic"
+title: "Validating agentic behavior when 'correct' isn’t deterministic"
 source: "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/"
 author:
   - "Gaurav Mittal"
   - "Reshabh Kumar Sharma"
 published: 2026-05-07
 created: 2026-05-07
-description: "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis."
+description: "How to build the 'Trust Layer' for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis."
 tags:
   - "clippings"
 ---

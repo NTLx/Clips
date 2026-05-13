@@ -5,7 +5,7 @@ author:
   - "盛兰雅(岚遥)"
 published: "2026-03-12"
 created: 2026-03-12
-description: "今天的文章是一篇阿里大佬岚遥在内部分享的 OpenClaw 实战内容，为大家展示如何构建一个自我演进且 “可用” 的龙虾。"
+description: "今天的文章是一篇阿里大佬岚遥在内部分享的 OpenClaw 实战内容，为大家展示如何构建一个自我演进且 '可用' 的龙虾。"
 tags:
   - "clippings"
 ---

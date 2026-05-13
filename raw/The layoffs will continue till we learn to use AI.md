@@ -39,9 +39,9 @@ Users spending money on your product is an outcome.
 
 AI (or at least Claude Enterprise) is a B2B SaaS product. You'll notice that SaaS products are priced and marketed in different ways. If the product directly changes the outcome, they simply take a cut from the outcome. Imagine the sales pitch "our tool closes sales leads 36% faster. try it out for the low fee of 5% of your sales value"
 
-This is an instant sell. Most other variables unchanged, if you were closing 100 leads in 100 days, you now close them in 63 days, freeing up 36 more days to close (if my math is right) 57 more leads! So your sales potentially goes up by 57% You'll be happy to pay 5% of your sales commission to get 57% more revenue any day. And if you don't use the product, you are paying them $0 anyway.
+This is an instant sell. Most other variables unchanged, if you were closing 100 leads in 100 days, you now close them in 63 days, freeing up 36 more days to close (if my math is right) 57 more leads! So your sales potentially goes up by 57% You'll be happy to pay 5% of your sales commission to get 57% more revenue any day. And if you don't use the product, you are paying them `$0` anyway.
 
-As you would have predicted where I am going with this - pricing of Claude Code tokens aren't exactly like that. If your software engineers, who are addicted to Claude Code like crack cocaine (I just realised they're both abbreviated to 'cc'), generate 100M tokens a day, you are spending $100 per day, per engineer, on it.
+As you would have predicted where I am going with this - pricing of Claude Code tokens aren't exactly like that. If your software engineers, who are addicted to Claude Code like crack cocaine (I just realised they're both abbreviated to 'cc'), generate 100M tokens a day, you are spending `$100` per day, per engineer, on it.
 
 Even if some of the code they generated was discarded because it didn't work
 
@@ -68,7 +68,7 @@ Well you have been bearing with me telling you mostly obvious things so far. But
 
 The layoffs immensely help with 2 immediate short-term problems which are clear as day.
 
-1. **They offset "AI spending"** I mean, this is just cashflow 101. Surely, you can see that if all your Claude-addicted engineers are blowing up $100 per day on Claude (which is $2500 per month, or $30k per year), that is clearly worth 1 SDE salary in India, worth 0.5 SDE in EU and worth 0.25 SDE in USA. If you just do the dumbest math possible, assuming every employee is an SDE in a flat org, then you need to remove 50%(India) or 33% (EU) or 20% (USA), to continue to meet the same wage bill, inclusive of token spends. The very fact that AI usage is growing regardless, and revenue is not yet seeing this uptick, this has to happen otherwise the balance sheet of the company goes in disarray. Your entire unit economics of the SDLC goes for a toss - if you spend 50% more in input, with no or little change in outcome. If we did learn to use AI though - and we figured out how 50% more input costs translate to 50% more revenue outcome, we would not need this to happen. But since you didn't learn to use AI, some of you need to leave to make space for Anthropic's salary.
+1. **They offset "AI spending"** I mean, this is just cashflow 101. Surely, you can see that if all your Claude-addicted engineers are blowing up `$100` per day on Claude (which is `$2500` per month, or `$30`k per year), that is clearly worth 1 SDE salary in India, worth 0.5 SDE in EU and worth 0.25 SDE in USA. If you just do the dumbest math possible, assuming every employee is an SDE in a flat org, then you need to remove 50%(India) or 33% (EU) or 20% (USA), to continue to meet the same wage bill, inclusive of token spends. The very fact that AI usage is growing regardless, and revenue is not yet seeing this uptick, this has to happen otherwise the balance sheet of the company goes in disarray. Your entire unit economics of the SDLC goes for a toss - if you spend 50% more in input, with no or little change in outcome. If we did learn to use AI though - and we figured out how 50% more input costs translate to 50% more revenue outcome, we would not need this to happen. But since you didn't learn to use AI, some of you need to leave to make space for Anthropic's salary.
 2. **Cut the 'alignment tax'** There is no arguing that any large company, is bigger than it "needs" to be to just survive. That's the whole point. Larger organisations carry organisational fat. That is by design. It is possible for anyone to leave the company, and systems to still continue to work because someone else knew what they did. In big companies, you can go on 6 months parental leaves and things you worked on still keep running. These are good things to have! But this is also proof that if some percentage of people were removed, things will not shut down immediately. In fact, maybe with few weeks of initial system shock, for the next few months, things will get faster! Remember how the two teams above didn't agree to each other's approaches? Well if you just layoff one of those teams and asked the other one to pull a few all nighters and do their job instead - they have no one to align with. We don't know what happens long term (or as Keynes said - "in the long term we are all dead"), but in the short term, cutting off 10-20% people in a big org, only makes things faster. Large organisations, over time, invariably build up slack, build up redundancies, and build up 'org debt' just like tech debt. It is the nature of big organisations, and cutting 10% people today doesn't prevent it from happening again in 2 years time. But when you see everyone saying they are generating 5x more diffs, but unable to ship because **they are blocked** by other teams, at least the most immediate solution does look like removing people so that there is fewer people to block each other.
 
 ## These are AI layoffs, even if AI is not replacing you
@@ -83,7 +83,7 @@ And you'll also notice that over a period if you collect all these "layoff email
 
 But the truth is that these layoffs, even if they they are not because AI is replacing you you, and even if they are some form of AI-washing. These layoffs are still because of AI. And these layoffs will continue till we learn to use AI. Till we learn to convert AI-tokens into outcomes and not just input. Till we learn to re-align the speed of "alignment" with the new speed of coding. And till we figure out, beyond our 2 good and 8 stupid ideas, 10 more ideas that we can chase with our increased productivity.
 
-Till we figure out how the GDP of the world actually grows because of AI, we have to offset the $70 B (combined OAI/Ant enterprise revenue) of annual token spend by cutting some salaries. And till we figure out how to unblock each other faster, we can always be removed from the org chart itself.
+Till we figure out how the GDP of the world actually grows because of AI, we have to offset the `$70` B (combined OAI/Ant enterprise revenue) of annual token spend by cutting some salaries. And till we figure out how to unblock each other faster, we can always be removed from the org chart itself.
 
 I'll know more about my own fate in 15 days. But either way, I think I know why. And even if I were in the corner office making the decisions, I don't even know if I would have or could have done any better, or just did what everyone else in the CEO WhatsApp group is doing.
 
@@ -93,7 +93,7 @@ I'll know more about my own fate in 15 days. But either way, I think I know why.
 
 ### 1. 浓缩
 - **核心结论1**: AI 裁员的本质不是"AI 替代人"，而是"AI 提升输入成本但未提升结果"——企业需要裁员来抵消 AI 支出
-  - 关键证据: 每位工程师每天消耗 $100 Claude tokens（$30k/年），相当于印度 1 名 SDE 的薪资；代码生成量 5 倍增长但用户感知的产品几乎未变
+  - 关键证据: 每位工程师每天消耗 `$100` Claude tokens（`$30`k/年），相当于印度 1 名 SDE 的薪资；代码生成量 5 倍增长但用户感知的产品几乎未变
 - **核心结论2**: 大型组织的"对齐税"被 AI 暴露——代码变便宜后，跨团队协调成为真正的瓶颈
   - 关键证据: 传统模式下 CEO 想做 10 件事团队只做前 2 件（自然筛选），AI 模式下两个团队各自做出 MVP 但假设冲突，无人愿意对齐
 - **核心结论3**: 裁员短期内有效——减少 AI 支出 + 减少对齐人数——但长期无法阻止组织债务重新累积
@@ -102,7 +102,7 @@ I'll know more about my own fate in 15 days. But either way, I think I know why.
 ### 2. 质疑
 - **关于"AI 提升输入但不提升结果"的质疑**: 该结论以软件产品公司为前提——在某些场景（如代码本身就是可交付物的开源项目），输入提升即价值提升
 - **关于"裁员减少对齐税"的质疑**: 裁员只是将对齐成本从显性（多人协调）转为隐性（单人承担全部上下文），长期可能增加单人认知负荷
-- **关于数据可靠性的质疑**: $100/天/token 成本的数据来源未明确，且不同模型、不同使用模式的成本差异巨大
+- **关于数据可靠性的质疑**: `$100`/天/token 成本的数据来源未明确，且不同模型、不同使用模式的成本差异巨大
 
 ### 3. 对标
 - **跨域关联1**: Input-Output-Outcome 框架类似制造业的"产量-良率-利润"模型——提升产量不等于提升利润，良率（=方向正确性）才是关键

@@ -1,6 +1,6 @@
 ---
 type: raw
-title: "Why Your “AI-First” Strategy Is Probably Wrong"
+title: "Why Your 'AI-First' Strategy Is Probably Wrong"
 source: "https://x.com/intuitiveml/status/2043545596699750791"
 author:
   - "Peter Pang"

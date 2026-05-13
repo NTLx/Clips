@@ -28,7 +28,7 @@ source_raw:
   - '[[20260410-better-code]]'
   - '[[20260410-anti-patterns]]'
   - '[[20260413-why-ai-first-strategy-wrong]]'
-  - ‘[[Validating agentic behavior when “correct” isn’t deterministic]]’
+  - ‘[[Validating agentic behavior when 'correct' isn’t deterministic]]’
   - ‘[[The Anatomy of an Agent Harness]]’
 ---
 

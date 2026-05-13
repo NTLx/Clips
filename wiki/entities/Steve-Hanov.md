@@ -11,7 +11,7 @@ tags:
   - indie-developer
   - bootstrap
 source_raw:
-  - '[[How I run multiple $10K MRR companies on a $20month tech stack]]'
+  - '[[How I run multiple `$10K` MRR companies on a `$20`month tech stack]]'
 validated_source: "https://stevehanov.ca/"
 validated_at: "2026-04-15"
 ---

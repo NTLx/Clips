@@ -1,12 +1,12 @@
 ---
 type: raw
-title: "How I run multiple $10K MRR companies on a $20/month tech stack"
+title: "How I run multiple `$10K` MRR companies on a `$20`/month tech stack"
 source: "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack"
 author:
   - "[[Steve-Hanov]]"
 published: "2026-04-15"
 created: 2026-05-08
-description: "Steve Hanov 分享他如何用每月 $20 技术成本运营 6 个月入过万美元的产品——从 VPS、Go 语言、SQLite+WAL 到本地 AI 推理和 GitHub Copilot per-request 定价漏洞的完整技术栈。"
+description: "Steve Hanov 分享他如何用每月 `$20` 技术成本运营 6 个月入过万美元的产品——从 VPS、Go 语言、SQLite+WAL 到本地 AI 推理和 GitHub Copilot per-request 定价漏洞的完整技术栈。"
 tags:
   - clippings
   - indie-developer
@@ -25,11 +25,11 @@ If you are tired of the modern "Enterprise" boilerplate, here is the exact playb
 
 ## Use a lean server
 
-The naive way to launch a web app in 2026 is to fire up AWS, provision an EKS cluster, set up an RDS instance, configure a NAT Gateway, and accidentally spend $300 a month before a single user has even looked at your landing page.
+The naive way to launch a web app in 2026 is to fire up AWS, provision an EKS cluster, set up an RDS instance, configure a NAT Gateway, and accidentally spend `$300` a month before a single user has even looked at your landing page.
 
 The smart way is to rent a single Virtual Private Server (VPS).
 
-First thing I do is get a cheap, reliable box. Forget AWS. You aren't going to need it, and their control panel is a labyrinth designed to extract billing upgrades. I use Linode or DigitalOcean. Pay no more than $5 to $10 a month.
+First thing I do is get a cheap, reliable box. Forget AWS. You aren't going to need it, and their control panel is a labyrinth designed to extract billing upgrades. I use Linode or DigitalOcean. Pay no more than `$5` to `$10` a month.
 
 1GB of RAM sounds terrifying to modern web developers, but it is plenty if you know what you are doing. If you need a little breathing room, just use a swapfile.
 
@@ -41,7 +41,7 @@ Now you have constraints. You only have a gigabyte of memory. You *could* run Py
 
 I write my backends in Go.
 
-Go is infinitely more performant for web tasks, it's strictly typed, and—crucially for 2026—it is incredibly easy for LLMs to reason about. But the real magic of Go is the deployment process. There is no `pip install` dependency hell. There is no virtual environment. You compile your entire application into a single, statically linked binary on your laptop, `scp` it to your $5 server, and run it.
+Go is infinitely more performant for web tasks, it's strictly typed, and—crucially for 2026—it is incredibly easy for LLMs to reason about. But the real magic of Go is the deployment process. There is no `pip install` dependency hell. There is no virtual environment. You compile your entire application into a single, statically linked binary on your laptop, `scp` it to your `$5` server, and run it.
 
 Here is what a complete, production-ready web server looks like in Go. No bloated frameworks required:
 
@@ -70,7 +70,7 @@ If you have a graphics card sitting somewhere in your house, you already have *u
 
 When I was building eh-trade.ca, I had a specific problem: I needed to perform deep, qualitative stock market research on thousands of companies, summarizing massive quarterly reports. The naive solution is to throw all of this at the OpenAI API. I could have paid hundreds of dollars in API credits, only to find a logic bug in my prompt loop that required me to run the whole batch over again.
 
-Instead, I'm running VLLM on a dusty $900 graphics card (an RTX 3090 with 24GB of VRAM) I bought off Facebook Marketplace. It’s an upfront investment, sure, but I never have to pay a toll to an AI provider for batch processing again.
+Instead, I'm running VLLM on a dusty `$900` graphics card (an RTX 3090 with 24GB of VRAM) I bought off Facebook Marketplace. It’s an upfront investment, sure, but I never have to pay a toll to an AI provider for batch processing again.
 
 For local AI, you have a distinct upgrade path:
 
@@ -94,11 +94,11 @@ More importantly, it allows for seamless fallback routing. If Anthropic's API go
 
 New, insanely expensive models are being released every week. I constantly hear about developers dropping hundreds of dollars a month on Cursor subscriptions and Anthropic API keys just to have an AI write their boilerplate.
 
-Meanwhile, I'm using Claude Opus 4.6 all day and my bill barely touches $60 a month. My secret? I exploit Microsoft's pricing model.
+Meanwhile, I'm using Claude Opus 4.6 all day and my bill barely touches `$60` a month. My secret? I exploit Microsoft's pricing model.
 
 I bought a GitHub Copilot subscription in 2023, plugged it into standard VS Code, and never left. I tried Cursor and the other fancy forks when they briefly surpassed it with agentic coding, but Copilot Chat always catches up.
 
-Here is the trick that you might have missed: somehow, Microsoft is able to charge per request, not per token. And a "request" is simply what I type into the chat box. Even if the agent spends the next 30 minutes chewing through my entire codebase, mapping dependencies, and changing hundreds of files, I still pay roughly $0.04.
+Here is the trick that you might have missed: somehow, Microsoft is able to charge per request, not per token. And a "request" is simply what I type into the chat box. Even if the agent spends the next 30 minutes chewing through my entire codebase, mapping dependencies, and changing hundreds of files, I still pay roughly `$0`.04.
 
 The optimal strategy is simple: write brutally detailed prompts with strict success criteria (which is best practice anyway), tell the agent to "keep going until all errors are fixed," hit enter, and go make a coffee while Satya Nadella subsidizes your compute costs.
 
@@ -142,7 +142,7 @@ If you are interested in running lean, check out my auth library and agent imple
 - **核心结论2: 技术选型由约束驱动，而非潮流** — 1GB RAM 约束 → Go 而非 Python（静态二进制 几MB vs gunicorn 500MB 基线）；单机约束 → SQLite+WAL 而非 Postgres RDS（查询走 C 函数调用纳秒级 vs TCP 往返毫秒级）；一人团队 → systemd service 而非 K8s
   - 关键证据: SQLite+WAL `SELECT 1` benchmark 0.07s vs PostgreSQL TCP 2.77s（40 倍差距）；Go 交叉编译为静态二进制，scp 上传即运行，无依赖地狱
 
-- **核心结论3: AI 成本有三层降本策略** — (1) 本地 GPU 处理批量任务：RTX 3090 ($900 一次性) + VLLM PagedAttention 并发推理，(2) OpenRouter 统一 API 网关 + 故障自动回退（Anthropic → OpenAI → 本地 VLLM），(3) GitHub Copilot per-request 定价漏洞：按请求而非 token 计费，一次请求可让 agent 运行 30 分钟修改数百文件，成本 `$0.04`
+- **核心结论3: AI 成本有三层降本策略** — (1) 本地 GPU 处理批量任务：RTX 3090 (`$900` 一次性) + VLLM PagedAttention 并发推理，(2) OpenRouter 统一 API 网关 + 故障自动回退（Anthropic → OpenAI → 本地 VLLM），(3) GitHub Copilot per-request 定价漏洞：按请求而非 token 计费，一次请求可让 agent 运行 30 分钟修改数百文件，成本 `$0.04`
   - 关键证据: "Somehow, Microsoft is able to charge per request, not per token." Copilot 订阅 `$13/月`，作者用 Opus 4.6 全天开发月账单 `$60`，Cursor 等竞品用户月支出 `$100+`
 
 - **核心结论4: 一人运营 6 个 `$10K+` MRR 产品的商业模式组合拳** — B2B 高客单价（zwibbler `$5,999`/单 × 20 单/年）养 C 端产品矩阵；六种定价模式覆盖三种盈利逻辑（大额低频、小额高频、一次性前置）

@@ -15,7 +15,7 @@ related_entities:
   - '[[Runway-Math]]'
   - '[[Constraint-Driven-Engineering]]'
 source_raw:
-  - '[[How I run multiple $10K MRR companies on a $20month tech stack]]'
+  - '[[How I run multiple `$10K` MRR companies on a `$20`month tech stack]]'
 ---
 
 # Anti-Enterprise-Mindset（反企业思维）

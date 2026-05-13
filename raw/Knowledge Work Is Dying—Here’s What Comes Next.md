@@ -17,7 +17,7 @@ tags:
 
 Before AI, knowledge set you apart. Knowing more meant earning more. Accumulating skills, developing expertise, and mastering frameworks got you ahead.
 
-Today, as models swallow entire fields overnight, *wisdom* —skills like emotional clarity, discernment, and connection—is what keeps you indispensable. As CEO of Microsoft, **Satya Nadella** made it a priority to instill these capacities throughout his organization. In eight years, the company’s market capitalization climbed from $300 billion to $3 trillion.
+Today, as models swallow entire fields overnight, *wisdom* —skills like emotional clarity, discernment, and connection—is what keeps you indispensable. As CEO of Microsoft, **Satya Nadella** made it a priority to instill these capacities throughout his organization. In eight years, the company’s market capitalization climbed from `$300` billion to `$3` trillion.
 
 I work with the people building artificial general intelligence itself—including OpenAI CEO **Sam Altman,** the company’s cofounder **Wojciech Zaremba**,its research and compute teams, and senior executives at Google’s DeepMind, Anthropic, and Apple—and they’re racing to master the same three inner skills. Many of them seek me out because they [understand a sobering truth](https://x.com/sama/status/1902751101134438471): They are building the technology that will make their own skills obsolete. In the not-too-distant future, AGI will be able to do what they can do today—faster, cheaper, and at scale.
 

@@ -105,7 +105,7 @@ The match results go back to Qwen. The agent reasons about the overall situation
   "decision": "CONDITIONAL",
   "confidence": "HIGH",
   "reason": "All tools available except M10x1.5 tap",
-  "action_items": ["Purchase M10x1.5 tap ($15)"],
+  "action_items": ["Purchase M10x1.5 tap (`$15`)"],
   "risk_flags": ["Verify spindle speed for Steel 304"],
   "estimated_setup_hours": 2.5
 }
