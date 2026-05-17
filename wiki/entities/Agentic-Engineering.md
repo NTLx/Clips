@@ -3,6 +3,8 @@ type: entity
 title: Agentic Engineering
 aliases:
   - Agentic Engineering
+  - Agentic Coding
+  - 代理式工程
 definition: "Andrej Karpathy 2026 年定义的工程学科——在保持专业软件质量（安全、可靠）的前提下，用 agents 实现远超 10x 的速度提升；区别于 Vibe Coding 的「提升底线」，Agentic Engineering 是「保持上限」的严肃实践"
 created: 2026-04-09
 updated: 2026-05-11

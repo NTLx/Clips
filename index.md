@@ -63,6 +63,11 @@ tags:
 | [[wiki/entities/Emotional-Clarity\|Emotional Clarity]] | 情绪清晰 | Career-Skills 文章 |
 | [[wiki/entities/Discernment\|Discernment]] | 识别能力 | Career-Skills 文章 |
 | [[wiki/entities/Connection\|Connection]] | 连接能力 | Career-Skills 文章 |
+| [[wiki/entities/AI-Native-Startup\|AI-Native Startup（AI 原生初创公司）]] | 以 AI 为核心基础设施、通过 Agent 编排替代传统人力规模扩张的初创公司模式 | The Founder's Playbook |
+| [[wiki/entities/Claude-Cowork\|Claude Cowork]] | Anthropic 提供的面向团队的 AI 协作平台，处理复杂知识工作与运营自动化 | The Founder's Playbook |
+| [[wiki/entities/Problem-Solution-Fit\|Problem-Solution Fit（问题-方案契合）]] | Idea 阶段核心目标：验证问题的真实性与方案的有效性 | The Founder's Playbook |
+| [[wiki/entities/Product-Market-Fit\|Product-Market Fit（产品-市场契合）]] | MVP 阶段终极目标：用户留存、付费与推荐证明的市场契合 | The Founder's Playbook |
+| [[wiki/entities/CLAUDE-md\|CLAUDE.md]] | 为 AI Agent 提供持久化上下文、架构决策和规范约束的核心机制 | The Founder's Playbook |
 | [[wiki/entities/Agent-Native\|Agent-Native（Agent 原生）]] | 为 AI agent 而非人类设计的基础设施、文档、流程 | Andrej Karpathy: From Vibe Coding to Agentic Engineering |
 | [[wiki/entities/Agent-Orchestration\|Agent Orchestration]] | Agent 编排 | AI-Agent 文章 |
 | [[wiki/entities/PM-in-AI-Era\|PM in AI Era（AI 时代 PM）]] | PM 从路线图对齐者转型为"高速公路设计师"——消除每步摩擦 | Cat Wu: How Anthropic's product team moves faster |
