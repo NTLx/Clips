@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-Clips Wiki lint and sync gate.
+Clips Wiki 校验与同步门禁。
 
-This script keeps the LLM Wiki operable as plain Obsidian/Quartz markdown:
-- validates YAML frontmatter and ISO date fields
-- detects bare dollar signs that would trigger Obsidian MathJax
-- checks wikilinks and source_raw targets against real files
-- checks index.md count drift
-- checks entity/comparison required metadata
-- reports raw files that still need compilation
+本脚本保证 LLM Wiki 作为普通 Obsidian/Quartz Markdown 可正常工作：
+- 校验 YAML frontmatter 与 ISO 日期字段
+- 检测会触发 Obsidian MathJax 的裸露美元符号
+- 用真实文件校验 wikilink 与 source_raw 目标
+- 检查 index.md 统计漂移
+- 检查 entity/comparison 必填元数据
+- 报告仍需编译的 raw 文件
 
-Usage:
+用法:
   python3 tools/wiki-lint.py
   python3 tools/wiki-lint.py --fix-index
   python3 tools/wiki-lint.py --write-report
@@ -453,7 +453,7 @@ def render_report(issues: list[Issue], stats: dict[str, int], pending: list[Path
     lines = [
         "---",
         "type: lint-report",
-        'title: "Clips Wiki Lint Report"',
+        'title: "Clips Wiki Lint 报告"',
         f'date: "{today}"',
         f"score: {score}",
         f'status: "{status}"',
@@ -462,24 +462,24 @@ def render_report(issues: list[Issue], stats: dict[str, int], pending: list[Path
         "  - wiki-maintenance",
         "---",
         "",
-        f"# Clips Wiki Lint Report - {today}",
+        f"# Clips Wiki Lint 报告 - {today}",
         "",
         f"> [!summary] 状态",
-        f"> Gate: **{status}**",
-        f"> Score: **{score}/100**",
-        f"> Blocking issues: **{len(blocking)}**",
+        f"> 门禁: **{status}**",
+        f"> 分数: **{score}/100**",
+        f"> 阻断问题: **{len(blocking)}**",
         "",
         "## 统计",
         "",
         "| 类别 | 数量 |",
         "|------|------|",
-        f"| Raw Sources | {stats['raw']} |",
+        f"| Raw 来源 | {stats['raw']} |",
         f"| Raw 已编译 | {stats['raw_compiled']} |",
         f"| Raw 待编译 | {stats['raw_pending']} |",
-        f"| Entities | {stats['entities']} |",
-        f"| Topics | {stats['topics']} |",
-        f"| Comparisons | {stats['comparisons']} |",
-        f"| Outputs | {stats['outputs']} |",
+        f"| Entity | {stats['entities']} |",
+        f"| Topic | {stats['topics']} |",
+        f"| Comparison | {stats['comparisons']} |",
+        f"| Output | {stats['outputs']} |",
         "",
     ]
 
@@ -522,47 +522,47 @@ def render_report(issues: list[Issue], stats: dict[str, int], pending: list[Path
 
 def print_summary(issues: list[Issue], stats: dict[str, int], pending: list[Path]) -> None:
     blocking = [i for i in issues if i.blocking]
-    print("Clips Wiki lint")
+    print("Clips Wiki Lint")
     print("=" * 60)
-    print(f"Raw: {stats['raw']} ({stats['raw_compiled']} compiled, {stats['raw_pending']} pending)")
-    print(f"Entities: {stats['entities']} | Topics: {stats['topics']} | Comparisons: {stats['comparisons']} | Outputs: {stats['outputs']}")
-    print(f"Blocking issues: {len(blocking)}")
+    print(f"Raw: {stats['raw']}（已编译 {stats['raw_compiled']}，待编译 {stats['raw_pending']}）")
+    print(f"Entity: {stats['entities']} | Topic: {stats['topics']} | Comparison: {stats['comparisons']} | Output: {stats['outputs']}")
+    print(f"阻断问题: {len(blocking)}")
 
     grouped = group_issues(issues)
     for category in sorted(grouped):
         print(f"- {category}: {len(grouped[category])}")
 
     if pending:
-        print("\nRaw pending compilation:")
+        print("\n待编译 Raw:")
         for path in pending[:20]:
             print(f"- {path.relative_to(ROOT).as_posix()}")
         if len(pending) > 20:
-            print(f"... {len(pending) - 20} more")
+            print(f"... 另有 {len(pending) - 20} 个")
 
     if issues:
-        print("\nFirst issues:")
+        print("\n前几个问题:")
         for issue in issues[:30]:
             loc = f"{issue.rel()}:{issue.line}" if issue.line else issue.rel()
             print(f"- [{issue.category}] {loc}: {issue.message}")
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Lint and sync Clips LLM Wiki")
-    parser.add_argument("--fix-index", action="store_true", help="Update index.md counts and updated date")
-    parser.add_argument("--write-report", action="store_true", help="Write wiki/lint-report.md")
+    parser = argparse.ArgumentParser(description="检查并同步 Clips LLM Wiki")
+    parser.add_argument("--fix-index", action="store_true", help="更新 index.md 计数和 updated 日期")
+    parser.add_argument("--write-report", action="store_true", help="写入 wiki/lint-report.md")
     args = parser.parse_args()
 
     if args.fix_index:
         changed = fix_index_counts()
         if changed:
-            print("updated index.md counts")
+            print("已更新 index.md 计数")
 
     issues, stats, pending = collect_issues()
     print_summary(issues, stats, pending)
 
     if args.write_report:
         LINT_REPORT.write_text(render_report(issues, stats, pending), encoding="utf-8")
-        print(f"\nwrote {LINT_REPORT.relative_to(ROOT).as_posix()}")
+        print(f"\n已写入 {LINT_REPORT.relative_to(ROOT).as_posix()}")
 
     return 1 if any(i.blocking for i in issues) else 0
 

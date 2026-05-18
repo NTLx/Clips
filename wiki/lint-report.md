@@ -1,6 +1,6 @@
 ---
 type: lint-report
-title: "Clips Wiki Lint Report"
+title: "Clips Wiki Lint 报告"
 date: "2026-05-18"
 score: 100
 status: "PASS"
@@ -9,24 +9,24 @@ tags:
   - wiki-maintenance
 ---
 
-# Clips Wiki Lint Report - 2026-05-18
+# Clips Wiki Lint 报告 - 2026-05-18
 
 > [!summary] 状态
-> Gate: **PASS**
-> Score: **100/100**
-> Blocking issues: **0**
+> 门禁: **PASS**
+> 分数: **100/100**
+> 阻断问题: **0**
 
 ## 统计
 
 | 类别 | 数量 |
 |------|------|
-| Raw Sources | 57 |
+| Raw 来源 | 57 |
 | Raw 已编译 | 55 |
 | Raw 待编译 | 2 |
-| Entities | 172 |
-| Topics | 17 |
-| Comparisons | 6 |
-| Outputs | 1 |
+| Entity | 172 |
+| Topic | 17 |
+| Comparison | 6 |
+| Output | 1 |
 
 ## 待编译 Raw
 
