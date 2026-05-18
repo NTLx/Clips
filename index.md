@@ -17,10 +17,10 @@ tags:
 
 | 指标 | 数值 |
 |-----|------|
-| Entity 页面 | 172 个 |
+| Entity 页面 | 180 个 |
 | Topic 页面 | 17 个 |
 | Comparison 页面 | 6 个 |
-| Raw 文章 | 57 个 |
+| Raw 文章 | 59 个 |
 | Output 作品 | 1 个 |
 
 ---
@@ -214,6 +214,14 @@ tags:
 | [[wiki/entities/Unmesh-Joshi\|Unmesh Joshi]] | Thoughtworks 杰出工程师，《分布式系统模式》作者 | Software-Architecture, Distributed-Systems |
 | [[wiki/entities/Tobi-Lütke\|Tobi Lütke]] | Shopify 创始人兼 CEO，倡导“教学工坊”模式 | Entrepreneurship, Engineering-Culture |
 | [[wiki/entities/Pinterest-Engineering\|Pinterest Engineering]] | Pinterest 工程团队，MCP 实践先驱 | AI-Agent, Infrastructure |
+| [[wiki/entities/Accessibility-Agent\|Accessibility Agent]] | GitHub 通用无障碍 Agent，评审 3535 个 PR，解决率 68% | Accessibility, AI-Agent |
+| [[wiki/entities/Forward-Deployed-Engineer\|Forward Deployed Engineer（FDE）]] | 驻扎客户现场用 AI 技术解决真实业务问题的工程师 | Career, Enterprise |
+| [[wiki/entities/WCAG\|WCAG]] | Web 内容无障碍指南，55 个成功标准中仅 64% 可自动检测 | Accessibility, Standard |
+| [[wiki/entities/Social-Model-of-Disability\|Social Model of Disability]] | 障碍是环境设计创造的，而非人本身 | Accessibility, Philosophy |
+| [[wiki/entities/Bias-to-Action-LLM\|Bias to Action LLM]] | LLM 迫切想生成内容的倾向，需反博弈指令约束 | AI-Agent, LLM Behavior |
+| [[wiki/entities/Accessibility-Complexity-Evaluation\|Accessibility Complexity Evaluation]] | 用启发式脚本评估代码复杂度决定 Agent 是否应自动修改 | Accessibility, Code Quality |
+| [[wiki/entities/Accessibility-High-Risk-Patterns\|Accessibility High Risk Patterns]] | 拖放/Toast/富文本编辑器等禁止 Agent 自动修改的模式 | Accessibility, Anti-Patterns |
+| [[wiki/entities/The-OpenAI-Deployment-Company\|The OpenAI Deployment Company]] | OpenAI 独立部署实体，$40 亿投资，$140 亿估值 | Enterprise, AI-Industry |
 
 ### Topics (topics/)
 *整合多篇文章的主题*
@@ -225,7 +233,7 @@ tags:
 | [[wiki/topics/Conscious-Creation-in-AI-Era\|AI 时代的有意识创造]] | 成为新 1% 的路径：内在掌控与三大指标 | Conscious-Creators, Inner-World-Mastery, Decision-Quality, Taste, Resonance |
 | [[wiki/topics/Git-with-Coding-Agents\|Git 与编码 Agent]] | Agent 如何改变版本控制工作方式 | Git-Fluent-Agents, History-Rewriting, Agentic-Engineering |
 | [[wiki/topics/Claude-Code-Automation\|Claude Code 自动化]] | Claude Code 的自动化能力与实践，包含 Boris Cherny 的 Product Overhang、Loops、Routines | Claude-Code-CLI, Headless-Mode, Agent-Loops, Product-Overhang |
-| [[wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment |
+| [[wiki/topics/AI-Era-Career-Skills\|AI 时代的职业技能]] | AI 时代各岗位的核心技能框架 | Wisdom-Work, Emotional-Clarity, Discernment, Forward-Deployed-Engineer |
 | [[wiki/topics/Wisdom-Work-Evolution\|智慧工作演化]] | 从知识工作到智慧工作的演进 | Wisdom-Work, Connection, Agent-Orchestration |
 | [[wiki/topics/Agentic-Engineering-Patterns\|Agentic Engineering Patterns]] | Simon Willison 的 AI 编程代理工程范式指南 → 涵盖 Harness Engineering 演进 | Agentic-Engineering, Code-Execution, Vibe-Coding, Harness-Engineering |
 | [[wiki/topics/AI-Era-Economy-Shift\|AI 时代经济转型]] | 从知识经济到分配经济的范式转变 | Allocation-Economy, Model-Manager, Jevons-Paradox |
@@ -265,7 +273,7 @@ tags:
 
 *所有文章存放在 `raw/` 目录，使用短链接格式引用（如 `[[文章名]]`）。*
 
-最新编译：[[深度解析LLM Wiki  Obsidian-Wiki  GBrain：Agent时代知识的“自组织”与“自进化”]]
+最新编译：[[Building a general-purpose accessibility agent—and what we learned in the process]]、[[Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？]]
 
 ---
 
@@ -297,5 +305,5 @@ status             # 查看知识库状态
 
 ---
 
-*索引版本: v2.5*
-*最后更新: 2026-05-13*
+*索引版本: v2.6*
+*最后更新: 2026-05-18*
